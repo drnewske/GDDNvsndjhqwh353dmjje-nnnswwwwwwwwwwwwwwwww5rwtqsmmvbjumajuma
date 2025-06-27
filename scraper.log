@@ -291,3 +291,42 @@
 2025-06-27 18:30:56,215 - INFO - [FETCH-20250627-182941-57F1C19D] - Sportsonline matches: 5
 2025-06-27 18:30:56,216 - INFO - [FETCH-20250627-182941-57F1C19D] - Final merged matches: 68
 2025-06-27 18:30:56,216 - INFO - [FETCH-20250627-182941-57F1C19D] Scraper run completed successfully
+2025-06-27 20:22:53,278 - INFO - [FETCH-20250627-202253-C20E14D0] Starting combined football match scraper...
+2025-06-27 20:22:53,278 - INFO - ============================================================
+2025-06-27 20:22:53,278 - INFO - [FETCH-20250627-202253-C20E14D0] Fetching matches from streamed.su...
+2025-06-27 20:22:54,629 - INFO - [FETCH-20250627-202253-C20E14D0] Found 322 total matches. Filtering for football...
+2025-06-27 20:22:58,283 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: Euro U19 Women Final: France U19 W vs Spain U19 W (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:22:58,283 - WARNING - [FETCH-20250627-202253-C20E14D0] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-06-27 20:22:58,283 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:22:59,812 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: Rhode Island vs Portland Hearts of Pine (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:22:59,812 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: Criciuma vs Avai (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:23:52,098 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: Vasteras SK vs Landskrona (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:23:52,098 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: Orgryte vs Helsingborg (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:23:52,098 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: Hodd vs Mjondalen (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:23:55,707 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: Stabaek vs Ranheim (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:23:55,707 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: Lillestrom vs Sogndal (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:24:02,969 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: UEFA U21 Championship: Final (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:24:04,497 - WARNING - [FETCH-20250627-202253-C20E14D0] Skipping match with invalid team data: CONCACAF Gold Cup: Quarter Final 1 (Team1: Not Found, Team2: Not Found)
+2025-06-27 20:24:11,022 - INFO - [FETCH-20250627-202253-C20E14D0] Fetched 62 valid football matches from streamed.su
+2025-06-27 20:24:11,022 - INFO - [FETCH-20250627-202253-C20E14D0] Fetching matches from sportsonline.gl...
+2025-06-27 20:24:11,876 - INFO - [FETCH-20250627-202253-C20E14D0] Fetched 5 valid matches from sportsonline.gl
+2025-06-27 20:24:11,876 - INFO - [FETCH-20250627-202253-C20E14D0] Merging matches based on team similarity...
+2025-06-27 20:24:11,878 - INFO - [FETCH-20250627-202253-C20E14D0] Merged: France Women vs Brazil Women (similarity: 1.00)
+2025-06-27 20:24:11,879 - INFO - [FETCH-20250627-202253-C20E14D0] Merged: Spain Women vs Japan Women (similarity: 1.00)
+2025-06-27 20:24:11,880 - INFO - [FETCH-20250627-202253-C20E14D0] Merged: Belgrano vs Defensores de Belgrano (similarity: 1.00)
+2025-06-27 20:24:11,881 - INFO - [FETCH-20250627-202253-C20E14D0] Merged: Pacific FC vs Vancouver FC (similarity: 0.91)
+2025-06-27 20:24:11,886 - INFO - [FETCH-20250627-202253-C20E14D0] Merging with existing data...
+2025-06-27 20:24:11,886 - INFO - [FETCH-20250627-202253-C20E14D0] New match: Estonia Women vs Kosovo Women
+2025-06-27 20:24:11,886 - INFO - [FETCH-20250627-202253-C20E14D0] New match: Skeid vs Aalesund
+2025-06-27 20:24:11,886 - INFO - [FETCH-20250627-202253-C20E14D0] New match: Odd vs Start
+2025-06-27 20:24:11,886 - INFO - [FETCH-20250627-202253-C20E14D0] New match: Moss vs Egersund
+2025-06-27 20:24:11,886 - INFO - [FETCH-20250627-202253-C20E14D0] New match: Belarus Women vs Azerbaijan Women
+2025-06-27 20:24:11,887 - INFO - [FETCH-20250627-202253-C20E14D0] New match: Liverpool Montevideo vs Montevideo Wanderers
+2025-06-27 20:24:11,887 - INFO - [FETCH-20250627-202253-C20E14D0] New match: Haka vs Ilves
+2025-06-27 20:24:11,887 - INFO - [FETCH-20250627-202253-C20E14D0] Merge complete: 7 new, 0 updated, 75 total
+2025-06-27 20:24:11,888 - INFO - [FETCH-20250627-202253-C20E14D0] Data saved to live_events.json
+2025-06-27 20:24:11,888 - INFO - [FETCH-20250627-202253-C20E14D0] Summary:
+2025-06-27 20:24:11,888 - INFO - [FETCH-20250627-202253-C20E14D0] - Streamed.su matches: 62
+2025-06-27 20:24:11,888 - INFO - [FETCH-20250627-202253-C20E14D0] - Sportsonline matches: 5
+2025-06-27 20:24:11,889 - INFO - [FETCH-20250627-202253-C20E14D0] - Final merged matches: 75
+2025-06-27 20:24:11,889 - INFO - [FETCH-20250627-202253-C20E14D0] Scraper run completed successfully
