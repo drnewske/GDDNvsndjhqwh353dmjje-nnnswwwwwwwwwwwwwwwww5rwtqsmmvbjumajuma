@@ -208,3 +208,52 @@
 2025-06-27 14:21:10,243 - INFO - [FETCH-20250627-142007-ED5AF97E] - Sportsonline matches: 5
 2025-06-27 14:21:10,243 - INFO - [FETCH-20250627-142007-ED5AF97E] - Final merged matches: 64
 2025-06-27 14:21:10,243 - INFO - [FETCH-20250627-142007-ED5AF97E] Scraper run completed successfully
+2025-06-27 16:27:05,657 - INFO - [FETCH-20250627-162705-15B877A3] Starting combined football match scraper...
+2025-06-27 16:27:05,657 - INFO - ============================================================
+2025-06-27 16:27:05,657 - INFO - [FETCH-20250627-162705-15B877A3] Fetching matches from streamed.su...
+2025-06-27 16:27:06,998 - INFO - [FETCH-20250627-162705-15B877A3] Found 316 total matches. Filtering for football...
+2025-06-27 16:27:06,998 - WARNING - [FETCH-20250627-162705-15B877A3] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-06-27 16:27:06,998 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:27:06,999 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: LASK vs Marchfeld (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:27:13,295 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: Renaissance Mons vs Charleroi (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:27:13,295 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: Euro U19 Women Final: France U19 W vs Spain U19 W (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:27:17,241 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: Ayr vs TNS (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:27:22,923 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: Rhode Island vs Portland Hearts of Pine (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:27:22,923 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: Criciuma vs Avai (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:28:29,607 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: Vasteras SK vs Landskrona (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:28:29,608 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: Orgryte vs Helsingborg (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:28:30,826 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: UEFA U21 Championship: Final (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:28:33,258 - WARNING - [FETCH-20250627-162705-15B877A3] Skipping match with invalid team data: CONCACAF Gold Cup: Quarter Final 1 (Team1: Not Found, Team2: Not Found)
+2025-06-27 16:28:43,473 - INFO - [FETCH-20250627-162705-15B877A3] Fetched 58 valid football matches from streamed.su
+2025-06-27 16:28:43,474 - INFO - [FETCH-20250627-162705-15B877A3] Fetching matches from sportsonline.gl...
+2025-06-27 16:28:44,804 - INFO - [FETCH-20250627-162705-15B877A3] Fetched 5 valid matches from sportsonline.gl
+2025-06-27 16:28:44,804 - INFO - [FETCH-20250627-162705-15B877A3] Merging matches based on team similarity...
+2025-06-27 16:28:44,809 - INFO - [FETCH-20250627-162705-15B877A3] Merged: Spain Women vs Japan Women (similarity: 1.00)
+2025-06-27 16:28:44,809 - INFO - [FETCH-20250627-162705-15B877A3] Merged: France Women vs Brazil Women (similarity: 1.00)
+2025-06-27 16:28:44,811 - INFO - [FETCH-20250627-162705-15B877A3] Merged: Belgrano vs Defensores de Belgrano (similarity: 1.00)
+2025-06-27 16:28:44,812 - INFO - [FETCH-20250627-162705-15B877A3] Merged: Pacific FC vs Vancouver FC (similarity: 0.91)
+2025-06-27 16:28:44,816 - INFO - [FETCH-20250627-162705-15B877A3] Merging with existing data...
+2025-06-27 16:28:44,816 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Shimizu S-Pulse vs Kashiwa Reysol
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Ventforet Kofu vs Ehime FC
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Avispa Fukuoka vs Vissel Kobe
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Sanfrecce Hiroshima vs Nagoya Grampus
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Kyoto Sanga vs Gamba Osaka
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Shonan Bellmare vs Yokohama F Marinos
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Oita Trinita vs RB Omiya Ardija
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Sagan Tosu vs Iwaki
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Renofa Yamaguchi vs Blaublitz Akita
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Fujieda MYFC vs Imabari
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Montedio Yamagata vs V-Varen Nagasaki
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: FC Tokyo vs Yokohama FC
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Anyang vs Gwangju FC
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Suwon FC vs Gangwon FC
+2025-06-27 16:28:44,817 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Júbilo Iwata vs Vegalta Sendai
+2025-06-27 16:28:44,818 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Cavalry FC vs Atletico Ottawa
+2025-06-27 16:28:44,818 - INFO - [FETCH-20250627-162705-15B877A3] Updated: Inter Miami vs Atlanta United
+2025-06-27 16:28:44,818 - INFO - [FETCH-20250627-162705-15B877A3] Merge complete: 0 new, 17 updated, 64 total
+2025-06-27 16:28:44,819 - INFO - [FETCH-20250627-162705-15B877A3] Data saved to live_events.json
+2025-06-27 16:28:44,819 - INFO - [FETCH-20250627-162705-15B877A3] Summary:
+2025-06-27 16:28:44,819 - INFO - [FETCH-20250627-162705-15B877A3] - Streamed.su matches: 58
+2025-06-27 16:28:44,819 - INFO - [FETCH-20250627-162705-15B877A3] - Sportsonline matches: 5
+2025-06-27 16:28:44,819 - INFO - [FETCH-20250627-162705-15B877A3] - Final merged matches: 64
+2025-06-27 16:28:44,819 - INFO - [FETCH-20250627-162705-15B877A3] Scraper run completed successfully
