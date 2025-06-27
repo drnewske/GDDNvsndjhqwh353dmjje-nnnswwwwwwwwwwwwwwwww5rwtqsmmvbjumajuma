@@ -257,3 +257,37 @@
 2025-06-27 16:28:44,819 - INFO - [FETCH-20250627-162705-15B877A3] - Sportsonline matches: 5
 2025-06-27 16:28:44,819 - INFO - [FETCH-20250627-162705-15B877A3] - Final merged matches: 64
 2025-06-27 16:28:44,819 - INFO - [FETCH-20250627-162705-15B877A3] Scraper run completed successfully
+2025-06-27 18:29:41,495 - INFO - [FETCH-20250627-182941-57F1C19D] Starting combined football match scraper...
+2025-06-27 18:29:41,496 - INFO - ============================================================
+2025-06-27 18:29:41,496 - INFO - [FETCH-20250627-182941-57F1C19D] Fetching matches from streamed.su...
+2025-06-27 18:29:42,416 - INFO - [FETCH-20250627-182941-57F1C19D] Found 315 total matches. Filtering for football...
+2025-06-27 18:29:42,416 - WARNING - [FETCH-20250627-182941-57F1C19D] Skipping match with invalid team data: Euro U19 Women Final: France U19 W vs Spain U19 W (Team1: Not Found, Team2: Not Found)
+2025-06-27 18:29:43,175 - WARNING - [FETCH-20250627-182941-57F1C19D] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-06-27 18:29:43,175 - WARNING - [FETCH-20250627-182941-57F1C19D] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-06-27 18:29:48,471 - WARNING - [FETCH-20250627-182941-57F1C19D] Skipping match with invalid team data: Rhode Island vs Portland Hearts of Pine (Team1: Not Found, Team2: Not Found)
+2025-06-27 18:29:48,471 - WARNING - [FETCH-20250627-182941-57F1C19D] Skipping match with invalid team data: Criciuma vs Avai (Team1: Not Found, Team2: Not Found)
+2025-06-27 18:30:42,424 - WARNING - [FETCH-20250627-182941-57F1C19D] Skipping match with invalid team data: Vasteras SK vs Landskrona (Team1: Not Found, Team2: Not Found)
+2025-06-27 18:30:42,425 - WARNING - [FETCH-20250627-182941-57F1C19D] Skipping match with invalid team data: Orgryte vs Helsingborg (Team1: Not Found, Team2: Not Found)
+2025-06-27 18:30:42,425 - WARNING - [FETCH-20250627-182941-57F1C19D] Skipping match with invalid team data: Hodd vs Mjondalen (Team1: Not Found, Team2: Not Found)
+2025-06-27 18:30:47,041 - WARNING - [FETCH-20250627-182941-57F1C19D] Skipping match with invalid team data: UEFA U21 Championship: Final (Team1: Not Found, Team2: Not Found)
+2025-06-27 18:30:48,564 - WARNING - [FETCH-20250627-182941-57F1C19D] Skipping match with invalid team data: CONCACAF Gold Cup: Quarter Final 1 (Team1: Not Found, Team2: Not Found)
+2025-06-27 18:30:55,202 - INFO - [FETCH-20250627-182941-57F1C19D] Fetched 56 valid football matches from streamed.su
+2025-06-27 18:30:55,203 - INFO - [FETCH-20250627-182941-57F1C19D] Fetching matches from sportsonline.gl...
+2025-06-27 18:30:56,203 - INFO - [FETCH-20250627-182941-57F1C19D] Fetched 5 valid matches from sportsonline.gl
+2025-06-27 18:30:56,203 - INFO - [FETCH-20250627-182941-57F1C19D] Merging matches based on team similarity...
+2025-06-27 18:30:56,205 - INFO - [FETCH-20250627-182941-57F1C19D] Merged: Spain Women vs Japan Women (similarity: 1.00)
+2025-06-27 18:30:56,206 - INFO - [FETCH-20250627-182941-57F1C19D] Merged: France Women vs Brazil Women (similarity: 1.00)
+2025-06-27 18:30:56,208 - INFO - [FETCH-20250627-182941-57F1C19D] Merged: Belgrano vs Defensores de Belgrano (similarity: 1.00)
+2025-06-27 18:30:56,208 - INFO - [FETCH-20250627-182941-57F1C19D] Merged: Pacific FC vs Vancouver FC (similarity: 0.91)
+2025-06-27 18:30:56,213 - INFO - [FETCH-20250627-182941-57F1C19D] Merging with existing data...
+2025-06-27 18:30:56,213 - INFO - [FETCH-20250627-182941-57F1C19D] New match: Kongsvinger vs Raufoss
+2025-06-27 18:30:56,213 - INFO - [FETCH-20250627-182941-57F1C19D] New match: Hammarby vs Halmstad
+2025-06-27 18:30:56,213 - INFO - [FETCH-20250627-182941-57F1C19D] New match: Trelleborgs FF vs Oddevold
+2025-06-27 18:30:56,214 - INFO - [FETCH-20250627-182941-57F1C19D] New match: GIF Sundsvall vs Ostersund
+2025-06-27 18:30:56,214 - INFO - [FETCH-20250627-182941-57F1C19D] Merge complete: 4 new, 0 updated, 68 total
+2025-06-27 18:30:56,215 - INFO - [FETCH-20250627-182941-57F1C19D] Data saved to live_events.json
+2025-06-27 18:30:56,215 - INFO - [FETCH-20250627-182941-57F1C19D] Summary:
+2025-06-27 18:30:56,215 - INFO - [FETCH-20250627-182941-57F1C19D] - Streamed.su matches: 56
+2025-06-27 18:30:56,215 - INFO - [FETCH-20250627-182941-57F1C19D] - Sportsonline matches: 5
+2025-06-27 18:30:56,216 - INFO - [FETCH-20250627-182941-57F1C19D] - Final merged matches: 68
+2025-06-27 18:30:56,216 - INFO - [FETCH-20250627-182941-57F1C19D] Scraper run completed successfully
