@@ -1,0 +1,38 @@
+{
+  "master_url": {
+    "telegram_link": "https://t.me/your_telegram_channel",
+    "whatsapp_link": "https://wa.me/your_whatsapp_number",
+    "events_card_json_link": "https://yourdomain.com/api/events.json",
+    "full_matches_replay_json_link": "https://yourdomain.com/api/replays.json",
+    "important_messages": {
+      "urgent": {
+        "tag": "critical_update_v2",
+        "message": "A critical update is required. Please update the app to continue using our services.",
+        "update_link": "https://play.google.com/store/apps/details?id=com.yourapp.id"
+      },
+      "temporary": {
+        "id": "temp_message_001",
+        "message": "We will be performing scheduled maintenance on Sunday between 2:00 AM and 4:00 AM UTC. Services may be temporarily unavailable.",
+        "dismissible": true
+      }
+    }
+  },
+  "backup_hardcoded": {
+    "telegram_link": "https://t.me/your_backup_telegram_channel",
+    "whatsapp_link": "https://wa.me/your_backup_whatsapp_number",
+    "events_card_json_link": "https://yourdomain.com/api/backup/events.json",
+    "full_matches_replay_json_link": "https://yourdomain.com/api/backup/replays.json",
+    "important_messages": {
+      "urgent": {
+        "tag": "fallback_critical_update",
+        "message": "A critical update is required. Please visit our website to download the latest version.",
+        "update_link": "https://yourdomain.com/update"
+       },
+      "temporary": {
+        "id": "fallback_temp_message_001",
+        "message": "If you are experiencing issues, please check our status page for more information.",
+        "dismissible": true
+      }
+    }
+  }
+}
