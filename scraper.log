@@ -139,3 +139,37 @@
 2025-06-27 10:24:30,915 - INFO - [FETCH-20250627-102323-35F1B332] - Sportsonline matches: 5
 2025-06-27 10:24:30,915 - INFO - [FETCH-20250627-102323-35F1B332] - Final merged matches: 63
 2025-06-27 10:24:30,915 - INFO - [FETCH-20250627-102323-35F1B332] Scraper run completed successfully
+2025-06-27 12:42:25,669 - INFO - [FETCH-20250627-124225-B2EC720D] Starting combined football match scraper...
+2025-06-27 12:42:25,669 - INFO - ============================================================
+2025-06-27 12:42:25,669 - INFO - [FETCH-20250627-124225-B2EC720D] Fetching matches from streamed.su...
+2025-06-27 12:42:26,823 - INFO - [FETCH-20250627-124225-B2EC720D] Found 334 total matches. Filtering for football...
+2025-06-27 12:42:28,197 - WARNING - [FETCH-20250627-124225-B2EC720D] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-06-27 12:42:28,197 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:42:29,637 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: CSKA Moscow vs Amkal Moscow (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:42:29,638 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: Polissya Zhytomyr vs Slovan Bratislava (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:42:29,638 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: Emden vs Schalke II (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:42:30,995 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: Wiener Sport-Club vs Horn (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:42:30,996 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: LASK vs Marchfeld (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:42:36,981 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: Renaissance Mons vs Charleroi (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:42:36,981 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: Euro U19 Women Final: France U19 W vs Spain U19 W (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:42:41,320 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: Ayr vs TNS (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:42:44,631 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: Rhode Island vs Portland Hearts of Pine (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:42:44,632 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: Criciuma vs Avai (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:43:16,768 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: UEFA U21 Championship: Final (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:43:18,414 - WARNING - [FETCH-20250627-124225-B2EC720D] Skipping match with invalid team data: CONCACAF Gold Cup: Quarter Final 1 (Team1: Not Found, Team2: Not Found)
+2025-06-27 12:43:25,911 - INFO - [FETCH-20250627-124225-B2EC720D] Fetched 60 valid football matches from streamed.su
+2025-06-27 12:43:25,912 - INFO - [FETCH-20250627-124225-B2EC720D] Fetching matches from sportsonline.gl...
+2025-06-27 12:43:27,104 - INFO - [FETCH-20250627-124225-B2EC720D] Fetched 5 valid matches from sportsonline.gl
+2025-06-27 12:43:27,104 - INFO - [FETCH-20250627-124225-B2EC720D] Merging matches based on team similarity...
+2025-06-27 12:43:27,110 - INFO - [FETCH-20250627-124225-B2EC720D] Merged: Spain Women vs Japan Women (similarity: 1.00)
+2025-06-27 12:43:27,111 - INFO - [FETCH-20250627-124225-B2EC720D] Merged: France Women vs Brazil Women (similarity: 1.00)
+2025-06-27 12:43:27,113 - INFO - [FETCH-20250627-124225-B2EC720D] Merged: Belgrano vs Defensores de Belgrano (similarity: 1.00)
+2025-06-27 12:43:27,114 - INFO - [FETCH-20250627-124225-B2EC720D] Merged: Pacific FC vs Vancouver FC (similarity: 0.91)
+2025-06-27 12:43:27,118 - INFO - [FETCH-20250627-124225-B2EC720D] Merging with existing data...
+2025-06-27 12:43:27,118 - INFO - [FETCH-20250627-124225-B2EC720D] Merge complete: 0 new, 0 updated, 63 total
+2025-06-27 12:43:27,120 - INFO - [FETCH-20250627-124225-B2EC720D] Data saved to live_events.json
+2025-06-27 12:43:27,120 - INFO - [FETCH-20250627-124225-B2EC720D] Summary:
+2025-06-27 12:43:27,120 - INFO - [FETCH-20250627-124225-B2EC720D] - Streamed.su matches: 60
+2025-06-27 12:43:27,120 - INFO - [FETCH-20250627-124225-B2EC720D] - Sportsonline matches: 5
+2025-06-27 12:43:27,120 - INFO - [FETCH-20250627-124225-B2EC720D] - Final merged matches: 63
+2025-06-27 12:43:27,120 - INFO - [FETCH-20250627-124225-B2EC720D] Scraper run completed successfully
