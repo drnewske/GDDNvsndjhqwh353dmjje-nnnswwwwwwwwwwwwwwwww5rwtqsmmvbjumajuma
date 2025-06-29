@@ -1773,3 +1773,38 @@
 2025-06-29 14:18:55,521 - INFO - [FETCH-20250629-141746-765A5FCB] - Sportsonline matches: 9
 2025-06-29 14:18:55,522 - INFO - [FETCH-20250629-141746-765A5FCB] - Final merged matches: 184
 2025-06-29 14:18:55,522 - INFO - [FETCH-20250629-141746-765A5FCB] Scraper run completed successfully
+2025-06-29 16:24:32,989 - INFO - [FETCH-20250629-162432-025A731D] Starting combined football match scraper...
+2025-06-29 16:24:32,989 - INFO - ============================================================
+2025-06-29 16:24:32,989 - INFO - [FETCH-20250629-162432-025A731D] Fetching matches from streamed.su...
+2025-06-29 16:24:33,912 - INFO - [FETCH-20250629-162432-025A731D] Found 239 total matches. Filtering for football...
+2025-06-29 16:24:38,927 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: Uzbekistan W vs Sri Lanka W (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:24:38,927 - WARNING - [FETCH-20250629-162432-025A731D] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-06-29 16:24:38,927 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:24:38,928 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: North Korea W vs Tajikistan W (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:24:38,928 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: Stromsgodset vs Valerenga (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:24:43,176 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: Club A. Guemes vs Los Andes (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:24:46,393 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: Nacional Potosi vs Bolivar (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:24:54,091 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: CONCACAF Gold Cup: Quarter Final 3 (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:24:54,091 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: Alianza Atletico vs Atletico Grau (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:24:54,091 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: Deportivo Cuenca vs Mushuc Runa (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:25:00,286 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: Universidad Catolica (Quito) vs Independiente del Valle (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:25:01,851 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: Real Oruro vs Jorge Wilstermann (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:25:03,846 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: Louisville City vs North Carolina (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:25:07,621 - WARNING - [FETCH-20250629-162432-025A731D] Skipping match with invalid team data: United States vs Costa Rica (Team1: Not Found, Team2: Not Found)
+2025-06-29 16:25:21,652 - INFO - [FETCH-20250629-162432-025A731D] Fetched 38 valid football matches from streamed.su
+2025-06-29 16:25:21,653 - INFO - [FETCH-20250629-162432-025A731D] Fetching matches from sportsonline.gl...
+2025-06-29 16:25:22,534 - INFO - [FETCH-20250629-162432-025A731D] Fetched 9 valid matches from sportsonline.gl
+2025-06-29 16:25:22,534 - INFO - [FETCH-20250629-162432-025A731D] Merging matches based on team similarity...
+2025-06-29 16:25:22,543 - INFO - [FETCH-20250629-162432-025A731D] Merged: England Women vs Jamaica Women (similarity: 1.00)
+2025-06-29 16:25:22,559 - INFO - [FETCH-20250629-162432-025A731D] Merged: Athletic Club-MG vs Remo (similarity: 0.95)
+2025-06-29 16:25:22,560 - INFO - [FETCH-20250629-162432-025A731D] Merged: Canada vs Guatemala (similarity: 1.00)
+2025-06-29 16:25:22,560 - INFO - [FETCH-20250629-162432-025A731D] Merged: Flamengo vs Bayern Munich (similarity: 0.91)
+2025-06-29 16:25:22,572 - INFO - [FETCH-20250629-162432-025A731D] Merging with existing data...
+2025-06-29 16:25:22,572 - INFO - [FETCH-20250629-162432-025A731D] New match: Paris Saint Germain vs Inter Miami
+2025-06-29 16:25:22,572 - INFO - [FETCH-20250629-162432-025A731D] Merge complete: 1 new, 0 updated, 185 total
+2025-06-29 16:25:22,576 - INFO - [FETCH-20250629-162432-025A731D] Data saved to live_events.json
+2025-06-29 16:25:22,577 - INFO - [FETCH-20250629-162432-025A731D] Summary:
+2025-06-29 16:25:22,577 - INFO - [FETCH-20250629-162432-025A731D] - Streamed.su matches: 38
+2025-06-29 16:25:22,577 - INFO - [FETCH-20250629-162432-025A731D] - Sportsonline matches: 9
+2025-06-29 16:25:22,577 - INFO - [FETCH-20250629-162432-025A731D] - Final merged matches: 185
+2025-06-29 16:25:22,577 - INFO - [FETCH-20250629-162432-025A731D] Scraper run completed successfully
