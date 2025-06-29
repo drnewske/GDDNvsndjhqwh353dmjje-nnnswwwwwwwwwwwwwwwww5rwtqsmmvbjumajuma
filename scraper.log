@@ -1869,3 +1869,29 @@
 2025-06-29 20:22:18,679 - INFO - [FETCH-20250629-202150-5CE73CD2] - Sportsonline matches: 9
 2025-06-29 20:22:18,679 - INFO - [FETCH-20250629-202150-5CE73CD2] - Final merged matches: 187
 2025-06-29 20:22:18,679 - INFO - [FETCH-20250629-202150-5CE73CD2] Scraper run completed successfully
+2025-06-29 22:19:17,364 - INFO - [FETCH-20250629-221917-EF053754] Starting combined football match scraper...
+2025-06-29 22:19:17,364 - INFO - ============================================================
+2025-06-29 22:19:17,364 - INFO - [FETCH-20250629-221917-EF053754] Fetching matches from streamed.su...
+2025-06-29 22:19:18,392 - INFO - [FETCH-20250629-221917-EF053754] Found 166 total matches. Filtering for football...
+2025-06-29 22:19:18,392 - WARNING - [FETCH-20250629-221917-EF053754] Skipping match with invalid team data: Louisville City vs North Carolina (Team1: Not Found, Team2: Not Found)
+2025-06-29 22:19:19,730 - WARNING - [FETCH-20250629-221917-EF053754] Skipping match with invalid team data: CONCACAF Gold Cup: Quarter Final 3 (Team1: Not Found, Team2: Not Found)
+2025-06-29 22:19:19,731 - WARNING - [FETCH-20250629-221917-EF053754] Skipping match with invalid team data: Alianza Atletico vs Atletico Grau (Team1: Not Found, Team2: Not Found)
+2025-06-29 22:19:25,536 - WARNING - [FETCH-20250629-221917-EF053754] Skipping match with no valid stream links: Forge FC vs York United
+2025-06-29 22:19:25,537 - WARNING - [FETCH-20250629-221917-EF053754] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-06-29 22:19:25,537 - WARNING - [FETCH-20250629-221917-EF053754] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-06-29 22:19:25,537 - WARNING - [FETCH-20250629-221917-EF053754] Skipping match with invalid team data: United States vs Costa Rica (Team1: Not Found, Team2: Not Found)
+2025-06-29 22:19:28,669 - WARNING - [FETCH-20250629-221917-EF053754] Skipping match with invalid team data: Djurgarden vs Norrkoping (Team1: Not Found, Team2: Not Found)
+2025-06-29 22:19:40,156 - INFO - [FETCH-20250629-221917-EF053754] Fetched 14 valid football matches from streamed.su
+2025-06-29 22:19:40,157 - INFO - [FETCH-20250629-221917-EF053754] Fetching matches from sportsonline.gl...
+2025-06-29 22:19:41,066 - INFO - [FETCH-20250629-221917-EF053754] Fetched 1 valid matches from sportsonline.gl
+2025-06-29 22:19:41,066 - INFO - [FETCH-20250629-221917-EF053754] Merging matches based on team similarity...
+2025-06-29 22:19:41,071 - INFO - [FETCH-20250629-221917-EF053754] Merging with existing data...
+2025-06-29 22:19:41,071 - INFO - [FETCH-20250629-221917-EF053754] New match: Mjallby vs Malmo FF
+2025-06-29 22:19:41,071 - INFO - [FETCH-20250629-221917-EF053754] New match: Brann vs Sandefjord
+2025-06-29 22:19:41,071 - INFO - [FETCH-20250629-221917-EF053754] Merge complete: 2 new, 0 updated, 189 total
+2025-06-29 22:19:41,075 - INFO - [FETCH-20250629-221917-EF053754] Data saved to live_events.json
+2025-06-29 22:19:41,075 - INFO - [FETCH-20250629-221917-EF053754] Summary:
+2025-06-29 22:19:41,075 - INFO - [FETCH-20250629-221917-EF053754] - Streamed.su matches: 14
+2025-06-29 22:19:41,075 - INFO - [FETCH-20250629-221917-EF053754] - Sportsonline matches: 1
+2025-06-29 22:19:41,076 - INFO - [FETCH-20250629-221917-EF053754] - Final merged matches: 189
+2025-06-29 22:19:41,076 - INFO - [FETCH-20250629-221917-EF053754] Scraper run completed successfully
