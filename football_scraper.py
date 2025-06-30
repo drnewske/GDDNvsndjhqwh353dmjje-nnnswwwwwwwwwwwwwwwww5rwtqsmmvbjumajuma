@@ -10,6 +10,7 @@ from typing import List, Dict, Tuple, Optional
 from collections import defaultdict
 from difflib import SequenceMatcher
 import uuid
+import glob
 
 # Configuration
 STREAMED_API_BASE_URL = "https://streamed.su"
@@ -20,6 +21,10 @@ REQUEST_TIMEOUT = 10
 SIMILARITY_THRESHOLD = 0.9
 LOG_FILE = "scraper.log"
 OUTPUT_FILE = "live_events.json"
+
+# Cleanup configuration
+MATCH_CLEANUP_HOURS = 25  # Remove matches older than 25 hours
+LOG_CLEANUP_HOURS = 48    # Remove log entries older than 48 hours
 
 # Set up logging
 logging.basicConfig(
@@ -35,6 +40,131 @@ logger = logging.getLogger(__name__)
 def generate_fetch_code() -> str:
     """Generate a unique fetch code for this run"""
     return f"FETCH-{datetime.now().strftime('%Y%m%d-%H%M%S')}-{str(uuid.uuid4())[:8].upper()}"
+
+def cleanup_old_matches(matches: List[dict], fetch_code: str) -> List[dict]:
+    """Remove matches older than MATCH_CLEANUP_HOURS"""
+    logger.info(f"[{fetch_code}] Cleaning up old matches...")
+    
+    cutoff_time = datetime.now() - timedelta(hours=MATCH_CLEANUP_HOURS)
+    valid_matches = []
+    removed_count = 0
+    
+    for match in matches:
+        try:
+            # Parse the match date and time
+            match_date = match.get("date", "")
+            match_time = match.get("time", "")
+            
+            if not match_date or not match_time or match_date == "Not Found" or match_time == "Not Found":
+                # Keep matches with invalid dates for now (they might be current)
+                valid_matches.append(match)
+                continue
+            
+            # Parse date (format: DD-MM-YYYY)
+            day, month, year = map(int, match_date.split('-'))
+            # Parse time (format: HH:MM)
+            hour, minute = map(int, match_time.split(':'))
+            
+            # Create datetime object
+            match_datetime = datetime(year, month, day, hour, minute)
+            
+            # Check if match is older than cutoff
+            if match_datetime < cutoff_time:
+                removed_count += 1
+                team1_name = match.get("team1", {}).get("name", "Unknown")
+                team2_name = match.get("team2", {}).get("name", "Unknown")
+                logger.info(f"[{fetch_code}] Removed old match: {team1_name} vs {team2_name} ({match_date} {match_time})")
+            else:
+                valid_matches.append(match)
+                
+        except (ValueError, KeyError, AttributeError) as e:
+            # Keep matches with parsing errors (they might be current)
+            logger.warning(f"[{fetch_code}] Could not parse match date/time, keeping match: {e}")
+            valid_matches.append(match)
+    
+    if removed_count > 0:
+        logger.info(f"[{fetch_code}] Cleanup complete: Removed {removed_count} old matches, {len(valid_matches)} matches remaining")
+    else:
+        logger.info(f"[{fetch_code}] No old matches to remove")
+    
+    return valid_matches
+
+def cleanup_old_logs(fetch_code: str):
+    """Clean up old log entries from the log file"""
+    logger.info(f"[{fetch_code}] Cleaning up old log entries...")
+    
+    if not os.path.exists(LOG_FILE):
+        logger.info(f"[{fetch_code}] No log file found, skipping log cleanup")
+        return
+    
+    try:
+        cutoff_time = datetime.now() - timedelta(hours=LOG_CLEANUP_HOURS)
+        valid_lines = []
+        removed_count = 0
+        
+        with open(LOG_FILE, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        
+        for line in lines:
+            try:
+                # Extract timestamp from log line (format: YYYY-MM-DD HH:MM:SS,mmm)
+                timestamp_match = re.match(r'^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}),\d+', line)
+                if timestamp_match:
+                    timestamp_str = timestamp_match.group(1)
+                    log_datetime = datetime.strptime(timestamp_str, '%Y-%m-%d %H:%M:%S')
+                    
+                    if log_datetime >= cutoff_time:
+                        valid_lines.append(line)
+                    else:
+                        removed_count += 1
+                else:
+                    # Keep lines without timestamps (might be continuation lines)
+                    valid_lines.append(line)
+                    
+            except (ValueError, AttributeError):
+                # Keep lines with parsing errors
+                valid_lines.append(line)
+        
+        # Write back the cleaned log file
+        if removed_count > 0:
+            with open(LOG_FILE, 'w', encoding='utf-8') as f:
+                f.writelines(valid_lines)
+            logger.info(f"[{fetch_code}] Log cleanup complete: Removed {removed_count} old log entries")
+        else:
+            logger.info(f"[{fetch_code}] No old log entries to remove")
+            
+    except Exception as e:
+        logger.error(f"[{fetch_code}] Error during log cleanup: {e}")
+
+def cleanup_old_log_files(fetch_code: str):
+    """Clean up old rotated log files if they exist"""
+    try:
+        # Look for rotated log files (scraper.log.1, scraper.log.2, etc.)
+        log_pattern = f"{LOG_FILE}.*"
+        log_files = glob.glob(log_pattern)
+        
+        cutoff_time = datetime.now() - timedelta(hours=LOG_CLEANUP_HOURS)
+        removed_files = 0
+        
+        for log_file in log_files:
+            if log_file == LOG_FILE:  # Skip the main log file
+                continue
+                
+            try:
+                # Check file modification time
+                file_mtime = datetime.fromtimestamp(os.path.getmtime(log_file))
+                if file_mtime < cutoff_time:
+                    os.remove(log_file)
+                    removed_files += 1
+                    logger.info(f"[{fetch_code}] Removed old log file: {log_file}")
+            except OSError as e:
+                logger.warning(f"[{fetch_code}] Could not remove log file {log_file}: {e}")
+        
+        if removed_files == 0:
+            logger.info(f"[{fetch_code}] No old log files to remove")
+            
+    except Exception as e:
+        logger.error(f"[{fetch_code}] Error during log file cleanup: {e}")
 
 def fetch_data(url: str, headers: dict = None) -> Optional[dict]:
     """Fetches data from a given URL."""
@@ -431,6 +561,9 @@ def merge_with_existing_data(new_matches: List[dict], existing_matches: List[dic
     """Merge new matches with existing data, updating where necessary"""
     logger.info(f"[{fetch_code}] Merging with existing data...")
     
+    # Clean up old matches from existing data first
+    existing_matches = cleanup_old_matches(existing_matches, fetch_code)
+    
     # Create a lookup for existing matches
     existing_lookup = {}
     for match in existing_matches:
@@ -567,6 +700,11 @@ def main():
     logger.info("=" * 60)
     
     try:
+        # Perform cleanup operations first
+        logger.info(f"[{fetch_code}] Starting cleanup operations...")
+        cleanup_old_logs(fetch_code)
+        cleanup_old_log_files(fetch_code)
+        
         # Fetch from both sources
         streamed_matches = fetch_streamed_matches(fetch_code)
         sportsonline_matches = fetch_sportsonline_matches(fetch_code)
@@ -574,7 +712,7 @@ def main():
         # Merge the results from both sources
         merged_matches = merge_matches(streamed_matches, sportsonline_matches, fetch_code)
         
-        # Load existing data and merge with new data
+        # Load existing data and merge with new data (cleanup happens inside merge_with_existing_data)
         existing_data = load_existing_data()
         final_matches = merge_with_existing_data(merged_matches, existing_data, fetch_code)
         
