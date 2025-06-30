@@ -2005,3 +2005,27 @@
 2025-06-30 06:33:23,516 - INFO - [FETCH-20250630-063259-A1327D78] - Sportsonline matches: 5
 2025-06-30 06:33:23,516 - INFO - [FETCH-20250630-063259-A1327D78] - Final merged matches: 200
 2025-06-30 06:33:23,516 - INFO - [FETCH-20250630-063259-A1327D78] Scraper run completed successfully
+2025-06-30 08:29:48,279 - INFO - [FETCH-20250630-082948-F45EE388] Starting combined football match scraper...
+2025-06-30 08:29:48,279 - INFO - ============================================================
+2025-06-30 08:29:48,279 - INFO - [FETCH-20250630-082948-F45EE388] Fetching matches from streamed.su...
+2025-06-30 08:29:49,513 - INFO - [FETCH-20250630-082948-F45EE388] Found 219 total matches. Filtering for football...
+2025-06-30 08:29:49,513 - WARNING - [FETCH-20250630-082948-F45EE388] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-06-30 08:29:49,513 - WARNING - [FETCH-20250630-082948-F45EE388] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-06-30 08:29:49,514 - WARNING - [FETCH-20250630-082948-F45EE388] Skipping match with invalid team data: Djurgarden vs Norrkoping (Team1: Not Found, Team2: Not Found)
+2025-06-30 08:29:54,534 - WARNING - [FETCH-20250630-082948-F45EE388] Skipping match with invalid team data: Colon Santa Fe vs Mitre (Team1: Not Found, Team2: Not Found)
+2025-06-30 08:29:54,535 - WARNING - [FETCH-20250630-082948-F45EE388] Skipping match with invalid team data: Paysandu PA vs Ferroviaria (Team1: Not Found, Team2: Not Found)
+2025-06-30 08:29:55,436 - WARNING - [FETCH-20250630-082948-F45EE388] Skipping match with invalid team data: Cuiaba vs Botafogo SP (Team1: Not Found, Team2: Not Found)
+2025-06-30 08:30:08,496 - WARNING - [FETCH-20250630-082948-F45EE388] Skipping match with invalid team data: CONCACAF Gold Cup: Semifinal (Team1: Not Found, Team2: Not Found)
+2025-06-30 08:30:10,494 - INFO - [FETCH-20250630-082948-F45EE388] Fetched 15 valid football matches from streamed.su
+2025-06-30 08:30:10,494 - INFO - [FETCH-20250630-082948-F45EE388] Fetching matches from sportsonline.gl...
+2025-06-30 08:30:11,530 - INFO - [FETCH-20250630-082948-F45EE388] Fetched 5 valid matches from sportsonline.gl
+2025-06-30 08:30:11,531 - INFO - [FETCH-20250630-082948-F45EE388] Merging matches based on team similarity...
+2025-06-30 08:30:11,537 - INFO - [FETCH-20250630-082948-F45EE388] Merged: Manchester City vs Al Hilal (similarity: 1.00)
+2025-06-30 08:30:11,542 - INFO - [FETCH-20250630-082948-F45EE388] Merging with existing data...
+2025-06-30 08:30:11,542 - INFO - [FETCH-20250630-082948-F45EE388] Merge complete: 0 new, 0 updated, 200 total
+2025-06-30 08:30:11,550 - INFO - [FETCH-20250630-082948-F45EE388] Data saved to live_events.json
+2025-06-30 08:30:11,550 - INFO - [FETCH-20250630-082948-F45EE388] Summary:
+2025-06-30 08:30:11,550 - INFO - [FETCH-20250630-082948-F45EE388] - Streamed.su matches: 15
+2025-06-30 08:30:11,550 - INFO - [FETCH-20250630-082948-F45EE388] - Sportsonline matches: 5
+2025-06-30 08:30:11,550 - INFO - [FETCH-20250630-082948-F45EE388] - Final merged matches: 200
+2025-06-30 08:30:11,550 - INFO - [FETCH-20250630-082948-F45EE388] Scraper run completed successfully
