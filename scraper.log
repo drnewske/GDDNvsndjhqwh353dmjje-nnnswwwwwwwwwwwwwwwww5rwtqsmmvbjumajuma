@@ -1895,3 +1895,37 @@
 2025-06-29 22:19:41,075 - INFO - [FETCH-20250629-221917-EF053754] - Sportsonline matches: 1
 2025-06-29 22:19:41,076 - INFO - [FETCH-20250629-221917-EF053754] - Final merged matches: 189
 2025-06-29 22:19:41,076 - INFO - [FETCH-20250629-221917-EF053754] Scraper run completed successfully
+2025-06-30 01:52:48,803 - INFO - [FETCH-20250630-015248-52AA3719] Starting combined football match scraper...
+2025-06-30 01:52:48,803 - INFO - ============================================================
+2025-06-30 01:52:48,803 - INFO - [FETCH-20250630-015248-52AA3719] Fetching matches from streamed.su...
+2025-06-30 01:52:50,236 - INFO - [FETCH-20250630-015248-52AA3719] Found 143 total matches. Filtering for football...
+2025-06-30 01:52:51,674 - WARNING - [FETCH-20250630-015248-52AA3719] Skipping match with invalid team data: United States vs Costa Rica (Team1: Not Found, Team2: Not Found)
+2025-06-30 01:52:51,674 - WARNING - [FETCH-20250630-015248-52AA3719] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-06-30 01:52:51,674 - WARNING - [FETCH-20250630-015248-52AA3719] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-06-30 01:52:51,674 - WARNING - [FETCH-20250630-015248-52AA3719] Skipping match with invalid team data: Djurgarden vs Norrkoping (Team1: Not Found, Team2: Not Found)
+2025-06-30 01:53:06,708 - WARNING - [FETCH-20250630-015248-52AA3719] Skipping match with invalid team data: CONCACAF Gold Cup: Semifinal (Team1: Not Found, Team2: Not Found)
+2025-06-30 01:53:07,675 - INFO - [FETCH-20250630-015248-52AA3719] Fetched 12 valid football matches from streamed.su
+2025-06-30 01:53:07,675 - INFO - [FETCH-20250630-015248-52AA3719] Fetching matches from sportsonline.gl...
+2025-06-30 01:53:08,952 - INFO - [FETCH-20250630-015248-52AA3719] Fetched 5 valid matches from sportsonline.gl
+2025-06-30 01:53:08,952 - INFO - [FETCH-20250630-015248-52AA3719] Merging matches based on team similarity...
+2025-06-30 01:53:08,956 - INFO - [FETCH-20250630-015248-52AA3719] Merged: Manchester City vs Al Hilal (similarity: 1.00)
+2025-06-30 01:53:08,960 - INFO - [FETCH-20250630-015248-52AA3719] Merging with existing data...
+2025-06-30 01:53:08,960 - INFO - [FETCH-20250630-015248-52AA3719] Updated: Los Angeles FC vs Vancouver Whitecaps
+2025-06-30 01:53:08,960 - INFO - [FETCH-20250630-015248-52AA3719] Updated: Brann vs Sandefjord
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] Updated: Inter Milan vs Fluminense
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] Updated: Manchester City vs Al Hilal
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] Updated: Real Madrid vs Juventus
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] New match: Portland Hearts of Pine vs Alta
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] New match: Westchester SC vs Greenville Triumph
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] New match: Birmingham Legion vs Charleston Battery
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] New match: Internazionale vs Fluminense
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] New match: Ludogorets vs Hradec Králové
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] New match: Paysandu vs Ferroviária
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] New match: Cuiabá vs Botafogo SP
+2025-06-30 01:53:08,961 - INFO - [FETCH-20250630-015248-52AA3719] Merge complete: 7 new, 5 updated, 196 total
+2025-06-30 01:53:08,965 - INFO - [FETCH-20250630-015248-52AA3719] Data saved to live_events.json
+2025-06-30 01:53:08,965 - INFO - [FETCH-20250630-015248-52AA3719] Summary:
+2025-06-30 01:53:08,966 - INFO - [FETCH-20250630-015248-52AA3719] - Streamed.su matches: 12
+2025-06-30 01:53:08,966 - INFO - [FETCH-20250630-015248-52AA3719] - Sportsonline matches: 5
+2025-06-30 01:53:08,966 - INFO - [FETCH-20250630-015248-52AA3719] - Final merged matches: 196
+2025-06-30 01:53:08,966 - INFO - [FETCH-20250630-015248-52AA3719] Scraper run completed successfully
