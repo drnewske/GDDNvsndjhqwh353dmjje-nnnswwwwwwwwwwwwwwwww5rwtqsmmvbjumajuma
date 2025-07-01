@@ -17,14 +17,13 @@ from typing import Dict, Any, Optional
 # --- CONFIGURATION ---
 # URL to your remote config.json file (e.g., a raw GitHub Gist URL).
 # This is the ONLY URL you need to configure here.
-CONFIG_URL = "https://gist.githubusercontent.com/drnewske/6070fc714b3e86e493e3d9fc87738459/raw/fe61be1780db177817ba8412fb7490bc28a95123/config.json"
+CONFIG_URL = "https://gist.githubusercontent.com/your-username/your-gist-id/raw/config.json"
 
 # Log file configuration
 LOG_FILE = "encryptor_service.log"
 LOG_CLEANUP_HOURS = 72  # Clean up log entries older than 3 days
 
 # --- LOGGING SETUP ---
-# This sets up logging to both a file and the console.
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -35,7 +34,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# --- UTILITY FUNCTIONS (Adapted from your scraper) ---
+# --- UTILITY FUNCTIONS ---
 
 def generate_run_code() -> str:
     """Generate a unique code for this encryption run."""
@@ -108,7 +107,7 @@ class LiveDataEncryptor:
         self.config: Optional[Dict[str, Any]] = None
         # Generate the long, nonsensical output filename
         self.output_file = f"{secrets.token_hex(25)}.json"
-        self.max_data_size = 10 * 1024 * 1024  # Increased to 10 MB
+        self.max_data_size = 10 * 1024 * 1024  # 10 MB
 
     def fetch_remote_config(self) -> bool:
         """Fetches and validates the remote configuration file."""
@@ -221,23 +220,18 @@ class LiveDataEncryptor:
 
     def run_encryption_cycle(self):
         """Runs the complete cycle: fetch config, fetch data, encrypt, save."""
-        # 1. Fetch remote configuration
         if not self.fetch_remote_config():
             return
 
-        # 2. Fetch live data
         live_data = self.fetch_live_data()
         if live_data is None:
             return
 
-        # 3. Encrypt the data
         encrypted_result = self.encrypt_payload(live_data)
         if encrypted_result is None:
             return
 
-        # 4. Save the result
         self.save_encrypted_data(encrypted_result)
-
 
 def main():
     """Main function to run the encryption service."""
@@ -246,11 +240,9 @@ def main():
     logger.info("="*60)
 
     try:
-        # Perform cleanup operations first
         cleanup_old_logs(run_code)
         cleanup_old_log_files(run_code)
 
-        # Initialize and run the main encryption process
         encryptor = LiveDataEncryptor(run_code)
         encryptor.run_encryption_cycle()
 
@@ -259,7 +251,6 @@ def main():
     finally:
         logger.info(f"[{run_code}] 🏁 Encryptor Service Run Finished")
         logger.info("="*60 + "\n")
-
 
 if __name__ == "__main__":
     main()
