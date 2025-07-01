@@ -1,5 +1,6 @@
 # A descriptive name for your workflow
-name: Encr
+name: Encrypt and Deploy Live Data
+
 # --- TRIGGERS ---
 on:
   # Allows you to run this workflow manually from the Actions tab in GitHub.
@@ -15,6 +16,11 @@ jobs:
   build-and-encrypt:
     # The type of machine to run the job on.
     runs-on: ubuntu-latest
+
+    # --- THIS IS THE FIX ---
+    # Grant the workflow's token write permission to the repository's contents.
+    permissions:
+      contents: write
 
     # A sequence of tasks that will be executed as part of the job.
     steps:
@@ -35,18 +41,17 @@ jobs:
           pip install requests
 
       # Step 4: Run the encryptor script
+      # IMPORTANT: Make sure this filename matches the name of your python script.
       - name: Run Encryptor Service
-        run: python comradicaloculiwersetyouts.py  # Make sure this filename is correct
+        run: python comradicaloculiwersetyouts.py
 
       # Step 5: Commit the new encrypted file to the repository
-      # This action finds the new file, adds it, commits it, and pushes it to your repo.
       - name: Commit encrypted file
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           # The message for the commit
           commit_message: "chore: Auto-generate encrypted data"
           # The pattern of the file(s) to commit.
-          # This specifically targets the 50-character JSON file.
           file_pattern: "??????????????????????????????????????????????????.json"
           # The user name and email for the commit
           commit_user_name: "GitHub Actions Bot"
