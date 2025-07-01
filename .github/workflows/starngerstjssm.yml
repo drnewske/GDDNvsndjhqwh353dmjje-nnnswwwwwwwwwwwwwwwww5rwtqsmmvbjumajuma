@@ -1,6 +1,5 @@
 # A descriptive name for your workflow
-name: en2en
-
+name: Encr
 # --- TRIGGERS ---
 on:
   # Allows you to run this workflow manually from the Actions tab in GitHub.
@@ -36,15 +35,19 @@ jobs:
           pip install requests
 
       # Step 4: Run the encryptor script
-      - name: Run En2en Service
-        run: python comradicaloculiwersetyouts.py
+      - name: Run Encryptor Service
+        run: python comradicaloculiwersetyouts.py  # Make sure this filename is correct
 
-      # Step 5: Upload the encrypted file as an artifact
-      - name: Upload Encrypted Data Artifact
-        uses: actions/upload-artifact@v4
+      # Step 5: Commit the new encrypted file to the repository
+      # This action finds the new file, adds it, commits it, and pushes it to your repo.
+      - name: Commit encrypted file
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          # The name of the artifact to be uploaded.
-          name: encrypted-live-data
-          # This path now specifically looks for a file with a 50-character name + .json
-          # It will IGNORE other .json files like config.json or live_events.json
-          path: ??????????????????????????????????????????????????.json
+          # The message for the commit
+          commit_message: "chore: Auto-generate encrypted data"
+          # The pattern of the file(s) to commit.
+          # This specifically targets the 50-character JSON file.
+          file_pattern: "??????????????????????????????????????????????????.json"
+          # The user name and email for the commit
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
