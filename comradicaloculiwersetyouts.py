@@ -106,7 +106,7 @@ class LiveDataEncryptor:
         self.run_code = run_code
         self.config: Optional[Dict[str, Any]] = None
         # Generate the long, nonsensical output filename
-        self.output_file = f"{secrets.token_hex(25)}.json"
+        self.output_file = "67d18f5b263505d3be8283897bb383f149a39dd35bf9563d43.json"
         self.max_data_size = 10 * 1024 * 1024  # 10 MB
 
     def fetch_remote_config(self) -> bool:
