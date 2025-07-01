@@ -1,0 +1,60 @@
+# A descriptive name for your workflow
+name: Encrypt and Deploy Live Data
+
+# --- TRIGGERS ---
+# This section defines when the workflow will run.
+on:
+  # Allows you to run this workflow manually from the Actions tab in GitHub.
+  workflow_dispatch:
+
+  # Runs the workflow on a schedule.
+  schedule:
+    # This is a CRON string that means "at minute 0 of every hour".
+    # It will run at 1:00, 2:00, 3:00, etc.
+    - cron: '0 * * * *'
+
+# --- JOBS ---
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
+jobs:
+  # The single job in this workflow, named "build-and-encrypt".
+  build-and-encrypt:
+    # The type of machine to run the job on. 'ubuntu-latest' is a standard choice.
+    runs-on: ubuntu-latest
+
+    # A sequence of tasks that will be executed as part of the job.
+    steps:
+      # Step 1: Check out your repository's code
+      # This action checks out your repository under $GITHUB_WORKSPACE, so your job can access it.
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      # Step 2: Set up the Python environment
+      # This action sets up a Python environment for use in subsequent steps.
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # Step 3: Install Python dependencies
+      # Runs a command to install the 'requests' library, which your script needs.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      # Step 4: Run the encryptor script
+      # Executes your Python script to fetch, encrypt, and save the data.
+      - name: Run Encryptor Service
+        run: python encryptor_service.py
+
+      # Step 5: Upload the encrypted file as an artifact
+      # This action archives the output file so you can download it after the workflow run is complete.
+      # The `*.json` wildcard will find the randomly named JSON file created by your script.
+      - name: Upload Encrypted Data Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          # The name of the artifact to be uploaded.
+          name: encrypted-live-data
+          # The path to the file(s) to upload.
+          # It will find the single .json file with the 50-character random name.
+          path: ./*.json
