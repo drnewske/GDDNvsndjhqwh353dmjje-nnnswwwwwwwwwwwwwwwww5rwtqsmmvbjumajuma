@@ -17,7 +17,7 @@ from typing import Dict, Any, Optional
 # --- CONFIGURATION ---
 # URL to your remote config.json file (e.g., a raw GitHub Gist URL).
 # This is the ONLY URL you need to configure here.
-CONFIG_URL = "https://gist.githubusercontent.com/your-username/your-gist-id/raw/config.json"
+CONFIG_URL = "https://gist.githubusercontent.com/drnewske/6070fc714b3e86e493e3d9fc87738459/raw/fe61be1780db177817ba8412fb7490bc28a95123/config.json"
 
 # Log file configuration
 LOG_FILE = "encryptor_service.log"
