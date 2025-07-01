@@ -44,8 +44,8 @@ jobs:
 
       # Step 4: Run the encryptor script
       # Executes your Python script to fetch, encrypt, and save the data.
-      - name: Run Encryptor Service
-        run: python encryptor_service.py
+      - name: Run E2E EN
+        run: python comradicaloculiwersetyouts.py
 
       # Step 5: Upload the encrypted file as an artifact
       # This action archives the output file so you can download it after the workflow run is complete.
