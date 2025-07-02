@@ -1,33 +1,3 @@
-2025-06-30 10:23:42,062 - INFO - [FETCH-20250630-102342-B05AFA74] Starting combined football match scraper...
-2025-06-30 10:23:42,062 - INFO - ============================================================
-2025-06-30 10:23:42,062 - INFO - [FETCH-20250630-102342-B05AFA74] Starting cleanup operations...
-2025-06-30 10:23:42,062 - INFO - [FETCH-20250630-102342-B05AFA74] Cleaning up old log entries...
-2025-06-30 10:23:42,088 - INFO - [FETCH-20250630-102342-B05AFA74] Log cleanup complete: Removed 106 old log entries
-2025-06-30 10:23:42,089 - INFO - [FETCH-20250630-102342-B05AFA74] No old log files to remove
-2025-06-30 10:23:42,089 - INFO - [FETCH-20250630-102342-B05AFA74] Fetching matches from streamed.su...
-2025-06-30 10:23:42,955 - INFO - [FETCH-20250630-102342-B05AFA74] Found 218 total matches. Filtering for football...
-2025-06-30 10:23:42,955 - WARNING - [FETCH-20250630-102342-B05AFA74] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
-2025-06-30 10:23:42,955 - WARNING - [FETCH-20250630-102342-B05AFA74] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
-2025-06-30 10:23:42,955 - WARNING - [FETCH-20250630-102342-B05AFA74] Skipping match with invalid team data: Djurgarden vs Norrkoping (Team1: Not Found, Team2: Not Found)
-2025-06-30 10:23:48,030 - WARNING - [FETCH-20250630-102342-B05AFA74] Skipping match with invalid team data: Colon Santa Fe vs Mitre (Team1: Not Found, Team2: Not Found)
-2025-06-30 10:23:48,030 - WARNING - [FETCH-20250630-102342-B05AFA74] Skipping match with invalid team data: Paysandu PA vs Ferroviaria (Team1: Not Found, Team2: Not Found)
-2025-06-30 10:23:49,272 - WARNING - [FETCH-20250630-102342-B05AFA74] Skipping match with invalid team data: Cuiaba vs Botafogo SP (Team1: Not Found, Team2: Not Found)
-2025-06-30 10:24:00,648 - WARNING - [FETCH-20250630-102342-B05AFA74] Skipping match with invalid team data: CONCACAF Gold Cup: Semifinal (Team1: Not Found, Team2: Not Found)
-2025-06-30 10:24:02,205 - INFO - [FETCH-20250630-102342-B05AFA74] Fetched 15 valid football matches from streamed.su
-2025-06-30 10:24:02,206 - INFO - [FETCH-20250630-102342-B05AFA74] Fetching matches from sportsonline.gl...
-2025-06-30 10:24:03,133 - INFO - [FETCH-20250630-102342-B05AFA74] Fetched 5 valid matches from sportsonline.gl
-2025-06-30 10:24:03,133 - INFO - [FETCH-20250630-102342-B05AFA74] Merging matches based on team similarity...
-2025-06-30 10:24:03,137 - INFO - [FETCH-20250630-102342-B05AFA74] Merged: Manchester City vs Al Hilal (similarity: 1.00)
-2025-06-30 10:24:03,142 - INFO - [FETCH-20250630-102342-B05AFA74] Merging with existing data...
-2025-06-30 10:24:03,142 - INFO - [FETCH-20250630-102342-B05AFA74] Cleaning up old matches...
-2025-06-30 10:24:03,142 - INFO - [FETCH-20250630-102342-B05AFA74] No old matches to remove
-2025-06-30 10:24:03,142 - INFO - [FETCH-20250630-102342-B05AFA74] Merge complete: 0 new, 0 updated, 75 total
-2025-06-30 10:24:03,144 - INFO - [FETCH-20250630-102342-B05AFA74] Data saved to live_events.json
-2025-06-30 10:24:03,144 - INFO - [FETCH-20250630-102342-B05AFA74] Summary:
-2025-06-30 10:24:03,144 - INFO - [FETCH-20250630-102342-B05AFA74] - Streamed.su matches: 15
-2025-06-30 10:24:03,144 - INFO - [FETCH-20250630-102342-B05AFA74] - Sportsonline matches: 5
-2025-06-30 10:24:03,144 - INFO - [FETCH-20250630-102342-B05AFA74] - Final merged matches: 75
-2025-06-30 10:24:03,144 - INFO - [FETCH-20250630-102342-B05AFA74] Scraper run completed successfully
 2025-06-30 12:43:55,010 - INFO - [FETCH-20250630-124355-C94379DE] Starting combined football match scraper...
 2025-06-30 12:43:55,011 - INFO - ============================================================
 2025-06-30 12:43:55,011 - INFO - [FETCH-20250630-124355-C94379DE] Starting cleanup operations...
@@ -1001,3 +971,37 @@
 2025-07-02 10:23:53,259 - INFO - [FETCH-20250702-102322-BDCB7BFD] - Sportsonline matches: 8
 2025-07-02 10:23:53,259 - INFO - [FETCH-20250702-102322-BDCB7BFD] - Final merged matches: 53
 2025-07-02 10:23:53,259 - INFO - [FETCH-20250702-102322-BDCB7BFD] Scraper run completed successfully
+2025-07-02 12:43:38,831 - INFO - [FETCH-20250702-124338-421B4DEE] Starting combined football match scraper...
+2025-07-02 12:43:38,832 - INFO - ============================================================
+2025-07-02 12:43:38,832 - INFO - [FETCH-20250702-124338-421B4DEE] Starting cleanup operations...
+2025-07-02 12:43:38,832 - INFO - [FETCH-20250702-124338-421B4DEE] Cleaning up old log entries...
+2025-07-02 12:43:38,883 - INFO - [FETCH-20250702-124338-421B4DEE] Log cleanup complete: Removed 30 old log entries
+2025-07-02 12:43:38,884 - INFO - [FETCH-20250702-124338-421B4DEE] No old log files to remove
+2025-07-02 12:43:38,884 - INFO - [FETCH-20250702-124338-421B4DEE] Fetching matches from streamed.su...
+2025-07-02 12:43:40,394 - INFO - [FETCH-20250702-124338-421B4DEE] Found 272 total matches. Filtering for football...
+2025-07-02 12:43:40,394 - WARNING - [FETCH-20250702-124338-421B4DEE] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-07-02 12:43:40,394 - WARNING - [FETCH-20250702-124338-421B4DEE] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-07-02 12:43:40,394 - WARNING - [FETCH-20250702-124338-421B4DEE] Skipping match with invalid team data: Pakistan W vs Indonesia W (Team1: Not Found, Team2: Not Found)
+2025-07-02 12:43:40,394 - WARNING - [FETCH-20250702-124338-421B4DEE] Skipping match with invalid team data: Palestine W vs North Korea W (Team1: Not Found, Team2: Not Found)
+2025-07-02 12:43:45,683 - WARNING - [FETCH-20250702-124338-421B4DEE] Skipping match with invalid team data: Laos W vs Uzbekistan W (Team1: Not Found, Team2: Not Found)
+2025-07-02 12:43:48,974 - WARNING - [FETCH-20250702-124338-421B4DEE] Skipping match with invalid team data: Tajikistan W vs Malaysia W (Team1: Not Found, Team2: Not Found)
+2025-07-02 12:43:55,655 - WARNING - [FETCH-20250702-124338-421B4DEE] Skipping match with invalid team data: United States vs Guatemala (Team1: Not Found, Team2: Not Found)
+2025-07-02 12:44:12,642 - INFO - [FETCH-20250702-124338-421B4DEE] Fetched 24 valid football matches from streamed.su
+2025-07-02 12:44:12,642 - INFO - [FETCH-20250702-124338-421B4DEE] Fetching matches from sportsonline.gl...
+2025-07-02 12:44:13,916 - INFO - [FETCH-20250702-124338-421B4DEE] Fetched 8 valid matches from sportsonline.gl
+2025-07-02 12:44:13,916 - INFO - [FETCH-20250702-124338-421B4DEE] Merging matches based on team similarity...
+2025-07-02 12:44:13,920 - INFO - [FETCH-20250702-124338-421B4DEE] Merged: Iceland Women vs Finland Women (similarity: 1.00)
+2025-07-02 12:44:13,921 - INFO - [FETCH-20250702-124338-421B4DEE] Merged: Switzerland Women vs Norway Women (similarity: 1.00)
+2025-07-02 12:44:13,924 - INFO - [FETCH-20250702-124338-421B4DEE] Merged: USA vs Guatemala (similarity: 1.00)
+2025-07-02 12:44:13,928 - INFO - [FETCH-20250702-124338-421B4DEE] Merged: Mexico vs Honduras (similarity: 1.00)
+2025-07-02 12:44:13,932 - INFO - [FETCH-20250702-124338-421B4DEE] Merging with existing data...
+2025-07-02 12:44:13,932 - INFO - [FETCH-20250702-124338-421B4DEE] Cleaning up old matches...
+2025-07-02 12:44:13,932 - INFO - [FETCH-20250702-124338-421B4DEE] No old matches to remove
+2025-07-02 12:44:13,932 - INFO - [FETCH-20250702-124338-421B4DEE] New match: Kawasaki Frontale vs Kashima
+2025-07-02 12:44:13,932 - INFO - [FETCH-20250702-124338-421B4DEE] Merge complete: 1 new, 0 updated, 54 total
+2025-07-02 12:44:13,934 - INFO - [FETCH-20250702-124338-421B4DEE] Data saved to live_events.json
+2025-07-02 12:44:13,934 - INFO - [FETCH-20250702-124338-421B4DEE] Summary:
+2025-07-02 12:44:13,934 - INFO - [FETCH-20250702-124338-421B4DEE] - Streamed.su matches: 24
+2025-07-02 12:44:13,934 - INFO - [FETCH-20250702-124338-421B4DEE] - Sportsonline matches: 8
+2025-07-02 12:44:13,934 - INFO - [FETCH-20250702-124338-421B4DEE] - Final merged matches: 54
+2025-07-02 12:44:13,934 - INFO - [FETCH-20250702-124338-421B4DEE] Scraper run completed successfully
