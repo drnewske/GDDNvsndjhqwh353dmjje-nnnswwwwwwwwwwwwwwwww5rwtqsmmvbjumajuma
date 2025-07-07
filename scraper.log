@@ -1,26 +1,3 @@
-2025-07-05 12:39:26,727 - INFO - [FETCH-20250705-123926-4CDF55B8] Starting combined football match scraper...
-2025-07-05 12:39:26,727 - INFO - ============================================================
-2025-07-05 12:39:26,728 - INFO - [FETCH-20250705-123926-4CDF55B8] Starting cleanup operations...
-2025-07-05 12:39:26,728 - INFO - [FETCH-20250705-123926-4CDF55B8] Cleaning up old log entries...
-2025-07-05 12:39:26,767 - INFO - [FETCH-20250705-123926-4CDF55B8] Log cleanup complete: Removed 37 old log entries
-2025-07-05 12:39:26,768 - INFO - [FETCH-20250705-123926-4CDF55B8] No old log files to remove
-2025-07-05 12:39:26,768 - INFO - [FETCH-20250705-123926-4CDF55B8] Fetching matches from streamed.su...
-2025-07-05 12:39:37,250 - ERROR - Error fetching data from https://streamed.su/api/matches/all-today: HTTPSConnectionPool(host='streamed.su', port=443): Read timed out. (read timeout=10)
-2025-07-05 12:39:37,251 - ERROR - [FETCH-20250705-123926-4CDF55B8] Could not fetch streamed.su match data.
-2025-07-05 12:39:37,251 - INFO - [FETCH-20250705-123926-4CDF55B8] Fetching matches from sportsonline.gl...
-2025-07-05 12:39:38,276 - INFO - [FETCH-20250705-123926-4CDF55B8] Fetched 12 valid matches from sportsonline.gl
-2025-07-05 12:39:38,276 - INFO - [FETCH-20250705-123926-4CDF55B8] Merging matches based on team similarity...
-2025-07-05 12:39:38,276 - INFO - [FETCH-20250705-123926-4CDF55B8] Merging with existing data...
-2025-07-05 12:39:38,277 - INFO - [FETCH-20250705-123926-4CDF55B8] Cleaning up old matches...
-2025-07-05 12:39:38,277 - INFO - [FETCH-20250705-123926-4CDF55B8] Removed old match: Wehen Wiesbaden vs Hoffenheim II (04-07-2025 11:00)
-2025-07-05 12:39:38,277 - INFO - [FETCH-20250705-123926-4CDF55B8] Cleanup complete: Removed 1 old matches, 116 matches remaining
-2025-07-05 12:39:38,277 - INFO - [FETCH-20250705-123926-4CDF55B8] Merge complete: 0 new, 0 updated, 116 total
-2025-07-05 12:39:38,280 - INFO - [FETCH-20250705-123926-4CDF55B8] Data saved to live_events.json
-2025-07-05 12:39:38,280 - INFO - [FETCH-20250705-123926-4CDF55B8] Summary:
-2025-07-05 12:39:38,280 - INFO - [FETCH-20250705-123926-4CDF55B8] - Streamed.su matches: 0
-2025-07-05 12:39:38,280 - INFO - [FETCH-20250705-123926-4CDF55B8] - Sportsonline matches: 12
-2025-07-05 12:39:38,280 - INFO - [FETCH-20250705-123926-4CDF55B8] - Final merged matches: 116
-2025-07-05 12:39:38,280 - INFO - [FETCH-20250705-123926-4CDF55B8] Scraper run completed successfully
 2025-07-05 14:19:52,397 - INFO - [FETCH-20250705-141952-FE724CDE] Starting combined football match scraper...
 2025-07-05 14:19:52,397 - INFO - ============================================================
 2025-07-05 14:19:52,397 - INFO - [FETCH-20250705-141952-FE724CDE] Starting cleanup operations...
@@ -1228,3 +1205,42 @@
 2025-07-07 10:24:40,488 - INFO - [FETCH-20250707-102409-48C9367B] - Sportsonline matches: 2
 2025-07-07 10:24:40,488 - INFO - [FETCH-20250707-102409-48C9367B] - Final merged matches: 53
 2025-07-07 10:24:40,488 - INFO - [FETCH-20250707-102409-48C9367B] Scraper run completed successfully
+2025-07-07 12:44:00,714 - INFO - [FETCH-20250707-124400-92048544] Starting combined football match scraper...
+2025-07-07 12:44:00,714 - INFO - ============================================================
+2025-07-07 12:44:00,715 - INFO - [FETCH-20250707-124400-92048544] Starting cleanup operations...
+2025-07-07 12:44:00,715 - INFO - [FETCH-20250707-124400-92048544] Cleaning up old log entries...
+2025-07-07 12:44:01,691 - INFO - [FETCH-20250707-124400-92048544] Log cleanup complete: Removed 23 old log entries
+2025-07-07 12:44:01,691 - INFO - [FETCH-20250707-124400-92048544] No old log files to remove
+2025-07-07 12:44:01,691 - INFO - [FETCH-20250707-124400-92048544] Fetching matches from streamed.su...
+2025-07-07 12:44:02,624 - INFO - [FETCH-20250707-124400-92048544] Found 188 total matches. Filtering for football...
+2025-07-07 12:44:02,624 - WARNING - [FETCH-20250707-124400-92048544] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-07-07 12:44:02,624 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:02,624 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: Bhutan W vs Singapore W (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:02,624 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: Liberec vs Hartberg (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:03,858 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: South Africa W vs Ghana W (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:03,859 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: Lebanon W vs Jordan W (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:06,446 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: Radnicki 1923 vs IMT Novi Beograd (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:08,145 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: Potters Bar vs Takeley (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:08,145 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: Mali W vs Tanzania W (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:12,391 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: Sportivo Ameliano vs Club Atletico Tembetary (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:13,809 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: Operario-PR vs Chapecoense-SC (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:13,809 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: Bolivar vs Independiente Petrolero (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:13,809 - WARNING - [FETCH-20250707-124400-92048544] Skipping match with invalid team data: America MG vs Athletic Club (Team1: Not Found, Team2: Not Found)
+2025-07-07 12:44:24,685 - INFO - [FETCH-20250707-124400-92048544] Fetched 13 valid football matches from streamed.su
+2025-07-07 12:44:24,685 - INFO - [FETCH-20250707-124400-92048544] Fetching matches from sportsonline.gl...
+2025-07-07 12:44:25,569 - INFO - [FETCH-20250707-124400-92048544] Fetched 2 valid matches from sportsonline.gl
+2025-07-07 12:44:25,569 - INFO - [FETCH-20250707-124400-92048544] Merging matches based on team similarity...
+2025-07-07 12:44:25,570 - INFO - [FETCH-20250707-124400-92048544] Merged: Spain Women vs Belgium Women (similarity: 1.00)
+2025-07-07 12:44:25,571 - INFO - [FETCH-20250707-124400-92048544] Merged: Portugal Women vs Italy Women (similarity: 1.00)
+2025-07-07 12:44:25,571 - INFO - [FETCH-20250707-124400-92048544] Merging with existing data...
+2025-07-07 12:44:25,571 - INFO - [FETCH-20250707-124400-92048544] Cleaning up old matches...
+2025-07-07 12:44:25,571 - INFO - [FETCH-20250707-124400-92048544] Removed old match: VfB Oldenburg vs Hamburger SV (06-07-2025 11:30)
+2025-07-07 12:44:25,572 - INFO - [FETCH-20250707-124400-92048544] Removed old match: Ehime FC vs Montedio Yamagata (06-07-2025 10:00)
+2025-07-07 12:44:25,572 - INFO - [FETCH-20250707-124400-92048544] Cleanup complete: Removed 2 old matches, 51 matches remaining
+2025-07-07 12:44:25,572 - INFO - [FETCH-20250707-124400-92048544] Merge complete: 0 new, 0 updated, 51 total
+2025-07-07 12:44:25,574 - INFO - [FETCH-20250707-124400-92048544] Data saved to live_events.json
+2025-07-07 12:44:25,574 - INFO - [FETCH-20250707-124400-92048544] Summary:
+2025-07-07 12:44:25,574 - INFO - [FETCH-20250707-124400-92048544] - Streamed.su matches: 13
+2025-07-07 12:44:25,574 - INFO - [FETCH-20250707-124400-92048544] - Sportsonline matches: 2
+2025-07-07 12:44:25,574 - INFO - [FETCH-20250707-124400-92048544] - Final merged matches: 51
+2025-07-07 12:44:25,574 - INFO - [FETCH-20250707-124400-92048544] Scraper run completed successfully
