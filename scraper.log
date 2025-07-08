@@ -1262,3 +1262,59 @@
 2025-07-07 22:21:05,562 - INFO - [FETCH-20250707-222044-4115639F] - Sportsonline matches: 0
 2025-07-07 22:21:05,562 - INFO - [FETCH-20250707-222044-4115639F] - Final merged matches: 38
 2025-07-07 22:21:05,562 - INFO - [FETCH-20250707-222044-4115639F] Scraper run completed successfully
+2025-07-08 01:48:33,958 - INFO - [FETCH-20250708-014833-4B24DADD] Starting combined football match scraper...
+2025-07-08 01:48:33,958 - INFO - ============================================================
+2025-07-08 01:48:33,958 - INFO - [FETCH-20250708-014833-4B24DADD] Starting cleanup operations...
+2025-07-08 01:48:33,958 - INFO - [FETCH-20250708-014833-4B24DADD] Cleaning up old log entries...
+2025-07-08 01:48:33,975 - INFO - [FETCH-20250708-014833-4B24DADD] No old log entries to remove
+2025-07-08 01:48:33,975 - INFO - [FETCH-20250708-014833-4B24DADD] No old log files to remove
+2025-07-08 01:48:33,975 - INFO - [FETCH-20250708-014833-4B24DADD] Fetching matches from streamed.su...
+2025-07-08 01:48:35,371 - INFO - [FETCH-20250708-014833-4B24DADD] Found 196 total matches. Filtering for football...
+2025-07-08 01:48:35,371 - WARNING - [FETCH-20250708-014833-4B24DADD] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-07-08 01:48:35,371 - WARNING - [FETCH-20250708-014833-4B24DADD] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-07-08 01:48:36,455 - WARNING - [FETCH-20250708-014833-4B24DADD] Skipping match with invalid team data: Japan vs Hong Kong (Team1: Not Found, Team2: Not Found)
+2025-07-08 01:48:38,146 - WARNING - [FETCH-20250708-014833-4B24DADD] Skipping match with invalid team data: Noah vs Buducnost (Team1: Not Found, Team2: Not Found)
+2025-07-08 01:48:47,358 - WARNING - [FETCH-20250708-014833-4B24DADD] Skipping match with invalid team data: TNS vs Shkendija (Team1: Not Found, Team2: Not Found)
+2025-07-08 01:48:49,874 - WARNING - [FETCH-20250708-014833-4B24DADD] Skipping match with invalid team data: Egnatia vs Breidablik (Team1: Not Found, Team2: Not Found)
+2025-07-08 01:49:00,133 - INFO - [FETCH-20250708-014833-4B24DADD] Fetched 18 valid football matches from streamed.su
+2025-07-08 01:49:00,133 - INFO - [FETCH-20250708-014833-4B24DADD] Fetching matches from sportsonline.gl...
+2025-07-08 01:49:01,656 - INFO - [FETCH-20250708-014833-4B24DADD] Fetched 9 valid matches from sportsonline.gl
+2025-07-08 01:49:01,657 - INFO - [FETCH-20250708-014833-4B24DADD] Merging matches based on team similarity...
+2025-07-08 01:49:01,662 - INFO - [FETCH-20250708-014833-4B24DADD] Merged: Germany Women vs Denmark Women (similarity: 1.00)
+2025-07-08 01:49:01,668 - INFO - [FETCH-20250708-014833-4B24DADD] Merged: Fluminense vs Chelsea (similarity: 1.00)
+2025-07-08 01:49:01,670 - INFO - [FETCH-20250708-014833-4B24DADD] Merged: Poland Women vs Sweden Women (similarity: 1.00)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Merging with existing data...
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Cleaning up old matches...
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Removed old match: USA vs Mexico (06-07-2025 23:00)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Removed old match: Almirante Brown vs Temperley (06-07-2025 22:10)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Removed old match: Deportivo Garcilaso vs Universitario (06-07-2025 22:30)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Removed old match: Mazatlán vs Cruz Azul (07-07-2025 00:30)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Removed old match: GV San José vs Oriente Petrolero (06-07-2025 21:30)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Removed old match: Botafogo-SP vs Novorizontino (06-07-2025 21:30)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Removed old match: Portland Hearts of Pine vs South Georgia Tormenta (06-07-2025 22:30)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Removed old match: Blooming vs Real Oruro (06-07-2025 23:30)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Removed old match: Newell's Old Boys vs Once Caldas (06-07-2025 22:00)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Removed old match: Botafogo SP vs Novorizontino (06-07-2025 21:30)
+2025-07-08 01:49:01,674 - INFO - [FETCH-20250708-014833-4B24DADD] Cleanup complete: Removed 10 old matches, 28 matches remaining
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] Updated: Germany Women vs Denmark Women
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: Floriana vs Haverfordwest County
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: Víkingur Gøta vs Lincoln Red Imps
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: Drita vs Differdange 03
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] Updated: Fluminense vs Chelsea
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: Virtus vs Zrinjski Mostar
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] Updated: Poland Women vs Sweden Women
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: England Women vs Netherlands Women
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: France Women vs Wales Women
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: Cork City vs Celtic
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: The New Saints vs Škendija 79
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: Grêmio vs São José-RS
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: Estudiantes vs Vélez Sarsfield
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: Cruzeiro U20 vs Fluminense U20
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] New match: Vitória vs Confiança
+2025-07-08 01:49:01,675 - INFO - [FETCH-20250708-014833-4B24DADD] Merge complete: 12 new, 3 updated, 40 total
+2025-07-08 01:49:01,677 - INFO - [FETCH-20250708-014833-4B24DADD] Data saved to live_events.json
+2025-07-08 01:49:01,677 - INFO - [FETCH-20250708-014833-4B24DADD] Summary:
+2025-07-08 01:49:01,677 - INFO - [FETCH-20250708-014833-4B24DADD] - Streamed.su matches: 18
+2025-07-08 01:49:01,677 - INFO - [FETCH-20250708-014833-4B24DADD] - Sportsonline matches: 9
+2025-07-08 01:49:01,677 - INFO - [FETCH-20250708-014833-4B24DADD] - Final merged matches: 40
+2025-07-08 01:49:01,677 - INFO - [FETCH-20250708-014833-4B24DADD] Scraper run completed successfully
