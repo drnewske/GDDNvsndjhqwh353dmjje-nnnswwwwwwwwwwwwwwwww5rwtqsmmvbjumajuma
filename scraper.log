@@ -1,68 +1,3 @@
-2025-07-07 01:53:06,813 - INFO - [FETCH-20250707-015306-8D2B600B] Starting combined football match scraper...
-2025-07-07 01:53:06,813 - INFO - ============================================================
-2025-07-07 01:53:06,813 - INFO - [FETCH-20250707-015306-8D2B600B] Starting cleanup operations...
-2025-07-07 01:53:06,813 - INFO - [FETCH-20250707-015306-8D2B600B] Cleaning up old log entries...
-2025-07-07 01:53:06,842 - INFO - [FETCH-20250707-015306-8D2B600B] Log cleanup complete: Removed 127 old log entries
-2025-07-07 01:53:06,842 - INFO - [FETCH-20250707-015306-8D2B600B] No old log files to remove
-2025-07-07 01:53:06,842 - INFO - [FETCH-20250707-015306-8D2B600B] Fetching matches from streamed.su...
-2025-07-07 01:53:08,487 - INFO - [FETCH-20250707-015306-8D2B600B] Found 190 total matches. Filtering for football...
-2025-07-07 01:53:08,487 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: Post Gold Cup Final (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:08,487 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: Mazatlan vs Cruz Azul (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:11,783 - WARNING - [FETCH-20250707-015306-8D2B600B] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
-2025-07-07 01:53:11,783 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:11,783 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: South Korea vs China (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:11,783 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: Bhutan W vs Singapore W (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:11,783 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: Liberec vs Hartberg (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:13,029 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: South Africa W vs Ghana W (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:13,029 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: Lebanon W vs Jordan W (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:15,211 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: Radnicki 1923 vs IMT Novi Beograd (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:17,026 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: Potters Bar vs Takeley (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:17,027 - WARNING - [FETCH-20250707-015306-8D2B600B] Skipping match with invalid team data: Mali W vs Tanzania W (Team1: Not Found, Team2: Not Found)
-2025-07-07 01:53:27,111 - INFO - [FETCH-20250707-015306-8D2B600B] Fetched 12 valid football matches from streamed.su
-2025-07-07 01:53:27,111 - INFO - [FETCH-20250707-015306-8D2B600B] Fetching matches from sportsonline.gl...
-2025-07-07 01:53:28,640 - INFO - [FETCH-20250707-015306-8D2B600B] Fetched 2 valid matches from sportsonline.gl
-2025-07-07 01:53:28,640 - INFO - [FETCH-20250707-015306-8D2B600B] Merging matches based on team similarity...
-2025-07-07 01:53:28,641 - INFO - [FETCH-20250707-015306-8D2B600B] Merged: Spain Women vs Belgium Women (similarity: 1.00)
-2025-07-07 01:53:28,642 - INFO - [FETCH-20250707-015306-8D2B600B] Merged: Portugal Women vs Italy Women (similarity: 1.00)
-2025-07-07 01:53:28,642 - INFO - [FETCH-20250707-015306-8D2B600B] Merging with existing data...
-2025-07-07 01:53:28,642 - INFO - [FETCH-20250707-015306-8D2B600B] Cleaning up old matches...
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Mazatlán vs Cruz Azul (06-07-2025 00:30)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Nashville SC vs Philadelphia Union (06-07-2025 00:30)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Austin FC vs Los Angeles FC (06-07-2025 00:30)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Charlotte vs Orlando City SC (05-07-2025 23:15)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Amazonas vs Athletico-PR (05-07-2025 23:30)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Real Tomayapo vs San Antonio Bulo Bulo (05-07-2025 21:30)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Emelec vs Vinotinto Ecuador (05-07-2025 21:30)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Ferro Carril Oeste vs Gimnasia y Tiro (05-07-2025 22:00)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Avaí vs Paysandu (05-07-2025 22:30)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Chattanooga Red Wolves vs One Knoxville SC (05-07-2025 23:00)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Rhode Island FC vs Birmingham Legion (05-07-2025 23:00)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Miami FC vs FC Tulsa (05-07-2025 23:00)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Chattanooga FC vs Chicago Fire II (05-07-2025 23:00)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Charlotte FC vs Orlando City (05-07-2025 23:15)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Indy Eleven vs Monterey Bay FC (05-07-2025 23:30)
-2025-07-07 01:53:28,643 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: CF Montréal vs Inter Miami (05-07-2025 23:30)
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: DC United vs Atlanta United (05-07-2025 23:30)
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Amazonas vs Athletico Paranaense (05-07-2025 23:30)
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Independiente del Valle vs Barcelona SC (06-07-2025 00:00)
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Universitario de Vinto vs Aurora (06-07-2025 00:00)
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] Removed old match: Texoma vs Forward Madison (06-07-2025 00:30)
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] Cleanup complete: Removed 21 old matches, 54 matches remaining
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] Updated: USA vs Mexico
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] Updated: Spain Women vs Belgium Women
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] New match: ABB vs Nacional Potosí
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] Updated: Portugal Women vs Italy Women
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] New match: Germany Women vs Denmark Women
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] New match: Fluminense vs Chelsea
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] New match: Poland Women vs Sweden Women
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] New match: Paris Saint Germain vs Real Madrid
-2025-07-07 01:53:28,644 - INFO - [FETCH-20250707-015306-8D2B600B] Merge complete: 5 new, 3 updated, 59 total
-2025-07-07 01:53:28,646 - INFO - [FETCH-20250707-015306-8D2B600B] Data saved to live_events.json
-2025-07-07 01:53:28,647 - INFO - [FETCH-20250707-015306-8D2B600B] Summary:
-2025-07-07 01:53:28,647 - INFO - [FETCH-20250707-015306-8D2B600B] - Streamed.su matches: 12
-2025-07-07 01:53:28,647 - INFO - [FETCH-20250707-015306-8D2B600B] - Sportsonline matches: 2
-2025-07-07 01:53:28,647 - INFO - [FETCH-20250707-015306-8D2B600B] - Final merged matches: 59
-2025-07-07 01:53:28,647 - INFO - [FETCH-20250707-015306-8D2B600B] Scraper run completed successfully
 2025-07-07 03:25:42,485 - INFO - [FETCH-20250707-032542-BC502DF5] Starting combined football match scraper...
 2025-07-07 03:25:42,485 - INFO - ============================================================
 2025-07-07 03:25:42,485 - INFO - [FETCH-20250707-032542-BC502DF5] Starting cleanup operations...
@@ -1019,3 +954,39 @@
 2025-07-09 01:50:00,862 - INFO - [FETCH-20250709-014943-AAA5EFA0] - Sportsonline matches: 10
 2025-07-09 01:50:00,862 - INFO - [FETCH-20250709-014943-AAA5EFA0] - Final merged matches: 48
 2025-07-09 01:50:00,862 - INFO - [FETCH-20250709-014943-AAA5EFA0] Scraper run completed successfully
+2025-07-09 03:23:00,976 - INFO - [FETCH-20250709-032300-6A8CD89A] Starting combined football match scraper...
+2025-07-09 03:23:00,976 - INFO - ============================================================
+2025-07-09 03:23:00,976 - INFO - [FETCH-20250709-032300-6A8CD89A] Starting cleanup operations...
+2025-07-09 03:23:00,976 - INFO - [FETCH-20250709-032300-6A8CD89A] Cleaning up old log entries...
+2025-07-09 03:23:00,991 - INFO - [FETCH-20250709-032300-6A8CD89A] Log cleanup complete: Removed 65 old log entries
+2025-07-09 03:23:00,991 - INFO - [FETCH-20250709-032300-6A8CD89A] No old log files to remove
+2025-07-09 03:23:00,991 - INFO - [FETCH-20250709-032300-6A8CD89A] Fetching matches from streamed.su...
+2025-07-09 03:23:02,585 - INFO - [FETCH-20250709-032300-6A8CD89A] Found 223 total matches. Filtering for football...
+2025-07-09 03:23:04,220 - WARNING - [FETCH-20250709-032300-6A8CD89A] Skipping match with invalid team data: Cavalry vs Vancouver FC (Team1: Not Found, Team2: Not Found)
+2025-07-09 03:23:04,221 - WARNING - [FETCH-20250709-032300-6A8CD89A] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-07-09 03:23:04,221 - WARNING - [FETCH-20250709-032300-6A8CD89A] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-07-09 03:23:04,221 - WARNING - [FETCH-20250709-032300-6A8CD89A] Skipping match with invalid team data: Zambia W vs Senegal W (Team1: Not Found, Team2: Not Found)
+2025-07-09 03:23:04,221 - WARNING - [FETCH-20250709-032300-6A8CD89A] Skipping match with invalid team data: Zalgiris vs Hamrun (Team1: Not Found, Team2: Not Found)
+2025-07-09 03:23:06,967 - WARNING - [FETCH-20250709-032300-6A8CD89A] Skipping match with invalid team data: Ludogorets vs Din. Minsk (Team1: Not Found, Team2: Not Found)
+2025-07-09 03:23:09,678 - WARNING - [FETCH-20250709-032300-6A8CD89A] Skipping match with invalid team data: D.R. Congo W vs Morocco W (Team1: Not Found, Team2: Not Found)
+2025-07-09 03:23:17,767 - INFO - [FETCH-20250709-032300-6A8CD89A] Fetched 10 valid football matches from streamed.su
+2025-07-09 03:23:17,767 - INFO - [FETCH-20250709-032300-6A8CD89A] Fetching matches from sportsonline.gl...
+2025-07-09 03:23:19,292 - INFO - [FETCH-20250709-032300-6A8CD89A] Fetched 10 valid matches from sportsonline.gl
+2025-07-09 03:23:19,293 - INFO - [FETCH-20250709-032300-6A8CD89A] Merging matches based on team similarity...
+2025-07-09 03:23:19,298 - INFO - [FETCH-20250709-032300-6A8CD89A] Merged: England Women vs Netherlands Women (similarity: 1.00)
+2025-07-09 03:23:19,302 - INFO - [FETCH-20250709-032300-6A8CD89A] Merged: Shelbourne vs Linfield (similarity: 1.00)
+2025-07-09 03:23:19,305 - INFO - [FETCH-20250709-032300-6A8CD89A] Merged: France Women vs Wales Women (similarity: 1.00)
+2025-07-09 03:23:19,311 - INFO - [FETCH-20250709-032300-6A8CD89A] Merging with existing data...
+2025-07-09 03:23:19,311 - INFO - [FETCH-20250709-032300-6A8CD89A] Cleaning up old matches...
+2025-07-09 03:23:19,312 - INFO - [FETCH-20250709-032300-6A8CD89A] No old matches to remove
+2025-07-09 03:23:19,312 - INFO - [FETCH-20250709-032300-6A8CD89A] Updated: England Women vs Netherlands Women
+2025-07-09 03:23:19,312 - INFO - [FETCH-20250709-032300-6A8CD89A] Updated: Shelbourne vs Linfield
+2025-07-09 03:23:19,312 - INFO - [FETCH-20250709-032300-6A8CD89A] Updated: Paris SG vs Real Madrid
+2025-07-09 03:23:19,312 - INFO - [FETCH-20250709-032300-6A8CD89A] Updated: France Women vs Wales Women
+2025-07-09 03:23:19,312 - INFO - [FETCH-20250709-032300-6A8CD89A] Merge complete: 0 new, 4 updated, 48 total
+2025-07-09 03:23:19,314 - INFO - [FETCH-20250709-032300-6A8CD89A] Data saved to live_events.json
+2025-07-09 03:23:19,314 - INFO - [FETCH-20250709-032300-6A8CD89A] Summary:
+2025-07-09 03:23:19,314 - INFO - [FETCH-20250709-032300-6A8CD89A] - Streamed.su matches: 10
+2025-07-09 03:23:19,314 - INFO - [FETCH-20250709-032300-6A8CD89A] - Sportsonline matches: 10
+2025-07-09 03:23:19,314 - INFO - [FETCH-20250709-032300-6A8CD89A] - Final merged matches: 48
+2025-07-09 03:23:19,314 - INFO - [FETCH-20250709-032300-6A8CD89A] Scraper run completed successfully
