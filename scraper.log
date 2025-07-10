@@ -1044,3 +1044,50 @@
 2025-07-10 14:23:19,903 - INFO - [FETCH-20250710-142208-1BE98255] - Sportsonline matches: 12
 2025-07-10 14:23:19,903 - INFO - [FETCH-20250710-142208-1BE98255] - Final merged matches: 102
 2025-07-10 14:23:19,903 - INFO - [FETCH-20250710-142208-1BE98255] Scraper run completed successfully
+2025-07-10 16:28:00,536 - INFO - [FETCH-20250710-162800-D3CD2A80] Starting combined football match scraper...
+2025-07-10 16:28:00,537 - INFO - ============================================================
+2025-07-10 16:28:00,537 - INFO - [FETCH-20250710-162800-D3CD2A80] Starting cleanup operations...
+2025-07-10 16:28:00,537 - INFO - [FETCH-20250710-162800-D3CD2A80] Cleaning up old log entries...
+2025-07-10 16:28:00,560 - INFO - [FETCH-20250710-162800-D3CD2A80] No old log entries to remove
+2025-07-10 16:28:00,561 - INFO - [FETCH-20250710-162800-D3CD2A80] No old log files to remove
+2025-07-10 16:28:00,561 - INFO - [FETCH-20250710-162800-D3CD2A80] Fetching matches from streamed.su...
+2025-07-10 16:28:01,447 - INFO - [FETCH-20250710-162800-D3CD2A80] Found 320 total matches. Filtering for football...
+2025-07-10 16:28:01,448 - WARNING - [FETCH-20250710-162800-D3CD2A80] Skipping match with invalid team data: Tunisia W vs Algeria W (Team1: Not Found, Team2: Not Found)
+2025-07-10 16:28:01,448 - WARNING - [FETCH-20250710-162800-D3CD2A80] Skipping match with invalid team data: LALIGA 2024/25 Team of the Season (Team1: Not Found, Team2: Not Found)
+2025-07-10 16:28:01,448 - WARNING - [FETCH-20250710-162800-D3CD2A80] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-07-10 16:28:01,448 - WARNING - [FETCH-20250710-162800-D3CD2A80] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-07-10 16:28:10,735 - WARNING - [FETCH-20250710-162800-D3CD2A80] Skipping match with invalid team data: Zhodino vs Rabotnicki (Team1: Not Found, Team2: Not Found)
+2025-07-10 16:28:17,061 - WARNING - [FETCH-20250710-162800-D3CD2A80] Skipping match with invalid team data: Zeljeznicar vs Koper (Team1: Not Found, Team2: Not Found)
+2025-07-10 16:28:18,738 - WARNING - [FETCH-20250710-162800-D3CD2A80] Skipping match with invalid team data: NSI Runavik vs HJK (Team1: Not Found, Team2: Not Found)
+2025-07-10 16:28:19,642 - WARNING - [FETCH-20250710-162800-D3CD2A80] Skipping match with invalid team data: Botswana W vs Nigeria W (Team1: Not Found, Team2: Not Found)
+2025-07-10 16:28:33,169 - WARNING - [FETCH-20250710-162800-D3CD2A80] Skipping match with invalid team data: Hong Kong vs South Korea (Team1: Not Found, Team2: Not Found)
+2025-07-10 16:29:12,071 - INFO - [FETCH-20250710-162800-D3CD2A80] Fetched 70 valid football matches from streamed.su
+2025-07-10 16:29:12,071 - INFO - [FETCH-20250710-162800-D3CD2A80] Fetching matches from sportsonline.gl...
+2025-07-10 16:29:13,042 - INFO - [FETCH-20250710-162800-D3CD2A80] Fetched 11 valid matches from sportsonline.gl
+2025-07-10 16:29:13,042 - INFO - [FETCH-20250710-162800-D3CD2A80] Merging matches based on team similarity...
+2025-07-10 16:29:13,052 - INFO - [FETCH-20250710-162800-D3CD2A80] Merged: Levski Sofia vs Hapoel Be'er Sheva (similarity: 1.00)
+2025-07-10 16:29:13,062 - INFO - [FETCH-20250710-162800-D3CD2A80] Merged: Legia Warsaw vs Aktobe (similarity: 0.96)
+2025-07-10 16:29:13,066 - INFO - [FETCH-20250710-162800-D3CD2A80] Merged: Norway Women vs Iceland Women (similarity: 1.00)
+2025-07-10 16:29:13,067 - INFO - [FETCH-20250710-162800-D3CD2A80] Merged: Finland Women vs Switzerland Women (similarity: 1.00)
+2025-07-10 16:29:13,069 - INFO - [FETCH-20250710-162800-D3CD2A80] Merged: CRB vs Coritiba (similarity: 1.00)
+2025-07-10 16:29:13,100 - INFO - [FETCH-20250710-162800-D3CD2A80] Merging with existing data...
+2025-07-10 16:29:13,100 - INFO - [FETCH-20250710-162800-D3CD2A80] Cleaning up old matches...
+2025-07-10 16:29:13,101 - INFO - [FETCH-20250710-162800-D3CD2A80] No old matches to remove
+2025-07-10 16:29:13,101 - INFO - [FETCH-20250710-162800-D3CD2A80] Updated: Legia Warsaw vs Aktobe
+2025-07-10 16:29:13,101 - INFO - [FETCH-20250710-162800-D3CD2A80] Updated: Melbourne Victory vs Wrexham
+2025-07-10 16:29:13,101 - INFO - [FETCH-20250710-162800-D3CD2A80] New match: Sweden vs Germany
+2025-07-10 16:29:13,102 - INFO - [FETCH-20250710-162800-D3CD2A80] New match: Poland vs Denmark
+2025-07-10 16:29:13,102 - INFO - [FETCH-20250710-162800-D3CD2A80] New match: Atletico Ottawa vs Forge
+2025-07-10 16:29:13,102 - INFO - [FETCH-20250710-162800-D3CD2A80] New match: Novorizontino vs America Mineiro
+2025-07-10 16:29:13,102 - INFO - [FETCH-20250710-162800-D3CD2A80] New match: Rosario Central vs Godoy Cruz
+2025-07-10 16:29:13,102 - INFO - [FETCH-20250710-162800-D3CD2A80] New match: Peru W vs Chile W
+2025-07-10 16:29:13,102 - INFO - [FETCH-20250710-162800-D3CD2A80] New match: Gimnasia L.P. vs Instituto Cordoba
+2025-07-10 16:29:13,102 - INFO - [FETCH-20250710-162800-D3CD2A80] New match: Paysandu vs Atletico Goianiense
+2025-07-10 16:29:13,102 - INFO - [FETCH-20250710-162800-D3CD2A80] New match: AEK Larnaca vs Partizan
+2025-07-10 16:29:13,102 - INFO - [FETCH-20250710-162800-D3CD2A80] Merge complete: 9 new, 2 updated, 111 total
+2025-07-10 16:29:13,106 - INFO - [FETCH-20250710-162800-D3CD2A80] Data saved to live_events.json
+2025-07-10 16:29:13,106 - INFO - [FETCH-20250710-162800-D3CD2A80] Summary:
+2025-07-10 16:29:13,107 - INFO - [FETCH-20250710-162800-D3CD2A80] - Streamed.su matches: 70
+2025-07-10 16:29:13,107 - INFO - [FETCH-20250710-162800-D3CD2A80] - Sportsonline matches: 11
+2025-07-10 16:29:13,107 - INFO - [FETCH-20250710-162800-D3CD2A80] - Final merged matches: 111
+2025-07-10 16:29:13,107 - INFO - [FETCH-20250710-162800-D3CD2A80] Scraper run completed successfully
