@@ -1237,3 +1237,60 @@
 2025-07-11 16:28:35,177 - INFO - [FETCH-20250711-162717-80FB1FAF] - Sportsonline matches: 9
 2025-07-11 16:28:35,177 - INFO - [FETCH-20250711-162717-80FB1FAF] - Final merged matches: 134
 2025-07-11 16:28:35,177 - INFO - [FETCH-20250711-162717-80FB1FAF] Scraper run completed successfully
+2025-07-11 18:30:28,271 - INFO - [FETCH-20250711-183028-FA42F1ED] Starting combined football match scraper...
+2025-07-11 18:30:28,271 - INFO - ============================================================
+2025-07-11 18:30:28,271 - INFO - [FETCH-20250711-183028-FA42F1ED] Starting cleanup operations...
+2025-07-11 18:30:28,272 - INFO - [FETCH-20250711-183028-FA42F1ED] Cleaning up old log entries...
+2025-07-11 18:30:28,344 - INFO - [FETCH-20250711-183028-FA42F1ED] No old log entries to remove
+2025-07-11 18:30:28,345 - INFO - [FETCH-20250711-183028-FA42F1ED] No old log files to remove
+2025-07-11 18:30:28,345 - INFO - [FETCH-20250711-183028-FA42F1ED] Fetching matches from streamed.su...
+2025-07-11 18:30:30,009 - INFO - [FETCH-20250711-183028-FA42F1ED] Found 328 total matches. Filtering for football...
+2025-07-11 18:30:32,666 - WARNING - [FETCH-20250711-183028-FA42F1ED] Skipping match with invalid team data: Ghana W vs Mali W (Team1: Not Found, Team2: Not Found)
+2025-07-11 18:30:32,666 - WARNING - [FETCH-20250711-183028-FA42F1ED] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-07-11 18:30:32,666 - WARNING - [FETCH-20250711-183028-FA42F1ED] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-07-11 18:30:32,666 - WARNING - [FETCH-20250711-183028-FA42F1ED] Skipping match with invalid team data: Sportivo Luqueno vs General Caballero JLM (Team1: Not Found, Team2: Not Found)
+2025-07-11 18:30:32,666 - WARNING - [FETCH-20250711-183028-FA42F1ED] Skipping match with invalid team data: Tanzania W vs South Africa W (Team1: Not Found, Team2: Not Found)
+2025-07-11 18:30:41,193 - WARNING - [FETCH-20250711-183028-FA42F1ED] Skipping match with invalid team data: ADT vs Comerciantes Unidos (Team1: Not Found, Team2: Not Found)
+2025-07-11 18:30:41,193 - WARNING - [FETCH-20250711-183028-FA42F1ED] Skipping match with invalid team data: 2 de Mayo vs Libertad (Team1: Not Found, Team2: Not Found)
+2025-07-11 18:30:59,070 - WARNING - [FETCH-20250711-183028-FA42F1ED] Skipping match with invalid team data: Tijuana vs Querétaro (Team1: Not Found, Team2: Not Found)
+2025-07-11 18:31:47,713 - WARNING - [FETCH-20250711-183028-FA42F1ED] Skipping match with invalid team data: Japan vs China (Team1: Not Found, Team2: Not Found)
+2025-07-11 18:31:49,825 - WARNING - [FETCH-20250711-183028-FA42F1ED] Skipping match with invalid team data: Goteborg vs Elfsborg (Team1: Not Found, Team2: Not Found)
+2025-07-11 18:32:05,667 - INFO - [FETCH-20250711-183028-FA42F1ED] Fetched 55 valid football matches from streamed.su
+2025-07-11 18:32:05,667 - INFO - [FETCH-20250711-183028-FA42F1ED] Fetching matches from sportsonline.gl...
+2025-07-11 18:32:06,936 - INFO - [FETCH-20250711-183028-FA42F1ED] Fetched 9 valid matches from sportsonline.gl
+2025-07-11 18:32:06,936 - INFO - [FETCH-20250711-183028-FA42F1ED] Merging matches based on team similarity...
+2025-07-11 18:32:06,939 - INFO - [FETCH-20250711-183028-FA42F1ED] Merged: Portugal Women vs Belgium Women (similarity: 1.00)
+2025-07-11 18:32:06,940 - INFO - [FETCH-20250711-183028-FA42F1ED] Merged: Italy Women vs Spain Women (similarity: 1.00)
+2025-07-11 18:32:06,941 - INFO - [FETCH-20250711-183028-FA42F1ED] Merged: Vila Nova vs Operario-PR (similarity: 0.91)
+2025-07-11 18:32:06,946 - INFO - [FETCH-20250711-183028-FA42F1ED] Merged: Puebla vs Atlas (similarity: 1.00)
+2025-07-11 18:32:06,973 - INFO - [FETCH-20250711-183028-FA42F1ED] Merging with existing data...
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Cleaning up old matches...
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Sabah vs Celje (10-07-2025 16:00)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: AEK Larnaca vs Partizan (10-07-2025 16:30)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: St. Pölten vs Beşiktaş (10-07-2025 17:00)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Paksi SE vs CFR Cluj (10-07-2025 17:00)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Levski Sofia vs Hapoel Be'er Sheva (10-07-2025 17:30)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Racing Union Luxembourg vs Dila Gori (10-07-2025 16:30)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: AEK Larnaca vs Partizan Belgrade (10-07-2025 16:30)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Urartu vs Neman Grodno (10-07-2025 16:30)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Nõmme Kalju vs Partizani Tirana (10-07-2025 16:45)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Sheriff Tiraspol vs Prishtina (10-07-2025 17:00)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Paks vs CFR Cluj (10-07-2025 17:00)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Sabah FA vs Celje (10-07-2025 16:00)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Sabah FC vs Celje (10-07-2025 16:00)
+2025-07-11 18:32:06,974 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Torpedo Kutaisi vs Ordabasy Shymkent (10-07-2025 16:00)
+2025-07-11 18:32:06,975 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: AEK Larnaca vs FK Partizan (10-07-2025 16:30)
+2025-07-11 18:32:06,975 - INFO - [FETCH-20250711-183028-FA42F1ED] Removed old match: Paks vs CFR 1907 Cluj (10-07-2025 17:00)
+2025-07-11 18:32:06,975 - INFO - [FETCH-20250711-183028-FA42F1ED] Cleanup complete: Removed 16 old matches, 118 matches remaining
+2025-07-11 18:32:06,975 - INFO - [FETCH-20250711-183028-FA42F1ED] Updated: Portugal Women vs Belgium Women
+2025-07-11 18:32:06,975 - INFO - [FETCH-20250711-183028-FA42F1ED] Updated: Italy Women vs Spain Women
+2025-07-11 18:32:06,976 - INFO - [FETCH-20250711-183028-FA42F1ED] New match: Ecuador W vs Uruguay
+2025-07-11 18:32:06,976 - INFO - [FETCH-20250711-183028-FA42F1ED] New match: Juárez vs América
+2025-07-11 18:32:06,976 - INFO - [FETCH-20250711-183028-FA42F1ED] New match: Tijuana vs Querétaro
+2025-07-11 18:32:06,976 - INFO - [FETCH-20250711-183028-FA42F1ED] Merge complete: 3 new, 2 updated, 121 total
+2025-07-11 18:32:06,978 - INFO - [FETCH-20250711-183028-FA42F1ED] Data saved to live_events.json
+2025-07-11 18:32:06,978 - INFO - [FETCH-20250711-183028-FA42F1ED] Summary:
+2025-07-11 18:32:06,979 - INFO - [FETCH-20250711-183028-FA42F1ED] - Streamed.su matches: 55
+2025-07-11 18:32:06,979 - INFO - [FETCH-20250711-183028-FA42F1ED] - Sportsonline matches: 9
+2025-07-11 18:32:06,979 - INFO - [FETCH-20250711-183028-FA42F1ED] - Final merged matches: 121
+2025-07-11 18:32:06,979 - INFO - [FETCH-20250711-183028-FA42F1ED] Scraper run completed successfully
