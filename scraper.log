@@ -1,53 +1,3 @@
-2025-07-11 14:21:30,000 - INFO - [FETCH-20250711-142130-2D2725DF] Starting combined football match scraper...
-2025-07-11 14:21:30,000 - INFO - ============================================================
-2025-07-11 14:21:30,000 - INFO - [FETCH-20250711-142130-2D2725DF] Starting cleanup operations...
-2025-07-11 14:21:30,000 - INFO - [FETCH-20250711-142130-2D2725DF] Cleaning up old log entries...
-2025-07-11 14:21:30,088 - INFO - [FETCH-20250711-142130-2D2725DF] Log cleanup complete: Removed 67 old log entries
-2025-07-11 14:21:30,089 - INFO - [FETCH-20250711-142130-2D2725DF] No old log files to remove
-2025-07-11 14:21:30,089 - INFO - [FETCH-20250711-142130-2D2725DF] Fetching matches from streamed.su...
-2025-07-11 14:21:31,475 - INFO - [FETCH-20250711-142130-2D2725DF] Found 360 total matches. Filtering for football...
-2025-07-11 14:21:31,475 - WARNING - [FETCH-20250711-142130-2D2725DF] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
-2025-07-11 14:21:31,475 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:31,475 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Radnicki 1923 vs Mladost (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:31,475 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Kapfenberg vs Lafnitz (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:31,475 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Cracovia vs Podbrezova (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:31,475 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Braunschweig vs Plymouth (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:31,475 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Ried vs DVTK (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:33,230 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Aluminij vs Varazdin (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:34,646 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Martigues vs Rodez (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:34,646 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: A. Lustenau vs Ravensburg (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:34,646 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Ghana W vs Mali W (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:36,751 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Monaco vs Cercle Brugge KSV (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:36,751 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: York City vs Salford (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:38,690 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Tavistock vs Truro (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:38,691 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Chorley vs Bradford City (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:39,672 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Tanzania W vs South Africa W (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:39,673 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Sportivo Luqueno vs General Caballero JLM (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:46,747 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: ADT vs Comerciantes Unidos (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:21:46,747 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: 2 de Mayo vs Libertad (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:22:02,319 - WARNING - [FETCH-20250711-142130-2D2725DF] Skipping match with invalid team data: Tijuana vs Querétaro (Team1: Not Found, Team2: Not Found)
-2025-07-11 14:22:47,989 - INFO - [FETCH-20250711-142130-2D2725DF] Fetched 60 valid football matches from streamed.su
-2025-07-11 14:22:47,990 - INFO - [FETCH-20250711-142130-2D2725DF] Fetching matches from sportsonline.gl...
-2025-07-11 14:22:49,421 - INFO - [FETCH-20250711-142130-2D2725DF] Fetched 12 valid matches from sportsonline.gl
-2025-07-11 14:22:49,421 - INFO - [FETCH-20250711-142130-2D2725DF] Merging matches based on team similarity...
-2025-07-11 14:22:49,433 - INFO - [FETCH-20250711-142130-2D2725DF] Merged: Portugal Women vs Belgium Women (similarity: 1.00)
-2025-07-11 14:22:49,435 - INFO - [FETCH-20250711-142130-2D2725DF] Merged: Italy Women vs Spain Women (similarity: 1.00)
-2025-07-11 14:22:49,436 - INFO - [FETCH-20250711-142130-2D2725DF] Merged: Vila Nova vs Operario-PR (similarity: 0.91)
-2025-07-11 14:22:49,444 - INFO - [FETCH-20250711-142130-2D2725DF] Merged: Puebla vs Atlas (similarity: 1.00)
-2025-07-11 14:22:49,486 - INFO - [FETCH-20250711-142130-2D2725DF] Merging with existing data...
-2025-07-11 14:22:49,487 - INFO - [FETCH-20250711-142130-2D2725DF] Cleaning up old matches...
-2025-07-11 14:22:49,487 - INFO - [FETCH-20250711-142130-2D2725DF] No old matches to remove
-2025-07-11 14:22:49,488 - INFO - [FETCH-20250711-142130-2D2725DF] Updated: Mito HollyHock vs Kataller Toyama
-2025-07-11 14:22:49,488 - INFO - [FETCH-20250711-142130-2D2725DF] Updated: Iwaki vs V-Varen Nagasaki
-2025-07-11 14:22:49,488 - INFO - [FETCH-20250711-142130-2D2725DF] Updated: Blaublitz Akita vs Roasso Kumamoto
-2025-07-11 14:22:49,488 - INFO - [FETCH-20250711-142130-2D2725DF] Updated: Imabari vs Ehime FC
-2025-07-11 14:22:49,488 - INFO - [FETCH-20250711-142130-2D2725DF] Merge complete: 0 new, 4 updated, 135 total
-2025-07-11 14:22:49,491 - INFO - [FETCH-20250711-142130-2D2725DF] Data saved to live_events.json
-2025-07-11 14:22:49,491 - INFO - [FETCH-20250711-142130-2D2725DF] Summary:
-2025-07-11 14:22:49,491 - INFO - [FETCH-20250711-142130-2D2725DF] - Streamed.su matches: 60
-2025-07-11 14:22:49,491 - INFO - [FETCH-20250711-142130-2D2725DF] - Sportsonline matches: 12
-2025-07-11 14:22:49,491 - INFO - [FETCH-20250711-142130-2D2725DF] - Final merged matches: 135
-2025-07-11 14:22:49,491 - INFO - [FETCH-20250711-142130-2D2725DF] Scraper run completed successfully
 2025-07-11 16:27:17,880 - INFO - [FETCH-20250711-162717-80FB1FAF] Starting combined football match scraper...
 2025-07-11 16:27:17,880 - INFO - ============================================================
 2025-07-11 16:27:17,880 - INFO - [FETCH-20250711-162717-80FB1FAF] Starting cleanup operations...
@@ -1797,3 +1747,167 @@
 2025-07-13 14:20:01,311 - INFO - [FETCH-20250713-141833-91EBE49A] - Sportsonline matches: 17
 2025-07-13 14:20:01,311 - INFO - [FETCH-20250713-141833-91EBE49A] - Final merged matches: 223
 2025-07-13 14:20:01,311 - INFO - [FETCH-20250713-141833-91EBE49A] Scraper run completed successfully
+2025-07-13 16:25:10,916 - INFO - [FETCH-20250713-162510-4B1FDB7E] Starting combined football match scraper...
+2025-07-13 16:25:10,916 - INFO - ============================================================
+2025-07-13 16:25:10,916 - INFO - [FETCH-20250713-162510-4B1FDB7E] Starting cleanup operations...
+2025-07-13 16:25:10,916 - INFO - [FETCH-20250713-162510-4B1FDB7E] Cleaning up old log entries...
+2025-07-13 16:25:10,946 - INFO - [FETCH-20250713-162510-4B1FDB7E] Log cleanup complete: Removed 50 old log entries
+2025-07-13 16:25:10,946 - INFO - [FETCH-20250713-162510-4B1FDB7E] No old log files to remove
+2025-07-13 16:25:10,946 - INFO - [FETCH-20250713-162510-4B1FDB7E] Fetching matches from streamed.su...
+2025-07-13 16:25:11,815 - INFO - [FETCH-20250713-162510-4B1FDB7E] Found 387 total matches. Filtering for football...
+2025-07-13 16:25:11,815 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Puskas Academy vs Crvena zvezda (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:11,815 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: POLAND Super Cup Final: Lech Poznan vs Legia (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:15,998 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Otelul vs Petrolul (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:15,998 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: JaPS vs PK-35 (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:19,882 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Dziugas Telsiai vs Banga (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:19,882 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Sparta Selemet vs Zimbru Chisinau (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:19,882 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Wolfsberger AC vs Karpaty Lviv (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:19,882 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Ujpest vs Kryvbas (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:19,882 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: HNK Rijeka vs Goztepe (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:19,882 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: FC Trenkwalder Admira vs Besiktas (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:19,882 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Stromsgodset vs Tromso (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:19,882 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Rosenborg vs HamKam (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:22,576 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Varnamo vs Djurgarden (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:23,336 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Spartak Moscow vs Spartak Subotica (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:23,336 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Preston North End vs Liverpool (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:24,663 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Portuguesa Santista vs Sao Jose EC (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:27,830 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Invalid or missing timestamp for match: Sky Sports News | SSN Breaking Sports News
+2025-07-13 16:25:27,830 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Sky Sports News | SSN Breaking Sports News (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:27,830 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Maccabi Tel Aviv vs Hapoel Beer Sheva (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:27,830 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Zenit vs Vojvodina (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:27,830 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Hertha Berlin vs Basaksehir (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:29,512 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Colon (Santa Fe) vs Almirante Brown (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:29,512 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Ceuta vs Leiria (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:29,512 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: FIFA Club World Cup Final: Chelsea vs Paris Saint-Germain (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:35,880 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Sao Caetano U20 vs Santos U20 (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:35,880 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Brown Adrogue vs Midland (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:35,881 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Arsenal Sarandi vs Racing (Cordoba) (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:59,604 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Chelsea vs PSG (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:59,604 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: SA Bulo Bulo vs Bolivar (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:59,604 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Tunisia W vs Botswana W (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:59,604 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Nigeria W vs Algeria W (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:25:59,604 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Criciuma vs Ferroviaria (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:12,600 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Atletico Tucuman vs San Martin (San Juan) (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:15,643 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Independiente Medellin vs Alianza (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:17,166 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Oriental vs Colon (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:20,216 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Cucuta vs Patriotas (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:28,831 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Trinidense vs Olimpia (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:34,241 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Barranquilla vs Atletico F.C. (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:34,241 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: SER Caxias vs Anapolis (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:34,241 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Figueirense vs Nautico (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:38,921 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Club America W vs Cruz Azul W (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:39,775 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with no valid stream links: Atlético de San Luis Femenil vs CD Guadalajara Femenil
+2025-07-13 16:26:48,211 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Oriente Petrolero vs Academia del Balompie (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:26:48,211 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Cruzeiro vs Gremio (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:27:00,090 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: La Equidad vs Aguilas Doradas (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:27:08,926 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Cook Islands W vs Tonga W (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:27:10,101 - WARNING - [FETCH-20250713-162510-4B1FDB7E] Skipping match with invalid team data: Tahiti W vs Vanuatu W (Team1: Not Found, Team2: Not Found)
+2025-07-13 16:27:41,292 - INFO - [FETCH-20250713-162510-4B1FDB7E] Fetched 108 valid football matches from streamed.su
+2025-07-13 16:27:41,293 - INFO - [FETCH-20250713-162510-4B1FDB7E] Fetching matches from sportsonline.gl...
+2025-07-13 16:27:42,504 - INFO - [FETCH-20250713-162510-4B1FDB7E] Fetched 17 valid matches from sportsonline.gl
+2025-07-13 16:27:42,504 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merging matches based on team similarity...
+2025-07-13 16:27:42,577 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merged: England Women vs Wales Women (similarity: 1.00)
+2025-07-13 16:27:42,579 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merged: Netherlands Women vs France Women (similarity: 1.00)
+2025-07-13 16:27:42,593 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merged: Bolivia W vs Paraguay W (similarity: 1.00)
+2025-07-13 16:27:42,602 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merged: Argentinos Juniors vs Boca Juniors (similarity: 1.00)
+2025-07-13 16:27:42,604 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merged: Corinthians vs Bragantino (similarity: 1.00)
+2025-07-13 16:27:42,609 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merged: Pachuca vs Monterrey (similarity: 1.00)
+2025-07-13 16:27:42,619 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merged: Fortaleza vs Ceará (similarity: 1.00)
+2025-07-13 16:27:42,621 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merged: Brazil W vs Venezuela W (similarity: 1.00)
+2025-07-13 16:27:42,625 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merged: River Plate vs Platense (similarity: 1.00)
+2025-07-13 16:27:42,628 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merged: León vs Atletico de San Luis (similarity: 0.93)
+2025-07-13 16:27:42,653 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merging with existing data...
+2025-07-13 16:27:42,653 - INFO - [FETCH-20250713-162510-4B1FDB7E] Cleaning up old matches...
+2025-07-13 16:27:42,654 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Peterhead vs Greenock Morton (12-07-2025 14:00)
+2025-07-13 16:27:42,654 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Clyde vs Motherwell (12-07-2025 14:00)
+2025-07-13 16:27:42,654 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Elgin City vs Raith Rovers (12-07-2025 14:00)
+2025-07-13 16:27:42,654 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Brechin City vs Falkirk (12-07-2025 14:00)
+2025-07-13 16:27:42,654 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: The Spartans vs Queen's Park (12-07-2025 14:00)
+2025-07-13 16:27:42,654 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Stranraer vs Ross County (12-07-2025 14:00)
+2025-07-13 16:27:42,654 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Bonnyrigg Rose vs Alloa Athletic (12-07-2025 14:00)
+2025-07-13 16:27:42,654 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Dundee vs Airdrieonians (12-07-2025 14:00)
+2025-07-13 16:27:42,654 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Annan Athletic vs Forfar Athletic (12-07-2025 14:00)
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Arbroath vs St Mirren (12-07-2025 14:00)
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Stirling Albion vs Hamilton Academical (12-07-2025 14:00)
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: East Kilbride vs St Johnstone (12-07-2025 14:00)
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: East Fife vs Livingston (12-07-2025 14:00)
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Brora Rangers vs Kilmarnock (12-07-2025 14:00)
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Bodø/Glimt vs Sandefjord (12-07-2025 14:00)
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Removed old match: Inter Turku vs Jaro (12-07-2025 14:00)
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Cleanup complete: Removed 16 old matches, 207 matches remaining
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Sporting Cristal vs Atlético Grau
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: FH Hafnarfjordur vs KA Akureyri
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: AC Oulu vs KTP
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Ekenäs IF vs SJK Akatemia
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: SalPa vs KäPa
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Kristiansund vs Sarpsborg 08
+2025-07-13 16:27:42,655 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Haugesund vs KFUM-Kameratene Oslo
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Hacken vs Halmstad
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Sheriff Tiraspol vs Bălți
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Deportivo Madryn vs Almagro
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Brann vs Viking
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Sarmiento vs Independiente
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Chicago Fire II vs New England Revolution II
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Pumas Femenil vs Monterrey Femenil
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Puebla Femenil vs Pachuca Femenil
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Vinotinto Ecuador vs Mushuc Runa
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Alvarado vs San Miguel
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Deportivo Maipú vs Ferro Carril Oeste
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Ayacucho vs Cienciano
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: CFR Cluj vs Unirea Slobozia
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Acassuso vs Excursionistas
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Argentino de Merlo vs Sportivo Italiano
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Liniers vs Sacachispas
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Argentino de Quilmes vs UAI Urquiza
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Flandria vs Villa San Carlos
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Villa Dálmine vs Real Pilar
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: CA Fénix vs Dock Sud
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Mitre vs Chaco For Ever
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Estudiantes de Río Cuarto vs Chacarita Juniors
+2025-07-13 16:27:42,656 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Philadelphia Union II vs Chattanooga FC
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Coquimbo Unido vs Deportes Limache
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: England Women vs Wales Women
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Netherlands Women vs France Women
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Independiente Rivadavia vs Newell's Old Boys
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Botafogo-PB vs Londrina
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Guarani vs Ituano
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Tigres FC vs Real Santander
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Minnesota United FC 2 vs Real Monarchs
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Juan Pablo II College vs Alianza Universidad
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Orense vs Libertad FC
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Bolivia W vs Paraguay W
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Metropolitanos vs Caracas
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Pittsburgh Riverhounds vs Loudoun United
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: GV San José vs Jorge Wilstermann
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Ñublense vs Huachipato
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Chapecoense vs Remo
+2025-07-13 16:27:42,657 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Argentinos Juniors vs Boca Juniors
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Corinthians vs Bragantino
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: York United vs Valour
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: FC Cincinnati 2 vs Huntsville City
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Deportivo Pereira vs Independiente Santa Fe
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Pachuca vs Monterrey
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Deportivo Cuenca vs Delfín
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: St. Louis City SC vs Portland Timbers
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Orlando City B vs Carolina Core
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Inter Miami II vs Crown Legacy
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Deportivo Táchira vs Monagas
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Cusco FC vs Sport Huancayo
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Fortaleza vs Ceará
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Atlanta United II vs Columbus Crew 2
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Brazil W vs Venezuela W
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: The Town FC vs Sporting Kansas City II
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Houston Dynamo 2 vs North Texas SC
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Colorado Rapids 2 vs Whitecaps FC 2
+2025-07-13 16:27:42,658 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: River Plate vs Platense
+2025-07-13 16:27:42,659 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Vancouver FC vs Cavalry
+2025-07-13 16:27:42,659 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: Tigres Femenil vs Toluca Femenil
+2025-07-13 16:27:42,659 - INFO - [FETCH-20250713-162510-4B1FDB7E] Updated: León vs Atletico de San Luis
+2025-07-13 16:27:42,659 - INFO - [FETCH-20250713-162510-4B1FDB7E] New match: Los Angeles FC II vs Portland Timbers II
+2025-07-13 16:27:42,659 - INFO - [FETCH-20250713-162510-4B1FDB7E] Merge complete: 31 new, 38 updated, 238 total
+2025-07-13 16:27:42,664 - INFO - [FETCH-20250713-162510-4B1FDB7E] Data saved to live_events.json
+2025-07-13 16:27:42,664 - INFO - [FETCH-20250713-162510-4B1FDB7E] Summary:
+2025-07-13 16:27:42,664 - INFO - [FETCH-20250713-162510-4B1FDB7E] - Streamed.su matches: 108
+2025-07-13 16:27:42,664 - INFO - [FETCH-20250713-162510-4B1FDB7E] - Sportsonline matches: 17
+2025-07-13 16:27:42,664 - INFO - [FETCH-20250713-162510-4B1FDB7E] - Final merged matches: 238
+2025-07-13 16:27:42,664 - INFO - [FETCH-20250713-162510-4B1FDB7E] Scraper run completed successfully
