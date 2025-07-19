@@ -257,7 +257,7 @@ def fetch_streamed_matches(fetch_code: str) -> List[dict]:
         # If we reach here, the match is valid, for today, and has links.
         formatted_match = {
             "source_name": "Schrödingers Roommate",
-            "source_icon_url": "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/main/logos/Melbourne%20Zoo.jpg",
+            "source_icon_url": "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/refs/heads/main/logos/Homer-Simpson.webp",
             "match_title_from_api": title,
             "team1": team1,
             "team2": team2,
@@ -370,7 +370,7 @@ def group_sportsonline_matches(parsed_matches: List[Tuple[str, str, str]], fetch
         
         match_entry = {
             "source_name": "Toes In The Blender",
-            "source_icon_url": "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/refs/heads/main/logos/Homer-Simpson.webp",
+            "source_icon_url": "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/main/logos/Melbourne%20Zoo.jpg",
             "match_title_from_api": title,
             "team1": {"name": team1_name, "logo_url": DEFAULT_LOGO_URL},
             "team2": {"name": team2_name, "logo_url": DEFAULT_LOGO_URL},
