@@ -256,8 +256,8 @@ def fetch_streamed_matches(fetch_code: str) -> List[dict]:
 
         # If we reach here, the match is valid, for today, and has links.
         formatted_match = {
-            "source_name": "Drogon",
-            "source_icon_url": "https://awoiaf.westeros.org/images/thumb/d/d4/Aegon_on_Balerion.jpg/450px-Aegon_on_Balerion.jpg",
+            "source_name": "Schrödingers Roommate",
+            "source_icon_url": "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/main/logos/Melbourne%20Zoo.jpg",
             "match_title_from_api": title,
             "team1": team1,
             "team2": team2,
@@ -369,8 +369,8 @@ def group_sportsonline_matches(parsed_matches: List[Tuple[str, str, str]], fetch
             continue
         
         match_entry = {
-            "source_name": "THE BETTER BASTARD",
-            "source_icon_url": "https://static01.nyt.com/images/2016/06/20/arts/ramsay/ramsay-jumbo.jpg?quality=75&auto=webp",
+            "source_name": "Toes In The Blender",
+            "source_icon_url": "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/refs/heads/main/logos/Homer-Simpson.webp",
             "match_title_from_api": title,
             "team1": {"name": team1_name, "logo_url": DEFAULT_LOGO_URL},
             "team2": {"name": team2_name, "logo_url": DEFAULT_LOGO_URL},
@@ -485,8 +485,8 @@ def main():
         save_data(final_matches, fetch_code)
         
         logger.info(f"[{fetch_code}] Summary:")
-        logger.info(f"[{fetch_code}] - Streamed.su ('Drogon') matches: {len(streamed_matches)}")
-        logger.info(f"[{fetch_code}] - Sportsonline ('THE BETTER BASTARD') matches: {len(sportsonline_matches)}")
+        logger.info(f"[{fetch_code}] - Streamed.su ('Schrödingers Roommate') matches: {len(streamed_matches)}")
+        logger.info(f"[{fetch_code}] - Sportsonline ('Toes In The Blender') matches: {len(sportsonline_matches)}")
         logger.info(f"[{fetch_code}] - Final total matches in file: {len(final_matches)}")
         
         logger.info(f"[{fetch_code}] Scraper run completed successfully")
