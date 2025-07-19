@@ -276,7 +276,7 @@ def fetch_streamed_matches(fetch_code: str) -> List[dict]:
             continue
 
         formatted_match = {
-            "source_name": "DROGON",
+            "source_name": "Drogon",
             "source_icon_url": "https://awoiaf.westeros.org/images/thumb/d/d4/Aegon_on_Balerion.jpg/450px-Aegon_on_Balerion.jpg",
             "match_title_from_api": title,
             "team1": team1,
@@ -461,7 +461,7 @@ def group_sportsonline_matches(parsed_matches: List[Tuple[str, str, str]], fetch
             formatted_date = current_date.strftime("%d-%m-%Y")
         
         match_entry = {
-            "source_name": "MERCIFUL SNOW",
+            "source_name": "THE BETTER BASTARD",
             "source_icon_url": "https://static01.nyt.com/images/2016/06/20/arts/ramsay/ramsay-jumbo.jpg?quality=75&auto=webp",
             "match_title_from_api": title,
             "team1": {"name": team1_name, "logo_url": DEFAULT_LOGO_URL},
@@ -503,13 +503,23 @@ def load_existing_data() -> List[dict]:
     return []
 
 def merge_with_existing_data(new_matches: List[dict], existing_matches: List[dict], fetch_code: str) -> List[dict]:
-    """Merge new matches with existing data, updating where necessary"""
+    """Merge new matches with existing data, updating where necessary (backwards-compatible)"""
     logger.info(f"[{fetch_code}] Merging with existing data...")
     
+    # First, run cleanup on the existing matches to remove very old ones
     existing_matches = cleanup_old_matches(existing_matches, fetch_code)
     
     existing_lookup = {}
     for match in existing_matches:
+        # **FIX**: Check if the match from the JSON file has the new source_name field.
+        # If not, it's from an old run, and we should log and skip it to prevent a crash.
+        if "source_name" not in match:
+            team1_name = match.get("team1", {}).get("name", "Unknown")
+            team2_name = match.get("team2", {}).get("name", "Unknown")
+            logger.warning(f"[{fetch_code}] Skipping existing match in old format (missing 'source_name'): {team1_name} vs {team2_name}")
+            continue
+
+        # If the key exists, the match is in the new format and can be processed.
         key = (match["source_name"], match["team1"]["name"], match["team2"]["name"], match["date"])
         existing_lookup[key] = match
     
@@ -525,6 +535,7 @@ def merge_with_existing_data(new_matches: List[dict], existing_matches: List[dic
             
             needs_update = False
             
+            # Update logos if they were default and now we have real ones
             if (existing_match["team1"]["logo_url"] == DEFAULT_LOGO_URL and 
                 new_match["team1"]["logo_url"] != DEFAULT_LOGO_URL):
                 existing_match["team1"]["logo_url"] = new_match["team1"]["logo_url"]
@@ -535,6 +546,7 @@ def merge_with_existing_data(new_matches: List[dict], existing_matches: List[dic
                 existing_match["team2"]["logo_url"] = new_match["team2"]["logo_url"]
                 needs_update = True
             
+            # Merge links
             existing_links = set(existing_match["links"])
             new_links = set(new_match["links"])
             combined_links = list(existing_links.union(new_links))
@@ -551,15 +563,18 @@ def merge_with_existing_data(new_matches: List[dict], existing_matches: List[dic
             merged_matches.append(existing_match)
             del existing_lookup[key]
         else:
+            # New match
             new_count += 1
             merged_matches.append(new_match)
             logger.info(f"[{fetch_code}] New match: {new_match['team1']['name']} vs {new_match['team2']['name']}")
     
+    # Add remaining existing matches that weren't updated
     for remaining_match in existing_lookup.values():
         merged_matches.append(remaining_match)
     
     logger.info(f"[{fetch_code}] Merge complete: {new_count} new, {updated_count} updated, {len(merged_matches)} total")
     return merged_matches
+
 
 def save_data(data: List[dict], fetch_code: str):
     """Save data to output file"""
@@ -585,7 +600,7 @@ def main():
         streamed_matches = fetch_streamed_matches(fetch_code)
         sportsonline_matches = fetch_sportsonline_matches(fetch_code)
         
-        # **MODIFICATION**: Simply combine the lists instead of merging by similarity
+        # Combine the lists from both sources into one
         all_new_matches = streamed_matches + sportsonline_matches
         
         # Load existing data and merge with new data
@@ -596,8 +611,8 @@ def main():
         save_data(final_matches, fetch_code)
         
         logger.info(f"[{fetch_code}] Summary:")
-        logger.info(f"[{fetch_code}] - Streamed.su ('DROGON') matches: {len(streamed_matches)}")
-        logger.info(f"[{fetch_code}] - Sportsonline ('MERCIFUL SNOW') matches: {len(sportsonline_matches)}")
+        logger.info(f"[{fetch_code}] - Streamed.su ('Drogon') matches: {len(streamed_matches)}")
+        logger.info(f"[{fetch_code}] - Sportsonline ('THE BETTER BASTARD') matches: {len(sportsonline_matches)}")
         logger.info(f"[{fetch_code}] - Final total matches in file: {len(final_matches)}")
         
         logger.info(f"[{fetch_code}] Scraper run completed successfully")
