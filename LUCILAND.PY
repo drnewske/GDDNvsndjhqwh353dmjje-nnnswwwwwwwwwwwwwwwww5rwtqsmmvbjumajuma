@@ -3,6 +3,12 @@ import json
 from datetime import datetime, timedelta
 import os
 import logging
+import urllib3
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+# Disable SSL warnings (for cases where we disable SSL verification)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- Configuration ---
 JSON_API_URL = "https://matchstream.do/api/v1/api.php"
@@ -10,7 +16,7 @@ OUTPUT_FILE = "live_events.json" # The file where all events (including potentia
 FOOTBALL_SCRAPER_LOG_FILE = "football_scraper.log" # Dedicated log file for this scraper
 
 # Hardcoded values for this specific scraper's output
-THIS_SCRAPER_SOURCE_NAME = "LUCIFER'S LANDLORD"
+THIS_SCRAPER_SOURCE_NAME = "LUCILAND"
 THIS_SCRAPER_SOURCE_ICON_URL = "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/866f438738537d321da57d21459654e68a1691fa/logos/TOOTHBRUSH.jpg"
 DEFAULT_TEAM_LOGO_URL = "https://cdn.jsdelivr.net/gh/drnewske/tyhdsjax-nfhbqsm/logos/default.png"
 
@@ -27,6 +33,27 @@ logging.basicConfig(level=logging.INFO,
 logger = logging.getLogger(__name__)
 
 # --- Helper Functions ---
+
+def create_session_with_retries():
+    """Creates a requests session with retry strategy and SSL handling."""
+    session = requests.Session()
+    
+    # Set up retry strategy
+    retry_strategy = Retry(
+        total=3,
+        status_forcelist=[429, 500, 502, 503, 504],
+        backoff_factor=1
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    
+    # Set headers to mimic a real browser
+    session.headers.update({
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    })
+    
+    return session
 
 def load_all_existing_data(file_path):
     """Loads ALL existing JSON data from a file, regardless of source."""
@@ -78,7 +105,7 @@ def run_football_scraper():
     Scrapes football data from the API, transforms it, and manages
     only the matches added by this specific scraper in the output file.
     """
-    logger.info("Starting dedicated football match scraper...")
+    logger.info("Starting LUCILAND football match scraper...")
     logger.info("============================================================")
 
     current_time = datetime.now()
@@ -100,25 +127,41 @@ def run_football_scraper():
     logger.info(f"Found {len(this_scrapers_matches_map)} matches managed by '{THIS_SCRAPER_SOURCE_NAME}'.")
     logger.info(f"Found {len(other_scrapers_matches)} matches from other sources.")
 
-
-    # 2. Fetch new data from the designated API
+    # 2. Fetch new data from the designated API with improved error handling
     raw_api_matches = []
+    session = create_session_with_retries()
+    
     try:
         logger.info(f"Fetching matches from {JSON_API_URL}...")
-        response = requests.get(JSON_API_URL)
-        response.raise_for_status() # Raises HTTPError for bad responses (4xx or 5xx)
+        
+        # Try with SSL verification first
+        try:
+            response = session.get(JSON_API_URL, timeout=30)
+            response.raise_for_status()
+        except requests.exceptions.SSLError:
+            logger.warning("SSL verification failed, retrying without SSL verification...")
+            response = session.get(JSON_API_URL, verify=False, timeout=30)
+            response.raise_for_status()
+        
         raw_data = response.json()
         raw_api_matches = raw_data.get('matches', [])
         if not isinstance(raw_api_matches, list):
             logger.warning("The 'matches' key in the API response is not a list. Attempting to process raw_data directly.")
-            raw_api_matches = raw_data # Fallback if the top level is directly a list
+            if isinstance(raw_data, list):
+                raw_api_matches = raw_data # Fallback if the top level is directly a list
+            else:
+                logger.error("API response is neither a list nor contains a 'matches' list. Cannot process.")
+                raw_api_matches = []
         logger.info(f"Found {len(raw_api_matches)} total matches from {JSON_API_URL}.")
+        
     except requests.exceptions.RequestException as e:
         logger.error(f"Error fetching data from {JSON_API_URL}: {e}. No new matches will be processed from this source.")
         raw_api_matches = [] # Ensure it's an empty list to proceed gracefully
     except json.JSONDecodeError as e:
         logger.error(f"Error decoding JSON from {JSON_API_URL}: {e}. No new matches will be processed from this source.")
         raw_api_matches = [] # Ensure it's an empty list to proceed gracefully
+    finally:
+        session.close()
 
     # 3. Process and transform newly fetched matches
     transformed_new_football_matches = []
@@ -253,7 +296,7 @@ def run_football_scraper():
     # 8. Save the final combined data to live_events.json
     save_data(OUTPUT_FILE, final_combined_matches)
 
-    logger.info("Scraper run completed successfully.")
+    logger.info("LUCILAND scraper run completed successfully.")
     logger.info(f"Summary for '{THIS_SCRAPER_SOURCE_NAME}':")
     logger.info(f"- Matches fetched from {JSON_API_URL}: {len(raw_api_matches)}")
     logger.info(f"- Valid Football matches processed from API: {len(transformed_new_football_matches)}")
@@ -275,6 +318,7 @@ if __name__ == "__main__":
             print(json.dumps(transformed_football_data[-5:], indent=4))
         else:
             print(json.dumps(transformed_football_data, indent=4))
-        logger.info(f"Total Football matches in final output managed by this scraper: {len([m for m in transformed_football_data if m.get('source_name') == THIS_SCRAPER_SOURCE_NAME])}")
+        luciland_matches = [m for m in transformed_football_data if m.get('source_name') == THIS_SCRAPER_SOURCE_NAME]
+        logger.info(f"Total Football matches in final output managed by LUCILAND: {len(luciland_matches)}")
     else:
-        logger.error("Scraper encountered an error and did not produce data.")
+        logger.error("LUCILAND scraper encountered an error and did not produce data.")
