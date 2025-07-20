@@ -7,7 +7,7 @@ import logging
 # --- Configuration ---
 JSON_URL = "https://matchstream.do/api/v1/api.php"
 OUTPUT_FILE = "live_events.json"
-LOG_FILE = "scraper.log"
+LOG_FILE = "scraper555.log"
 DEFAULT_SOURCE_NAME = "LUCIFER'S LANDLORD"
 DEFAULT_SOURCE_ICON_URL = "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/866f438738537d321da57d21459654e68a1691fa/logos/TOOTHBRUSH.jpg"
 DEFAULT_TEAM_LOGO_URL = "https://cdn.jsdelivr.net/gh/drnewske/tyhdsjax-nfhbqsm/logos/default.png"
