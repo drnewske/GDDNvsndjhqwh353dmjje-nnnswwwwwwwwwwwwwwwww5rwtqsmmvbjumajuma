@@ -1,0 +1,42 @@
+# .github/workflows/football_scraper_workflow.yml
+name: Daily Football Scraper ⚽
+
+on:
+  schedule:
+    # Runs every 3 hours
+    # The timezone is UTC by default for cron expressions in GitHub Actions.
+    # Adjust '0 */3 * * *' if you need a specific starting time.
+    # For example, '0 0,3,6,9,12,15,18,21 * * *' for every 3 hours starting at midnight UTC.
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # Allows manual triggering from GitHub UI
+
+jobs:
+  scrape-football-data:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x' # Use the latest stable Python 3.x
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests # Ensure requests library is installed
+
+    - name: Run Football Scraper
+      run: |
+        python football_scraper_updated.py # Make sure to name your script file correctly
+
+    - name: Commit changes (if any)
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add live_events.json scraper.log # Add your output files
+        git commit -m "chore: Auto-update: $(date -u +'%Y-%m-%d %H:%M:%S') UTC" || echo "No changes to commit"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
