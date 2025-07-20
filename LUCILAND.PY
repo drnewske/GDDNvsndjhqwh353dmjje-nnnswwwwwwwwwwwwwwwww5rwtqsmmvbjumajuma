@@ -16,7 +16,7 @@ OUTPUT_FILE = "live_events.json" # The file where all events (including potentia
 FOOTBALL_SCRAPER_LOG_FILE = "football_scraper.log" # Dedicated log file for this scraper
 
 # Hardcoded values for this specific scraper's output
-THIS_SCRAPER_SOURCE_NAME = "LUCILAND"
+THIS_SCRAPER_SOURCE_NAME = "I DON'T TRUST GRANDMA"
 THIS_SCRAPER_SOURCE_ICON_URL = "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/866f438738537d321da57d21459654e68a1691fa/logos/TOOTHBRUSH.jpg"
 DEFAULT_TEAM_LOGO_URL = "https://cdn.jsdelivr.net/gh/drnewske/tyhdsjax-nfhbqsm/logos/default.png"
 
