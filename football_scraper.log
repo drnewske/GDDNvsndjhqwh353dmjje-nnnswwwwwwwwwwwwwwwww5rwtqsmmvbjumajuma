@@ -1,0 +1,22 @@
+2025-07-20 01:21:25,745 - INFO - Starting dedicated football match scraper...
+2025-07-20 01:21:25,745 - INFO - ============================================================
+2025-07-20 01:21:25,745 - INFO - Current timestamp for this run: 2025-07-20 01:21:25
+2025-07-20 01:21:25,745 - INFO - Loaded 22 total existing matches from live_events.json.
+2025-07-20 01:21:25,746 - INFO - Found 0 matches managed by 'LUCIFER'S LANDLORD'.
+2025-07-20 01:21:25,746 - INFO - Found 22 matches from other sources.
+2025-07-20 01:21:25,746 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-07-20 01:21:25,919 - ERROR - Error fetching data from https://matchstream.do/api/v1/api.php: HTTPSConnectionPool(host='matchstream.do', port=443): Max retries exceeded with url: /api/v1/api.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)'))). No new matches will be processed from this source.
+2025-07-20 01:21:25,919 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-07-20 01:21:25,919 - INFO - Transformed 0 valid football matches from API response.
+2025-07-20 01:21:25,919 - INFO - Merge for 'LUCIFER'S LANDLORD' data: 0 new, 0 updated.
+2025-07-20 01:21:25,920 - INFO - Cleanup for 'LUCIFER'S LANDLORD' data: Removed 0 old matches, 0 matches remaining.
+2025-07-20 01:21:25,962 - INFO - Successfully saved 22 matches to live_events.json.
+2025-07-20 01:21:25,962 - INFO - Scraper run completed successfully.
+2025-07-20 01:21:25,962 - INFO - Summary for 'LUCIFER'S LANDLORD':
+2025-07-20 01:21:25,962 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 0
+2025-07-20 01:21:25,962 - INFO - - Valid Football matches processed from API: 0
+2025-07-20 01:21:25,962 - INFO - - Final matches added/updated by this scraper: 0
+2025-07-20 01:21:25,962 - INFO - - Total matches in live_events.json after this run: 22
+2025-07-20 01:21:25,962 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-07-20 01:21:25,963 - INFO - Total Football matches in final output managed by this scraper: 0
