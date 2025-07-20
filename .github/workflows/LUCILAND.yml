@@ -35,7 +35,7 @@ jobs:
         
     - name: Run LUCILAND Football Scraper
       run: |
-        python LUCILAND.py
+        python LUCILAND.PY
       env:
         PYTHONHTTPSVERIFY: 0  # Disable SSL verification as fallback
         
