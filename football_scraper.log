@@ -878,3 +878,36 @@
 2025-07-23 18:12:12,530 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-07-23 18:12:12,530 - INFO - Total Football matches in final output managed by LUCILAND: 94
+2025-07-23 21:08:55,132 - INFO - Starting LUCILAND football match scraper...
+2025-07-23 21:08:55,133 - INFO - ============================================================
+2025-07-23 21:08:55,133 - INFO - Current timestamp for this run: 2025-07-23 21:08:55
+2025-07-23 21:08:55,134 - INFO - Loaded 163 total existing matches from live_events.json.
+2025-07-23 21:08:55,134 - INFO - Found 89 matches managed by 'I DON'T TRUST GRANDMA'.
+2025-07-23 21:08:55,135 - INFO - Found 74 matches from other sources.
+2025-07-23 21:08:55,135 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-07-23 21:08:55,238 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-07-23 21:08:57,254 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-07-23 21:09:01,272 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-07-23 21:09:01,298 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-07-23 21:09:01,909 - ERROR - Error fetching data from https://matchstream.do/api/v1/api.php: Expecting value: line 1 column 1 (char 0). No new matches will be processed from this source.
+2025-07-23 21:09:01,909 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-07-23 21:09:01,909 - INFO - Transformed 0 valid football matches from API response.
+2025-07-23 21:09:01,909 - INFO - Merge for 'I DON'T TRUST GRANDMA' data: 0 new, 0 updated.
+2025-07-23 21:09:01,939 - INFO - Removed old match (managed by this scraper): 20:00 [Europe UEFA Champions League] Paphos vs Maccabi Tel Aviv [Cablenet Sports 1 CY] (22-07-2025 20:00)
+2025-07-23 21:09:01,939 - INFO - Removed old match (managed by this scraper): 20:00 [Friendly Club Match] St. Gallen vs Villarreal [SportKlub 3 Slovenija SI] (22-07-2025 20:00)
+2025-07-23 21:09:01,939 - INFO - Removed old match (managed by this scraper): 20:00 [Europe UEFA Champions League] Rīgas FS vs Malmö FF [TV4 Latvia LT] (22-07-2025 20:00)
+2025-07-23 21:09:01,939 - INFO - Removed old match (managed by this scraper): 20:00 [Europe UEFA Champions League] København vs Drita [Arena Sport 1 SK] (22-07-2025 20:00)
+2025-07-23 21:09:01,939 - INFO - Removed old match (managed by this scraper): 20:00 [Europe UEFA Champions League] Hamrun Spartans vs Dynamo Kyiv [2+2 Ukraine UA] (22-07-2025 20:00)
+2025-07-23 21:09:01,939 - INFO - Removed old match (managed by this scraper): 20:00 [Europe UEFA Champions League] Viktoria Plzeň vs Servette [Nova Sport 3 CZ] (22-07-2025 20:00)
+2025-07-23 21:09:01,939 - INFO - Removed old match (managed by this scraper): 21:00 [Europe UEFA Champions League] Shkëndija vs FCSB [MRT 3 MK] (22-07-2025 21:00)
+2025-07-23 21:09:01,941 - INFO - Cleanup for 'I DON'T TRUST GRANDMA' data: Removed 7 old matches, 82 matches remaining.
+2025-07-23 21:09:01,945 - INFO - Successfully saved 156 matches to live_events.json.
+2025-07-23 21:09:01,945 - INFO - LUCILAND scraper run completed successfully.
+2025-07-23 21:09:01,946 - INFO - Summary for 'I DON'T TRUST GRANDMA':
+2025-07-23 21:09:01,946 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 0
+2025-07-23 21:09:01,946 - INFO - - Valid Football matches processed from API: 0
+2025-07-23 21:09:01,946 - INFO - - Final matches added/updated by this scraper: 82
+2025-07-23 21:09:01,946 - INFO - - Total matches in live_events.json after this run: 156
+2025-07-23 21:09:01,946 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-07-23 21:09:01,946 - INFO - Total Football matches in final output managed by LUCILAND: 82
