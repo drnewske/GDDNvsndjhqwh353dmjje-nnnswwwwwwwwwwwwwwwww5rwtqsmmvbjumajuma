@@ -2,14 +2,9 @@
 name: Encrypt and Deploy Live Data
 
 # --- TRIGGERS ---
+# This workflow will only run manually from the Actions tab in GitHub.
 on:
-  # Allows you to run this workflow manually from the Actions tab in GitHub.
   workflow_dispatch:
-
-  # Runs the workflow on a schedule.
-  schedule:
-    # This is a CRON string that means "at minute 0 of every hour".
-    - cron: '0 * * * *'
 
 # --- JOBS ---
 jobs:
@@ -17,7 +12,6 @@ jobs:
     # The type of machine to run the job on.
     runs-on: ubuntu-latest
 
-    # --- THIS IS THE FIX ---
     # Grant the workflow's token write permission to the repository's contents.
     permissions:
       contents: write
