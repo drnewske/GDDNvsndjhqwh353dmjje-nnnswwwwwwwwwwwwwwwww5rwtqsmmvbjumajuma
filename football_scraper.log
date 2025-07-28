@@ -1973,3 +1973,42 @@
 2025-07-28 15:10:44,364 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-07-28 15:10:44,364 - INFO - Total Football matches in final output managed by LUCILAND: 74
+2025-07-28 18:12:54,350 - INFO - Starting LUCILAND football match scraper...
+2025-07-28 18:12:54,351 - INFO - ============================================================
+2025-07-28 18:12:54,351 - INFO - Current timestamp for this run: 2025-07-28 18:12:54
+2025-07-28 18:12:54,352 - INFO - Loaded 168 total existing matches from live_events.json.
+2025-07-28 18:12:54,353 - INFO - Found 72 matches managed by 'I DON'T TRUST GRANDMA'.
+2025-07-28 18:12:54,353 - INFO - Found 96 matches from other sources.
+2025-07-28 18:12:54,353 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-07-28 18:12:54,463 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-07-28 18:12:56,472 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-07-28 18:13:00,484 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-07-28 18:13:00,496 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-07-28 18:13:01,096 - ERROR - Error fetching data from https://matchstream.do/api/v1/api.php: 404 Client Error: Not Found for url: https://matchstream.do/api/v1/api. No new matches will be processed from this source.
+2025-07-28 18:13:01,096 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-07-28 18:13:01,096 - INFO - Transformed 0 valid football matches from API response.
+2025-07-28 18:13:01,096 - INFO - Merge for 'I DON'T TRUST GRANDMA' data: 0 new, 0 updated.
+2025-07-28 18:13:01,146 - INFO - Removed old match (managed by this scraper): 15:45 [Poland Ekstraklasa] Raków Częstochowa vs Wisła Płock [Canal+ Sport 3 PL] (27-07-2025 15:45)
+2025-07-28 18:13:01,146 - INFO - Removed old match (managed by this scraper): 16:00 [Czech Republic 1. liga] Slovan Liberec vs FK Pardubice [Oneplay Sport 3 CZ] (27-07-2025 16:00)
+2025-07-28 18:13:01,146 - INFO - Removed old match (managed by this scraper): 17:00 [Switzerland Super League] Lugano vs Thun [Blue Sport D 1 CH] (27-07-2025 17:00)
+2025-07-28 18:13:01,146 - INFO - Removed old match (managed by this scraper): 17:00 [Switzerland Super League] Lausanne Sport vs Winterthur [Blue Sport 2 Live CH] (27-07-2025 17:00)
+2025-07-28 18:13:01,146 - INFO - Removed old match (managed by this scraper): 17:00 [Scotland Scottish League Cup] St. Mirren vs Ayr United [Sportdigital FUSSBALL DE] (27-07-2025 17:00)
+2025-07-28 18:13:01,146 - INFO - Removed old match (managed by this scraper): 17:00 [International Club Friendly] Mallorca vs Al Ahli [Premier Sports 2 GB] (27-07-2025 17:00)
+2025-07-28 18:13:01,146 - INFO - Removed old match (managed by this scraper): 17:00 [Belgium Pro League] OH Leuven vs Sporting Charleroi [DAZN Pro League 1 BE] (27-07-2025 17:00)
+2025-07-28 18:13:01,146 - INFO - Removed old match (managed by this scraper): 17:00 [Latvia Virsliga] Liepāja vs Auda [TV4 Latvia LT] (27-07-2025 17:00)
+2025-07-28 18:13:01,146 - INFO - Removed old match (managed by this scraper): 17:00 [Denmark Super Liga] Silkeborg vs Fredericia [TV2 Sport DK] (27-07-2025 17:00)
+2025-07-28 18:13:01,147 - INFO - Removed old match (managed by this scraper): 17:00 [Hungary NB1] Nyireghaza vs Kisvarda [M4 Sport] (27-07-2025 17:00)
+2025-07-28 18:13:01,147 - INFO - Removed old match (managed by this scraper): 17:00 [Iceland Besta deild karla] Vestri vs ÍBV [SÝN Sport IS] (27-07-2025 17:00)
+2025-07-28 18:13:01,147 - INFO - Removed old match (managed by this scraper): 18:00 [Austria ÖFB Cup] Wacker Innsbruck vs Rapid Vienna [ORF Sport+ AT] (27-07-2025 18:00)
+2025-07-28 18:13:01,147 - INFO - Removed old match (managed by this scraper): 18:00 [Czech Republic 1. liga] Baník Ostrava vs Teplice [Polsat Sport Premium 2 PL] (27-07-2025 18:00)
+2025-07-28 18:13:01,148 - INFO - Cleanup for 'I DON'T TRUST GRANDMA' data: Removed 13 old matches, 59 matches remaining.
+2025-07-28 18:13:01,153 - INFO - Successfully saved 155 matches to live_events.json.
+2025-07-28 18:13:01,153 - INFO - LUCILAND scraper run completed successfully.
+2025-07-28 18:13:01,153 - INFO - Summary for 'I DON'T TRUST GRANDMA':
+2025-07-28 18:13:01,153 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 0
+2025-07-28 18:13:01,153 - INFO - - Valid Football matches processed from API: 0
+2025-07-28 18:13:01,153 - INFO - - Final matches added/updated by this scraper: 59
+2025-07-28 18:13:01,153 - INFO - - Total matches in live_events.json after this run: 155
+2025-07-28 18:13:01,153 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-07-28 18:13:01,154 - INFO - Total Football matches in final output managed by LUCILAND: 59
