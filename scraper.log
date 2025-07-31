@@ -1,97 +1,3 @@
-2025-07-29 04:49:33,483 - INFO - [FETCH-20250729-044933-AD7B8BFB] Starting combined football match scraper...
-2025-07-29 04:49:33,483 - INFO - ============================================================
-2025-07-29 04:49:33,483 - INFO - [FETCH-20250729-044933-AD7B8BFB] Starting cleanup operations...
-2025-07-29 04:49:33,483 - INFO - [FETCH-20250729-044933-AD7B8BFB] Cleaning up old log entries...
-2025-07-29 04:49:33,523 - INFO - [FETCH-20250729-044933-AD7B8BFB] Log cleanup complete: Removed 134 old log entries
-2025-07-29 04:49:33,524 - INFO - [FETCH-20250729-044933-AD7B8BFB] Fetching matches from streamed.su...
-2025-07-29 04:49:34,362 - INFO - [FETCH-20250729-044933-AD7B8BFB] Filtering for today's date: 29-07-2025
-2025-07-29 04:49:39,175 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Jong Sparta Rotterdam vs Telstar
-2025-07-29 04:49:39,977 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Mainz vs Crystal Palace
-2025-07-29 04:49:44,099 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Akron Togliatti vs Baltika
-2025-07-29 04:49:50,595 - WARNING - [FETCH-20250729-044933-AD7B8BFB] No valid stream links found after checking all sources for: Iberia 1999 vs Levadia Tallinn
-2025-07-29 04:49:50,595 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Sion vs Paris FC
-2025-07-29 04:49:52,847 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Krasnodar vs Krylya Sovetov
-2025-07-29 04:49:52,847 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Drita vs FC København
-2025-07-29 04:49:52,847 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Drita Gjilan vs F.C. Kobenhavn
-2025-07-29 04:50:01,171 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Ipswich vs Charlton
-2025-07-29 04:50:07,519 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Marseille vs Valencia
-2025-07-29 04:50:07,520 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Cleethorpes vs Boston Utd
-2025-07-29 04:50:07,520 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Red Star Belgrade vs Lincoln Red Imps
-2025-07-29 04:50:07,520 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: General Caballero JLM vs Trinidense
-2025-07-29 04:50:13,030 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Academia del Balompie vs Independiente
-2025-07-29 04:50:13,030 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Sportivo Luqueno vs Nacional
-2025-07-29 04:50:17,272 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Atletico Nacional vs Cucuta Deportivo
-2025-07-29 04:50:23,283 - WARNING - [FETCH-20250729-044933-AD7B8BFB] No valid stream links found after checking all sources for: CF Montréal vs León
-2025-07-29 04:50:23,283 - WARNING - [FETCH-20250729-044933-AD7B8BFB] Skipping match with invalid team data: Gremio vs Fortaleza
-2025-07-29 04:50:28,347 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): New York City FC vs Puebla
-2025-07-29 04:50:28,347 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Valour vs Cavalry
-2025-07-29 04:50:28,347 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Serie B: Goias vs remo
-2025-07-29 04:50:28,347 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Tigres vs Houston Dynamo
-2025-07-29 04:50:28,347 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Mazatlán FC vs. LAFC
-2025-07-29 04:50:28,347 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Pachuca vs San Diego FC
-2025-07-29 04:50:28,347 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): APIA Leichhardt vs Melbourne City
-2025-07-29 04:50:28,347 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: Kashiwa Reysol vs Stade de Reims
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: Yokohama F. Marinos vs Liverpool
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: K-League All Stars vs Newcastle United
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: Mallorca vs Olympique Lyon
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: Al Nassr vs Toulouse
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Qarabağ vs Shelbourne
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Borussia Dortmund vs Sportfreunde Siegen
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: Strasbourg vs Udinese
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): UEFA Champions League: Malmo FF vs Rigas FS
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: VfL Wolfsburg vs Espanyol
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: Fenerbahce vs Lazio
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): UEFA Champions League: FCSB vs Shkendija
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Ludogorets Razgrad vs Rijeka
-2025-07-29 04:50:28,348 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): UEFA Champions League: Ferencvarosi TC vs FC Noah
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: Coventry City vs Real Betis
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: Nottingham Forest vs Estoril
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Panathinaikos vs Rangers
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Maccabi Tel Aviv vs Pafos
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: Wolverhampton Wanderers vs Lens
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): UEFA Champions League: Breidablik vs Lech Poznan
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Red Bull Salzburg vs Brann
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): UEFA Champions League: Servette FC vs Plzen
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Club Friendly: West Ham United vs Everton
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): One Knoxville SC vs Charlotte Independence
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Necaxa vs Atlanta United
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (30-07-2025): Inter Miami vs Atlas
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (31-07-2025): Leagues Cup: Pumas UNAM vs Orlando City
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (31-07-2025): USL Championship: Hartford Athletic vs New Mexico United
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Skipping match not for today (31-07-2025): Leagues Cup: Minnesota vs Queretaro
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Found 25 valid matches for today from streamed.su
-2025-07-29 04:50:28,349 - INFO - [FETCH-20250729-044933-AD7B8BFB] Fetching matches from sportsonline.gl...
-2025-07-29 04:50:29,230 - INFO - [FETCH-20250729-044933-AD7B8BFB] Fetched 25 valid matches from sportsonline.gl
-2025-07-29 04:50:29,230 - INFO - [FETCH-20250729-044933-AD7B8BFB] Merging with existing data...
-2025-07-29 04:50:29,230 - INFO - [FETCH-20250729-044933-AD7B8BFB] Cleaning up old matches...
-2025-07-29 04:50:29,231 - INFO - [FETCH-20250729-044933-AD7B8BFB] Removed old match: Fortaleza CEIF vs Alianza de Valledupar (28-07-2025 01:20)
-2025-07-29 04:50:29,231 - INFO - [FETCH-20250729-044933-AD7B8BFB] Removed old match: Fortaleza FC vs Alianza Petrolera (28-07-2025 01:20)
-2025-07-29 04:50:29,231 - INFO - [FETCH-20250729-044933-AD7B8BFB] Removed old match: Tacoma Defiance vs Portland Timbers II (28-07-2025 02:00)
-2025-07-29 04:50:29,231 - INFO - [FETCH-20250729-044933-AD7B8BFB] Removed old match: Los Angeles FC II vs Sporting Kansas City II (28-07-2025 02:00)
-2025-07-29 04:50:29,231 - INFO - [FETCH-20250729-044933-AD7B8BFB] Cleanup complete: Removed 4 old matches, 104 matches remaining
-2025-07-29 04:50:29,231 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Kairat Almaty vs KuPS
-2025-07-29 04:50:29,231 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Dynamo Moscow vs Sochi
-2025-07-29 04:50:29,231 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Saburtalo vs FC Levadia Tallinn
-2025-07-29 04:50:29,231 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Hvidovre vs HB Koge
-2025-07-29 04:50:29,231 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Differdange 03 vs The New Saints
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Dynamo Kyiv vs Ħamrun Spartans
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Barnet vs Newport County
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Zrinjski Mostar vs Slovan Bratislava
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Club Brugge vs NAC Breda
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] New match: Botafogo vs Bragantino
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Montreal vs Leon
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] New match: Independiente Santa Fe vs Internacional de Palmira
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Pittsburgh Riverhounds vs Miami FC
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Toluca vs Columbus Crew
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Criciuma vs Cuiaba
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] Updated: Louisville City vs Eintracht Frankfurt
-2025-07-29 04:50:29,232 - INFO - [FETCH-20250729-044933-AD7B8BFB] Merge complete: 2 new, 14 updated, 106 total
-2025-07-29 04:50:29,235 - INFO - [FETCH-20250729-044933-AD7B8BFB] Data saved to live_events.json
-2025-07-29 04:50:29,235 - INFO - [FETCH-20250729-044933-AD7B8BFB] Summary:
-2025-07-29 04:50:29,235 - INFO - [FETCH-20250729-044933-AD7B8BFB] - Streamed.su ('Schrödingers Roommate') matches: 25
-2025-07-29 04:50:29,235 - INFO - [FETCH-20250729-044933-AD7B8BFB] - Sportsonline ('Toes In The Blender') matches: 25
-2025-07-29 04:50:29,235 - INFO - [FETCH-20250729-044933-AD7B8BFB] - Final total matches in file: 106
-2025-07-29 04:50:29,235 - INFO - [FETCH-20250729-044933-AD7B8BFB] Scraper run completed successfully
 2025-07-29 06:35:05,388 - INFO - [FETCH-20250729-063505-8CAB4FE6] Starting combined football match scraper...
 2025-07-29 06:35:05,388 - INFO - ============================================================
 2025-07-29 06:35:05,388 - INFO - [FETCH-20250729-063505-8CAB4FE6] Starting cleanup operations...
@@ -2575,3 +2481,124 @@
 2025-07-31 04:46:25,708 - INFO - [FETCH-20250731-044341-F37CBC27] - Sportsonline ('Toes In The Blender') matches: 25
 2025-07-31 04:46:25,708 - INFO - [FETCH-20250731-044341-F37CBC27] - Final total matches in file: 163
 2025-07-31 04:46:25,708 - INFO - [FETCH-20250731-044341-F37CBC27] Scraper run completed successfully
+2025-07-31 06:34:48,957 - INFO - [FETCH-20250731-063448-AC14177A] Starting combined football match scraper...
+2025-07-31 06:34:48,957 - INFO - ============================================================
+2025-07-31 06:34:48,957 - INFO - [FETCH-20250731-063448-AC14177A] Starting cleanup operations...
+2025-07-31 06:34:48,957 - INFO - [FETCH-20250731-063448-AC14177A] Cleaning up old log entries...
+2025-07-31 06:34:49,019 - INFO - [FETCH-20250731-063448-AC14177A] Log cleanup complete: Removed 94 old log entries
+2025-07-31 06:34:49,020 - INFO - [FETCH-20250731-063448-AC14177A] Fetching matches from streamed.su...
+2025-07-31 06:34:52,468 - INFO - [FETCH-20250731-063448-AC14177A] Filtering for today's date: 31-07-2025
+2025-07-31 06:34:53,951 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Portland Timbers vs Atletico de San Luis
+2025-07-31 06:34:55,433 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: CF America vs Real Salt Lake
+2025-07-31 06:34:56,735 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Minnesota United vs Queretaro FC
+2025-07-31 06:34:58,212 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Pumas vs Orlando City
+2025-07-31 06:34:58,212 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (30-07-2025): Necaxa vs Atlanta United FC
+2025-07-31 06:34:58,213 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Monaco vs Torino
+2025-07-31 06:35:19,775 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Kayserispor vs Alanyaspor
+2025-07-31 06:35:25,895 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: FC Santa Coloma vs Polessya
+2025-07-31 06:35:25,895 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: AS Roma vs AS Cannes
+2025-07-31 06:36:03,520 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Kalju Nomme vs St Patrick's Athl.
+2025-07-31 06:36:03,520 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Nomme Kalju vs St Patricks Athletic
+2025-07-31 06:36:08,252 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Nõmme Kalju vs St Patricks
+2025-07-31 06:36:08,252 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Häcken vs Anderlecht
+2025-07-31 06:36:08,252 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Villarreal vs Genoa
+2025-07-31 06:36:08,253 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: FC Milsami vs Buducnost Podgorica
+2025-07-31 06:36:15,732 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Milsami Orhei vs Budućnost Podgorica
+2025-07-31 06:36:24,412 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Brondby IF vs HB Torshavn
+2025-07-31 06:36:30,531 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Brøndby vs HB Tórshavn
+2025-07-31 06:36:32,823 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Istanbul Basaksehir vs Cherno More
+2025-07-31 06:36:34,117 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: İstanbul Başakşehir vs Cherno More
+2025-07-31 06:36:35,932 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Sevilla FC B vs Tomares UD
+2025-07-31 06:36:35,933 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Santa Clara vs Varteks
+2025-07-31 06:36:35,933 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Puskas Akademia vs Aris Limassol
+2025-07-31 06:36:35,933 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Neman Grodno vs MFK Kosice
+2025-07-31 06:36:35,933 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: ADT vs Alianza Universidad
+2025-07-31 06:36:59,601 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Neman Grodno vs Košice
+2025-07-31 06:37:00,749 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Puskás Akadémia FC vs Aris Limassol
+2025-07-31 06:37:04,175 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Santa Clara vs NK Varaždin
+2025-07-31 06:37:04,175 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Aris vs Araz Naxcivan
+2025-07-31 06:37:07,789 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Aris vs Araz-Naxçıvan
+2025-07-31 06:37:10,424 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Valur Reykjavik vs Kauno Zalgiris
+2025-07-31 06:37:10,424 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: MSK Zilina vs Rakow Czestochowa
+2025-07-31 06:37:14,574 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Valur vs Kauno Žalgiris
+2025-07-31 06:37:16,443 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: MSK Zilina vs Raków Częstochowa
+2025-07-31 06:37:16,444 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Vikingur Reykjavik vs Vllaznia Shkoder
+2025-07-31 06:37:16,444 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: KI Klaksvik vs Radnicki 1923
+2025-07-31 06:37:16,444 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Dinamo Tirana vs Escaldes
+2025-07-31 06:37:18,253 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Dinamo City vs Atlètic d'Escaldes
+2025-07-31 06:37:20,090 - WARNING - [FETCH-20250731-063448-AC14177A] No valid stream links found after checking all sources for: Víkingur Reykjavík vs Vllaznia Shkodër
+2025-07-31 06:37:27,415 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Partizan vs Oleksandria
+2025-07-31 06:37:29,057 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Guarani vs Sportivo Ameliano
+2025-07-31 06:37:56,236 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Libertad vs Club Atletico Tembetary
+2025-07-31 06:37:58,396 - WARNING - [FETCH-20250731-063448-AC14177A] Skipping match with invalid team data: Independiente Medellin vs Jaguares de Cordoba
+2025-07-31 06:38:08,955 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Juan Pablo II College vs Alianza Lima
+2025-07-31 06:38:08,955 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Aldosivi vs Argentinos Juniors
+2025-07-31 06:38:08,955 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Vila Nova vs Coritiba
+2025-07-31 06:38:08,955 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Guadalajara Chivas W vs Juarez W
+2025-07-31 06:38:08,955 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Millonarios vs Real Cartagena
+2025-07-31 06:38:08,955 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Colorado Rapids vs Santos Laguna
+2025-07-31 06:38:08,955 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Cruz Azul vs Seattle Sounders FC
+2025-07-31 06:38:08,955 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): LA Galaxy vs Tijuana
+2025-07-31 06:38:08,955 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Club Friendly: Crystal Palace vs Augsburg
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Club Friendly: Fortuna Sittard vs Bayer Leverkusen
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Schalke 04 vs Hertha
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Championship: Arbroath vs Ayr Utd
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Mechelen vs Club Brugge
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Luton Town vs AFC Wimbledon
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): New York City FC vs León
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Columbus Crew vs Puebla
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Westchester SC vs Chattanooga Red Wolves
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (01-08-2025): Copa America Femenina: Argentina W vs Uruguay W
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): USL Championship: FC Tulsa vs Loudoun United
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): Serie B: Operario-PR vs Criciuma
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): Leagues Cup: Houston Dynamo vs Mazatlan
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): USL Championship: Colorado Springs vs Lexington
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): Leagues Cup: Toluca vs Montreal
+2025-07-31 06:38:08,956 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): Liga MX Femenil: Tigres UANL W vs Mazatlan W
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): NWSL Women: Seattle Reign FC vs Angel City W
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): Leagues Cup: LAFC vs Pachuca
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): Leagues Cup: Tigres UANL vs San Diego FC
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): J2 League: Consadole Sapporo vs Sagan Tosu
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): J2 League: Kataller Toyama vs Omiya Ardija
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): J2 League: V-varen Nagasaki vs Vegalta Sendai
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): Club Friendly: Juventus vs Reggiana
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): J2 League: Ventforet Kofu vs Montedio Yamagata
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): K League 2: Jeonnam Dragons vs Asan Mugunghwa
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (02-08-2025): K League 2: Ansan Greeners vs Cheongju
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (03-08-2025): Bournemouth vs West Ham United
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Skipping match not for today (03-08-2025): Manchester United vs Everton
+2025-07-31 06:38:08,957 - INFO - [FETCH-20250731-063448-AC14177A] Found 56 valid matches for today from streamed.su
+2025-07-31 06:38:08,958 - INFO - [FETCH-20250731-063448-AC14177A] Fetching matches from sportsonline.gl...
+2025-07-31 06:38:10,330 - INFO - [FETCH-20250731-063448-AC14177A] Fetched 25 valid matches from sportsonline.gl
+2025-07-31 06:38:10,332 - INFO - [FETCH-20250731-063448-AC14177A] Merging with existing data...
+2025-07-31 06:38:10,332 - INFO - [FETCH-20250731-063448-AC14177A] Cleaning up old matches...
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] No old matches to remove
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Mallorca vs Parma
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] New match: Perth Glory vs AC Milan
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Arsenal vs Tottenham
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Spartak Trnava vs Hibernians
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Dila vs Riga
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Banga Gargždai vs Rosenborg
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: FC Santa Coloma vs Polissya Zhytomyr
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Sabah FC vs Petrocub Hîncești
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: HJK Helsinki vs Arda Kardzhali
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Spaeri vs Austria Vienna
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: AEK Larnaca vs Celje
+2025-07-31 06:38:10,333 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Rubin Kazan vs Orenburg
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Hacken vs Anderlecht
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Updated: CFR Cluj vs Lugano
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Shakhtar Donetsk vs Beşiktaş
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Maccabi Haifa vs Torpedo-BelAZ Zhodino
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Koper vs Viking
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Sparta Prague vs Aktobe
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Updated: KA Akureyri vs Silkeborg IF
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Jagiellonia Białystok vs Novi Pazar
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Linfield vs Žalgiris Vilnius
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Updated: Hibernian vs FC Midtjylland
+2025-07-31 06:38:10,334 - INFO - [FETCH-20250731-063448-AC14177A] Merge complete: 1 new, 21 updated, 164 total
+2025-07-31 06:38:10,338 - INFO - [FETCH-20250731-063448-AC14177A] Data saved to live_events.json
+2025-07-31 06:38:10,339 - INFO - [FETCH-20250731-063448-AC14177A] Summary:
+2025-07-31 06:38:10,339 - INFO - [FETCH-20250731-063448-AC14177A] - Streamed.su ('Schrödingers Roommate') matches: 56
+2025-07-31 06:38:10,339 - INFO - [FETCH-20250731-063448-AC14177A] - Sportsonline ('Toes In The Blender') matches: 25
+2025-07-31 06:38:10,339 - INFO - [FETCH-20250731-063448-AC14177A] - Final total matches in file: 164
+2025-07-31 06:38:10,339 - INFO - [FETCH-20250731-063448-AC14177A] Scraper run completed successfully
