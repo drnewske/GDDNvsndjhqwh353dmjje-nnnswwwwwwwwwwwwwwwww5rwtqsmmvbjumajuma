@@ -2331,3 +2331,24 @@
 2025-08-05 14:26:42,186 - INFO - [FETCH-20250805-142640-6A2840BF] - Sportsonline ('Toes In The Blender') matches: 11
 2025-08-05 14:26:42,186 - INFO - [FETCH-20250805-142640-6A2840BF] - Final total matches in file: 81
 2025-08-05 14:26:42,187 - INFO - [FETCH-20250805-142640-6A2840BF] Scraper run completed successfully
+2025-08-05 16:24:34,468 - INFO - [FETCH-20250805-162434-924DA9C9] Starting combined football match scraper...
+2025-08-05 16:24:34,468 - INFO - ============================================================
+2025-08-05 16:24:34,469 - INFO - [FETCH-20250805-162434-924DA9C9] Starting cleanup operations...
+2025-08-05 16:24:34,469 - INFO - [FETCH-20250805-162434-924DA9C9] Cleaning up old log entries...
+2025-08-05 16:24:34,504 - INFO - [FETCH-20250805-162434-924DA9C9] Fetching matches from streamed.su...
+2025-08-05 16:24:34,844 - ERROR - Error fetching data from https://streamed.su/api/matches/all-today: 403 Client Error: Forbidden for url: https://streamed.pk/api/matches/all-today
+2025-08-05 16:24:34,844 - ERROR - [FETCH-20250805-162434-924DA9C9] Could not fetch streamed.su match data.
+2025-08-05 16:24:34,844 - INFO - [FETCH-20250805-162434-924DA9C9] Fetching matches from sportsonline.gl...
+2025-08-05 16:24:35,722 - INFO - [FETCH-20250805-162434-924DA9C9] Fetched 11 valid matches from sportsonline.gl
+2025-08-05 16:24:35,723 - INFO - [FETCH-20250805-162434-924DA9C9] Merging with existing data...
+2025-08-05 16:24:35,723 - INFO - [FETCH-20250805-162434-924DA9C9] Cleaning up old matches...
+2025-08-05 16:24:35,723 - INFO - [FETCH-20250805-162434-924DA9C9] Removed old match: Niger vs Guinea (04-08-2025 14:00)
+2025-08-05 16:24:35,723 - INFO - [FETCH-20250805-162434-924DA9C9] Removed old match: Ilves vs Gnistan (04-08-2025 15:00)
+2025-08-05 16:24:35,723 - INFO - [FETCH-20250805-162434-924DA9C9] Cleanup complete: Removed 2 old matches, 79 matches remaining
+2025-08-05 16:24:35,723 - INFO - [FETCH-20250805-162434-924DA9C9] Merge complete: 0 new, 0 updated, 79 total
+2025-08-05 16:24:35,725 - INFO - [FETCH-20250805-162434-924DA9C9] Data saved to live_events.json
+2025-08-05 16:24:35,725 - INFO - [FETCH-20250805-162434-924DA9C9] Summary:
+2025-08-05 16:24:35,725 - INFO - [FETCH-20250805-162434-924DA9C9] - Streamed.su ('Schrödingers Roommate') matches: 0
+2025-08-05 16:24:35,726 - INFO - [FETCH-20250805-162434-924DA9C9] - Sportsonline ('Toes In The Blender') matches: 11
+2025-08-05 16:24:35,726 - INFO - [FETCH-20250805-162434-924DA9C9] - Final total matches in file: 79
+2025-08-05 16:24:35,726 - INFO - [FETCH-20250805-162434-924DA9C9] Scraper run completed successfully
