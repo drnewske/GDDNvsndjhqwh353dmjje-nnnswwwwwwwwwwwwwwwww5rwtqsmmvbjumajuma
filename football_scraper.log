@@ -4899,3 +4899,30 @@
 2025-08-11 09:14:42,902 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-08-11 09:14:42,902 - INFO - Total Football matches in final output managed by LUCILAND: 140
+2025-08-11 12:17:04,843 - INFO - Starting LUCILAND football match scraper...
+2025-08-11 12:17:04,843 - INFO - ============================================================
+2025-08-11 12:17:04,843 - INFO - Current timestamp for this run: 2025-08-11 12:17:04
+2025-08-11 12:17:04,847 - INFO - Loaded 404 total existing matches from live_events.json.
+2025-08-11 12:17:04,848 - INFO - Found 139 matches managed by 'I DON'T TRUST GRANDMA'.
+2025-08-11 12:17:04,848 - INFO - Found 265 matches from other sources.
+2025-08-11 12:17:04,848 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-08-11 12:17:04,943 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-11 12:17:06,951 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-11 12:17:10,960 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-11 12:17:10,969 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-08-11 12:17:11,818 - INFO - Found 56 total matches from https://matchstream.do/api/v1/api.php.
+2025-08-11 12:17:11,818 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-08-11 12:17:12,011 - INFO - Transformed 52 valid football matches from API response.
+2025-08-11 12:17:12,012 - INFO - Merge for 'I DON'T TRUST GRANDMA' data: 1 new, 51 updated.
+2025-08-11 12:17:12,012 - INFO - Removed old match (managed by this scraper): 12:00 [International Club Friendly] Napoli vs Sorrento [Sky Sport Calcio IT] (10-08-2025 12:00)
+2025-08-11 12:17:12,014 - INFO - Cleanup for 'I DON'T TRUST GRANDMA' data: Removed 1 old matches, 139 matches remaining.
+2025-08-11 12:17:12,026 - INFO - Successfully saved 404 matches to live_events.json.
+2025-08-11 12:17:12,026 - INFO - LUCILAND scraper run completed successfully.
+2025-08-11 12:17:12,026 - INFO - Summary for 'I DON'T TRUST GRANDMA':
+2025-08-11 12:17:12,026 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 56
+2025-08-11 12:17:12,026 - INFO - - Valid Football matches processed from API: 52
+2025-08-11 12:17:12,027 - INFO - - Final matches added/updated by this scraper: 139
+2025-08-11 12:17:12,027 - INFO - - Total matches in live_events.json after this run: 404
+2025-08-11 12:17:12,027 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-08-11 12:17:12,028 - INFO - Total Football matches in final output managed by LUCILAND: 139
