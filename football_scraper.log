@@ -4926,3 +4926,40 @@
 2025-08-11 12:17:12,027 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-08-11 12:17:12,028 - INFO - Total Football matches in final output managed by LUCILAND: 139
+2025-08-11 15:10:24,331 - INFO - Starting LUCILAND football match scraper...
+2025-08-11 15:10:24,331 - INFO - ============================================================
+2025-08-11 15:10:24,331 - INFO - Current timestamp for this run: 2025-08-11 15:10:24
+2025-08-11 15:10:24,334 - INFO - Loaded 350 total existing matches from live_events.json.
+2025-08-11 15:10:24,335 - INFO - Found 133 matches managed by 'I DON'T TRUST GRANDMA'.
+2025-08-11 15:10:24,335 - INFO - Found 217 matches from other sources.
+2025-08-11 15:10:24,335 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-08-11 15:10:24,488 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-11 15:10:26,514 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-11 15:10:30,537 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-11 15:10:30,550 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-08-11 15:10:31,562 - INFO - Found 73 total matches from https://matchstream.do/api/v1/api.php.
+2025-08-11 15:10:31,562 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-08-11 15:10:31,683 - INFO - Transformed 67 valid football matches from API response.
+2025-08-11 15:10:31,684 - INFO - Merge for 'I DON'T TRUST GRANDMA' data: 16 new, 51 updated.
+2025-08-11 15:10:31,684 - INFO - Removed old match (managed by this scraper): 14:30 [Scotland Scottish Premiership] Aberdeen vs Celtic [Sky Sports Football GB] (10-08-2025 14:30)
+2025-08-11 15:10:31,684 - INFO - Removed old match (managed by this scraper): 14:30 [Germany Bundesliga 2] Hertha BSC vs Karlsruher SC [Sky Sport Bundesliga 2 DE] (10-08-2025 14:30)
+2025-08-11 15:10:31,684 - INFO - Removed old match (managed by this scraper): 14:30 [Germany Bundesliga 2] Bochum vs Elversberg [Sky Sport Bundesliga 3 DE] (10-08-2025 14:30)
+2025-08-11 15:10:31,684 - INFO - Removed old match (managed by this scraper): 14:30 [Germany Bundesliga 2] Holstein Kiel vs Arminia Bielefeld [Sky Sport Bundesliga 4 DE] (10-08-2025 14:30)
+2025-08-11 15:10:31,684 - INFO - Removed old match (managed by this scraper): 14:30 [Germany 3. Liga] Jahn Regensburg vs MSV Duisburg [Magenta Sport DE] (10-08-2025 14:30)
+2025-08-11 15:10:31,684 - INFO - Removed old match (managed by this scraper): 14:30 [Belgium Pro League] RAAL La Louvière vs Sporting Charleroi [DAZN Pro League 1 BE] (10-08-2025 14:30)
+2025-08-11 15:10:31,685 - INFO - Removed old match (managed by this scraper): 15:00 [Africa African Nations Championship] Kenya vs Morocco [beIN Sports Xtra US] (10-08-2025 15:00)
+2025-08-11 15:10:31,685 - INFO - Removed old match (managed by this scraper): 15:00 [Switzerland Super League] Young Boys vs Sion [Sport2 Baltic LV] (10-08-2025 15:00)
+2025-08-11 15:10:31,685 - INFO - Removed old match (managed by this scraper): 15:00 [Denmark Super Liga] Midtjylland vs Fredericia [Sport1 Baltic LV] (10-08-2025 15:00)
+2025-08-11 15:10:31,685 - INFO - Removed old match (managed by this scraper): 15:00 [Sweden Allsvenskan] DAIK vs Djurgården [max Extra 1 SE] (10-08-2025 15:00)
+2025-08-11 15:10:31,685 - INFO - Removed old match (managed by this scraper): 15:00 [Sweden Allsvenskan] Degerfors vs Häcken [max Extra 3 SE] (10-08-2025 15:00)
+2025-08-11 15:10:31,687 - INFO - Cleanup for 'I DON'T TRUST GRANDMA' data: Removed 11 old matches, 138 matches remaining.
+2025-08-11 15:10:31,698 - INFO - Successfully saved 355 matches to live_events.json.
+2025-08-11 15:10:31,698 - INFO - LUCILAND scraper run completed successfully.
+2025-08-11 15:10:31,698 - INFO - Summary for 'I DON'T TRUST GRANDMA':
+2025-08-11 15:10:31,698 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 73
+2025-08-11 15:10:31,698 - INFO - - Valid Football matches processed from API: 67
+2025-08-11 15:10:31,698 - INFO - - Final matches added/updated by this scraper: 138
+2025-08-11 15:10:31,698 - INFO - - Total matches in live_events.json after this run: 355
+2025-08-11 15:10:31,698 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-08-11 15:10:31,698 - INFO - Total Football matches in final output managed by LUCILAND: 138
