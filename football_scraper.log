@@ -5046,3 +5046,41 @@
 2025-08-11 21:01:07,211 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-08-11 21:01:07,211 - INFO - Total Football matches in final output managed by LUCILAND: 127
+2025-08-12 00:41:38,699 - INFO - Starting LUCILAND football match scraper...
+2025-08-12 00:41:38,699 - INFO - ============================================================
+2025-08-12 00:41:38,699 - INFO - Current timestamp for this run: 2025-08-12 00:41:38
+2025-08-12 00:41:38,701 - INFO - Loaded 202 total existing matches from live_events.json.
+2025-08-12 00:41:38,702 - INFO - Found 122 matches managed by 'I DON'T TRUST GRANDMA'.
+2025-08-12 00:41:38,702 - INFO - Found 80 matches from other sources.
+2025-08-12 00:41:38,702 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-08-12 00:41:38,834 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-12 00:41:40,850 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-12 00:41:44,869 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-12 00:41:44,888 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-08-12 00:41:45,763 - INFO - Found 98 total matches from https://matchstream.do/api/v1/api.php.
+2025-08-12 00:41:45,764 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-08-12 00:41:45,779 - INFO - Transformed 82 valid football matches from API response.
+2025-08-12 00:41:45,779 - INFO - Merge for 'I DON'T TRUST GRANDMA' data: 1 new, 81 updated.
+2025-08-12 00:41:45,780 - INFO - Removed old match (managed by this scraper): 21:30 [Turkey Super Lig] Kayserispor vs Beşiktaş [beIN Sports 1 TR] (10-08-2025 21:30)
+2025-08-12 00:41:45,780 - INFO - Removed old match (managed by this scraper): 21:30 [Turkey Super Lig] Fatih Karagümrük vs İstanbul Başakşehir [beIN Sports 2 TR] (10-08-2025 21:30)
+2025-08-12 00:41:45,780 - INFO - Removed old match (managed by this scraper): 21:30 [Romania Liga I] FCSB vs Unirea Slobozia [Digi Sport 1 RO] (10-08-2025 21:30)
+2025-08-12 00:41:45,780 - INFO - Removed old match (managed by this scraper): 22:00 [Brazil Brasileirão] Palmeiras vs Ceará [Sportdigital FUSSBALL DE] (10-08-2025 22:00)
+2025-08-12 00:41:45,780 - INFO - Removed old match (managed by this scraper): 22:00 [Croatia 1. HNL] Hajduk Split vs Gorica [Max Sport 1 HR] (10-08-2025 22:00)
+2025-08-12 00:41:45,780 - INFO - Removed old match (managed by this scraper): 22:00 [International Club Friendly] Villarreal vs Aston Villa [Sport TV2 SI] (10-08-2025 22:00)
+2025-08-12 00:41:45,780 - INFO - Removed old match (managed by this scraper): 22:00 [Canada Canadian Premier League] Valour vs Atlético Ottawa [Fox Sports 2 US] (10-08-2025 22:00)
+2025-08-12 00:41:45,780 - INFO - Removed old match (managed by this scraper): 22:30 [Portugal Primeira Liga] Sporting Braga vs Tondela [Sport TV1 PT] (10-08-2025 22:30)
+2025-08-12 00:41:45,780 - INFO - Removed old match (managed by this scraper): 22:30 [Portugal Primeira Liga] Moreirense vs Alverca [V+ TVI PT] (10-08-2025 22:30)
+2025-08-12 00:41:45,781 - INFO - Removed old match (managed by this scraper): 23:00 [Argentina Primera División] Instituto vs Platense [TNT Sports Argentina ES] (10-08-2025 23:00)
+2025-08-12 00:41:45,781 - INFO - Removed old match (managed by this scraper): 00:30 [Brazil Brasileirão] Cruzeiro vs Santos [Sportdigital FUSSBALL DE] (11-08-2025 00:30)
+2025-08-12 00:41:45,781 - INFO - Removed old match (managed by this scraper): 00:30 [Uruguay Primera Division] Miramar Misiones vs Liverpool [GOLTV US] (11-08-2025 00:30)
+2025-08-12 00:41:45,783 - INFO - Cleanup for 'I DON'T TRUST GRANDMA' data: Removed 12 old matches, 111 matches remaining.
+2025-08-12 00:41:45,789 - INFO - Successfully saved 191 matches to live_events.json.
+2025-08-12 00:41:45,789 - INFO - LUCILAND scraper run completed successfully.
+2025-08-12 00:41:45,789 - INFO - Summary for 'I DON'T TRUST GRANDMA':
+2025-08-12 00:41:45,789 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 98
+2025-08-12 00:41:45,789 - INFO - - Valid Football matches processed from API: 82
+2025-08-12 00:41:45,789 - INFO - - Final matches added/updated by this scraper: 111
+2025-08-12 00:41:45,789 - INFO - - Total matches in live_events.json after this run: 191
+2025-08-12 00:41:45,789 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-08-12 00:41:45,790 - INFO - Total Football matches in final output managed by LUCILAND: 111
