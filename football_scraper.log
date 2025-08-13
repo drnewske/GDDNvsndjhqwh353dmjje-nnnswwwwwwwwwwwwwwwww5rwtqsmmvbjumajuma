@@ -5452,3 +5452,34 @@
 2025-08-13 15:01:11,343 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-08-13 15:01:11,344 - INFO - Total Football matches in final output managed by LUCILAND: 125
+2025-08-13 18:12:58,595 - INFO - Starting LUCILAND football match scraper...
+2025-08-13 18:12:58,595 - INFO - ============================================================
+2025-08-13 18:12:58,595 - INFO - Current timestamp for this run: 2025-08-13 18:12:58
+2025-08-13 18:12:58,597 - INFO - Loaded 238 total existing matches from live_events.json.
+2025-08-13 18:12:58,597 - INFO - Found 125 matches managed by 'I DON'T TRUST GRANDMA'.
+2025-08-13 18:12:58,597 - INFO - Found 113 matches from other sources.
+2025-08-13 18:12:58,597 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-08-13 18:12:58,928 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-13 18:13:01,220 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-13 18:13:05,526 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-13 18:13:05,823 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-08-13 18:13:06,726 - INFO - Found 112 total matches from https://matchstream.do/api/v1/api.php.
+2025-08-13 18:13:06,726 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-08-13 18:13:06,745 - WARNING - Skipping match with invalid team data: 19:00 [Germany DFB Pokal] Simulcast [Sky Sport Mix DE] (Team1: Simulcast, Team2: None)
+2025-08-13 18:13:06,745 - INFO - Transformed 87 valid football matches from API response.
+2025-08-13 18:13:06,746 - INFO - Merge for 'I DON'T TRUST GRANDMA' data: 0 new, 87 updated.
+2025-08-13 18:13:06,746 - INFO - Removed old match (managed by this scraper): 16:30 [United States Hlinka Gretzky Cup] Canada U18 vs Switzerland U18 [TSN1 CA] (12-08-2025 16:30)
+2025-08-13 18:13:06,746 - INFO - Removed old match (managed by this scraper): 16:30 [United States Hlinka Gretzky Cup] USA U18 vs Sweden U18 [TSN1 CA] (12-08-2025 16:30)
+2025-08-13 18:13:06,746 - INFO - Removed old match (managed by this scraper): 17:00 [Africa African Nations Championship] Senegal vs Congo [beIN Sports 5 US] (12-08-2025 17:00)
+2025-08-13 18:13:06,746 - INFO - Removed old match (managed by this scraper): 18:00 [Bulgaria Second League] Spartak Pleven vs Dunav 2010 [Diema Sport BG] (12-08-2025 18:00)
+2025-08-13 18:13:06,748 - INFO - Cleanup for 'I DON'T TRUST GRANDMA' data: Removed 4 old matches, 121 matches remaining.
+2025-08-13 18:13:06,755 - INFO - Successfully saved 234 matches to live_events.json.
+2025-08-13 18:13:06,755 - INFO - LUCILAND scraper run completed successfully.
+2025-08-13 18:13:06,755 - INFO - Summary for 'I DON'T TRUST GRANDMA':
+2025-08-13 18:13:06,755 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 112
+2025-08-13 18:13:06,755 - INFO - - Valid Football matches processed from API: 87
+2025-08-13 18:13:06,756 - INFO - - Final matches added/updated by this scraper: 121
+2025-08-13 18:13:06,756 - INFO - - Total matches in live_events.json after this run: 234
+2025-08-13 18:13:06,757 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-08-13 18:13:06,757 - INFO - Total Football matches in final output managed by LUCILAND: 121
