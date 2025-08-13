@@ -5282,3 +5282,35 @@
 2025-08-12 21:01:06,090 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-08-12 21:01:06,091 - INFO - Total Football matches in final output managed by LUCILAND: 136
+2025-08-13 00:42:33,295 - INFO - Starting LUCILAND football match scraper...
+2025-08-13 00:42:33,295 - INFO - ============================================================
+2025-08-13 00:42:33,295 - INFO - Current timestamp for this run: 2025-08-13 00:42:33
+2025-08-13 00:42:33,297 - INFO - Loaded 233 total existing matches from live_events.json.
+2025-08-13 00:42:33,297 - INFO - Found 135 matches managed by 'I DON'T TRUST GRANDMA'.
+2025-08-13 00:42:33,297 - INFO - Found 98 matches from other sources.
+2025-08-13 00:42:33,297 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-08-13 00:42:33,398 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-13 00:42:35,408 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-13 00:42:39,420 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-13 00:42:39,430 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-08-13 00:42:40,312 - INFO - Found 120 total matches from https://matchstream.do/api/v1/api.php.
+2025-08-13 00:42:40,312 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-08-13 00:42:40,335 - WARNING - Skipping match with invalid team data: 19:00 [Germany DFB Pokal] Simulcast [Sky Sport Mix DE] (Team1: Simulcast, Team2: None)
+2025-08-13 00:42:40,336 - INFO - Transformed 93 valid football matches from API response.
+2025-08-13 00:42:40,337 - INFO - Merge for 'I DON'T TRUST GRANDMA' data: 0 new, 93 updated.
+2025-08-13 00:42:40,337 - INFO - Removed old match (managed by this scraper): 21:30 [Turkey Super Lig] Trabzonspor vs Kocaelispor [beIN Sports 1 TR] (11-08-2025 21:30)
+2025-08-13 00:42:40,337 - INFO - Removed old match (managed by this scraper): 21:45 [France Ligue 2] Amiens SC vs Reims [[beIN Sports Espanol ES] (11-08-2025 21:45)
+2025-08-13 00:42:40,337 - INFO - Removed old match (managed by this scraper): 22:15 [Iceland Besta deild karla] KR vs Afturelding [SÝN Sport Ísland IS] (11-08-2025 22:15)
+2025-08-13 00:42:40,337 - INFO - Removed old match (managed by this scraper): 22:15 [Iceland Besta deild karla] FH vs ÍA [SÝN Sport Ísland 2 IS] (11-08-2025 22:15)
+2025-08-13 00:42:40,337 - INFO - Removed old match (managed by this scraper): 22:45 [Portugal Primeira Liga] Porto vs Vitória Guimarães [Sportdigital FUSSBALL DE] (11-08-2025 22:45)
+2025-08-13 00:42:40,339 - INFO - Cleanup for 'I DON'T TRUST GRANDMA' data: Removed 5 old matches, 130 matches remaining.
+2025-08-13 00:42:40,346 - INFO - Successfully saved 228 matches to live_events.json.
+2025-08-13 00:42:40,346 - INFO - LUCILAND scraper run completed successfully.
+2025-08-13 00:42:40,347 - INFO - Summary for 'I DON'T TRUST GRANDMA':
+2025-08-13 00:42:40,347 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 120
+2025-08-13 00:42:40,347 - INFO - - Valid Football matches processed from API: 93
+2025-08-13 00:42:40,347 - INFO - - Final matches added/updated by this scraper: 130
+2025-08-13 00:42:40,347 - INFO - - Total matches in live_events.json after this run: 228
+2025-08-13 00:42:40,348 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-08-13 00:42:40,348 - INFO - Total Football matches in final output managed by LUCILAND: 130
