@@ -12,8 +12,6 @@ from typing import List, Dict, Tuple, Optional
 from collections import defaultdict
 
 # Configuration
-STREAMED_API_BASE_URL = "https://streamed.su"
-STREAMED_MATCHES_ENDPOINT = "/api/matches/all-today"
 SPORTSONLINE_URL = "https://sportsonline.gl/"
 DEFAULT_LOGO_URL = "https://cdn.jsdelivr.net/gh/drnewske/tyhdsjax-nfhbqsm/logos/default.png"
 REQUEST_TIMEOUT = 10
@@ -141,16 +139,6 @@ def cleanup_old_log_files(fetch_code: str):
     except Exception as e:
         logger.error(f"[{fetch_code}] Error during log file cleanup: {e}")
 
-def fetch_data(url: str, headers: dict = None) -> Optional[dict]:
-    """Fetches data from a given URL."""
-    try:
-        response = requests.get(url, timeout=REQUEST_TIMEOUT, headers=headers)
-        response.raise_for_status()
-        return response.json() if 'json' in response.headers.get('content-type', '') else response.text
-    except requests.exceptions.RequestException as e:
-        logger.error(f"Error fetching data from {url}: {e}")
-        return None
-
 def is_valid_team_data(team1_name: str, team2_name: str) -> bool:
     """Check if both teams have valid names (not default values)"""
     invalid_values = {"Not Found", "Name Not Found", "", None}
@@ -158,117 +146,6 @@ def is_valid_team_data(team1_name: str, team2_name: str) -> bool:
             team2_name not in invalid_values and
             team1_name.strip() != "" and 
             team2_name.strip() != "")
-
-def get_match_date_from_timestamp(timestamp_ms: int) -> Tuple[str, str]:
-    """Convert timestamp to formatted time and date, handling timezone properly"""
-    try:
-        dt_utc = datetime.fromtimestamp(timestamp_ms / 1000, tz=timezone.utc)
-        formatted_time = dt_utc.strftime("%H:%M")
-        formatted_date = dt_utc.strftime("%d-%m-%Y")
-        return formatted_time, formatted_date
-    except (ValueError, OSError, OverflowError) as e:
-        logger.error(f"Error processing timestamp {timestamp_ms}: {e}")
-        return "Not Found", "Not Found"
-
-def fetch_streamed_matches(fetch_code: str) -> List[dict]:
-    """Fetch matches from streamed.su API with improved speed and precision."""
-    logger.info(f"[{fetch_code}] Fetching matches from streamed.su...")
-    matches_url = f"{STREAMED_API_BASE_URL}{STREAMED_MATCHES_ENDPOINT}"
-    api_matches = fetch_data(matches_url)
-
-    if not api_matches:
-        logger.error(f"[{fetch_code}] Could not fetch streamed.su match data.")
-        return []
-    
-    output_data = []
-    today_date_str = datetime.now().strftime("%d-%m-%Y")
-    logger.info(f"[{fetch_code}] Filtering for today's date: {today_date_str}")
-
-    for match in api_matches:
-        # ===== Filter 1: By Sport (Fast) =====
-        if match.get("category") != "football":
-            continue
-
-        title = match.get("title", "Title Not Found")
-
-        # ===== Filter 2: By Date (Fast) =====
-        match_timestamp_ms = match.get("date")
-        if not (match_timestamp_ms and isinstance(match_timestamp_ms, (int, float)) and match_timestamp_ms > 0):
-            continue
-        
-        formatted_time, formatted_date = get_match_date_from_timestamp(match_timestamp_ms)
-        
-        if formatted_date != today_date_str:
-            logger.info(f"[{fetch_code}] Skipping match not for today ({formatted_date}): {title}")
-            continue
-        
-        # ===== Filter 3: By Team Data (Fast) =====
-        team1 = {"name": "Not Found", "logo_url": DEFAULT_LOGO_URL}
-        team2 = {"name": "Not Found", "logo_url": DEFAULT_LOGO_URL}
-        teams_data = match.get("teams")
-        if teams_data:
-            if teams_data.get("home"):
-                home_name = teams_data['home'].get('name', '').strip()
-                if home_name:
-                    team1['name'] = home_name
-                    badge = teams_data['home'].get('badge')
-                    if badge:
-                        team1['logo_url'] = f"{STREAMED_API_BASE_URL}/api/images/badge/{badge}.webp"
-            if teams_data.get("away"):
-                away_name = teams_data['away'].get('name', '').strip()
-                if away_name:
-                    team2['name'] = away_name
-                    badge = teams_data['away'].get('badge')
-                    if badge:
-                        team2['logo_url'] = f"{STREAMED_API_BASE_URL}/api/images/badge/{badge}.webp"
-        
-        if not is_valid_team_data(team1['name'], team2['name']):
-            logger.warning(f"[{fetch_code}] Skipping match with invalid team data: {title}")
-            continue
-
-        # ===== Fetch Streams (Slow - ONLY runs if all previous checks pass) =====
-        all_stream_links = []
-        sources = match.get("sources", [])
-        if not sources:
-            logger.warning(f"[{fetch_code}] Skipping match with no listed sources: {title}")
-            continue
-
-        for source in sources:
-            source_name = source.get("source")
-            source_id = source.get("id")
-            if not source_name or not source_id:
-                continue
-
-            stream_url = f"{STREAMED_API_BASE_URL}/api/stream/{source_name}/{source_id}"
-            streams_data = fetch_data(stream_url)
-            
-            if streams_data and isinstance(streams_data, list):
-                for stream in streams_data:
-                    embed_url = stream.get("embedUrl")
-                    if embed_url and "admin" not in embed_url and embed_url.startswith(('http://', 'https://')):
-                        all_stream_links.append(embed_url)
-            time.sleep(0.5)
-
-        # ===== Final Check =====
-        if not all_stream_links:
-            logger.warning(f"[{fetch_code}] No valid stream links found after checking all sources for: {title}")
-            continue
-
-        # If we reach here, the match is valid, for today, and has links.
-        formatted_match = {
-            "source_name": "Schrödingers Roommate",
-            "source_icon_url": "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/refs/heads/main/logos/Homer-Simpson.webp",
-            "match_title_from_api": title,
-            "team1": team1,
-            "team2": team2,
-            "time": formatted_time,
-            "date": formatted_date,
-            "links": all_stream_links
-        }
-        output_data.append(formatted_match)
-
-    logger.info(f"[{fetch_code}] Found {len(output_data)} valid matches for today from streamed.su")
-    return output_data
 
 def fetch_sportsonline_data() -> str:
     """Fetch the raw text data from sportsonline.gl"""
@@ -464,9 +341,9 @@ def save_data(data: List[dict], fetch_code: str):
         logger.error(f"[{fetch_code}] Error saving data: {e}")
 
 def main():
-    """Main function to fetch from both sources and merge results"""
+    """Main function to fetch from sportsonline only"""
     fetch_code = generate_fetch_code()
-    logger.info(f"[{fetch_code}] Starting combined football match scraper...")
+    logger.info(f"[{fetch_code}] Starting sportsonline football match scraper...")
     logger.info("=" * 60)
     
     try:
@@ -474,18 +351,14 @@ def main():
         cleanup_old_logs(fetch_code)
         cleanup_old_log_files(fetch_code)
         
-        streamed_matches = fetch_streamed_matches(fetch_code)
         sportsonline_matches = fetch_sportsonline_matches(fetch_code)
         
-        all_new_matches = streamed_matches + sportsonline_matches
-        
         existing_data = load_existing_data()
-        final_matches = merge_with_existing_data(all_new_matches, existing_data, fetch_code)
+        final_matches = merge_with_existing_data(sportsonline_matches, existing_data, fetch_code)
         
         save_data(final_matches, fetch_code)
         
         logger.info(f"[{fetch_code}] Summary:")
-        logger.info(f"[{fetch_code}] - Streamed.su ('Schrödingers Roommate') matches: {len(streamed_matches)}")
         logger.info(f"[{fetch_code}] - Sportsonline ('Toes In The Blender') matches: {len(sportsonline_matches)}")
         logger.info(f"[{fetch_code}] - Final total matches in file: {len(final_matches)}")
         
