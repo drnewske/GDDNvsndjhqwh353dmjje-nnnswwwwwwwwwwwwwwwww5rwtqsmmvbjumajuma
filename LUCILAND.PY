@@ -98,6 +98,10 @@ def get_match_unique_id(match):
     source_name = match.get('source_name', '').lower().replace(' ', '')
     return f"{source_name}-{team1}-{team2}-{date}-{time}"
 
+def is_vuen_link(link):
+    """Check if a link contains 'vuen' in the domain."""
+    return 'vuen' in link.lower()
+
 # --- Main Scraper Logic ---
 
 def run_football_scraper():
@@ -189,18 +193,27 @@ def run_football_scraper():
                 continue
 
             all_links = []
+            vuen_links_filtered = 0
             channels = match.get('channels', [])
             if isinstance(channels, list):
                 for channel in channels:
                     channel_links = channel.get('links', [])
                     if isinstance(channel_links, list):
-                        # Ensure links are strings and non-empty
-                        valid_links = [link for link in channel_links if isinstance(link, str) and link.strip()]
-                        all_links.extend(valid_links)
+                        # Ensure links are strings and non-empty, and filter out vuen links
+                        for link in channel_links:
+                            if isinstance(link, str) and link.strip():
+                                if is_vuen_link(link):
+                                    vuen_links_filtered += 1
+                                    logger.debug(f"Filtered out vuen link: {link}")
+                                else:
+                                    all_links.append(link)
 
-            # Skip matches with no valid stream links
+            if vuen_links_filtered > 0:
+                logger.info(f"Filtered out {vuen_links_filtered} vuen links for match: {match.get('matchText')}")
+
+            # Skip matches with no valid stream links (after filtering)
             if not all_links:
-                logger.warning(f"Skipping match with no valid stream links: {match.get('matchText')}")
+                logger.warning(f"Skipping match with no valid stream links after filtering: {match.get('matchText')}")
                 continue
 
             # Handle potentially missing/null team data gracefully
