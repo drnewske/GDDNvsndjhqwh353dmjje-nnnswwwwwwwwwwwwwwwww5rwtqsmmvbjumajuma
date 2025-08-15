@@ -1,6 +1,6 @@
 import requests
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import os
 import logging
 import urllib3
@@ -22,6 +22,15 @@ DEFAULT_TEAM_LOGO_URL = "https://cdn.jsdelivr.net/gh/drnewske/tyhdsjax-nfhbqsm/l
 
 # Define the threshold for old matches: 24 hours ago from the current run time
 OLD_MATCH_THRESHOLD_HOURS = 24
+
+# --- Timezone Configuration ---
+# Specify the time zone offset of the source API's time to convert it to UTC.
+# This value is the number of hours to add or subtract from UTC.
+# Examples:
+#  0 for UTC
+#  3 for UTC+3 (e.g., East Africa Time)
+# -5 for UTC-5 (e.g., Eastern Standard Time)
+SOURCE_TIMEZONE_OFFSET_HOURS = 0 # <<-- EDIT THIS VALUE FOR THE SOURCE TIMEZONE
 
 # Set up logging for this specific scraper
 logging.basicConfig(level=logging.INFO,
@@ -112,8 +121,9 @@ def run_football_scraper():
     logger.info("Starting LUCILAND football match scraper...")
     logger.info("============================================================")
 
-    current_time = datetime.now()
-    logger.info(f"Current timestamp for this run: {current_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    # Use UTC now for all time comparisons to ensure consistency
+    current_time = datetime.utcnow()
+    logger.info(f"Current UTC timestamp for this run: {current_time.strftime('%Y-%m-%d %H:%M:%S')}")
 
     # 1. Load ALL existing data from the output file
     all_existing_matches = load_all_existing_data(OUTPUT_FILE)
@@ -173,23 +183,34 @@ def run_football_scraper():
     for match in raw_api_matches:
         if match.get('sport') == 'Football': # Filter for 'Football'
             match_date_str = match.get('matchDate')
-            match_time_str = match.get('time')
-            formatted_date = None
-            match_datetime = None # For chronological checks
+            source_time_str = match.get('time')
+            utc_date_str = None
+            utc_time_str = None
+            match_datetime_for_check = None # Naive UTC datetime for chronological checks
 
-            if match_date_str and match_time_str:
+            if match_date_str and source_time_str:
                 try:
-                    # Parse into datetime object for comparison and reformat for output
-                    date_obj = datetime.strptime(match_date_str, '%Y-%m-%d')
-                    formatted_date = date_obj.strftime('%d-%m-%Y')
-                    match_datetime = datetime.strptime(f"{match_date_str} {match_time_str}", '%Y-%m-%d %H:%M')
+                    # --- UTC Conversion Logic ---
+                    # 1. Create a naive datetime object from the source data
+                    naive_dt = datetime.strptime(f"{match_date_str} {source_time_str}", '%Y-%m-%d %H:%M')
+                    # 2. Define the source timezone based on the configured offset
+                    source_tz = timezone(timedelta(hours=SOURCE_TIMEZONE_OFFSET_HOURS))
+                    # 3. Make the datetime object timezone-aware (localize it to its source timezone)
+                    aware_dt = naive_dt.replace(tzinfo=source_tz)
+                    # 4. Convert to UTC
+                    utc_dt = aware_dt.astimezone(timezone.utc)
+                    # 5. Prepare UTC-based strings for the JSON output and a naive datetime for comparison
+                    utc_date_str = utc_dt.strftime('%d-%m-%Y')
+                    utc_time_str = utc_dt.strftime('%H:%M')
+                    match_datetime_for_check = utc_dt.replace(tzinfo=None)
+                    # --- End UTC Conversion Logic ---
                 except ValueError:
-                    logger.warning(f"Could not parse date/time '{match_date_str} {match_time_str}' for match '{match.get('matchText')}'. Skipping.")
+                    logger.warning(f"Could not parse date/time '{match_date_str} {source_time_str}' for match '{match.get('matchText')}'. Skipping.")
                     continue # Skip this match if date/time is invalid
 
             # Skip matches that are in the past relative to current run time (prevent adding old matches)
-            if match_datetime and match_datetime < current_time - timedelta(hours=OLD_MATCH_THRESHOLD_HOURS):
-                logger.info(f"Skipping newly fetched match, it's older than {OLD_MATCH_THRESHOLD_HOURS} hours: {match.get('matchText')} ({formatted_date} {match_time_str})")
+            if match_datetime_for_check and match_datetime_for_check < current_time - timedelta(hours=OLD_MATCH_THRESHOLD_HOURS):
+                logger.info(f"Skipping newly fetched match, it's older than {OLD_MATCH_THRESHOLD_HOURS} hours: {match.get('matchText')} ({utc_date_str} {utc_time_str} UTC)")
                 continue
 
             all_links = []
@@ -236,8 +257,8 @@ def run_football_scraper():
                     "name": team2_name,
                     "logo_url": DEFAULT_TEAM_LOGO_URL
                 },
-                "time": match.get('time'),
-                "date": formatted_date,
+                "time": utc_time_str,
+                "date": utc_date_str,
                 "links": all_links
             }
             transformed_new_football_matches.append(transformed_match)
