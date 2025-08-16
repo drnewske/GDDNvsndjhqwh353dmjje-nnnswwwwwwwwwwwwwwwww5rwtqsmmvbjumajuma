@@ -246,7 +246,7 @@ def group_sportsonline_matches(parsed_matches: List[Tuple[str, str, str]], fetch
             continue
         
         match_entry = {
-            "source_name": "Toes In The Blender",
+            "source_name": "D.S 1 - stable",
             "source_icon_url": "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/main/logos/Melbourne%20Zoo.jpg",
             "match_title_from_api": title,
             "team1": {"name": team1_name, "logo_url": DEFAULT_LOGO_URL},
