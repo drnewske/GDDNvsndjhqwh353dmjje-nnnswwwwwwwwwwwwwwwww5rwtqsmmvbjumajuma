@@ -13,7 +13,7 @@ from collections import defaultdict
 
 # Configuration
 SPORTSONLINE_URL = "https://sportsonline.gl/"
-DEFAULT_LOGO_URL = "https://cdn.jsdelivr.net/gh/drnewske/tyhdsjax-nfhbqsm/logos/default.png"
+DEFAULT_LOGO_URL = "https://d11p0alxbet5ud.cloudfront.net/Pictures/480xAny/8/2/5/1103825_grass_valley_LDK8300.jpg"
 REQUEST_TIMEOUT = 10
 LOG_FILE = "scraper.log"
 OUTPUT_FILE = "live_events.json"
