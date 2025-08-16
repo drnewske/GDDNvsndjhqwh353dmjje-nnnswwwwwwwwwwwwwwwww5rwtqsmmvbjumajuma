@@ -13,7 +13,7 @@ from collections import defaultdict
 
 # Configuration
 SPORTSONLINE_URL = "https://sportsonline.gl/"
-DEFAULT_LOGO_URL = "https://d11p0alxbet5ud.cloudfront.net/Pictures/480xAny/8/2/5/1103825_grass_valley_LDK8300.jpg"
+DEFAULT_LOGO_URL = "https://cdn.jsdelivr.net/gh/drnewske/tyhdsjax-nfhbqsm/logos/default.png"
 REQUEST_TIMEOUT = 10
 LOG_FILE = "scraper.log"
 OUTPUT_FILE = "live_events.json"
@@ -247,7 +247,7 @@ def group_sportsonline_matches(parsed_matches: List[Tuple[str, str, str]], fetch
         
         match_entry = {
             "source_name": "D.S stable",
-            "source_icon_url": "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/main/logos/Melbourne%20Zoo.jpg",
+            "source_icon_url": "https://d11p0alxbet5ud.cloudfront.net/Pictures/480xAny/8/2/5/1103825_grass_valley_LDK8300.jpg",
             "match_title_from_api": title,
             "team1": {"name": team1_name, "logo_url": DEFAULT_LOGO_URL},
             "team2": {"name": team2_name, "logo_url": DEFAULT_LOGO_URL},
