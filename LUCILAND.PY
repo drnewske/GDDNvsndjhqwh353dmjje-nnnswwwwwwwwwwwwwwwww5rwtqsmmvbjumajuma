@@ -17,7 +17,7 @@ FOOTBALL_SCRAPER_LOG_FILE = "football_scraper.log" # Dedicated log file for this
 
 # Hardcoded values for this specific scraper's output
 THIS_SCRAPER_SOURCE_NAME = "D.S ALT 1"
-THIS_SCRAPER_SOURCE_ICON_URL = "https://raw.githubusercontent.com/drnewske/tyhdsjax-nfhbqsm/866f438738537d321da57d21459654e68a1691fa/logos/TOOTHBRUSH.jpg"
+THIS_SCRAPER_SOURCE_ICON_URL = "https://img.global.news.samsung.com/global/wp-content/uploads/2018/06/Live-Sports_QLED-TV_main_2.jpg"
 DEFAULT_TEAM_LOGO_URL = "https://cdn.jsdelivr.net/gh/drnewske/tyhdsjax-nfhbqsm/logos/default.png"
 
 # Define the threshold for old matches: 24 hours ago from the current run time
