@@ -1,127 +1,3 @@
-2025-08-16 16:05:45,935 - INFO - [FETCH-20250816-160545-37D785D1] Starting sportsonline football match scraper...
-2025-08-16 16:05:45,935 - INFO - ============================================================
-2025-08-16 16:05:45,935 - INFO - [FETCH-20250816-160545-37D785D1] Starting cleanup operations...
-2025-08-16 16:05:45,936 - INFO - [FETCH-20250816-160545-37D785D1] Cleaning up old log entries...
-2025-08-16 16:05:45,961 - INFO - [FETCH-20250816-160545-37D785D1] Log cleanup complete: Removed 15 old log entries
-2025-08-16 16:05:45,962 - INFO - [FETCH-20250816-160545-37D785D1] Fetching matches from sportsonline.gl...
-2025-08-16 16:05:47,262 - INFO - [FETCH-20250816-160545-37D785D1] Fetched 31 valid matches from sportsonline.gl
-2025-08-16 16:05:47,262 - WARNING - Could not load existing data: Expecting value: line 2 column 1 (char 1)
-2025-08-16 16:05:47,262 - INFO - [FETCH-20250816-160545-37D785D1] Merging with existing data...
-2025-08-16 16:05:47,262 - INFO - [FETCH-20250816-160545-37D785D1] Cleaning up old matches...
-2025-08-16 16:05:47,262 - INFO - [FETCH-20250816-160545-37D785D1] No old matches to remove
-2025-08-16 16:05:47,262 - INFO - [FETCH-20250816-160545-37D785D1] New match: Corinthians vs Bahia
-2025-08-16 16:05:47,262 - INFO - [FETCH-20250816-160545-37D785D1] New match: Cruz Azul vs Santos Laguna
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Tigres UANL vs América
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Toluca vs Pumas UNAM
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Venezia vs Mantova
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Kocaelispor vs Samsunspor
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Wolverhampton Wanderers vs Manchester City
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Como vs Südtirol
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Excelsior vs Feyenoord
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Rangers vs Alloa Athletic
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Monaco vs Le Havre
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Vitória Guimarães vs Estoril
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Mallorca vs Barcelona
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Stuttgart vs Bayern München
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Internazionale vs Olympiakos Piraeus
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Göztepe vs Fenerbahçe
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Cagliari vs Virtus Entella
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Atalanta vs Juventus
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Groningen vs Heerenveen
-2025-08-16 16:05:47,263 - INFO - [FETCH-20250816-160545-37D785D1] New match: Fluminense vs Fortaleza
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Ceará vs RB Bragantino
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Nice vs Toulouse
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Cremonese vs Palermo
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Valencia vs Real Sociedad
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Deportivo Alavés vs Levante
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Estrela vs Benfica
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Vitória vs Juventude
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Sport Recife vs São Paulo
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Guadalajara vs Juárez
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Vélez Sarsfield vs Independiente
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] New match: Inter Miami vs LA Galaxy
-2025-08-16 16:05:47,264 - INFO - [FETCH-20250816-160545-37D785D1] Merge complete: 31 new, 0 updated, 31 total
-2025-08-16 16:05:47,265 - INFO - [FETCH-20250816-160545-37D785D1] Data saved to live_events.json
-2025-08-16 16:05:47,266 - INFO - [FETCH-20250816-160545-37D785D1] Summary:
-2025-08-16 16:05:47,266 - INFO - [FETCH-20250816-160545-37D785D1] - Sportsonline ('Toes In The Blender') matches: 31
-2025-08-16 16:05:47,266 - INFO - [FETCH-20250816-160545-37D785D1] - Final total matches in file: 31
-2025-08-16 16:05:47,266 - INFO - [FETCH-20250816-160545-37D785D1] Scraper run completed successfully
-2025-08-16 16:06:20,302 - INFO - [FETCH-20250816-160620-2C430D5E] Starting sportsonline football match scraper...
-2025-08-16 16:06:20,302 - INFO - ============================================================
-2025-08-16 16:06:20,302 - INFO - [FETCH-20250816-160620-2C430D5E] Starting cleanup operations...
-2025-08-16 16:06:20,302 - INFO - [FETCH-20250816-160620-2C430D5E] Cleaning up old log entries...
-2025-08-16 16:06:20,365 - INFO - [FETCH-20250816-160620-2C430D5E] Fetching matches from sportsonline.gl...
-2025-08-16 16:06:21,231 - INFO - [FETCH-20250816-160620-2C430D5E] Fetched 31 valid matches from sportsonline.gl
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] Merging with existing data...
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] Cleaning up old matches...
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] No old matches to remove
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Corinthians vs Bahia
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Cruz Azul vs Santos Laguna
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Tigres UANL vs América
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Toluca vs Pumas UNAM
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Venezia vs Mantova
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Kocaelispor vs Samsunspor
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Wolverhampton Wanderers vs Manchester City
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Como vs Südtirol
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Excelsior vs Feyenoord
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Rangers vs Alloa Athletic
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Monaco vs Le Havre
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Vitória Guimarães vs Estoril
-2025-08-16 16:06:21,232 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Mallorca vs Barcelona
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Stuttgart vs Bayern München
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Internazionale vs Olympiakos Piraeus
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Göztepe vs Fenerbahçe
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Cagliari vs Virtus Entella
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Atalanta vs Juventus
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Groningen vs Heerenveen
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Fluminense vs Fortaleza
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Ceará vs RB Bragantino
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Nice vs Toulouse
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Cremonese vs Palermo
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Valencia vs Real Sociedad
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Deportivo Alavés vs Levante
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Estrela vs Benfica
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Vitória vs Juventude
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Sport Recife vs São Paulo
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Guadalajara vs Juárez
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Vélez Sarsfield vs Independiente
-2025-08-16 16:06:21,233 - INFO - [FETCH-20250816-160620-2C430D5E] New match: Inter Miami vs LA Galaxy
-2025-08-16 16:06:21,234 - INFO - [FETCH-20250816-160620-2C430D5E] Merge complete: 31 new, 0 updated, 62 total
-2025-08-16 16:06:21,236 - INFO - [FETCH-20250816-160620-2C430D5E] Data saved to live_events.json
-2025-08-16 16:06:21,236 - INFO - [FETCH-20250816-160620-2C430D5E] Summary:
-2025-08-16 16:06:21,236 - INFO - [FETCH-20250816-160620-2C430D5E] - Sportsonline ('Toes In The Blender') matches: 31
-2025-08-16 16:06:21,236 - INFO - [FETCH-20250816-160620-2C430D5E] - Final total matches in file: 62
-2025-08-16 16:06:21,236 - INFO - [FETCH-20250816-160620-2C430D5E] Scraper run completed successfully
-2025-08-16 16:07:33,966 - INFO - [FETCH-20250816-160733-F4F7537C] Starting sportsonline football match scraper...
-2025-08-16 16:07:33,967 - INFO - ============================================================
-2025-08-16 16:07:33,967 - INFO - [FETCH-20250816-160733-F4F7537C] Starting cleanup operations...
-2025-08-16 16:07:33,967 - INFO - [FETCH-20250816-160733-F4F7537C] Cleaning up old log entries...
-2025-08-16 16:07:34,063 - INFO - [FETCH-20250816-160733-F4F7537C] Fetching matches from sportsonline.gl...
-2025-08-16 16:07:36,001 - INFO - [FETCH-20250816-160733-F4F7537C] Fetched 31 valid matches from sportsonline.gl
-2025-08-16 16:07:36,001 - INFO - [FETCH-20250816-160733-F4F7537C] Merging with existing data...
-2025-08-16 16:07:36,001 - INFO - [FETCH-20250816-160733-F4F7537C] Cleaning up old matches...
-2025-08-16 16:07:36,002 - INFO - [FETCH-20250816-160733-F4F7537C] No old matches to remove
-2025-08-16 16:07:36,002 - INFO - [FETCH-20250816-160733-F4F7537C] Merge complete: 0 new, 0 updated, 62 total
-2025-08-16 16:07:36,004 - INFO - [FETCH-20250816-160733-F4F7537C] Data saved to live_events.json
-2025-08-16 16:07:36,004 - INFO - [FETCH-20250816-160733-F4F7537C] Summary:
-2025-08-16 16:07:36,004 - INFO - [FETCH-20250816-160733-F4F7537C] - Sportsonline ('Toes In The Blender') matches: 31
-2025-08-16 16:07:36,004 - INFO - [FETCH-20250816-160733-F4F7537C] - Final total matches in file: 62
-2025-08-16 16:07:36,004 - INFO - [FETCH-20250816-160733-F4F7537C] Scraper run completed successfully
-2025-08-16 16:24:12,978 - INFO - [FETCH-20250816-162412-FAB91BBF] Starting sportsonline football match scraper...
-2025-08-16 16:24:12,978 - INFO - ============================================================
-2025-08-16 16:24:12,979 - INFO - [FETCH-20250816-162412-FAB91BBF] Starting cleanup operations...
-2025-08-16 16:24:12,979 - INFO - [FETCH-20250816-162412-FAB91BBF] Cleaning up old log entries...
-2025-08-16 16:24:13,004 - INFO - [FETCH-20250816-162412-FAB91BBF] Fetching matches from sportsonline.gl...
-2025-08-16 16:24:14,493 - INFO - [FETCH-20250816-162412-FAB91BBF] Fetched 31 valid matches from sportsonline.gl
-2025-08-16 16:24:14,495 - INFO - [FETCH-20250816-162412-FAB91BBF] Merging with existing data...
-2025-08-16 16:24:14,495 - INFO - [FETCH-20250816-162412-FAB91BBF] Cleaning up old matches...
-2025-08-16 16:24:14,496 - INFO - [FETCH-20250816-162412-FAB91BBF] No old matches to remove
-2025-08-16 16:24:14,496 - INFO - [FETCH-20250816-162412-FAB91BBF] Merge complete: 0 new, 0 updated, 255 total
-2025-08-16 16:24:14,505 - INFO - [FETCH-20250816-162412-FAB91BBF] Data saved to live_events.json
-2025-08-16 16:24:14,505 - INFO - [FETCH-20250816-162412-FAB91BBF] Summary:
-2025-08-16 16:24:14,505 - INFO - [FETCH-20250816-162412-FAB91BBF] - Sportsonline ('Toes In The Blender') matches: 31
-2025-08-16 16:24:14,505 - INFO - [FETCH-20250816-162412-FAB91BBF] - Final total matches in file: 255
-2025-08-16 16:24:14,505 - INFO - [FETCH-20250816-162412-FAB91BBF] Scraper run completed successfully
 2025-08-16 17:08:26,911 - INFO - [FETCH-20250816-170826-0C5DF45B] Starting sportsonline football match scraper...
 2025-08-16 17:08:26,911 - INFO - ============================================================
 2025-08-16 17:08:26,911 - INFO - [FETCH-20250816-170826-0C5DF45B] Starting cleanup operations...
@@ -738,3 +614,27 @@
 2025-08-18 14:22:57,110 - INFO - [FETCH-20250818-142255-C0239DAB] - Sportsonline ('Toes In The Blender') matches: 20
 2025-08-18 14:22:57,110 - INFO - [FETCH-20250818-142255-C0239DAB] - Final total matches in file: 186
 2025-08-18 14:22:57,110 - INFO - [FETCH-20250818-142255-C0239DAB] Scraper run completed successfully
+2025-08-18 16:28:21,460 - INFO - [FETCH-20250818-162821-958236D0] Starting sportsonline football match scraper...
+2025-08-18 16:28:21,460 - INFO - ============================================================
+2025-08-18 16:28:21,460 - INFO - [FETCH-20250818-162821-958236D0] Starting cleanup operations...
+2025-08-18 16:28:21,460 - INFO - [FETCH-20250818-162821-958236D0] Cleaning up old log entries...
+2025-08-18 16:28:21,479 - INFO - [FETCH-20250818-162821-958236D0] Log cleanup complete: Removed 124 old log entries
+2025-08-18 16:28:21,480 - INFO - [FETCH-20250818-162821-958236D0] Fetching matches from sportsonline.gl...
+2025-08-18 16:28:23,090 - INFO - [FETCH-20250818-162821-958236D0] Fetched 20 valid matches from sportsonline.gl
+2025-08-18 16:28:23,091 - INFO - [FETCH-20250818-162821-958236D0] Merging with existing data...
+2025-08-18 16:28:23,091 - INFO - [FETCH-20250818-162821-958236D0] Cleaning up old matches...
+2025-08-18 16:28:23,091 - INFO - [FETCH-20250818-162821-958236D0] Removed old match: Lokomotive Leipzig vs Schalke 04 (17-08-2025 13:30)
+2025-08-18 16:28:23,092 - INFO - [FETCH-20250818-162821-958236D0] Removed old match: Atlas Delmenhorst vs Borussia M'gladbach (17-08-2025 13:30)
+2025-08-18 16:28:23,092 - INFO - [FETCH-20250818-162821-958236D0] Removed old match: Rio Ave vs Nacional (17-08-2025 14:30)
+2025-08-18 16:28:23,092 - INFO - [FETCH-20250818-162821-958236D0] Removed old match: Celta de Vigo vs Getafe (17-08-2025 15:00)
+2025-08-18 16:28:23,092 - INFO - [FETCH-20250818-162821-958236D0] Removed old match: Angers SCO vs Paris (17-08-2025 15:15)
+2025-08-18 16:28:23,092 - INFO - [FETCH-20250818-162821-958236D0] Removed old match: Metz vs Strasbourg (17-08-2025 15:15)
+2025-08-18 16:28:23,092 - INFO - [FETCH-20250818-162821-958236D0] Removed old match: Angers SCO vs Paris (17-08-2025 15:15)
+2025-08-18 16:28:23,092 - INFO - [FETCH-20250818-162821-958236D0] Removed old match: Auxerre vs Lorient (17-08-2025 15:15)
+2025-08-18 16:28:23,092 - INFO - [FETCH-20250818-162821-958236D0] Cleanup complete: Removed 8 old matches, 159 matches remaining
+2025-08-18 16:28:23,093 - INFO - [FETCH-20250818-162821-958236D0] Merge complete: 0 new, 0 updated, 159 total
+2025-08-18 16:28:23,098 - INFO - [FETCH-20250818-162821-958236D0] Data saved to live_events.json
+2025-08-18 16:28:23,098 - INFO - [FETCH-20250818-162821-958236D0] Summary:
+2025-08-18 16:28:23,098 - INFO - [FETCH-20250818-162821-958236D0] - Sportsonline ('Toes In The Blender') matches: 20
+2025-08-18 16:28:23,098 - INFO - [FETCH-20250818-162821-958236D0] - Final total matches in file: 159
+2025-08-18 16:28:23,098 - INFO - [FETCH-20250818-162821-958236D0] Scraper run completed successfully
