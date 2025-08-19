@@ -13741,3 +13741,110 @@
 2025-08-19 15:09:13,337 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-08-19 15:09:13,337 - INFO - Total Football matches in final output managed by LUCILAND: 60
+2025-08-19 18:00:57,157 - INFO - Starting LUCILAND football match scraper...
+2025-08-19 18:00:57,157 - INFO - ============================================================
+2025-08-19 18:00:57,157 - INFO - Current UTC timestamp for this run: 2025-08-19 18:00:57
+2025-08-19 18:00:57,158 - INFO - Loaded 91 total existing matches from live_events.json.
+2025-08-19 18:00:57,158 - INFO - Found 60 matches managed by 'D.S ALT 1'.
+2025-08-19 18:00:57,158 - INFO - Found 31 matches from other sources.
+2025-08-19 18:00:57,159 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-08-19 18:00:57,638 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-19 18:00:59,947 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-19 18:01:04,264 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-19 18:01:04,571 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-08-19 18:01:05,437 - INFO - Found 72 total matches from https://matchstream.do/api/v1/api.php.
+2025-08-19 18:01:05,437 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-08-19 18:01:05,456 - INFO - Filtered out 4 vuen links for match: 22:00 [Europe UEFA Champions League] Ferencváros vs Qarabağ [TNT Sports 1 GB]
+2025-08-19 18:01:05,456 - INFO - Filtered out 4 vuen links for match: 22:00 [Europe UEFA Champions League] Crvena Zvezda vs Paphos [TNT Sports 2 GB]
+2025-08-19 18:01:05,457 - INFO - Filtered out 1 vuen links for match: 21:30 [England League Two] Walsall vs Grimsby Town [Sky Sports Football GB]
+2025-08-19 18:01:05,457 - INFO - Filtered out 4 vuen links for match: 22:00 [Spain La Liga] Real Madrid vs Osasuna [Now Sports 2 HK]
+2025-08-19 18:01:05,457 - INFO - Filtered out 4 vuen links for match: 22:00 [Europe UEFA Champions League] Rangers vs Club Brugge [Paramount+ US]
+2025-08-19 18:01:05,457 - INFO - Filtered out 1 vuen links for match: 20:00 [Germany Frauen DFB Pokal] Borussia Dortmund vs Borussia M'gladbach [Sky Sport Mix DE]
+2025-08-19 18:01:05,457 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Champions League] Simulcast [Cosmote Sport 1 GR]
+2025-08-19 18:01:05,457 - WARNING - Skipping match with invalid team data: 22:00 [Europe UEFA Champions League] Simulcast [Cosmote Sport 1 GR] (Team1: Simulcast, Team2: None)
+2025-08-19 18:01:05,457 - INFO - Filtered out 1 vuen links for match: 20:00 [Africa African Nations Championship] Nigeria vs Congo [beIN Sports Xtra US]
+2025-08-19 18:01:05,457 - INFO - Filtered out 1 vuen links for match: 20:00 [Africa African Nations Championship] Sudan vs Senegal [beIN Sports 2 FR]
+2025-08-19 18:01:05,457 - INFO - Filtered out 1 vuen links for match: 21:30 [Poland I Liga] Znicz Pruszków vs Wisła Kraków [TVP Sport PL]
+2025-08-19 18:01:05,457 - INFO - Filtered out 1 vuen links for match: 20:00 [Denmark Kvindeligaen] Ob Odense vs Kolding [TV2 Sport DK]
+2025-08-19 18:01:05,458 - INFO - Filtered out 3 vuen links for match: 22:00 [Europe UEFA Champions League] Celtic vs Kairat [TNT Sports 1 GB]
+2025-08-19 18:01:05,458 - INFO - Filtered out 3 vuen links for match: 22:00 [Europe UEFA Champions League] Fenerbahçe vs Benfica [TNT Sports 2 GB]
+2025-08-19 18:01:05,458 - INFO - Filtered out 4 vuen links for match: 22:00 [Europe UEFA Champions League] Basel vs København [TNT Sports 3 GB]
+2025-08-19 18:01:05,458 - INFO - Filtered out 2 vuen links for match: 22:00 [England League One] Bolton Wanderers vs Reading [Sky Sports Football GB]
+2025-08-19 18:01:05,458 - INFO - Filtered out 3 vuen links for match: 22:00 [Europe UEFA Champions League] Bodø / Glimt vs Sturm Graz [TNT Sports 5 GB]
+2025-08-19 18:01:05,458 - INFO - Filtered out 2 vuen links for match: 03:00 [North America CONCACAF W Champions Cup] Alianza vs Washington Spirit [CBS Sports Network US]
+2025-08-19 18:01:05,458 - INFO - Filtered out 2 vuen links for match: 01:00 [South America Copa Libertadores] Vélez Sarsfield vs Fortaleza [Sport TV PT]
+2025-08-19 18:01:05,458 - INFO - Filtered out 2 vuen links for match: 03:30 [South America Copa Libertadores] São Paulo vs Atlético Nacional [Sport TV PT]
+2025-08-19 18:01:05,458 - INFO - Filtered out 1 vuen links for match: 17:00 [Greece Greek Cup] Panionios vs Iraklis [Cosmote Sport 1 GR]
+2025-08-19 18:01:05,458 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Champions League] Simulcast [Cosmote Sport 1 GR]
+2025-08-19 18:01:05,458 - WARNING - Skipping match with invalid team data: 22:00 [Europe UEFA Champions League] Simulcast [Cosmote Sport 1 GR] (Team1: Simulcast, Team2: None)
+2025-08-19 18:01:05,459 - INFO - Filtered out 1 vuen links for match: 03:00 [North America CONCACAF Central American Cup] Plaza Amador vs Managua [Onesoccer CA]
+2025-08-19 18:01:05,459 - INFO - Filtered out 2 vuen links for match: 05:00 [North America CONCACAF Central American Cup] Águila vs Olimpia [Onesoccer CA]
+2025-08-19 18:01:05,459 - INFO - Filtered out 1 vuen links for match: 03:30 [South America Copa Sudamericana] Fluminense vs América de Cali [beIN Sports Xtra US]
+2025-08-19 18:01:05,459 - INFO - Filtered out 1 vuen links for match: 01:00 [South America Copa Sudamericana] Huracán vs Once Caldas [beIN Sports Xtra ñ ES]
+2025-08-19 18:01:05,459 - INFO - Filtered out 1 vuen links for match: 03:30 [South America Copa Libertadores] Racing Club vs Peñarol [beIN Sports Xtra ñ ES]
+2025-08-19 18:01:05,459 - INFO - Filtered out 1 vuen links for match: 03:00 [North America CONCACAF Caribbean Cup] Cibao vs Cavalier [Fox Sports 2 US]
+2025-08-19 18:01:05,459 - INFO - Filtered out 1 vuen links for match: 03:00 [North America CONCACAF Caribbean Cup] Mount Pleasant vs Robinhood [Fox Soccer Plus US]
+2025-08-19 18:01:05,459 - INFO - Filtered out 1 vuen links for match: 05:00 [North America CONCACAF W Champions Cup] Pachuca vs Chorrillo [ESPN Deportes ES]
+2025-08-19 18:01:05,459 - INFO - Filtered out 2 vuen links for match: 22:00 [Europe UEFA Conference League] Crystal Palace vs Fredrikstad [Channel 5 GB]
+2025-08-19 18:01:05,459 - INFO - Filtered out 2 vuen links for match: 02:00 [North America CONCACAF W Champions Cup] NJ/NY Gotham FC vs Monterrey [CBS Sports Network US]
+2025-08-19 18:01:05,459 - INFO - Filtered out 1 vuen links for match: 21:45 [Europe UEFA Europa League] Aberdeen vs FCSB [DAZN US]
+2025-08-19 18:01:05,459 - INFO - Filtered out 2 vuen links for match: 21:15 [Europe UEFA Europa League] Slovan Bratislava vs Young Boys [SRF zwei CH]
+2025-08-19 18:01:05,460 - INFO - Filtered out 1 vuen links for match: 20:00 [Europe UEFA Conference League] Wolfsberger AC vs Omonia Nicosia [ORF 1 AT]
+2025-08-19 18:01:05,460 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Santa Clara vs Shamrock Rovers [Sport TV1 PT]
+2025-08-19 18:01:05,460 - INFO - Filtered out 2 vuen links for match: 21:00 [Europe UEFA Europa League] Panathinaikos vs Samsunspor [Cosmote Sport 1 GR]
+2025-08-19 18:01:05,460 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Conference League] Anderlecht s AEK [Cosmote Sport 2 GR]
+2025-08-19 18:01:05,460 - WARNING - Skipping match with invalid team data: 21:00 [Europe UEFA Conference League] Anderlecht s AEK [Cosmote Sport 2 GR] (Team1: Anderlecht s AEK, Team2: None)
+2025-08-19 18:01:05,460 - INFO - Filtered out 2 vuen links for match: 21:45 [Europe UEFA Europa League] Rijeka vs PAOK [Open TV GR]
+2025-08-19 18:01:05,460 - INFO - Filtered out 2 vuen links for match: 03:30 [South America Copa Sudamericana] Universidad Católica vs Alianza Lima [beIN Sports Xtra ñ US]
+2025-08-19 18:01:05,460 - INFO - Filtered out 2 vuen links for match: 03:00 [North America Leagues Cup] Inter Miami vs Tigres UANL [TUDN ES]
+2025-08-19 18:01:05,460 - INFO - Filtered out 2 vuen links for match: 06:00 [North America Leagues Cup] Seattle Sounders FC vs Puebla [TUDN ES]
+2025-08-19 18:01:05,460 - INFO - Filtered out 1 vuen links for match: 04:00 [North America Leagues Cup] Toluca vs Orlando City SC [MLS Season Pass US]
+2025-08-19 18:01:05,460 - INFO - Filtered out 1 vuen links for match: 06:45 [North America Leagues Cup] LA Galaxy vs Pachuca [MLS Season Pass US]
+2025-08-19 18:01:05,460 - INFO - Filtered out 1 vuen links for match: 05:00 [North America CONCACAF Central American Cup] Real España vs Diriangén [Onesoccer CA]
+2025-08-19 18:01:05,461 - INFO - Filtered out 1 vuen links for match: 01:00 [South America Copa Sudamericana] Cienciano vs Bolívar [beIN Sports Xtra US]
+2025-08-19 18:01:05,461 - INFO - Filtered out 1 vuen links for match: 03:30 [South America Copa Sudamericana] Independiente vs Universidad Chile [beIN Sports Xtra US]
+2025-08-19 18:01:05,461 - INFO - Filtered out 2 vuen links for match: 01:00 [South America Copa Libertadores] Estudiantes vs Cerro Porteño [beIN Sports US]
+2025-08-19 18:01:05,461 - INFO - Filtered out 2 vuen links for match: 03:30 [South America Copa Libertadores] Internacional vs Flamengo [beIN Sports US]
+2025-08-19 18:01:05,461 - INFO - Filtered out 1 vuen links for match: 21:45 [Europe UEFA Conference League] Shelbourne vs Linfield [Premier Sports 1 GB]
+2025-08-19 18:01:05,461 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Conference League] Polessya vs Fiorentina [Sky Sport Calcio IT]
+2025-08-19 18:01:05,461 - INFO - Filtered out 2 vuen links for match: 22:00 [Europe UEFA Conference League] RKS Rakow Czestochowa vs FC Arda Kardzhal [TVP Sport PL]
+2025-08-19 18:01:05,461 - INFO - Filtered out 1 vuen links for match: 21:15 [Europe UEFA Conference League] Jagiellonia Bialystok vs Dinamo Tirana [Polsat Sport 1 PL]
+2025-08-19 18:01:05,461 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Hibernian FC vs Legia Warszawa [Polsat Sport 2 PL]
+2025-08-19 18:01:05,461 - INFO - Filtered out 2 vuen links for match: 21:15 [Europe UEFA Europa League] KKS Lech Poznan vs KRC Genk [TVP2 PL]
+2025-08-19 18:01:05,461 - INFO - Filtered out 2 vuen links for match: 21:00 [Europe UEFA Conference League] Celje vs Baník Ostrava [Sport TV1 SI]
+2025-08-19 18:01:05,462 - INFO - Filtered out 1 vuen links for match: 20:00 [Europe UEFA Conference League] Györ vs Rapid Vienna [M4 Sport HU]
+2025-08-19 18:01:05,462 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Europa League] Maccabi Tel Aviv vs Dynamo Kyiv [Sport 1 IL]
+2025-08-19 18:01:05,462 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Europa League] Škendija 79 vs Ludogorets [Diema Sport 3 BG]
+2025-08-19 18:01:05,462 - INFO - Filtered out 2 vuen links for match: 21:00 [Europe UEFA Conference League] Levski Sofia vs AZ Alkmaar [Diema Sport BG]
+2025-08-19 18:01:05,462 - INFO - Filtered out 1 vuen links for match: 03:00 [North America CONCACAF Caribbean Cup] Universidad O&M vs Central [Fox Soccer Plus US]
+2025-08-19 18:01:05,462 - INFO - Filtered out 1 vuen links for match: 05:00 [North America CONCACAF Central American Cup] Cartaginés vs Hankook Verdes [Fox Soccer Plus US]
+2025-08-19 18:01:05,462 - INFO - Filtered out 1 vuen links for match: 05:00 [North America CONCACAF W Champions Cup] LD Alajuelense vs América [ESPN Deportes ES]
+2025-08-19 18:01:05,462 - INFO - Filtered out 1 vuen links for match: 20:45 [Europe UEFA Conference League] Istanbul Basaksehir vs Universitatea Craiova [TRT 1 TR]
+2025-08-19 18:01:05,462 - INFO - Filtered out 1 vuen links for match: 21:15 [Europe UEFA Conference League] Lausanne Sport vs Beşiktaş [S Sport+ TR]
+2025-08-19 18:01:05,462 - INFO - Filtered out 1 vuen links for match: 20:00 [Europe UEFA Conference League] BK Häcken vs CFR Cluj [Prima Sport 1 RO]
+2025-08-19 18:01:05,462 - INFO - Transformed 62 valid football matches from API response.
+2025-08-19 18:01:05,463 - INFO - Merge for 'D.S ALT 1' data: 35 new, 27 updated.
+2025-08-19 18:01:05,463 - INFO - Removed old match (managed by this scraper): 19:00 [Germany DFB Pokal] Dynamo Dresden vs Mainz 05 [Sky Sport 3 DE] (18-08-2025 16:00)
+2025-08-19 18:01:05,463 - INFO - Removed old match (managed by this scraper): 19:00 [Germany DFB Pokal] Preußen Münster vs Hertha BSC [Sky Sport 4 DE] (18-08-2025 16:00)
+2025-08-19 18:01:05,463 - INFO - Removed old match (managed by this scraper): 19:00 [Germany DFB Pokal] Schweinfurt vs Fortuna Düsseldorf [Sky Sport 5 DE] (18-08-2025 16:00)
+2025-08-19 18:01:05,463 - INFO - Removed old match (managed by this scraper): 19:00 [Italy Coppa Italia] Hellas Verona vs Audace Cerignola [Premier Sports 1 GB] (18-08-2025 16:00)
+2025-08-19 18:01:05,463 - INFO - Removed old match (managed by this scraper): 19:00 [Bulgaria Parva Liga] Septemvri Sofia vs Dobrudzha 1919 [Diema Sport BG] (18-08-2025 16:00)
+2025-08-19 18:01:05,463 - INFO - Removed old match (managed by this scraper): 19:30 [Italy Coppa Italia] Spezia vs Sampdoria [DAZN2 DE] (18-08-2025 16:30)
+2025-08-19 18:01:05,463 - INFO - Removed old match (managed by this scraper): 20:00 [Africa African Nations Championship] Algeria vs Niger [beIN Sports 2 FR] (18-08-2025 17:00)
+2025-08-19 18:01:05,463 - INFO - Removed old match (managed by this scraper): 20:00 [Africa African Nations Championship] South Africa vs Uganda [Canal+ Sport 2 Afrique FR] (18-08-2025 17:00)
+2025-08-19 18:01:05,464 - INFO - Removed old match (managed by this scraper): 20:00 [Sweden Allsvenskan] Värnamo vs Degerfors [max Extra 1 SE] (18-08-2025 17:00)
+2025-08-19 18:01:05,464 - INFO - Removed old match (managed by this scraper): 20:00 [Denmark Super Liga] OB vs AGF [TV2 Sport X DK] (18-08-2025 17:00)
+2025-08-19 18:01:05,464 - INFO - Removed old match (managed by this scraper): 20:00 [Spain Segunda Division] Sporting Gijón vs Córdoba [LaLiga Hypermotion ES] (18-08-2025 17:00)
+2025-08-19 18:01:05,464 - INFO - Removed old match (managed by this scraper): 21:00 [Netherlands Eerste Divisie] Ajax II vs AZ II [ESPN NL] (18-08-2025 18:00)
+2025-08-19 18:01:05,464 - INFO - Removed old match (managed by this scraper): 21:00 [Netherlands Eerste Divisie] Utrecht II vs ADO Den Haag [ESPN2 NL] (18-08-2025 18:00)
+2025-08-19 18:01:05,465 - INFO - Cleanup for 'D.S ALT 1' data: Removed 13 old matches, 82 matches remaining.
+2025-08-19 18:01:05,469 - INFO - Successfully saved 113 matches to live_events.json.
+2025-08-19 18:01:05,469 - INFO - LUCILAND scraper run completed successfully.
+2025-08-19 18:01:05,469 - INFO - Summary for 'D.S ALT 1':
+2025-08-19 18:01:05,469 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 72
+2025-08-19 18:01:05,469 - INFO - - Valid Football matches processed from API: 62
+2025-08-19 18:01:05,469 - INFO - - Final matches added/updated by this scraper: 82
+2025-08-19 18:01:05,469 - INFO - - Total matches in live_events.json after this run: 113
+2025-08-19 18:01:05,470 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-08-19 18:01:05,470 - INFO - Total Football matches in final output managed by LUCILAND: 82
