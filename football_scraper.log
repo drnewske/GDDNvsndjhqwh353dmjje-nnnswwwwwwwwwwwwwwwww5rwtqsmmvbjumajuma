@@ -13358,3 +13358,75 @@
 2025-08-18 21:01:23,210 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-08-18 21:01:23,210 - INFO - Total Football matches in final output managed by LUCILAND: 69
+2025-08-19 00:40:50,574 - INFO - Starting LUCILAND football match scraper...
+2025-08-19 00:40:50,574 - INFO - ============================================================
+2025-08-19 00:40:50,574 - INFO - Current UTC timestamp for this run: 2025-08-19 00:40:50
+2025-08-19 00:40:50,575 - INFO - Loaded 95 total existing matches from live_events.json.
+2025-08-19 00:40:50,575 - INFO - Found 69 matches managed by 'D.S ALT 1'.
+2025-08-19 00:40:50,575 - INFO - Found 26 matches from other sources.
+2025-08-19 00:40:50,576 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-08-19 00:40:50,716 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-19 00:40:52,747 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-19 00:40:56,778 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-19 00:40:56,808 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-08-19 00:40:57,511 - INFO - Found 38 total matches from https://matchstream.do/api/v1/api.php.
+2025-08-19 00:40:57,511 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-08-19 00:40:57,526 - INFO - Filtered out 4 vuen links for match: 22:00 [Europe UEFA Champions League] Ferencváros vs Qarabağ [TNT Sports 1 GB]
+2025-08-19 00:40:57,526 - INFO - Filtered out 4 vuen links for match: 22:00 [Europe UEFA Champions League] Crvena Zvezda vs Paphos [TNT Sports 2 GB]
+2025-08-19 00:40:57,526 - INFO - Filtered out 1 vuen links for match: 21:30 [England League Two] Walsall vs Grimsby Town [Sky Sports Football GB]
+2025-08-19 00:40:57,526 - INFO - Filtered out 3 vuen links for match: 22:00 [Spain La Liga] Real Madrid vs Osasuna [Now Sports 2 HK]
+2025-08-19 00:40:57,526 - INFO - Filtered out 1 vuen links for match: 05:00 [United States NWSL] Seattle Reign vs Chicago Red Stars [CBS Sports Network US]
+2025-08-19 00:40:57,526 - INFO - Filtered out 4 vuen links for match: 22:00 [Europe UEFA Champions League] Rangers vs Club Brugge [Paramount+ US]
+2025-08-19 00:40:57,526 - INFO - Filtered out 1 vuen links for match: 20:00 [Germany Frauen DFB Pokal] Borussia Dortmund vs Borussia M'gladbach [Sky Sport Mix DE]
+2025-08-19 00:40:57,527 - INFO - Filtered out 1 vuen links for match: 17:00 [Greece Greek Cup] Kalamata vs AEL [Cosmote Sport 1 GR]
+2025-08-19 00:40:57,527 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Champions League] Simulcast [Cosmote Sport 1 GR]
+2025-08-19 00:40:57,527 - WARNING - Skipping match with invalid team data: 22:00 [Europe UEFA Champions League] Simulcast [Cosmote Sport 1 GR] (Team1: Simulcast, Team2: None)
+2025-08-19 00:40:57,527 - INFO - Filtered out 1 vuen links for match: 03:00 [Argentina Primera División] Talleres Córdoba vs San Martín San Juan [TNT Sports Argentina ES]
+2025-08-19 00:40:57,527 - INFO - Filtered out 1 vuen links for match: 20:00 [Africa African Nations Championship] Nigeria vs Congo [beIN Sports Xtra US]
+2025-08-19 00:40:57,527 - INFO - Filtered out 1 vuen links for match: 20:00 [Africa African Nations Championship] Sudan vs Senegal [beIN Sports 2 FR]
+2025-08-19 00:40:57,527 - INFO - Filtered out 1 vuen links for match: 19:00 [Poland I Liga] Polonia Warszawa vs Wieczysta Kraków [TVP Sport PL]
+2025-08-19 00:40:57,527 - INFO - Filtered out 1 vuen links for match: 21:30 [Poland I Liga] Znicz Pruszków vs Wisła Kraków [TVP Sport PL]
+2025-08-19 00:40:57,527 - INFO - Filtered out 1 vuen links for match: 19:00 [Czech Republic 1. liga] Mladá Boleslav vs Viktoria Plzeň [OnePlay Sport 1 CZ]
+2025-08-19 00:40:57,527 - INFO - Filtered out 1 vuen links for match: 20:00 [Denmark Kvindeligaen] Ob Odense vs Kolding [TV2 Sport DK]
+2025-08-19 00:40:57,527 - INFO - Filtered out 1 vuen links for match: 18:00 [Bulgaria Second League] Etar vs Yantra [Diema Sport BG]
+2025-08-19 00:40:57,527 - INFO - Filtered out 2 vuen links for match: 15:00 [Saudi Arabia Saudi Super Cup] Al Nassr vs Al Ittihad [Fox Sports 2 US]
+2025-08-19 00:40:57,528 - INFO - Filtered out 3 vuen links for match: 22:00 [Europe UEFA Champions League] Celtic vs Kairat [TNT Sports 1 GB]
+2025-08-19 00:40:57,528 - INFO - Filtered out 3 vuen links for match: 22:00 [Europe UEFA Champions League] Fenerbahçe vs Benfica [TNT Sports 2 GB]
+2025-08-19 00:40:57,528 - INFO - Filtered out 4 vuen links for match: 22:00 [Europe UEFA Champions League] Basel vs København [TNT Sports 3 GB]
+2025-08-19 00:40:57,528 - INFO - Filtered out 2 vuen links for match: 22:00 [England League One] Bolton Wanderers vs Reading [Sky Sports Football GB]
+2025-08-19 00:40:57,528 - INFO - Filtered out 3 vuen links for match: 22:00 [Europe UEFA Champions League] Bodø / Glimt vs Sturm Graz [TNT Sports 5 GB]
+2025-08-19 00:40:57,528 - INFO - Filtered out 2 vuen links for match: 03:00 [North America CONCACAF W Champions Cup] Alianza vs Washington Spirit [CBS Sports Network US]
+2025-08-19 00:40:57,528 - INFO - Filtered out 2 vuen links for match: 01:00 [South America Copa Libertadores] Vélez Sarsfield vs Fortaleza [Sport TV PT]
+2025-08-19 00:40:57,528 - INFO - Filtered out 2 vuen links for match: 03:30 [South America Copa Libertadores] São Paulo vs Atlético Nacional [Sport TV PT]
+2025-08-19 00:40:57,528 - INFO - Filtered out 1 vuen links for match: 17:00 [Greece Greek Cup] Panionios vs Iraklis [Cosmote Sport 1 GR]
+2025-08-19 00:40:57,528 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Champions League] Simulcast [Cosmote Sport 1 GR]
+2025-08-19 00:40:57,528 - WARNING - Skipping match with invalid team data: 22:00 [Europe UEFA Champions League] Simulcast [Cosmote Sport 1 GR] (Team1: Simulcast, Team2: None)
+2025-08-19 00:40:57,529 - INFO - Filtered out 1 vuen links for match: 03:00 [North America CONCACAF Central American Cup] Plaza Amador vs Managua [Onesoccer CA]
+2025-08-19 00:40:57,529 - INFO - Filtered out 2 vuen links for match: 05:00 [North America CONCACAF Central American Cup] Águila vs Olimpia [Onesoccer CA]
+2025-08-19 00:40:57,529 - INFO - Filtered out 1 vuen links for match: 03:30 [South America Copa Sudamericana] Fluminense vs América de Cali [beIN Sports Xtra US]
+2025-08-19 00:40:57,529 - INFO - Filtered out 1 vuen links for match: 01:00 [South America Copa Sudamericana] Huracán vs Once Caldas [beIN Sports Xtra ñ ES]
+2025-08-19 00:40:57,529 - INFO - Filtered out 1 vuen links for match: 03:30 [South America Copa Libertadores] Racing Club vs Peñarol [beIN Sports Xtra ñ ES]
+2025-08-19 00:40:57,529 - INFO - Filtered out 1 vuen links for match: 03:00 [North America CONCACAF Caribbean Cup] Cibao vs Cavalier [Fox Sports 2 US]
+2025-08-19 00:40:57,529 - INFO - Filtered out 1 vuen links for match: 03:00 [North America CONCACAF Caribbean Cup] Mount Pleasant vs Robinhood [Fox Soccer Plus US]
+2025-08-19 00:40:57,529 - INFO - Filtered out 1 vuen links for match: 05:00 [North America CONCACAF W Champions Cup] Pachuca vs Chorrillo [ESPN Deportes ES]
+2025-08-19 00:40:57,529 - INFO - Transformed 34 valid football matches from API response.
+2025-08-19 00:40:57,529 - INFO - Merge for 'D.S ALT 1' data: 1 new, 33 updated.
+2025-08-19 00:40:57,530 - INFO - Removed old match (managed by this scraper): 00:30 [Brazil Brasileirão] Internacional vs Flamengo [Sportdigital FUSSBALL DE] (17-08-2025 21:30)
+2025-08-19 00:40:57,530 - INFO - Removed old match (managed by this scraper): 00:30 [Argentina Primera División] River Plate vs Godoy Cruz [TNT Sports Argentina ES] (17-08-2025 21:30)
+2025-08-19 00:40:57,530 - INFO - Removed old match (managed by this scraper): 01:00 [Mexico Liga MX] Querétaro vs Atlas [TUDN ES] (17-08-2025 22:00)
+2025-08-19 00:40:57,530 - INFO - Removed old match (managed by this scraper): 02:00 [USA/Canada Major League Soccer] SJ Earthquakes vs San Diego [MLS Season Pass US] (17-08-2025 23:00)
+2025-08-19 00:40:57,530 - INFO - Removed old match (managed by this scraper): 02:00 [Canada Canadian Premier League] Cavalry vs Vancouver FC [Fox Sports 2 US] (17-08-2025 23:00)
+2025-08-19 00:40:57,530 - INFO - Removed old match (managed by this scraper): 02:30 [Brazil Brasileirão] Botafogo vs Palmeiras [Sportdigital FUSSBALL DE] (17-08-2025 23:30)
+2025-08-19 00:40:57,530 - INFO - Removed old match (managed by this scraper): 02:30 [Argentina Primera División] Independiente Rivadavia vs Boca Juniors [ESPN Premium Argentina ES] (17-08-2025 23:30)
+2025-08-19 00:40:57,530 - INFO - Removed old match (managed by this scraper): 03:00 [Mexico Liga MX] Monterrey vs Mazatlán [CBS Sports Golazo ES] (18-08-2025 00:00)
+2025-08-19 00:40:57,532 - INFO - Cleanup for 'D.S ALT 1' data: Removed 8 old matches, 62 matches remaining.
+2025-08-19 00:40:57,536 - INFO - Successfully saved 88 matches to live_events.json.
+2025-08-19 00:40:57,536 - INFO - LUCILAND scraper run completed successfully.
+2025-08-19 00:40:57,536 - INFO - Summary for 'D.S ALT 1':
+2025-08-19 00:40:57,536 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 38
+2025-08-19 00:40:57,536 - INFO - - Valid Football matches processed from API: 34
+2025-08-19 00:40:57,536 - INFO - - Final matches added/updated by this scraper: 62
+2025-08-19 00:40:57,536 - INFO - - Total matches in live_events.json after this run: 88
+2025-08-19 00:40:57,537 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-08-19 00:40:57,537 - INFO - Total Football matches in final output managed by LUCILAND: 62
