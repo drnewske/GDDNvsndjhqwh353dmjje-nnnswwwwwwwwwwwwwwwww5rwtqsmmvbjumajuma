@@ -21810,3 +21810,89 @@
 2025-08-27 00:38:58,051 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-08-27 00:38:58,051 - INFO - Total Football matches in final output managed by LUCILAND: 71
+2025-08-27 03:27:51,446 - INFO - Starting LUCILAND football match scraper...
+2025-08-27 03:27:51,446 - INFO - ============================================================
+2025-08-27 03:27:51,446 - INFO - Current UTC timestamp for this run: 2025-08-27 03:27:51
+2025-08-27 03:27:51,447 - INFO - Loaded 98 total existing matches from live_events.json.
+2025-08-27 03:27:51,447 - INFO - Found 71 matches managed by 'D.S ALT 1'.
+2025-08-27 03:27:51,448 - INFO - Found 27 matches from other sources.
+2025-08-27 03:27:51,448 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-08-27 03:27:51,611 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-27 03:27:53,650 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-27 03:27:57,688 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-27 03:27:57,727 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-08-27 03:27:58,547 - INFO - Found 71 total matches from https://matchstream.do/api/v1/api.php.
+2025-08-27 03:27:58,547 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-08-27 03:27:58,561 - INFO - Filtered out 2 vuen links for match: 22:00 [Europe UEFA Champions League] Club Brugge vs Rangers [TNT Sports 1 GB]
+2025-08-27 03:27:58,561 - INFO - Filtered out 3 vuen links for match: 19:45 [Europe UEFA Champions League] Qarabağ vs Ferencváros [TNT Sports 2 GB]
+2025-08-27 03:27:58,561 - INFO - Filtered out 4 vuen links for match: 22:00 [Europe UEFA Champions League] Benfica vs Fenerbahçe [TNT Sports 2 GB]
+2025-08-27 03:27:58,561 - INFO - Filtered out 4 vuen links for match: 22:00 [Europe UEFA Champions League] København vs Basel [TNT Sports 3 GB]
+2025-08-27 03:27:58,562 - INFO - Filtered out 3 vuen links for match: 22:00 [England League Cup] Grimsby Town vs Manchester United [Sky Sports Football GB]
+2025-08-27 03:27:58,562 - INFO - Filtered out 3 vuen links for match: 22:00 [Spain La Liga] Celta de Vigo vs Real Betis [Now Sports 2 HK]
+2025-08-27 03:27:58,562 - INFO - Filtered out 3 vuen links for match: 21:45 [Germany DFB Pokal] Wehen Wiesbaden vs Bayern München [Sky Top Event DE]
+2025-08-27 03:27:58,562 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Champions League] Simulcast [Cosmote Sport 1 GR]
+2025-08-27 03:27:58,562 - WARNING - Skipping match with invalid team data: 22:00 [Europe UEFA Champions League] Simulcast [Cosmote Sport 1 GR] (Team1: Simulcast, Team2: None)
+2025-08-27 03:27:58,562 - INFO - Filtered out 2 vuen links for match: 19:30 [Europe UEFA Europa League] AEK Larnaca vs Brann [Cytavision Sports 1 CY]
+2025-08-27 03:27:58,562 - INFO - Filtered out 1 vuen links for match: 17:00 [Europe UEFA Women's Champions League] Apollon Limassol vs Young Boys [Cytavision Sports 2 CY]
+2025-08-27 03:27:58,562 - INFO - Filtered out 1 vuen links for match: 21:30 [Europe UEFA Women's Champions League] Fortuna Hjørring vs Hibernian LFC [Cytavision Sports 2 CY]
+2025-08-27 03:27:58,562 - INFO - Filtered out 2 vuen links for match: 21:45 [England League Cup] Everton vs Mansfield Town [Sky Sports+ GB]
+2025-08-27 03:27:58,562 - INFO - Filtered out 1 vuen links for match: 21:45 [England League Cup] Oxford United vs Brighton & Hove Albion [Sky Sports+ GB]
+2025-08-27 03:27:58,563 - INFO - Filtered out 2 vuen links for match: 21:45 [England League Cup] Fulham vs Bristol City [Sky Sports+ GB]
+2025-08-27 03:27:58,563 - INFO - Filtered out 1 vuen links for match: 13:00 [Europe UEFA Women's Champions League] Manchester United vs PSV [MUTV GB]
+2025-08-27 03:27:58,563 - INFO - Filtered out 1 vuen links for match: 05:00 [North America CONCACAF Central American Cup] Deportivo Saprissa vs Motagua [OneSoccer CA]
+2025-08-27 03:27:58,563 - INFO - Filtered out 2 vuen links for match: 19:45 [Europe UEFA Conference League] Riga vs Sparta Praha [Nova Sport 5 CZ]
+2025-08-27 03:27:58,563 - INFO - Filtered out 1 vuen links for match: 05:00 [North America CONCACAF Central American Cup] Cartaginés vs Independiente [Fox Soccer Plus US]
+2025-08-27 03:27:58,563 - INFO - Filtered out 3 vuen links for match: 19:00 [Europe UEFA Champions League] UEFA Champions League 2025/2026 Draw [TNT Sports 1 GB]
+2025-08-27 03:27:58,563 - WARNING - Skipping match with invalid team data: 19:00 [Europe UEFA Champions League] UEFA Champions League 2025/2026 Draw [TNT Sports 1 GB] (Team1: UEFA Champions League 2025/2026 Draw, Team2: None)
+2025-08-27 03:27:58,563 - INFO - Filtered out 2 vuen links for match: 19:00 [Europe UEFA Conference League] Fredrikstad vs Crystal Palace [Channel 5 GB]
+2025-08-27 03:27:58,563 - INFO - Filtered out 1 vuen links for match: 20:00 [Europe UEFA Conference League] Beşiktaş vs Lausanne Sport [Sport 1 DE]
+2025-08-27 03:27:58,563 - INFO - Filtered out 1 vuen links for match: 19:00 [Europe UEFA Conference League] Omonia Nicosia vs Wolfsberger AC [Cytavision Sports 1 CY]
+2025-08-27 03:27:58,563 - INFO - Filtered out 2 vuen links for match: 21:00 [Europe UEFA Europa League] Young Boys vs Slovan Bratislava [SRF info CH]
+2025-08-27 03:27:58,564 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Shamrock Rovers vs Santa Clara [Sport TV2 PT]
+2025-08-27 03:27:58,564 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Europa League] Sporting Braga vs Lincoln Red Imps [Sport TV1 PT]
+2025-08-27 03:27:58,564 - INFO - Filtered out 1 vuen links for match: 20:15 [Europe UEFA Europa League] Simulcast [Cosmote Sport 1 GR]
+2025-08-27 03:27:58,564 - WARNING - Skipping match with invalid team data: 20:15 [Europe UEFA Europa League] Simulcast [Cosmote Sport 1 GR] (Team1: Simulcast, Team2: None)
+2025-08-27 03:27:58,564 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Conference League] AEK Athens vs Anderlecht [Cosmote Sport 2 GR]
+2025-08-27 03:27:58,564 - INFO - Filtered out 2 vuen links for match: 20:00 [Europe UEFA Europa League] Samsunspor vs Panathinaikos [Cosmote Sport 3 GR]
+2025-08-27 03:27:58,564 - INFO - Filtered out 2 vuen links for match: 20:30 [Europe UEFA Europa League] PAOK vs Rijeka [Open TV GR]
+2025-08-27 03:27:58,564 - INFO - Filtered out 1 vuen links for match: 05:45 [North America Leagues Cup] LA Galaxy vs Seattle Sounders FC [TUDN ES]
+2025-08-27 03:27:58,564 - INFO - Filtered out 1 vuen links for match: 01:30 [North America Leagues Cup] Inter Miami vs Orlando City SC [Amazon Prime Video US]
+2025-08-27 03:27:58,564 - INFO - Filtered out 1 vuen links for match: 21:45 [Europe UEFA Conference League] Linfield vs Shelbourne [Premier Sports 1 GB]
+2025-08-27 03:27:58,564 - INFO - Filtered out 2 vuen links for match: 21:00 [Europe UEFA Conference League] Fiorentina vs Polessya [Sky Sport 254 IT]
+2025-08-27 03:27:58,564 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Conference League] Brøndby vs Strasbourg [BFM Alsace FR]
+2025-08-27 03:27:58,565 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Virtus vs Breidablik [SÝN Sport Ísland IS]
+2025-08-27 03:27:58,565 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Mainz 05 vs Rosenborg [VG+ NO]
+2025-08-27 03:27:58,565 - INFO - Filtered out 2 vuen links for match: 21:45 [Europe UEFA Conference League] Dinamo City vs Jagiellonia Białystok [Polsat Sport 1 PL]
+2025-08-27 03:27:58,565 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Legia Warszawa vs Hibernian [TVP 1 PL]
+2025-08-27 03:27:58,565 - INFO - Filtered out 2 vuen links for match: 21:00 [Europe UEFA Conference League] Arda vs Raków Częstochowa [TVP 2 PL]
+2025-08-27 03:27:58,565 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Europa League] Genk vs Lech Poznań [TVP 3 PL]
+2025-08-27 03:27:58,565 - INFO - Filtered out 1 vuen links for match: 20:00 [Europe UEFA Conference League] Rīgas FS vs Hamrun Spartans [TV4 Latvia LT]
+2025-08-27 03:27:58,565 - INFO - Filtered out 1 vuen links for match: 19:30 [Europe UEFA Europa League] Sigma Olomouc vs Malmö FF [Nova Sport 5 CZ]
+2025-08-27 03:27:58,565 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Conference League] Baník Ostrava vs Celje [Premier Sport 2 CZ]
+2025-08-27 03:27:58,565 - INFO - Filtered out 1 vuen links for match: 20:00 [Europe UEFA Conference League] Rapid Wien vs Győri ETO [M4 Sports HU]
+2025-08-27 03:27:58,565 - INFO - Filtered out 1 vuen links for match: 19:00 [Europe UEFA Conference League] Noah vs Olimpija [Kanal A SI]
+2025-08-27 03:27:58,566 - INFO - Filtered out 2 vuen links for match: 20:30 [Europe UEFA Conference League] AZ vs Levski Sofia [Diema Sport BG]
+2025-08-27 03:27:58,566 - INFO - Filtered out 1 vuen links for match: 20:30 [Europe UEFA Europa League] Ludogorets vs Škendija 79 [Diema Sport 3 BG]
+2025-08-27 03:27:58,566 - INFO - Filtered out 1 vuen links for match: 03:00 [North America CONCACAF Central American Cup] Moca vs Mount Pleasant Academy [Fox Sports 2 US]
+2025-08-27 03:27:58,566 - INFO - Filtered out 1 vuen links for match: 03:00 [North America CONCACAF Central American Cup] Alajuelense vs Antigua GFC [Fox Soccer Plus US]
+2025-08-27 03:27:58,566 - INFO - Filtered out 1 vuen links for match: 05:00 [North America CONCACAF Central American Cup] Olimpia vs Xelajú [Fox Soccer Plus US]
+2025-08-27 03:27:58,566 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Europa League] Utrecht vs Zrinjski [Ziggo Sport NL]
+2025-08-27 03:27:58,566 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Servette vs Shakhtar Donetsk [Exxen TR]
+2025-08-27 03:27:58,566 - INFO - Filtered out 1 vuen links for match: 20:30 [Europe UEFA Conference League] CFR Cluj vs Häcken [Prima Sport 2 RO]
+2025-08-27 03:27:58,566 - INFO - Filtered out 1 vuen links for match: 20:30 [Europe UEFA Conference League] CSU Craiova vs İstanbul Başakşehir [Prima Sport 1 RO]
+2025-08-27 03:27:58,566 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Europa League] Dynamo Kyiv vs Maccabi Tel Aviv [2+2 UA]
+2025-08-27 03:27:58,567 - INFO - Filtered out 1 vuen links for match: 21:30 [Europe UEFA Europa League] FCSB vs Aberdeen [Pro TV RO]
+2025-08-27 03:27:58,567 - INFO - Transformed 53 valid football matches from API response.
+2025-08-27 03:27:58,567 - INFO - Merge for 'D.S ALT 1' data: 0 new, 53 updated.
+2025-08-27 03:27:58,567 - INFO - Removed old match (managed by this scraper): 06:00 [Mexico Liga MX Femenil] Juárez vs Mazatlán [FOX Deportes ES] (26-08-2025 03:00)
+2025-08-27 03:27:58,568 - INFO - Cleanup for 'D.S ALT 1' data: Removed 1 old matches, 70 matches remaining.
+2025-08-27 03:27:58,571 - INFO - Successfully saved 97 matches to live_events.json.
+2025-08-27 03:27:58,571 - INFO - LUCILAND scraper run completed successfully.
+2025-08-27 03:27:58,571 - INFO - Summary for 'D.S ALT 1':
+2025-08-27 03:27:58,572 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 71
+2025-08-27 03:27:58,572 - INFO - - Valid Football matches processed from API: 53
+2025-08-27 03:27:58,572 - INFO - - Final matches added/updated by this scraper: 70
+2025-08-27 03:27:58,572 - INFO - - Total matches in live_events.json after this run: 97
+2025-08-27 03:27:58,573 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-08-27 03:27:58,573 - INFO - Total Football matches in final output managed by LUCILAND: 70
