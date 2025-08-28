@@ -22687,3 +22687,110 @@
 2025-08-28 03:27:58,913 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-08-28 03:27:58,913 - INFO - Total Football matches in final output managed by LUCILAND: 92
+2025-08-28 06:13:01,726 - INFO - Starting LUCILAND football match scraper...
+2025-08-28 06:13:01,726 - INFO - ============================================================
+2025-08-28 06:13:01,726 - INFO - Current UTC timestamp for this run: 2025-08-28 06:13:01
+2025-08-28 06:13:01,727 - INFO - Loaded 124 total existing matches from live_events.json.
+2025-08-28 06:13:01,728 - INFO - Found 92 matches managed by 'D.S ALT 1'.
+2025-08-28 06:13:01,728 - INFO - Found 32 matches from other sources.
+2025-08-28 06:13:01,728 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-08-28 06:13:01,847 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-28 06:13:03,877 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-28 06:13:07,908 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-08-28 06:13:07,937 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-08-28 06:13:08,838 - INFO - Found 132 total matches from https://matchstream.do/api/v1/api.php.
+2025-08-28 06:13:08,838 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-08-28 06:13:08,889 - INFO - Filtered out 3 vuen links for match: 19:00 [Europe UEFA Champions League] UEFA Champions League 2025/2026 Draw [TNT Sports 1 GB]
+2025-08-28 06:13:08,889 - WARNING - Skipping match with invalid team data: 19:00 [Europe UEFA Champions League] UEFA Champions League 2025/2026 Draw [TNT Sports 1 GB] (Team1: UEFA Champions League 2025/2026 Draw, Team2: None)
+2025-08-28 06:13:08,889 - INFO - Filtered out 2 vuen links for match: 19:00 [Europe UEFA Conference League] Fredrikstad vs Crystal Palace [Channel 5 GB]
+2025-08-28 06:13:08,890 - INFO - Filtered out 1 vuen links for match: 20:00 [Europe UEFA Conference League] Beşiktaş vs Lausanne Sport [Sport 1 DE]
+2025-08-28 06:13:08,890 - INFO - Filtered out 1 vuen links for match: 19:00 [Europe UEFA Conference League] Omonia Nicosia vs Wolfsberger AC [Cytavision Sports 1 CY]
+2025-08-28 06:13:08,890 - INFO - Filtered out 2 vuen links for match: 21:00 [Europe UEFA Europa League] Young Boys vs Slovan Bratislava [SRF info CH]
+2025-08-28 06:13:08,890 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Europa League] Sporting Braga vs Lincoln Red Imps [Sport TV1 PT]
+2025-08-28 06:13:08,890 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Shamrock Rovers vs Santa Clara [Sport TV2 PT]
+2025-08-28 06:13:08,890 - INFO - Filtered out 1 vuen links for match: 20:15 [Europe UEFA Europa League] Simulcast [Cosmote Sport 1 GR]
+2025-08-28 06:13:08,890 - WARNING - Skipping match with invalid team data: 20:15 [Europe UEFA Europa League] Simulcast [Cosmote Sport 1 GR] (Team1: Simulcast, Team2: None)
+2025-08-28 06:13:08,890 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Conference League] AEK Athens vs Anderlecht [Cosmote Sport 2 GR]
+2025-08-28 06:13:08,890 - INFO - Filtered out 2 vuen links for match: 20:00 [Europe UEFA Europa League] Samsunspor vs Panathinaikos [Cosmote Sport 3 GR]
+2025-08-28 06:13:08,890 - INFO - Filtered out 2 vuen links for match: 20:30 [Europe UEFA Europa League] PAOK vs Rijeka [Open TV GR]
+2025-08-28 06:13:08,890 - INFO - Filtered out 1 vuen links for match: 21:45 [Europe UEFA Conference League] Linfield vs Shelbourne [Premier Sports 1 GB]
+2025-08-28 06:13:08,891 - INFO - Filtered out 2 vuen links for match: 21:00 [Europe UEFA Conference League] Fiorentina vs Polessya [Sky Sport 254 IT]
+2025-08-28 06:13:08,891 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Conference League] Brøndby vs Strasbourg [BFM Alsace FR]
+2025-08-28 06:13:08,891 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Virtus vs Breidablik [SÝN Sport Ísland IS]
+2025-08-28 06:13:08,891 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Mainz 05 vs Rosenborg [VG+ NO]
+2025-08-28 06:13:08,891 - INFO - Filtered out 2 vuen links for match: 21:45 [Europe UEFA Conference League] Dinamo City vs Jagiellonia Białystok [Polsat Sport 1 PL]
+2025-08-28 06:13:08,891 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Legia Warszawa vs Hibernian [TVP 1 PL]
+2025-08-28 06:13:08,891 - INFO - Filtered out 2 vuen links for match: 21:00 [Europe UEFA Conference League] Arda vs Raków Częstochowa [TVP 2 PL]
+2025-08-28 06:13:08,891 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Europa League] Genk vs Lech Poznań [TVP 3 PL]
+2025-08-28 06:13:08,891 - INFO - Filtered out 1 vuen links for match: 20:00 [Europe UEFA Conference League] Rīgas FS vs Hamrun Spartans [TV4 Latvia LT]
+2025-08-28 06:13:08,891 - INFO - Filtered out 1 vuen links for match: 19:30 [Europe UEFA Europa League] Sigma Olomouc vs Malmö FF [Nova Sport 5 CZ]
+2025-08-28 06:13:08,891 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Conference League] Baník Ostrava vs Celje [Premier Sport 2 CZ]
+2025-08-28 06:13:08,892 - INFO - Filtered out 1 vuen links for match: 20:00 [Europe UEFA Conference League] Rapid Wien vs Győri ETO [M4 Sports HU]
+2025-08-28 06:13:08,892 - INFO - Filtered out 1 vuen links for match: 19:00 [Europe UEFA Conference League] Noah vs Olimpija [Kanal A SI]
+2025-08-28 06:13:08,892 - INFO - Filtered out 2 vuen links for match: 20:30 [Europe UEFA Conference League] AZ vs Levski Sofia [Diema Sport BG]
+2025-08-28 06:13:08,892 - INFO - Filtered out 1 vuen links for match: 20:30 [Europe UEFA Europa League] Ludogorets vs Škendija 79 [Diema Sport 3 BG]
+2025-08-28 06:13:08,892 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Europa League] Utrecht vs Zrinjski [Ziggo Sport NL]
+2025-08-28 06:13:08,892 - INFO - Filtered out 1 vuen links for match: 22:00 [Europe UEFA Conference League] Servette vs Shakhtar Donetsk [Exxen TR]
+2025-08-28 06:13:08,892 - INFO - Filtered out 1 vuen links for match: 20:30 [Europe UEFA Conference League] CFR Cluj vs Häcken [Prima Sport 2 RO]
+2025-08-28 06:13:08,892 - INFO - Filtered out 1 vuen links for match: 20:30 [Europe UEFA Conference League] CSU Craiova vs İstanbul Başakşehir [Prima Sport 1 RO]
+2025-08-28 06:13:08,892 - INFO - Filtered out 1 vuen links for match: 21:00 [Europe UEFA Europa League] Dynamo Kyiv vs Maccabi Tel Aviv [2+2 UA]
+2025-08-28 06:13:08,892 - INFO - Filtered out 1 vuen links for match: 21:30 [Europe UEFA Europa League] FCSB vs Aberdeen [Pro TV RO]
+2025-08-28 06:13:08,892 - INFO - Filtered out 2 vuen links for match: 14:00 [Europe UEFA Europa League] UEFA Europa League 2025/2026 Draw [TNT Sports 1 GB]
+2025-08-28 06:13:08,892 - WARNING - Skipping match with invalid team data: 14:00 [Europe UEFA Europa League] UEFA Europa League 2025/2026 Draw [TNT Sports 1 GB] (Team1: UEFA Europa League 2025/2026 Draw, Team2: None)
+2025-08-28 06:13:08,893 - INFO - Filtered out 2 vuen links for match: 15:30 [Europe UEFA Conference League] UEFA Conference League 2025/2026 Draw [TNT Sports 1 GB]
+2025-08-28 06:13:08,893 - WARNING - Skipping match with invalid team data: 15:30 [Europe UEFA Conference League] UEFA Conference League 2025/2026 Draw [TNT Sports 1 GB] (Team1: UEFA Conference League 2025/2026 Draw, Team2: None)
+2025-08-28 06:13:08,893 - INFO - Filtered out 2 vuen links for match: 22:00 [England Championship] Leicester City vs Birmingham City [Sky Sports Football GB]
+2025-08-28 06:13:08,893 - INFO - Filtered out 3 vuen links for match: 20:30 [Spain La Liga] Elche vs Levante [Now Sports 2 HK]
+2025-08-28 06:13:08,893 - INFO - Filtered out 3 vuen links for match: 22:30 [Spain La Liga] Valencia vs Getafe [Now Sports 2 HK]
+2025-08-28 06:13:08,893 - INFO - Filtered out 3 vuen links for match: 21:30 [Germany Bundesliga] Hamburger SV vs St. Pauli [Sky Sport Top Event DE]
+2025-08-28 06:13:08,893 - INFO - Filtered out 1 vuen links for match: 19:30 [Germany Bundesliga 2] Simulcast [Sky Sport Bundesliga 2 DE]
+2025-08-28 06:13:08,893 - WARNING - Skipping match with invalid team data: 19:30 [Germany Bundesliga 2] Simulcast [Sky Sport Bundesliga 2 DE] (Team1: Simulcast, Team2: None)
+2025-08-28 06:13:08,893 - INFO - Filtered out 2 vuen links for match: 19:30 [Germany Bundesliga 2] Hertha BSC vs Elversberg [Sky Sport Bundesliga 3 DE]
+2025-08-28 06:13:08,893 - INFO - Filtered out 2 vuen links for match: 19:30 [Germany Bundesliga 2] Nürnberg vs Paderborn [Sky Sport Bundesliga 4 DE]
+2025-08-28 06:13:08,893 - INFO - Filtered out 1 vuen links for match: 20:00 [Germany 3. Liga] Viktoria Köln vs Jahn Regensburg [Magenta Sport DE]
+2025-08-28 06:13:08,894 - INFO - Filtered out 1 vuen links for match: 21:15 [Switzerland Challenge League] Rapperswil-Jona vs Aarau [Blue Sport D 1 CH]
+2025-08-28 06:13:08,894 - INFO - Filtered out 3 vuen links for match: 19:30 [Italy Serie A] Cremonese vs Sassuolo [DAZN1 DE]
+2025-08-28 06:13:08,894 - INFO - Filtered out 3 vuen links for match: 21:45 [Italy Serie A] Lecce vs Milan [DAZN1 DE]
+2025-08-28 06:13:08,894 - INFO - Filtered out 1 vuen links for match: 03:15 [Argentina Copa Argentina] Unión Santa Fe vs River Plate [Sport TV1 PT]
+2025-08-28 06:13:08,894 - INFO - Filtered out 2 vuen links for match: 22:15 [Portugal Primeira Liga] Gil Vicente vs Moreirense [Sport TV1 PT]
+2025-08-28 06:13:08,894 - INFO - Filtered out 2 vuen links for match: 18:00 [Africa African Nations Championship] Sudan vs Senegal [beIN Sports Xtra US]
+2025-08-28 06:13:08,894 - INFO - Filtered out 2 vuen links for match: 21:45 [France Ligue 1] Lens vs Brest [beIN Sports US]
+2025-08-28 06:13:08,894 - INFO - Filtered out 1 vuen links for match: 22:00 [Italy Serie C] Vis Pesaro vs Rimini [Sky Sport 256 IT]
+2025-08-28 06:13:08,894 - INFO - Filtered out 1 vuen links for match: 22:00 [Italy Serie C] Pro Vercelli vs AlbinoLeffe [Sky Sport 259 IT]
+2025-08-28 06:13:08,894 - INFO - Filtered out 1 vuen links for match: 21:00 [France Ligue 2] Montpellier vs Amiens SC [beIN Sports 2 FR]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 21:00 [France Ligue 2] Laval vs Clermont [beIN Sports MAX 4 FR]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 21:00 [France Ligue 2] Red Star vs Annecy [beIN Sports MAX 5 FR]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 21:00 [France Ligue 2] Dunkerque vs Troyes [beIN Sports MAX 6 FR]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 21:00 [France Ligue 2] Rodez vs Boulogne [beIN Sports MAX 7 FR]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 21:00 [France Ligue 2] Nancy vs Pau [beIN Sports MAX 8 FR]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 19:00 [Poland Ekstraklasa] Arka Gdynia vs Wisła Płock [Canal+ Sport 3 PL]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 21:30 [Poland Ekstraklasa] Katowice vs Radomiak Radom [Canal+ Sport 3 PL]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 19:00 [Poland I Liga] Śląsk Wrocław vs Tychy 71 [TVP Sport PL]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 21:30 [Poland I Liga] Miedź Legnica vs Wisła Kraków [TVP Sport PL]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 21:45 [Belgium Pro League] Cercle Brugge vs Sint-Truiden [DAZN BE]
+2025-08-28 06:13:08,895 - INFO - Filtered out 1 vuen links for match: 21:00 [Croatia 1. HNL] Istra 1961 vs Gorica [MAX Sport 1 HR]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 20:00 [Denmark Super Liga] Vejle vs Viborg [TV3 Sport DK]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 17:30 [Bulgaria Parva Liga] Montana vs Dobrudzha 1919 [Diema Sport BG]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 22:00 [Bulgaria Parva Liga] Septemvri Sofia vs Lokomotiv Sofia 1929 [Diema Sport BG]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 05:00 [North America CONCACAF Central American Cup] Herediano vs Municipal [Fox Soccer Plus US]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 18:50 [Saudi Arabia Pro League] Al Hilal vs Al Riyadh [Fox Soccer Plus US]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 21:00 [Saudi Arabia Pro League] Al Taawon vs Al Nassr [Fox Soccer Plus US]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 21:00 [Netherlands Eredivisie] Groningen vs Heracles [ESPN 2 NL]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 21:00 [Netherlands Eerste Divisie] Willem II vs Utrecht II [ESPN 3 NL]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 21:00 [Netherlands Eerste Divisie] Roda JC vs Eindhoven [ESPN 4 NL]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 21:30 [Turkey Super Lig] Göztepe vs Konyaspor [beIN Sports 1 TR]
+2025-08-28 06:13:08,896 - INFO - Filtered out 1 vuen links for match: 20:30 [Spain Segunda Division] Real Sociedad II vs Almería [LALIGA TV Hypermotion ES]
+2025-08-28 06:13:08,897 - INFO - Filtered out 1 vuen links for match: 22:30 [Spain Segunda Division] Sporting Gijón vs Cultural Leonesa [LALIGA TV Hypermotion ES]
+2025-08-28 06:13:08,897 - INFO - Transformed 71 valid football matches from API response.
+2025-08-28 06:13:08,897 - INFO - Merge for 'D.S ALT 1' data: 0 new, 71 updated.
+2025-08-28 06:13:08,899 - INFO - Cleanup for 'D.S ALT 1' data: Removed 0 old matches, 92 matches remaining.
+2025-08-28 06:13:08,904 - INFO - Successfully saved 124 matches to live_events.json.
+2025-08-28 06:13:08,904 - INFO - LUCILAND scraper run completed successfully.
+2025-08-28 06:13:08,904 - INFO - Summary for 'D.S ALT 1':
+2025-08-28 06:13:08,904 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 132
+2025-08-28 06:13:08,904 - INFO - - Valid Football matches processed from API: 71
+2025-08-28 06:13:08,904 - INFO - - Final matches added/updated by this scraper: 92
+2025-08-28 06:13:08,905 - INFO - - Total matches in live_events.json after this run: 124
+2025-08-28 06:13:08,905 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-08-28 06:13:08,905 - INFO - Total Football matches in final output managed by LUCILAND: 92
