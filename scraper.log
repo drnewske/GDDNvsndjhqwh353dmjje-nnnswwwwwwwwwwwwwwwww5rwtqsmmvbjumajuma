@@ -1,42 +1,3 @@
-2025-08-29 20:20:51,828 - INFO - [FETCH-20250829-202051-18827944] Starting sportsonline football match scraper...
-2025-08-29 20:20:51,828 - INFO - ============================================================
-2025-08-29 20:20:51,828 - INFO - [FETCH-20250829-202051-18827944] Starting cleanup operations...
-2025-08-29 20:20:51,828 - INFO - [FETCH-20250829-202051-18827944] Cleaning up old log entries...
-2025-08-29 20:20:51,872 - INFO - [FETCH-20250829-202051-18827944] Log cleanup complete: Removed 18 old log entries
-2025-08-29 20:20:51,872 - INFO - [FETCH-20250829-202051-18827944] Fetching matches from sportsonline.gl...
-2025-08-29 20:20:54,158 - INFO - [FETCH-20250829-202051-18827944] Fetched 22 valid matches from sportsonline.gl
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Merging with existing data...
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Cleaning up old matches...
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Removed old match: PAOK vs Rijeka (28-08-2025 17:30)
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Ludogorets vs Škendija 79 (28-08-2025 17:30)
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Dynamo Kyiv vs Maccabi Tel Aviv (28-08-2025 18:00)
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Young Boys vs Slovan Bratislava (28-08-2025 18:00)
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Utrecht vs Zrinjski (28-08-2025 18:00)
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Fiorentina vs Polessya (28-08-2025 18:00)
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Removed old match: AEK Athens vs Anderlecht (28-08-2025 18:00)
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Rayo Vallecano vs Neman Grodno (28-08-2025 18:00)
-2025-08-29 20:20:54,161 - INFO - [FETCH-20250829-202051-18827944] Removed old match: FCSB vs Aberdeen (28-08-2025 18:30)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: FCSB vs Aberdeen (28-08-2025 18:30)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Linfield vs Shelbourne (28-08-2025 18:45)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Linfield vs Shelbourne (28-08-2025 18:45)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Dinamo City vs Jagiellonia Białystok (28-08-2025 18:45)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Sporting Braga vs Lincoln Red Imps (28-08-2025 19:00)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Shamrock Rovers vs Santa Clara (28-08-2025 19:00)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Servette vs Shakhtar Donetsk (28-08-2025 19:00)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Mainz 05 vs Rosenborg (28-08-2025 19:00)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Shamrock Rovers vs Santa Clara (28-08-2025 19:00)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Sporting Braga vs Lincoln Red Imps (28-08-2025 19:00)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Virtus vs Breidablik (28-08-2025 19:00)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Mainz 05 vs Rosenborg (28-08-2025 19:00)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Legia Warszawa vs Hibernian (28-08-2025 19:00)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Removed old match: Servette vs Shakhtar Donetsk (28-08-2025 19:00)
-2025-08-29 20:20:54,162 - INFO - [FETCH-20250829-202051-18827944] Cleanup complete: Removed 23 old matches, 261 matches remaining
-2025-08-29 20:20:54,163 - INFO - [FETCH-20250829-202051-18827944] Merge complete: 0 new, 0 updated, 261 total
-2025-08-29 20:20:54,168 - INFO - [FETCH-20250829-202051-18827944] Data saved to live_events.json
-2025-08-29 20:20:54,169 - INFO - [FETCH-20250829-202051-18827944] Summary:
-2025-08-29 20:20:54,169 - INFO - [FETCH-20250829-202051-18827944] - Sportsonline ('Toes In The Blender') matches: 22
-2025-08-29 20:20:54,169 - INFO - [FETCH-20250829-202051-18827944] - Final total matches in file: 261
-2025-08-29 20:20:54,169 - INFO - [FETCH-20250829-202051-18827944] Scraper run completed successfully
 2025-08-29 22:18:38,480 - INFO - [FETCH-20250829-221838-A82803EF] Starting sportsonline football match scraper...
 2025-08-29 22:18:38,480 - INFO - ============================================================
 2025-08-29 22:18:38,480 - INFO - [FETCH-20250829-221838-A82803EF] Starting cleanup operations...
@@ -597,3 +558,21 @@
 2025-08-31 20:20:22,644 - INFO - [FETCH-20250831-202021-D406CC51] - Sportsonline ('Toes In The Blender') matches: 18
 2025-08-31 20:20:22,644 - INFO - [FETCH-20250831-202021-D406CC51] - Final total matches in file: 179
 2025-08-31 20:20:22,644 - INFO - [FETCH-20250831-202021-D406CC51] Scraper run completed successfully
+2025-08-31 22:17:57,258 - INFO - [FETCH-20250831-221757-40F3C352] Starting sportsonline football match scraper...
+2025-08-31 22:17:57,258 - INFO - ============================================================
+2025-08-31 22:17:57,258 - INFO - [FETCH-20250831-221757-40F3C352] Starting cleanup operations...
+2025-08-31 22:17:57,258 - INFO - [FETCH-20250831-221757-40F3C352] Cleaning up old log entries...
+2025-08-31 22:17:57,352 - INFO - [FETCH-20250831-221757-40F3C352] Log cleanup complete: Removed 39 old log entries
+2025-08-31 22:17:57,352 - INFO - [FETCH-20250831-221757-40F3C352] Fetching matches from sportsonline.gl...
+2025-08-31 22:17:58,212 - INFO - [FETCH-20250831-221757-40F3C352] Fetched 18 valid matches from sportsonline.gl
+2025-08-31 22:17:58,215 - INFO - [FETCH-20250831-221757-40F3C352] Merging with existing data...
+2025-08-31 22:17:58,215 - INFO - [FETCH-20250831-221757-40F3C352] Cleaning up old matches...
+2025-08-31 22:17:58,215 - INFO - [FETCH-20250831-221757-40F3C352] Removed old match: Real Madrid vs Mallorca (30-08-2025 19:30)
+2025-08-31 22:17:58,215 - INFO - [FETCH-20250831-221757-40F3C352] Removed old match: Sporting CP vs Porto (30-08-2025 19:30)
+2025-08-31 22:17:58,216 - INFO - [FETCH-20250831-221757-40F3C352] Cleanup complete: Removed 2 old matches, 171 matches remaining
+2025-08-31 22:17:58,216 - INFO - [FETCH-20250831-221757-40F3C352] Merge complete: 0 new, 0 updated, 171 total
+2025-08-31 22:17:58,223 - INFO - [FETCH-20250831-221757-40F3C352] Data saved to live_events.json
+2025-08-31 22:17:58,223 - INFO - [FETCH-20250831-221757-40F3C352] Summary:
+2025-08-31 22:17:58,223 - INFO - [FETCH-20250831-221757-40F3C352] - Sportsonline ('Toes In The Blender') matches: 18
+2025-08-31 22:17:58,223 - INFO - [FETCH-20250831-221757-40F3C352] - Final total matches in file: 171
+2025-08-31 22:17:58,223 - INFO - [FETCH-20250831-221757-40F3C352] Scraper run completed successfully
