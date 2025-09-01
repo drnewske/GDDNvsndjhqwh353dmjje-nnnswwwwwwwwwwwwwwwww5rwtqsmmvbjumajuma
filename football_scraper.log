@@ -28156,3 +28156,87 @@
 2025-09-01 18:10:53,784 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-09-01 18:10:53,785 - INFO - Total Football matches in final output managed by LUCILAND: 52
+2025-09-01 21:00:52,305 - INFO - Starting LUCILAND football match scraper...
+2025-09-01 21:00:52,305 - INFO - ============================================================
+2025-09-01 21:00:52,305 - INFO - Current UTC timestamp for this run: 2025-09-01 21:00:52
+2025-09-01 21:00:52,306 - INFO - Loaded 59 total existing matches from live_events.json.
+2025-09-01 21:00:52,306 - INFO - Found 41 matches managed by 'D.S ALT 1'.
+2025-09-01 21:00:52,306 - INFO - Found 18 matches from other sources.
+2025-09-01 21:00:52,306 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-09-01 21:00:52,435 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 21:00:54,466 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 21:00:58,499 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 21:00:58,538 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-09-01 21:00:59,637 - INFO - Found 113 total matches from https://matchstream.do/api/v1/api.php.
+2025-09-01 21:00:59,637 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-09-01 21:00:59,643 - INFO - Filtered out 1 vuen links for match: 23:00 [Argentina Primera División] Gimnasia La Plata vs Atlético Tucumán [ESPN Premium Argentina ES]
+2025-09-01 21:00:59,643 - INFO - Filtered out 1 vuen links for match: 22:30 [Spain Segunda Division] Leganés vs Deportivo La Coruña [LaLiga Hypermotion ES]
+2025-09-01 21:00:59,643 - INFO - Filtered out 1 vuen links for match: 04:00 [United States NWSL] Angel City vs Bay FC [CBS Sports Network US]
+2025-09-01 21:00:59,643 - INFO - Filtered out 1 vuen links for match: 01:15 [Argentina Primera División] Platense vs Godoy Cruz [TNT Sports Argentina ES]
+2025-09-01 21:00:59,643 - INFO - Filtered out 1 vuen links for match: 18:00 [Denmark DBU Pokalen] Middelfart vs Silkeborg [Viaplay DK]
+2025-09-01 21:00:59,643 - INFO - Filtered out 1 vuen links for match: 18:00 [Denmark DBU Pokalen] Tune vs Fredericia [Viaplay DK]
+2025-09-01 21:00:59,643 - INFO - Filtered out 1 vuen links for match: 19:00 [Denmark DBU Pokalen] Raklev vs SønderjyskE [Viaplay DK]
+2025-09-01 21:00:59,644 - INFO - Filtered out 1 vuen links for match: 22:00 [World Cup Qualifying] Cameroon vs Eswatini [SuperSport Action GB]
+2025-09-01 21:00:59,644 - INFO - Filtered out 3 vuen links for match: 17:00 [World Cup Qualifying] Kazakhstan vs Wales [BBC One GB]
+2025-09-01 21:00:59,644 - INFO - Filtered out 1 vuen links for match: 02:00 [North America CONCACAF W Champions Cup] Washington Spirit vs Vancouver Rise [CBS Sports Network US]
+2025-09-01 21:00:59,644 - INFO - Filtered out 2 vuen links for match: 21:45 [World Cup Qualifying] Slovakia vs Germany [Das Erste DE]
+2025-09-01 21:00:59,644 - INFO - Filtered out 3 vuen links for match: 19:00 [World Cup Qualifying] Georgia vs Turkey [DAZN1 DE]
+2025-09-01 21:00:59,644 - INFO - Filtered out 4 vuen links for match: 21:45 [World Cup Qualifying] Bulgaria vs Spain [DAZN1 DE]
+2025-09-01 21:00:59,644 - INFO - Filtered out 1 vuen links for match: 16:00 [World Cup Qualifying] Chad vs Ghana [Sportdigital FUSSBALL DE]
+2025-09-01 21:00:59,644 - INFO - Filtered out 1 vuen links for match: 22:00 [World Cup Qualifying] Tunisia vs Liberia [Sportdigital FUSSBALL DE]
+2025-09-01 21:00:59,644 - INFO - Filtered out 1 vuen links for match: 19:00 [World Cup Qualifying] Guinea-Bissau vs Sierra Leone [Sport TV2 PT]
+2025-09-01 21:00:59,644 - INFO - Filtered out 3 vuen links for match: 21:45 [World Cup Qualifying] Netherlands vs Poland [Sport TV2 PT]
+2025-09-01 21:00:59,645 - INFO - Filtered out 1 vuen links for match: 19:00 [World Cup Qualifying] Angola vs Libya [SuperSport PSL GB]
+2025-09-01 21:00:59,645 - INFO - Filtered out 2 vuen links for match: 22:00 [World Cup Qualifying] Algeria vs Botswana [SuperSport PSL GB]
+2025-09-01 21:00:59,645 - INFO - Filtered out 2 vuen links for match: 21:45 [World Cup Qualifying] Liechtenstein vs Belgium [Polsat Sport Premium 1 PL]
+2025-09-01 21:00:59,645 - INFO - Filtered out 1 vuen links for match: 19:00 [World Cup Qualifying] Lithuania vs Malta [TV 2 Play NO]
+2025-09-01 21:00:59,645 - INFO - Filtered out 1 vuen links for match: 21:45 [World Cup Qualifying] Luxembourg vs Northern Ireland [TV 2 Play NO]
+2025-09-01 21:00:59,645 - INFO - Filtered out 2 vuen links for match: 19:00 [World Cup Qualifying] Mauritius vs Cape Verde Islands [ESPN2 NL]
+2025-09-01 21:00:59,645 - INFO - Filtered out 1 vuen links for match: 19:00 [World Cup Qualifying] Sao Tome e Principe vs Equatorial Guinea [Sport TV5 PT]
+2025-09-01 21:00:59,645 - INFO - Filtered out 2 vuen links for match: 21:45 [World Cup Qualifying] Denmark vs Scotland [BBC Two GB]
+2025-09-01 21:00:59,645 - INFO - Filtered out 3 vuen links for match: 03:30 [World Cup Qualifying] Brazil vs Chile [Premier Sports 1 GB]
+2025-09-01 21:00:59,645 - INFO - Filtered out 2 vuen links for match: 21:45 [World Cup Qualifying] Greece vs Belarus [SuperSport Action GB]
+2025-09-01 21:00:59,646 - INFO - Filtered out 2 vuen links for match: 02:30 [World Cup Qualifying] Argentina vs Venezuela [Premier Sports 1 GB]
+2025-09-01 21:00:59,646 - INFO - Filtered out 1 vuen links for match: 21:45 [World Cup Qualifying] Switzerland vs Kosovo [SuperSport Laliga GB]
+2025-09-01 21:00:59,646 - INFO - Filtered out 2 vuen links for match: 00:30 [World Cup Qualifying] Suriname vs Panama [CBS Sports Network US]
+2025-09-01 21:00:59,646 - INFO - Filtered out 1 vuen links for match: 05:00 [World Cup Qualifying] Guatemala vs El Salvador [CBS Sports Network US]
+2025-09-01 21:00:59,646 - INFO - Filtered out 3 vuen links for match: 21:45 [World Cup Qualifying] Ukraine vs France [DAZN1 DE]
+2025-09-01 21:00:59,646 - INFO - Filtered out 3 vuen links for match: 21:45 [World Cup Qualifying] Italy vs Estonia [DAZN2 DE]
+2025-09-01 21:00:59,646 - INFO - Filtered out 1 vuen links for match: 15:00 [World Cup Qualifying] Somalia vs Guinea [Sportdigital FUSSBALL DE]
+2025-09-01 21:00:59,646 - INFO - Filtered out 1 vuen links for match: 19:00 [World Cup Qualifying] Lesotho vs South Africa [Sportdigital FUSSBALL DE]
+2025-09-01 21:00:59,646 - INFO - Filtered out 1 vuen links for match: 22:00 [World Cup Qualifying] Senegal vs Sudan [Sportdigital FUSSBALL DE]
+2025-09-01 21:00:59,646 - INFO - Filtered out 1 vuen links for match: 19:00 [World Cup Qualifying] Uganda vs Mozambique [Sport TV1 PT]
+2025-09-01 21:00:59,646 - INFO - Filtered out 1 vuen links for match: 22:00 [World Cup Qualifying] Egypt vs Ethiopia [Sport TV5 PT]
+2025-09-01 21:00:59,647 - INFO - Filtered out 2 vuen links for match: 21:45 [World Cup Qualifying] Montenegro vs Czech Republic [Nova Sports Start GR]
+2025-09-01 21:00:59,647 - INFO - Filtered out 2 vuen links for match: 21:45 [World Cup Qualifying] Slovenia vs Sweden [Sky Sport 5 NZ]
+2025-09-01 21:00:59,647 - INFO - Filtered out 2 vuen links for match: 22:00 [International Friendly] Romania vs Canada [OneSoccer CA]
+2025-09-01 21:00:59,647 - INFO - Filtered out 1 vuen links for match: 21:30 [Women's Super League] Chelsea Women vs Manchester City [Sportsnet One CA]
+2025-09-01 21:00:59,647 - INFO - Filtered out 2 vuen links for match: 21:45 [World Cup Qualifying] Iceland vs Azerbaijan [SÝN Sport IS]
+2025-09-01 21:00:59,647 - INFO - Filtered out 1 vuen links for match: 02:30 [World Cup Qualifying] Colombia vs Bolivia [Eleven Sports 1 PL]
+2025-09-01 21:00:59,647 - INFO - Filtered out 1 vuen links for match: 02:30 [World Cup Qualifying] Uruguay vs Peru [Eleven Sports 2 PL]
+2025-09-01 21:00:59,647 - INFO - Filtered out 1 vuen links for match: 02:30 [World Cup Qualifying] Paraguay vs Ecuador [Eleven Sports 3 PL]
+2025-09-01 21:00:59,647 - INFO - Filtered out 1 vuen links for match: 21:45 [World Cup Qualifying] Moldova vs Israel [5Sport IR]
+2025-09-01 21:00:59,647 - INFO - Filtered out 1 vuen links for match: 21:45 [World Cup Qualifying] Faroe Islands vs Croatia [Nova TV CZ]
+2025-09-01 21:00:59,647 - INFO - Filtered out 1 vuen links for match: 22:00 [World Cup Qualifying] Morocco vs Niger [ESPN2 NL]
+2025-09-01 21:00:59,648 - INFO - Filtered out 1 vuen links for match: 20:30 [Spain Segunda Division] Albacete vs Mirandés [LALIGA TV Hypermotion ES]
+2025-09-01 21:00:59,648 - INFO - Filtered out 1 vuen links for match: 22:30 [Spain Segunda Division] Córdoba vs CD Castellon [LALIGA TV Hypermotion ES]
+2025-09-01 21:00:59,648 - INFO - Transformed 51 valid football matches from API response.
+2025-09-01 21:00:59,648 - INFO - Merge for 'D.S ALT 1' data: 27 new, 24 updated.
+2025-09-01 21:00:59,648 - INFO - Removed old match (managed by this scraper): 22:30 [Spain La Liga] Rayo Vallecano vs Barcelona [Now Sports 2 HK] (31-08-2025 19:30)
+2025-09-01 21:00:59,648 - INFO - Removed old match (managed by this scraper): 22:30 [Portugal Primeira Liga] Santa Clara vs Estrela [Sport TV3 PT] (31-08-2025 19:30)
+2025-09-01 21:00:59,648 - INFO - Removed old match (managed by this scraper): 22:30 [Portugal Primeira Liga] Rio Ave vs Sporting Braga [Sport TV2 PT] (31-08-2025 19:30)
+2025-09-01 21:00:59,649 - INFO - Removed old match (managed by this scraper): 22:30 [Spain Segunda Division] Granada vs Mirandés [LALIGA TV Hypermotion ES] (31-08-2025 19:30)
+2025-09-01 21:00:59,649 - INFO - Removed old match (managed by this scraper): 22:45 [Argentina Primera División] Defensa y Justicia vs Belgrano [TNT Sports Argentina ES] (31-08-2025 19:45)
+2025-09-01 21:00:59,649 - INFO - Removed old match (managed by this scraper): 22:45 [Argentina Primera División] Talleres Córdoba vs Deportivo Riestra [ESPN Premium Argentina ES] (31-08-2025 19:45)
+2025-09-01 21:00:59,649 - INFO - Removed old match (managed by this scraper): 00:00 [North America Leagues Cup] Los Angeles Galaxy vs Orlando City [TUDN ES] (31-08-2025 21:00)
+2025-09-01 21:00:59,650 - INFO - Cleanup for 'D.S ALT 1' data: Removed 7 old matches, 61 matches remaining.
+2025-09-01 21:00:59,653 - INFO - Successfully saved 79 matches to live_events.json.
+2025-09-01 21:00:59,654 - INFO - LUCILAND scraper run completed successfully.
+2025-09-01 21:00:59,654 - INFO - Summary for 'D.S ALT 1':
+2025-09-01 21:00:59,654 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 113
+2025-09-01 21:00:59,654 - INFO - - Valid Football matches processed from API: 51
+2025-09-01 21:00:59,654 - INFO - - Final matches added/updated by this scraper: 61
+2025-09-01 21:00:59,654 - INFO - - Total matches in live_events.json after this run: 79
+2025-09-01 21:00:59,655 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-09-01 21:00:59,655 - INFO - Total Football matches in final output managed by LUCILAND: 61
