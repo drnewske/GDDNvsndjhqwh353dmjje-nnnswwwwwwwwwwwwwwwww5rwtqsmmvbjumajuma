@@ -27890,3 +27890,40 @@
 2025-09-01 03:44:14,624 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-09-01 03:44:14,624 - INFO - Total Football matches in final output managed by LUCILAND: 110
+2025-09-01 06:14:30,896 - INFO - Starting LUCILAND football match scraper...
+2025-09-01 06:14:30,896 - INFO - ============================================================
+2025-09-01 06:14:30,896 - INFO - Current UTC timestamp for this run: 2025-09-01 06:14:30
+2025-09-01 06:14:30,897 - INFO - Loaded 160 total existing matches from live_events.json.
+2025-09-01 06:14:30,897 - INFO - Found 110 matches managed by 'D.S ALT 1'.
+2025-09-01 06:14:30,898 - INFO - Found 50 matches from other sources.
+2025-09-01 06:14:30,898 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-09-01 06:14:31,045 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 06:14:33,083 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 06:14:37,126 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 06:14:37,163 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-09-01 06:14:37,991 - INFO - Found 40 total matches from https://matchstream.do/api/v1/api.php.
+2025-09-01 06:14:37,991 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-09-01 06:14:37,997 - INFO - Filtered out 1 vuen links for match: 23:00 [Argentina Primera División] Gimnasia La Plata vs Atlético Tucumán [ESPN Premium Argentina ES]
+2025-09-01 06:14:37,998 - INFO - Filtered out 1 vuen links for match: 20:00 [Denmark 1. division] Esbjerg vs HB Køge [TV3 Sport DK]
+2025-09-01 06:14:37,998 - INFO - Filtered out 1 vuen links for match: 20:00 [Bulgaria Parva Liga] Arda vs Beroe [Diema Sport BG]
+2025-09-01 06:14:37,998 - INFO - Filtered out 1 vuen links for match: 22:00 [Canada Canadian Premier League] HFX Wanderers vs York United [Fox Soccer Plus US]
+2025-09-01 06:14:37,998 - INFO - Filtered out 1 vuen links for match: 20:30 [Spain Segunda Division] Huesca vs Eibar [LaLiga Hypermotion ES]
+2025-09-01 06:14:37,998 - INFO - Filtered out 1 vuen links for match: 22:30 [Spain Segunda Division] Leganés vs Deportivo La Coruña [LaLiga Hypermotion ES]
+2025-09-01 06:14:37,998 - INFO - Filtered out 1 vuen links for match: 04:00 [United States NWSL] Angel City vs Bay FC [CBS Sports Network US]
+2025-09-01 06:14:37,998 - INFO - Filtered out 1 vuen links for match: 01:15 [Argentina Primera División] Platense vs Godoy Cruz [TNT Sports Argentina ES]
+2025-09-01 06:14:37,998 - INFO - Filtered out 1 vuen links for match: 18:00 [Denmark DBU Pokalen] Middelfart vs Silkeborg [Viaplay DK]
+2025-09-01 06:14:37,998 - INFO - Filtered out 1 vuen links for match: 18:00 [Denmark DBU Pokalen] Tune vs Fredericia [Viaplay DK]
+2025-09-01 06:14:37,999 - INFO - Filtered out 1 vuen links for match: 19:00 [Denmark DBU Pokalen] Raklev vs SønderjyskE [Viaplay DK]
+2025-09-01 06:14:37,999 - INFO - Transformed 11 valid football matches from API response.
+2025-09-01 06:14:37,999 - INFO - Merge for 'D.S ALT 1' data: 0 new, 11 updated.
+2025-09-01 06:14:38,000 - INFO - Cleanup for 'D.S ALT 1' data: Removed 0 old matches, 110 matches remaining.
+2025-09-01 06:14:38,005 - INFO - Successfully saved 160 matches to live_events.json.
+2025-09-01 06:14:38,005 - INFO - LUCILAND scraper run completed successfully.
+2025-09-01 06:14:38,005 - INFO - Summary for 'D.S ALT 1':
+2025-09-01 06:14:38,005 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 40
+2025-09-01 06:14:38,006 - INFO - - Valid Football matches processed from API: 11
+2025-09-01 06:14:38,006 - INFO - - Final matches added/updated by this scraper: 110
+2025-09-01 06:14:38,006 - INFO - - Total matches in live_events.json after this run: 160
+2025-09-01 06:14:38,006 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-09-01 06:14:38,006 - INFO - Total Football matches in final output managed by LUCILAND: 110
