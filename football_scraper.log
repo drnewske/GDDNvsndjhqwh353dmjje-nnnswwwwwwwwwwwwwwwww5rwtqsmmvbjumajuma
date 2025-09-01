@@ -27964,3 +27964,54 @@
 2025-09-01 09:11:04,572 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-09-01 09:11:04,572 - INFO - Total Football matches in final output managed by LUCILAND: 110
+2025-09-01 12:15:46,361 - INFO - Starting LUCILAND football match scraper...
+2025-09-01 12:15:46,361 - INFO - ============================================================
+2025-09-01 12:15:46,361 - INFO - Current UTC timestamp for this run: 2025-09-01 12:15:46
+2025-09-01 12:15:46,362 - INFO - Loaded 160 total existing matches from live_events.json.
+2025-09-01 12:15:46,363 - INFO - Found 110 matches managed by 'D.S ALT 1'.
+2025-09-01 12:15:46,363 - INFO - Found 50 matches from other sources.
+2025-09-01 12:15:46,363 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-09-01 12:15:46,522 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 12:15:48,560 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 12:15:52,597 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 12:15:52,634 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-09-01 12:15:53,430 - INFO - Found 39 total matches from https://matchstream.do/api/v1/api.php.
+2025-09-01 12:15:53,430 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-09-01 12:15:53,448 - INFO - Filtered out 1 vuen links for match: 23:00 [Argentina Primera División] Gimnasia La Plata vs Atlético Tucumán [ESPN Premium Argentina ES]
+2025-09-01 12:15:53,448 - INFO - Filtered out 1 vuen links for match: 20:00 [Denmark 1. division] Esbjerg vs HB Køge [TV3 Sport DK]
+2025-09-01 12:15:53,448 - INFO - Filtered out 1 vuen links for match: 20:00 [Bulgaria Parva Liga] Arda vs Beroe [Diema Sport BG]
+2025-09-01 12:15:53,448 - INFO - Filtered out 1 vuen links for match: 22:00 [Canada Canadian Premier League] HFX Wanderers vs York United [Fox Soccer Plus US]
+2025-09-01 12:15:53,448 - INFO - Filtered out 1 vuen links for match: 20:30 [Spain Segunda Division] Huesca vs Eibar [LaLiga Hypermotion ES]
+2025-09-01 12:15:53,448 - INFO - Filtered out 1 vuen links for match: 22:30 [Spain Segunda Division] Leganés vs Deportivo La Coruña [LaLiga Hypermotion ES]
+2025-09-01 12:15:53,448 - INFO - Filtered out 1 vuen links for match: 04:00 [United States NWSL] Angel City vs Bay FC [CBS Sports Network US]
+2025-09-01 12:15:53,449 - INFO - Filtered out 1 vuen links for match: 01:15 [Argentina Primera División] Platense vs Godoy Cruz [TNT Sports Argentina ES]
+2025-09-01 12:15:53,449 - INFO - Filtered out 1 vuen links for match: 18:00 [Denmark DBU Pokalen] Middelfart vs Silkeborg [Viaplay DK]
+2025-09-01 12:15:53,449 - INFO - Filtered out 1 vuen links for match: 18:00 [Denmark DBU Pokalen] Tune vs Fredericia [Viaplay DK]
+2025-09-01 12:15:53,449 - INFO - Filtered out 1 vuen links for match: 19:00 [Denmark DBU Pokalen] Raklev vs SønderjyskE [Viaplay DK]
+2025-09-01 12:15:53,449 - INFO - Transformed 11 valid football matches from API response.
+2025-09-01 12:15:53,449 - INFO - Merge for 'D.S ALT 1' data: 0 new, 11 updated.
+2025-09-01 12:15:53,449 - INFO - Removed old match (managed by this scraper): 13:15 [Netherlands Eredivisie] Fortuna Sittard vs NEC [ESPN NL] (31-08-2025 10:15)
+2025-09-01 12:15:53,449 - INFO - Removed old match (managed by this scraper): 14:00 [Scotland Scottish Premiership] Rangers vs Celtic [CBS Sports Network US] (31-08-2025 11:00)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 14:30 [Germany Bundesliga 2] Dynamo Dresden vs Schalke 04 [Sky Sport Bundesliga 2 DE] (31-08-2025 11:30)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 14:30 [Germany Bundesliga 2] Kaiserslautern vs Darmstadt 98 [Sky Sport Bundesliga 3 DE] (31-08-2025 11:30)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 14:30 [Germany Bundesliga 2] Magdeburg vs Greuther Fürth [Sky Sport Bundesliga 4 DE] (31-08-2025 11:30)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 14:30 [Germany 3. Liga] Ulm vs Waldhof Mannheim [Magenta Sport DE] (31-08-2025 11:30)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 14:30 [Belgium Pro League] Gent vs Club Brugge [DAZN BE] (31-08-2025 11:30)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 15:00 [Great Britain Premier League 2] Manchester United U21 vs Manchester City U21 [MUTV GB] (31-08-2025 12:00)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 15:00 [Switzerland Super League] Lausanne Sport vs St. Gallen [Sport 2 Baltic UA] (31-08-2025 12:00)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 15:00 [Denmark Super Liga] Silkeborg vs SønderjyskE [TV2 Sport DK] (31-08-2025 12:00)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 15:00 [Denmark Super Liga] AGF vs Fredericia [TV3 Sport DK] (31-08-2025 12:00)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 15:00 [Sweden Allsvenskan] AIK vs Sirius [max Extra SE] (31-08-2025 12:00)
+2025-09-01 12:15:53,450 - INFO - Removed old match (managed by this scraper): 15:00 [Sweden Allsvenskan] Norrköping vs Djurgården [max Extra SE] (31-08-2025 12:00)
+2025-09-01 12:15:53,451 - INFO - Removed old match (managed by this scraper): 15:00 [Sweden Allsvenskan] Malmoe vs Degerfors [max Extra SE] (31-08-2025 12:00)
+2025-09-01 12:15:53,452 - INFO - Cleanup for 'D.S ALT 1' data: Removed 14 old matches, 96 matches remaining.
+2025-09-01 12:15:53,457 - INFO - Successfully saved 146 matches to live_events.json.
+2025-09-01 12:15:53,457 - INFO - LUCILAND scraper run completed successfully.
+2025-09-01 12:15:53,457 - INFO - Summary for 'D.S ALT 1':
+2025-09-01 12:15:53,457 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 39
+2025-09-01 12:15:53,457 - INFO - - Valid Football matches processed from API: 11
+2025-09-01 12:15:53,457 - INFO - - Final matches added/updated by this scraper: 96
+2025-09-01 12:15:53,457 - INFO - - Total matches in live_events.json after this run: 146
+2025-09-01 12:15:53,457 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-09-01 12:15:53,457 - INFO - Total Football matches in final output managed by LUCILAND: 96
