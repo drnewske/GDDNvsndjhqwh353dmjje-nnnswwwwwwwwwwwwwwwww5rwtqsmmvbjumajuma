@@ -28015,3 +28015,61 @@
 2025-09-01 12:15:53,457 - INFO - 
 --- Final Transformed Football Data (Sample) ---
 2025-09-01 12:15:53,457 - INFO - Total Football matches in final output managed by LUCILAND: 96
+2025-09-01 15:00:57,221 - INFO - Starting LUCILAND football match scraper...
+2025-09-01 15:00:57,221 - INFO - ============================================================
+2025-09-01 15:00:57,221 - INFO - Current UTC timestamp for this run: 2025-09-01 15:00:57
+2025-09-01 15:00:57,223 - INFO - Loaded 130 total existing matches from live_events.json.
+2025-09-01 15:00:57,223 - INFO - Found 88 matches managed by 'D.S ALT 1'.
+2025-09-01 15:00:57,223 - INFO - Found 42 matches from other sources.
+2025-09-01 15:00:57,223 - INFO - Fetching matches from https://matchstream.do/api/v1/api.php...
+2025-09-01 15:00:57,366 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 15:00:59,397 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 15:01:03,431 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /api/v1/api.php
+2025-09-01 15:01:03,463 - WARNING - SSL verification failed, retrying without SSL verification...
+2025-09-01 15:01:04,526 - INFO - Found 37 total matches from https://matchstream.do/api/v1/api.php.
+2025-09-01 15:01:04,526 - INFO - Filtering and transforming new matches for 'Football' from API...
+2025-09-01 15:01:04,532 - INFO - Filtered out 1 vuen links for match: 23:00 [Argentina Primera División] Gimnasia La Plata vs Atlético Tucumán [ESPN Premium Argentina ES]
+2025-09-01 15:01:04,532 - INFO - Filtered out 1 vuen links for match: 20:00 [Denmark 1. division] Esbjerg vs HB Køge [TV3 Sport DK]
+2025-09-01 15:01:04,532 - INFO - Filtered out 1 vuen links for match: 20:00 [Bulgaria Parva Liga] Arda vs Beroe [Diema Sport BG]
+2025-09-01 15:01:04,532 - INFO - Filtered out 1 vuen links for match: 22:00 [Canada Canadian Premier League] HFX Wanderers vs York United [Fox Soccer Plus US]
+2025-09-01 15:01:04,532 - INFO - Filtered out 1 vuen links for match: 20:30 [Spain Segunda Division] Huesca vs Eibar [LaLiga Hypermotion ES]
+2025-09-01 15:01:04,532 - INFO - Filtered out 1 vuen links for match: 22:30 [Spain Segunda Division] Leganés vs Deportivo La Coruña [LaLiga Hypermotion ES]
+2025-09-01 15:01:04,532 - INFO - Filtered out 1 vuen links for match: 04:00 [United States NWSL] Angel City vs Bay FC [CBS Sports Network US]
+2025-09-01 15:01:04,532 - INFO - Filtered out 1 vuen links for match: 01:15 [Argentina Primera División] Platense vs Godoy Cruz [TNT Sports Argentina ES]
+2025-09-01 15:01:04,533 - INFO - Filtered out 1 vuen links for match: 18:00 [Denmark DBU Pokalen] Middelfart vs Silkeborg [Viaplay DK]
+2025-09-01 15:01:04,533 - INFO - Filtered out 1 vuen links for match: 18:00 [Denmark DBU Pokalen] Tune vs Fredericia [Viaplay DK]
+2025-09-01 15:01:04,533 - INFO - Filtered out 1 vuen links for match: 19:00 [Denmark DBU Pokalen] Raklev vs SønderjyskE [Viaplay DK]
+2025-09-01 15:01:04,533 - INFO - Transformed 11 valid football matches from API response.
+2025-09-01 15:01:04,533 - INFO - Merge for 'D.S ALT 1' data: 0 new, 11 updated.
+2025-09-01 15:01:04,533 - INFO - Removed old match (managed by this scraper): 16:30 [Germany Bundesliga] Wolfsburg vs Mainz 05 [DAZN1 DE] (31-08-2025 13:30)
+2025-09-01 15:01:04,533 - INFO - Removed old match (managed by this scraper): 16:30 [Uruguay Primera Division] Plaza Colonia vs Torque [GOLTV US] (31-08-2025 13:30)
+2025-09-01 15:01:04,533 - INFO - Removed old match (managed by this scraper): 17:00 [Denmark Super Liga] OB vs Nordsjælland [TV2 Sport DK] (31-08-2025 14:00)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 17:00 [Belgium Pro League] OH Leuven vs Standard Liège [DAZN BE] (31-08-2025 14:00)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 17:30 [Germany 3. Liga] Schweinfurt vs Wehen Wiesbaden [Magenta Sport DE] (31-08-2025 14:30)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 17:30 [Switzerland Super League] Young Boys vs Lugano [Blue Sport D 1 CH] (31-08-2025 14:30)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 17:30 [Portugal Primeira Liga] Tondela vs Estoril [Sport TV2 PT] (31-08-2025 14:30)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 17:30 [Sweden Allsvenskan] Hammarby vs Öster [max Extra SE] (31-08-2025 14:30)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 17:30 [Sweden Allsvenskan] GAIS vs Häcken [max Extra SE] (31-08-2025 14:30)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 17:45 [Netherlands Eredivisie] NAC Breda vs AZ [Sportdigital FUSSBALL DE] (31-08-2025 14:45)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 18:00 [Spain La Liga] Celta de Vigo vs Villarreal [Now Sports 2 HK] (31-08-2025 15:00)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 18:00 [Austria Bundesliga] Hartberg vs Rapid Wien [Sky Sport Austria 2 AT] (31-08-2025 15:00)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 18:00 [Austria Bundesliga] Austria Wien vs Rheindorf Altach [Sky Sport Austria 3 AT] (31-08-2025 15:00)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 18:00 [Austria Bundesliga] WSG Tirol vs Wolfsberger AC [Sky Sport Austria 4 AT] (31-08-2025 15:00)
+2025-09-01 15:01:04,534 - INFO - Removed old match (managed by this scraper): 18:00 [Norway Eliteserien] Tromsø vs KFUM [TV 2 Play NO] (31-08-2025 15:00)
+2025-09-01 15:01:04,535 - INFO - Removed old match (managed by this scraper): 18:00 [Norway Eliteserien] HamKam vs Sarpsborg 08 [TV 2 Play NO] (31-08-2025 15:00)
+2025-09-01 15:01:04,535 - INFO - Removed old match (managed by this scraper): 18:00 [Norway Eliteserien] Fredrikstad vs Haugesund [TV 2 Play NO] (31-08-2025 15:00)
+2025-09-01 15:01:04,535 - INFO - Removed old match (managed by this scraper): 18:00 [Norway Eliteserien] Viking vs Rosenborg [TV 2 Direkte NO] (31-08-2025 15:00)
+2025-09-01 15:01:04,535 - INFO - Removed old match (managed by this scraper): 18:00 [Norway Eliteserien] Sandefjord vs Bodø/Glimt [TV2 Sport NO] (31-08-2025 15:00)
+2025-09-01 15:01:04,535 - INFO - Removed old match (managed by this scraper): 18:00 [Spain Segunda Division] Cádiz vs Albacete [LALIGA TV Hypermotion ES] (31-08-2025 15:00)
+2025-09-01 15:01:04,535 - INFO - Removed old match (managed by this scraper): 18:00 [Spain Segunda Division] FC Andorra vs Burgos [LALIGA TV Hypermotion 2 ES] (31-08-2025 15:00)
+2025-09-01 15:01:04,536 - INFO - Cleanup for 'D.S ALT 1' data: Removed 21 old matches, 67 matches remaining.
+2025-09-01 15:01:04,539 - INFO - Successfully saved 109 matches to live_events.json.
+2025-09-01 15:01:04,539 - INFO - LUCILAND scraper run completed successfully.
+2025-09-01 15:01:04,539 - INFO - Summary for 'D.S ALT 1':
+2025-09-01 15:01:04,539 - INFO - - Matches fetched from https://matchstream.do/api/v1/api.php: 37
+2025-09-01 15:01:04,539 - INFO - - Valid Football matches processed from API: 11
+2025-09-01 15:01:04,540 - INFO - - Final matches added/updated by this scraper: 67
+2025-09-01 15:01:04,540 - INFO - - Total matches in live_events.json after this run: 109
+2025-09-01 15:01:04,540 - INFO - 
+--- Final Transformed Football Data (Sample) ---
+2025-09-01 15:01:04,540 - INFO - Total Football matches in final output managed by LUCILAND: 67
