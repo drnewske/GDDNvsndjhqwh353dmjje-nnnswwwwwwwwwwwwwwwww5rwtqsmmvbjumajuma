@@ -1,61 +1,3 @@
-2025-09-04 22:17:56,527 - INFO - [FETCH-20250904-221756-2CD68FCD] Starting sportsonline football match scraper...
-2025-09-04 22:17:56,527 - INFO - ============================================================
-2025-09-04 22:17:56,527 - INFO - [FETCH-20250904-221756-2CD68FCD] Starting cleanup operations...
-2025-09-04 22:17:56,528 - INFO - [FETCH-20250904-221756-2CD68FCD] Cleaning up old log entries...
-2025-09-04 22:17:56,546 - INFO - [FETCH-20250904-221756-2CD68FCD] Log cleanup complete: Removed 19 old log entries
-2025-09-04 22:17:56,546 - INFO - [FETCH-20250904-221756-2CD68FCD] Fetching matches from sportsonline.gl...
-2025-09-04 22:17:58,206 - INFO - [FETCH-20250904-221756-2CD68FCD] Fetched 7 valid matches from sportsonline.gl
-2025-09-04 22:17:58,207 - INFO - [FETCH-20250904-221756-2CD68FCD] Merging with existing data...
-2025-09-04 22:17:58,207 - INFO - [FETCH-20250904-221756-2CD68FCD] Cleaning up old matches...
-2025-09-04 22:17:58,207 - INFO - [FETCH-20250904-221756-2CD68FCD] No old matches to remove
-2025-09-04 22:17:58,209 - INFO - [FETCH-20250904-221756-2CD68FCD] Merge complete: 0 new, 0 updated, 131 total
-2025-09-04 22:17:58,212 - INFO - [FETCH-20250904-221756-2CD68FCD] Data saved to live_events.json
-2025-09-04 22:17:58,212 - INFO - [FETCH-20250904-221756-2CD68FCD] Summary:
-2025-09-04 22:17:58,212 - INFO - [FETCH-20250904-221756-2CD68FCD] - Sportsonline ('Toes In The Blender') matches: 7
-2025-09-04 22:17:58,212 - INFO - [FETCH-20250904-221756-2CD68FCD] - Final total matches in file: 131
-2025-09-04 22:17:58,212 - INFO - [FETCH-20250904-221756-2CD68FCD] Scraper run completed successfully
-2025-09-05 01:36:10,336 - INFO - [FETCH-20250905-013610-E04E7D3F] Starting sportsonline football match scraper...
-2025-09-05 01:36:10,337 - INFO - ============================================================
-2025-09-05 01:36:10,337 - INFO - [FETCH-20250905-013610-E04E7D3F] Starting cleanup operations...
-2025-09-05 01:36:10,337 - INFO - [FETCH-20250905-013610-E04E7D3F] Cleaning up old log entries...
-2025-09-05 01:36:10,359 - INFO - [FETCH-20250905-013610-E04E7D3F] Log cleanup complete: Removed 28 old log entries
-2025-09-05 01:36:10,359 - INFO - [FETCH-20250905-013610-E04E7D3F] Fetching matches from sportsonline.gl...
-2025-09-05 01:36:11,891 - INFO - [FETCH-20250905-013610-E04E7D3F] Fetched 23 valid matches from sportsonline.gl
-2025-09-05 01:36:11,892 - INFO - [FETCH-20250905-013610-E04E7D3F] Merging with existing data...
-2025-09-05 01:36:11,893 - INFO - [FETCH-20250905-013610-E04E7D3F] Cleaning up old matches...
-2025-09-05 01:36:11,893 - INFO - [FETCH-20250905-013610-E04E7D3F] Removed old match: América de Cali vs Atlético Bucaramanga (03-09-2025 22:15)
-2025-09-05 01:36:11,893 - INFO - [FETCH-20250905-013610-E04E7D3F] Removed old match: Santos W vs São Paulo W (03-09-2025 22:30)
-2025-09-05 01:36:11,893 - INFO - [FETCH-20250905-013610-E04E7D3F] Removed old match: Brazil vs Chile (04-09-2025 00:30)
-2025-09-05 01:36:11,893 - INFO - [FETCH-20250905-013610-E04E7D3F] Cleanup complete: Removed 3 old matches, 128 matches remaining
-2025-09-05 01:36:11,893 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Trinidad and Tobago vs Curaçao
-2025-09-05 01:36:11,893 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Haiti vs Honduras
-2025-09-05 01:36:11,893 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Tigre vs Independiente Rivadavia
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Nicaragua vs Costa Rica
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: South Sudan vs Congo DR
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Somalia vs Guinea
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Namibia vs Malawi
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Lesotho vs South Africa
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Uganda vs Mozambique
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Atletico Madrid W vs Real Madrid W
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Switzerland vs Kosovo
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Greece vs Belarus
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Denmark vs Scotland
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Ukraine vs France
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Italy vs Estonia
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Slovenia vs Sweden
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Moldova vs Israel
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Faroe Islands vs Croatia
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Senegal vs Sudan
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Egypt vs Ethiopia
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Morocco vs Niger
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Bermuda vs Jamaica
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] New match: Paysandu vs Volta Redonda
-2025-09-05 01:36:11,894 - INFO - [FETCH-20250905-013610-E04E7D3F] Merge complete: 23 new, 0 updated, 150 total
-2025-09-05 01:36:11,900 - INFO - [FETCH-20250905-013610-E04E7D3F] Data saved to live_events.json
-2025-09-05 01:36:11,900 - INFO - [FETCH-20250905-013610-E04E7D3F] Summary:
-2025-09-05 01:36:11,900 - INFO - [FETCH-20250905-013610-E04E7D3F] - Sportsonline ('Toes In The Blender') matches: 23
-2025-09-05 01:36:11,900 - INFO - [FETCH-20250905-013610-E04E7D3F] - Final total matches in file: 150
-2025-09-05 01:36:11,900 - INFO - [FETCH-20250905-013610-E04E7D3F] Scraper run completed successfully
 2025-09-05 02:58:50,262 - INFO - [FETCH-20250905-025850-BC4E05E9] Starting sportsonline football match scraper...
 2025-09-05 02:58:50,262 - INFO - ============================================================
 2025-09-05 02:58:50,262 - INFO - [FETCH-20250905-025850-BC4E05E9] Starting cleanup operations...
@@ -508,3 +450,39 @@
 2025-09-06 22:16:50,977 - INFO - [FETCH-20250906-221649-82B4DB2B] - Sportsonline ('Toes In The Blender') matches: 10
 2025-09-06 22:16:50,977 - INFO - [FETCH-20250906-221649-82B4DB2B] - Final total matches in file: 132
 2025-09-06 22:16:50,978 - INFO - [FETCH-20250906-221649-82B4DB2B] Scraper run completed successfully
+2025-09-07 01:40:53,767 - INFO - [FETCH-20250907-014053-FF599EAF] Starting sportsonline football match scraper...
+2025-09-07 01:40:53,768 - INFO - ============================================================
+2025-09-07 01:40:53,768 - INFO - [FETCH-20250907-014053-FF599EAF] Starting cleanup operations...
+2025-09-07 01:40:53,768 - INFO - [FETCH-20250907-014053-FF599EAF] Cleaning up old log entries...
+2025-09-07 01:40:53,785 - INFO - [FETCH-20250907-014053-FF599EAF] Log cleanup complete: Removed 58 old log entries
+2025-09-07 01:40:53,786 - INFO - [FETCH-20250907-014053-FF599EAF] Fetching matches from sportsonline.gl...
+2025-09-07 01:40:55,494 - INFO - [FETCH-20250907-014053-FF599EAF] Fetched 18 valid matches from sportsonline.gl
+2025-09-07 01:40:55,495 - INFO - [FETCH-20250907-014053-FF599EAF] Merging with existing data...
+2025-09-07 01:40:55,495 - INFO - [FETCH-20250907-014053-FF599EAF] Cleaning up old matches...
+2025-09-07 01:40:55,495 - INFO - [FETCH-20250907-014053-FF599EAF] Removed old match: Bermuda vs Jamaica (05-09-2025 22:00)
+2025-09-07 01:40:55,495 - INFO - [FETCH-20250907-014053-FF599EAF] Removed old match: Paysandu vs Volta Redonda (05-09-2025 22:00)
+2025-09-07 01:40:55,495 - INFO - [FETCH-20250907-014053-FF599EAF] Cleanup complete: Removed 2 old matches, 124 matches remaining
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Los Angeles FC vs Real Salt Lake
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Ceuta vs Huesca
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Borussia Dortmund W vs Gyori Audi Eto KC
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Georgia vs Bulgaria
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Cruzeiro W vs Corinthians W
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Burgos vs Las Palmas
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Crotone vs Cosenza
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Lithuania vs Netherlands
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: North Macedonia vs Liechtenstein
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Central African Republic vs Comoros
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Almería vs Racing Santander
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Livorno vs Nuova Monterosi
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Turkey vs Spain
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Germany vs Northern Ireland
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Poland vs Finland
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Belgium vs Kazakhstan
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Luxembourg vs Slovakia
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] New match: Avaí vs Goiás
+2025-09-07 01:40:55,497 - INFO - [FETCH-20250907-014053-FF599EAF] Merge complete: 18 new, 0 updated, 142 total
+2025-09-07 01:40:55,501 - INFO - [FETCH-20250907-014053-FF599EAF] Data saved to live_events.json
+2025-09-07 01:40:55,501 - INFO - [FETCH-20250907-014053-FF599EAF] Summary:
+2025-09-07 01:40:55,501 - INFO - [FETCH-20250907-014053-FF599EAF] - Sportsonline ('Toes In The Blender') matches: 18
+2025-09-07 01:40:55,501 - INFO - [FETCH-20250907-014053-FF599EAF] - Final total matches in file: 142
+2025-09-07 01:40:55,501 - INFO - [FETCH-20250907-014053-FF599EAF] Scraper run completed successfully
