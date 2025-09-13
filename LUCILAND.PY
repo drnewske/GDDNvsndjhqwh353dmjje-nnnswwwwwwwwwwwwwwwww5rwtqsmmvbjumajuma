@@ -6,6 +6,7 @@ import logging
 import urllib3
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import hashlib
 
 # Disable SSL warnings (for cases where we disable SSL verification)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -63,6 +64,38 @@ def create_session_with_retries():
     })
     
     return session
+
+def generate_match_id(match_data):
+    """
+    Generates a unique 12-digit match_id based on match data.
+    Uses hash of team names, date, time, and source name to ensure uniqueness.
+    """
+    # Create a string with key match identifiers
+    team1 = match_data.get('team1', {}).get('name', '') if isinstance(match_data.get('team1'), dict) else str(match_data.get('team1', ''))
+    team2 = match_data.get('team2', {}).get('name', '') if isinstance(match_data.get('team2'), dict) else str(match_data.get('team2', ''))
+    date = match_data.get('date', '')
+    time = match_data.get('time', '')
+    source = match_data.get('source_name', THIS_SCRAPER_SOURCE_NAME)
+    
+    # Create a consistent string for hashing (normalize case and order)
+    teams_sorted = sorted([team1.lower().strip(), team2.lower().strip()])
+    hash_input = f"{source}-{teams_sorted[0]}-{teams_sorted[1]}-{date}-{time}"
+    
+    # Generate SHA-256 hash and take first 12 digits
+    hash_object = hashlib.sha256(hash_input.encode())
+    hex_dig = hash_object.hexdigest()
+    
+    # Extract only digits from the hash and take first 12
+    digits_only = ''.join(filter(str.isdigit, hex_dig))
+    
+    # If we don't have enough digits, pad with additional hash iterations
+    while len(digits_only) < 12:
+        hash_input += str(len(digits_only))  # Add length as seed for more digits
+        hash_object = hashlib.sha256(hash_input.encode())
+        hex_dig = hash_object.hexdigest()
+        digits_only += ''.join(filter(str.isdigit, hex_dig))
+    
+    return digits_only[:12]
 
 def load_all_existing_data(file_path):
     """Loads ALL existing JSON data from a file, regardless of source."""
@@ -261,6 +294,10 @@ def run_football_scraper():
                 "date": utc_date_str,
                 "links": all_links
             }
+            
+            # Generate and add the unique 12-digit match_id
+            transformed_match["match_id"] = generate_match_id(transformed_match)
+            
             transformed_new_football_matches.append(transformed_match)
     logger.info(f"Transformed {len(transformed_new_football_matches)} valid football matches from API response.")
 
@@ -272,8 +309,13 @@ def run_football_scraper():
         unique_id = get_match_unique_id(new_match)
         if unique_id in this_scrapers_matches_map:
             # Update existing match added by THIS scraper
-            # This directly modifies the object in the map
+            # Preserve the existing match_id if it exists, otherwise generate a new one
+            if 'match_id' not in this_scrapers_matches_map[unique_id]:
+                this_scrapers_matches_map[unique_id]['match_id'] = generate_match_id(new_match)
+            # Update other fields but preserve match_id
+            match_id_backup = this_scrapers_matches_map[unique_id].get('match_id')
             this_scrapers_matches_map[unique_id].update(new_match)
+            this_scrapers_matches_map[unique_id]['match_id'] = match_id_backup
             updated_this_scraper_matches_count += 1
             # logger.info(f"Updated match: {new_match.get('match_title_from_api')} (managed by this scraper)")
         else:
@@ -289,6 +331,11 @@ def run_football_scraper():
     removed_this_scrapers_old_count = 0
 
     for unique_id, match in this_scrapers_matches_map.items():
+        # Ensure match_id exists for all matches managed by this scraper
+        if 'match_id' not in match:
+            match['match_id'] = generate_match_id(match)
+            logger.info(f"Generated missing match_id for existing match: {match.get('match_title_from_api')}")
+            
         match_date_str = match.get('date')
         match_time_str = match.get('time')
 
