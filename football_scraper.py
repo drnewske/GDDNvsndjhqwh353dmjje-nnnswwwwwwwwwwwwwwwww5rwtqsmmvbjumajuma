@@ -7,6 +7,7 @@ import logging
 import os
 import uuid
 import glob
+import hashlib
 from datetime import datetime, timezone, timedelta
 from typing import List, Dict, Tuple, Optional
 from collections import defaultdict
@@ -32,6 +33,55 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+
+def generate_match_id(match_data: dict) -> str:
+    """
+    Generates a unique 12-character alphabetic match_id based on match data.
+    Uses hash of team names, date, time, and source name to ensure uniqueness.
+    Returns only letters (A-Z), case insensitive.
+    """
+    # Create a string with key match identifiers
+    team1 = match_data.get('team1', {}).get('name', '') if isinstance(match_data.get('team1'), dict) else str(match_data.get('team1', ''))
+    team2 = match_data.get('team2', {}).get('name', '') if isinstance(match_data.get('team2'), dict) else str(match_data.get('team2', ''))
+    date = match_data.get('date', '')
+    time = match_data.get('time', '')
+    source = match_data.get('source_name', 'D.S stable')
+    
+    # Create a consistent string for hashing (normalize case and order)
+    teams_sorted = sorted([team1.lower().strip(), team2.lower().strip()])
+    hash_input = f"{source}-{teams_sorted[0]}-{teams_sorted[1]}-{date}-{time}"
+    
+    # Generate SHA-256 hash
+    hash_object = hashlib.sha256(hash_input.encode())
+    hex_dig = hash_object.hexdigest()
+    
+    # Convert hex to letters only
+    letters_only = ''
+    for char in hex_dig:
+        if char.isdigit():
+            # Convert digits 0-9 to letters A-J
+            letters_only += chr(ord('A') + int(char))
+        else:
+            # Keep hex letters (a-f), convert to uppercase
+            letters_only += char.upper()
+    
+    # If we don't have enough letters, pad with additional hash iterations
+    iteration = 0
+    while len(letters_only) < 12:
+        iteration += 1
+        hash_input_extended = f"{hash_input}-{iteration}"
+        hash_object = hashlib.sha256(hash_input_extended.encode())
+        hex_dig = hash_object.hexdigest()
+        
+        for char in hex_dig:
+            if len(letters_only) >= 12:
+                break
+            if char.isdigit():
+                letters_only += chr(ord('A') + int(char))
+            else:
+                letters_only += char.upper()
+    
+    return letters_only[:12]
 
 def generate_fetch_code() -> str:
     """Generate a unique fetch code for this run"""
@@ -255,6 +305,10 @@ def group_sportsonline_matches(parsed_matches: List[Tuple[str, str, str]], fetch
             "date": datetime.now().strftime("%d-%m-%Y"),
             "links": unique_streams
         }
+        
+        # Generate and add the unique 12-character alphabetic match_id
+        match_entry["match_id"] = generate_match_id(match_entry)
+        
         matches.append(match_entry)
     return matches
 
@@ -291,6 +345,12 @@ def merge_with_existing_data(new_matches: List[dict], existing_matches: List[dic
             team2 = match.get("team2", {}).get("name", "Unknown")
             logger.warning(f"[{fetch_code}] Skipping existing match in old format (missing 'source_name'): {team1} vs {team2}")
             continue
+            
+        # Ensure existing matches have match_id
+        if "match_id" not in match:
+            match["match_id"] = generate_match_id(match)
+            logger.info(f"[{fetch_code}] Generated missing match_id for existing match: {match.get('match_title_from_api', 'Unknown')}")
+            
         key = (match["source_name"], match["team1"]["name"], match["team2"]["name"], match["date"])
         existing_lookup[key] = match
     
@@ -302,6 +362,10 @@ def merge_with_existing_data(new_matches: List[dict], existing_matches: List[dic
         if key in existing_lookup:
             existing_match = existing_lookup[key]
             needs_update = False
+            
+            # Preserve the existing match_id
+            match_id_backup = existing_match.get("match_id")
+            
             if (existing_match["team1"]["logo_url"] == DEFAULT_LOGO_URL and new_match["team1"]["logo_url"] != DEFAULT_LOGO_URL):
                 existing_match["team1"]["logo_url"] = new_match["team1"]["logo_url"]
                 needs_update = True
@@ -316,6 +380,10 @@ def merge_with_existing_data(new_matches: List[dict], existing_matches: List[dic
                 random.shuffle(combined_links)
                 existing_match["links"] = combined_links
                 needs_update = True
+            
+            # Restore the match_id after any updates
+            if match_id_backup:
+                existing_match["match_id"] = match_id_backup
             
             if needs_update:
                 updated_count += 1
