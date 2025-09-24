@@ -482,3 +482,21 @@
 2025-09-24 16:26:35,984 - INFO - [FETCH-20250924-162634-D1D2059A] - Sportsonline ('Toes In The Blender') matches: 29
 2025-09-24 16:26:35,984 - INFO - [FETCH-20250924-162634-D1D2059A] - Final total matches in file: 129
 2025-09-24 16:26:35,984 - INFO - [FETCH-20250924-162634-D1D2059A] Scraper run completed successfully
+2025-09-24 18:26:53,554 - INFO - [FETCH-20250924-182653-4668E0EA] Starting sportsonline football match scraper...
+2025-09-24 18:26:53,555 - INFO - ============================================================
+2025-09-24 18:26:53,555 - INFO - [FETCH-20250924-182653-4668E0EA] Starting cleanup operations...
+2025-09-24 18:26:53,555 - INFO - [FETCH-20250924-182653-4668E0EA] Cleaning up old log entries...
+2025-09-24 18:26:53,575 - INFO - [FETCH-20250924-182653-4668E0EA] Fetching matches from sportsonline.gl...
+2025-09-24 18:26:54,519 - INFO - [FETCH-20250924-182653-4668E0EA] Fetched 21 valid matches from sportsonline.gl
+2025-09-24 18:26:54,522 - INFO - [FETCH-20250924-182653-4668E0EA] Merging with existing data...
+2025-09-24 18:26:54,522 - INFO - [FETCH-20250924-182653-4668E0EA] Cleaning up old matches...
+2025-09-24 18:26:54,522 - INFO - [FETCH-20250924-182653-4668E0EA] Removed old match: Udinese vs Palermo (23-09-2025 16:30)
+2025-09-24 18:26:54,522 - INFO - [FETCH-20250924-182653-4668E0EA] Removed old match: Espanyol vs Valencia (23-09-2025 17:00)
+2025-09-24 18:26:54,522 - INFO - [FETCH-20250924-182653-4668E0EA] Removed old match: Athletic Club vs Girona (23-09-2025 17:00)
+2025-09-24 18:26:54,523 - INFO - [FETCH-20250924-182653-4668E0EA] Cleanup complete: Removed 3 old matches, 162 matches remaining
+2025-09-24 18:26:54,523 - INFO - [FETCH-20250924-182653-4668E0EA] Merge complete: 0 new, 0 updated, 162 total
+2025-09-24 18:26:54,527 - INFO - [FETCH-20250924-182653-4668E0EA] Data saved to live_events.json
+2025-09-24 18:26:54,527 - INFO - [FETCH-20250924-182653-4668E0EA] Summary:
+2025-09-24 18:26:54,527 - INFO - [FETCH-20250924-182653-4668E0EA] - Sportsonline ('Toes In The Blender') matches: 21
+2025-09-24 18:26:54,527 - INFO - [FETCH-20250924-182653-4668E0EA] - Final total matches in file: 162
+2025-09-24 18:26:54,527 - INFO - [FETCH-20250924-182653-4668E0EA] Scraper run completed successfully
