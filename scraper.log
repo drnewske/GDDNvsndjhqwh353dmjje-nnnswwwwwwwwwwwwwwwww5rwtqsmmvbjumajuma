@@ -1,53 +1,3 @@
-2025-09-22 18:27:29,682 - INFO - [FETCH-20250922-182729-944D7A9C] Starting sportsonline football match scraper...
-2025-09-22 18:27:29,682 - INFO - ============================================================
-2025-09-22 18:27:29,683 - INFO - [FETCH-20250922-182729-944D7A9C] Starting cleanup operations...
-2025-09-22 18:27:29,683 - INFO - [FETCH-20250922-182729-944D7A9C] Cleaning up old log entries...
-2025-09-22 18:27:29,740 - INFO - [FETCH-20250922-182729-944D7A9C] Log cleanup complete: Removed 19 old log entries
-2025-09-22 18:27:29,740 - INFO - [FETCH-20250922-182729-944D7A9C] Fetching matches from sportsonline.gl...
-2025-09-22 18:27:31,418 - INFO - [FETCH-20250922-182729-944D7A9C] Fetched 12 valid matches from sportsonline.gl
-2025-09-22 18:27:31,419 - INFO - [FETCH-20250922-182729-944D7A9C] Merging with existing data...
-2025-09-22 18:27:31,419 - INFO - [FETCH-20250922-182729-944D7A9C] Cleaning up old matches...
-2025-09-22 18:27:31,419 - INFO - [FETCH-20250922-182729-944D7A9C] Removed old match: Arsenal vs Manchester City (21-09-2025 15:30)
-2025-09-22 18:27:31,419 - INFO - [FETCH-20250922-182729-944D7A9C] Removed old match: Bayer Leverkusen vs Borussia M'gladbach (21-09-2025 15:30)
-2025-09-22 18:27:31,419 - INFO - [FETCH-20250922-182729-944D7A9C] Removed old match: Fiorentina vs Como (21-09-2025 16:00)
-2025-09-22 18:27:31,419 - INFO - [FETCH-20250922-182729-944D7A9C] Removed old match: Elche vs Real Oviedo (21-09-2025 16:30)
-2025-09-22 18:27:31,419 - INFO - [FETCH-20250922-182729-944D7A9C] Removed old match: Gil Vicente vs Estoril (21-09-2025 17:00)
-2025-09-22 18:27:31,419 - INFO - [FETCH-20250922-182729-944D7A9C] Removed old match: Kasımpaşa vs Fenerbahçe (21-09-2025 17:00)
-2025-09-22 18:27:31,420 - INFO - [FETCH-20250922-182729-944D7A9C] Cleanup complete: Removed 6 old matches, 119 matches remaining
-2025-09-22 18:27:31,421 - INFO - [FETCH-20250922-182729-944D7A9C] Merge complete: 0 new, 0 updated, 118 total
-2025-09-22 18:27:31,424 - INFO - [FETCH-20250922-182729-944D7A9C] Data saved to live_events.json
-2025-09-22 18:27:31,424 - INFO - [FETCH-20250922-182729-944D7A9C] Summary:
-2025-09-22 18:27:31,424 - INFO - [FETCH-20250922-182729-944D7A9C] - Sportsonline ('Toes In The Blender') matches: 12
-2025-09-22 18:27:31,424 - INFO - [FETCH-20250922-182729-944D7A9C] - Final total matches in file: 118
-2025-09-22 18:27:31,424 - INFO - [FETCH-20250922-182729-944D7A9C] Scraper run completed successfully
-2025-09-22 20:21:44,082 - INFO - [FETCH-20250922-202144-4D9342CC] Starting sportsonline football match scraper...
-2025-09-22 20:21:44,082 - INFO - ============================================================
-2025-09-22 20:21:44,083 - INFO - [FETCH-20250922-202144-4D9342CC] Starting cleanup operations...
-2025-09-22 20:21:44,083 - INFO - [FETCH-20250922-202144-4D9342CC] Cleaning up old log entries...
-2025-09-22 20:21:44,123 - INFO - [FETCH-20250922-202144-4D9342CC] Log cleanup complete: Removed 34 old log entries
-2025-09-22 20:21:44,124 - INFO - [FETCH-20250922-202144-4D9342CC] Fetching matches from sportsonline.gl...
-2025-09-22 20:21:45,792 - INFO - [FETCH-20250922-202144-4D9342CC] Fetched 12 valid matches from sportsonline.gl
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Merging with existing data...
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Cleaning up old matches...
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Borussia Dortmund vs Wolfsburg (21-09-2025 17:30)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Panathinaikos vs Olympiakos Piraeus (21-09-2025 18:00)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: River Plate vs Racing (21-09-2025 18:30)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Internazionale vs Sassuolo (21-09-2025 18:45)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Olympique Marseille vs PSG (21-09-2025 18:45)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Internazionale vs Sassuolo (21-09-2025 18:45)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Olympique Marseille vs PSG (21-09-2025 18:45)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Barcelona vs Getafe (21-09-2025 19:00)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Mirassol vs Juventude (21-09-2025 19:00)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Barcelona vs Getafe (21-09-2025 19:00)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Atlético Ottawa vs Forge (21-09-2025 19:00)
-2025-09-22 20:21:45,793 - INFO - [FETCH-20250922-202144-4D9342CC] Removed old match: Córdoba vs Racing Santander (21-09-2025 19:00)
-2025-09-22 20:21:45,794 - INFO - [FETCH-20250922-202144-4D9342CC] Cleanup complete: Removed 12 old matches, 106 matches remaining
-2025-09-22 20:21:45,794 - INFO - [FETCH-20250922-202144-4D9342CC] Merge complete: 0 new, 0 updated, 106 total
-2025-09-22 20:21:45,797 - INFO - [FETCH-20250922-202144-4D9342CC] Data saved to live_events.json
-2025-09-22 20:21:45,797 - INFO - [FETCH-20250922-202144-4D9342CC] Summary:
-2025-09-22 20:21:45,797 - INFO - [FETCH-20250922-202144-4D9342CC] - Sportsonline ('Toes In The Blender') matches: 12
-2025-09-22 20:21:45,798 - INFO - [FETCH-20250922-202144-4D9342CC] - Final total matches in file: 106
-2025-09-22 20:21:45,798 - INFO - [FETCH-20250922-202144-4D9342CC] Scraper run completed successfully
 2025-09-22 22:18:18,920 - INFO - [FETCH-20250922-221818-A449DFF0] Starting sportsonline football match scraper...
 2025-09-22 22:18:18,920 - INFO - ============================================================
 2025-09-22 22:18:18,920 - INFO - [FETCH-20250922-221818-A449DFF0] Starting cleanup operations...
@@ -500,3 +450,50 @@
 2025-09-24 18:26:54,527 - INFO - [FETCH-20250924-182653-4668E0EA] - Sportsonline ('Toes In The Blender') matches: 21
 2025-09-24 18:26:54,527 - INFO - [FETCH-20250924-182653-4668E0EA] - Final total matches in file: 162
 2025-09-24 18:26:54,527 - INFO - [FETCH-20250924-182653-4668E0EA] Scraper run completed successfully
+2025-09-24 20:22:04,551 - INFO - [FETCH-20250924-202204-CDAF485A] Starting sportsonline football match scraper...
+2025-09-24 20:22:04,551 - INFO - ============================================================
+2025-09-24 20:22:04,551 - INFO - [FETCH-20250924-202204-CDAF485A] Starting cleanup operations...
+2025-09-24 20:22:04,551 - INFO - [FETCH-20250924-202204-CDAF485A] Cleaning up old log entries...
+2025-09-24 20:22:04,579 - INFO - [FETCH-20250924-202204-CDAF485A] Log cleanup complete: Removed 50 old log entries
+2025-09-24 20:22:04,580 - INFO - [FETCH-20250924-202204-CDAF485A] Fetching matches from sportsonline.gl...
+2025-09-24 20:22:05,721 - INFO - [FETCH-20250924-202204-CDAF485A] Fetched 21 valid matches from sportsonline.gl
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Merging with existing data...
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Cleaning up old matches...
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Al Ahli vs Pyramids (23-09-2025 17:30)
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Jeddah vs Al Nassr (23-09-2025 18:30)
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Anderlecht vs Gent (23-09-2025 18:30)
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Le Mans vs Grenoble Foot 38 (23-09-2025 18:30)
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Amiens SC vs Saint-Étienne (23-09-2025 18:30)
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Montpellier vs Boulogne (23-09-2025 18:30)
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Reims vs Clermont (23-09-2025 18:30)
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Red Star vs Troyes (23-09-2025 18:30)
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Annecy vs Nancy (23-09-2025 18:30)
+2025-09-24 20:22:05,724 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Pau vs Laval (23-09-2025 18:30)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Guingamp vs Dunkerque (23-09-2025 18:30)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Katowice vs Wisła Płock (23-09-2025 18:30)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Roma vs Lazio (23-09-2025 18:30)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Lincoln City vs Chelsea (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Barnsley vs Brighton & Hove Albion (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Wolverhampton Wanderers vs Everton (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Fulham vs Cambridge United (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Wrexham vs Reading (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Wolverhampton Wanderers vs Everton (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Fulham vs Cambridge United (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Barnsley vs Brighton & Hove Albion (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Lincoln City vs Chelsea (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Wrexham vs Reading (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Burnley vs Cardiff City (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Wigan Athletic vs Wycombe Wanderers (23-09-2025 18:45)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Liverpool vs Southampton (23-09-2025 19:00)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Milan vs Lecce (23-09-2025 19:00)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Milan vs Lecce (23-09-2025 19:00)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Liverpool vs Southampton (23-09-2025 19:00)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Benfica vs Rio Ave (23-09-2025 19:15)
+2025-09-24 20:22:05,725 - INFO - [FETCH-20250924-202204-CDAF485A] Removed old match: Benfica vs Rio Ave (23-09-2025 19:15)
+2025-09-24 20:22:05,726 - INFO - [FETCH-20250924-202204-CDAF485A] Cleanup complete: Removed 31 old matches, 131 matches remaining
+2025-09-24 20:22:05,726 - INFO - [FETCH-20250924-202204-CDAF485A] Merge complete: 0 new, 0 updated, 131 total
+2025-09-24 20:22:05,731 - INFO - [FETCH-20250924-202204-CDAF485A] Data saved to live_events.json
+2025-09-24 20:22:05,731 - INFO - [FETCH-20250924-202204-CDAF485A] Summary:
+2025-09-24 20:22:05,731 - INFO - [FETCH-20250924-202204-CDAF485A] - Sportsonline ('Toes In The Blender') matches: 21
+2025-09-24 20:22:05,731 - INFO - [FETCH-20250924-202204-CDAF485A] - Final total matches in file: 131
+2025-09-24 20:22:05,731 - INFO - [FETCH-20250924-202204-CDAF485A] Scraper run completed successfully
