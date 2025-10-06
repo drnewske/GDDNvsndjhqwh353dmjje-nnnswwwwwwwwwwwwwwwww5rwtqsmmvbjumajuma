@@ -1,38 +1,3 @@
-2025-10-04 20:19:05,392 - INFO - [FETCH-20251004-201905-308201CF] Starting sportsonline football match scraper...
-2025-10-04 20:19:05,392 - INFO - ============================================================
-2025-10-04 20:19:05,392 - INFO - [FETCH-20251004-201905-308201CF] Starting cleanup operations...
-2025-10-04 20:19:05,392 - INFO - [FETCH-20251004-201905-308201CF] Cleaning up old log entries...
-2025-10-04 20:19:05,445 - INFO - [FETCH-20251004-201905-308201CF] Log cleanup complete: Removed 18 old log entries
-2025-10-04 20:19:05,445 - INFO - [FETCH-20251004-201905-308201CF] Fetching matches from sportsonline.gl...
-2025-10-04 20:19:07,331 - INFO - [FETCH-20251004-201905-308201CF] Fetched 15 valid matches from sportsonline.gl
-2025-10-04 20:19:07,334 - INFO - [FETCH-20251004-201905-308201CF] Merging with existing data...
-2025-10-04 20:19:07,334 - INFO - [FETCH-20251004-201905-308201CF] Cleaning up old matches...
-2025-10-04 20:19:07,334 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Unirea Slobozia vs Dinamo Bucureşti (03-10-2025 17:30)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: NAC Breda vs Groningen (03-10-2025 18:00)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Hoffenheim vs Köln (03-10-2025 18:30)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Hoffenheim vs Köln (03-10-2025 18:30)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Pogoń Szczecin vs Piast Gliwice (03-10-2025 18:30)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Ceuta vs Eibar (03-10-2025 18:30)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Hellas Verona vs Sassuolo (03-10-2025 18:45)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Paris vs Lorient (03-10-2025 18:45)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Paris vs Lorient (03-10-2025 18:45)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Hellas Verona vs Sassuolo (03-10-2025 18:45)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Gent vs Sporting Charleroi (03-10-2025 18:45)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: AFC Bournemouth vs Fulham (03-10-2025 19:00)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Osasuna vs Getafe (03-10-2025 19:00)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Wrexham vs Birmingham City (03-10-2025 19:00)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Wrexham vs Birmingham City (03-10-2025 19:00)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Osasuna vs Getafe (03-10-2025 19:00)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: AFC Bournemouth vs Fulham (03-10-2025 19:00)
-2025-10-04 20:19:07,335 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Casa Pia vs Estoril (03-10-2025 19:15)
-2025-10-04 20:19:07,336 - INFO - [FETCH-20251004-201905-308201CF] Removed old match: Casa Pia vs Estoril (03-10-2025 19:15)
-2025-10-04 20:19:07,336 - INFO - [FETCH-20251004-201905-308201CF] Cleanup complete: Removed 19 old matches, 241 matches remaining
-2025-10-04 20:19:07,336 - INFO - [FETCH-20251004-201905-308201CF] Merge complete: 0 new, 0 updated, 241 total
-2025-10-04 20:19:07,345 - INFO - [FETCH-20251004-201905-308201CF] Data saved to live_events.json
-2025-10-04 20:19:07,346 - INFO - [FETCH-20251004-201905-308201CF] Summary:
-2025-10-04 20:19:07,346 - INFO - [FETCH-20251004-201905-308201CF] - Sportsonline ('Toes In The Blender') matches: 15
-2025-10-04 20:19:07,346 - INFO - [FETCH-20251004-201905-308201CF] - Final total matches in file: 241
-2025-10-04 20:19:07,346 - INFO - [FETCH-20251004-201905-308201CF] Scraper run completed successfully
 2025-10-04 22:16:58,715 - INFO - [FETCH-20251004-221658-F53DC969] Starting sportsonline football match scraper...
 2025-10-04 22:16:58,715 - INFO - ============================================================
 2025-10-04 22:16:58,715 - INFO - [FETCH-20251004-221658-F53DC969] Starting cleanup operations...
@@ -562,3 +527,35 @@
 2025-10-06 18:29:42,694 - INFO - [FETCH-20251006-182941-F6554535] - Sportsonline ('Toes In The Blender') matches: 8
 2025-10-06 18:29:42,695 - INFO - [FETCH-20251006-182941-F6554535] - Final total matches in file: 64
 2025-10-06 18:29:42,695 - INFO - [FETCH-20251006-182941-F6554535] Scraper run completed successfully
+2025-10-06 20:21:47,600 - INFO - [FETCH-20251006-202147-86253E8C] Starting sportsonline football match scraper...
+2025-10-06 20:21:47,600 - INFO - ============================================================
+2025-10-06 20:21:47,600 - INFO - [FETCH-20251006-202147-86253E8C] Starting cleanup operations...
+2025-10-06 20:21:47,600 - INFO - [FETCH-20251006-202147-86253E8C] Cleaning up old log entries...
+2025-10-06 20:21:47,619 - INFO - [FETCH-20251006-202147-86253E8C] Log cleanup complete: Removed 35 old log entries
+2025-10-06 20:21:47,619 - INFO - [FETCH-20251006-202147-86253E8C] Fetching matches from sportsonline.gl...
+2025-10-06 20:21:48,707 - INFO - [FETCH-20251006-202147-86253E8C] Fetched 8 valid matches from sportsonline.gl
+2025-10-06 20:21:48,708 - INFO - [FETCH-20251006-202147-86253E8C] Merging with existing data...
+2025-10-06 20:21:48,708 - INFO - [FETCH-20251006-202147-86253E8C] Cleaning up old matches...
+2025-10-06 20:21:48,708 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Borussia M'gladbach vs Freiburg (05-10-2025 17:30)
+2025-10-06 20:21:48,708 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: PAOK vs Olympiakos Piraeus (05-10-2025 17:30)
+2025-10-06 20:21:48,708 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Sporting CP vs Sporting Braga (05-10-2025 18:15)
+2025-10-06 20:21:48,708 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Sporting CP vs Sporting Braga (05-10-2025 18:15)
+2025-10-06 20:21:48,708 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Górnik Zabrze vs Legia Warszawa (05-10-2025 18:15)
+2025-10-06 20:21:48,708 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Panathinaikos vs Atromitos (05-10-2025 18:30)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Panathinaikos vs Atromitos (05-10-2025 18:30)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Juventus vs Milan (05-10-2025 18:45)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Lille vs PSG (05-10-2025 18:45)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Lille vs PSG (05-10-2025 18:45)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Juventus vs Milan (05-10-2025 18:45)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Celta de Vigo vs Atlético Madrid (05-10-2025 19:00)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: São Paulo vs Palmeiras (05-10-2025 19:00)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Vasco da Gama vs Vitória (05-10-2025 19:00)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Valour vs Atlético Ottawa (05-10-2025 19:00)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Removed old match: Celta de Vigo vs Atlético Madrid (05-10-2025 19:00)
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Cleanup complete: Removed 16 old matches, 48 matches remaining
+2025-10-06 20:21:48,709 - INFO - [FETCH-20251006-202147-86253E8C] Merge complete: 0 new, 0 updated, 48 total
+2025-10-06 20:21:48,710 - INFO - [FETCH-20251006-202147-86253E8C] Data saved to live_events.json
+2025-10-06 20:21:48,711 - INFO - [FETCH-20251006-202147-86253E8C] Summary:
+2025-10-06 20:21:48,711 - INFO - [FETCH-20251006-202147-86253E8C] - Sportsonline ('Toes In The Blender') matches: 8
+2025-10-06 20:21:48,711 - INFO - [FETCH-20251006-202147-86253E8C] - Final total matches in file: 48
+2025-10-06 20:21:48,711 - INFO - [FETCH-20251006-202147-86253E8C] Scraper run completed successfully
