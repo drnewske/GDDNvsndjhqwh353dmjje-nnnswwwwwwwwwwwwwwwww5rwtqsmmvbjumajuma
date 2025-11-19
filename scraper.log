@@ -1,47 +1,3 @@
-2025-11-17 20:24:58,468 - INFO - [FETCH-20251117-202458-A63C895E] Starting sportsonline football match scraper...
-2025-11-17 20:24:58,469 - INFO - ============================================================
-2025-11-17 20:24:58,469 - INFO - [FETCH-20251117-202458-A63C895E] Starting cleanup operations...
-2025-11-17 20:24:58,469 - INFO - [FETCH-20251117-202458-A63C895E] Cleaning up old log entries...
-2025-11-17 20:24:58,519 - INFO - [FETCH-20251117-202458-A63C895E] Log cleanup complete: Removed 29 old log entries
-2025-11-17 20:24:58,519 - INFO - [FETCH-20251117-202458-A63C895E] Fetching matches from sportsonline.gl...
-2025-11-17 20:24:59,882 - INFO - [FETCH-20251117-202458-A63C895E] Fetched 10 valid matches from sportsonline.gl
-2025-11-17 20:24:59,884 - INFO - [FETCH-20251117-202458-A63C895E] Merging with existing data...
-2025-11-17 20:24:59,884 - INFO - [FETCH-20251117-202458-A63C895E] Cleaning up old matches...
-2025-11-17 20:24:59,884 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Ferroviária vs Athletico-PR (16-11-2025 18:30)
-2025-11-17 20:24:59,884 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Italy vs Norway (16-11-2025 18:45)
-2025-11-17 20:24:59,884 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Israel vs Moldova (16-11-2025 18:45)
-2025-11-17 20:24:59,884 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Italy vs Norway (16-11-2025 18:45)
-2025-11-17 20:24:59,884 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Israel vs Moldova (16-11-2025 18:45)
-2025-11-17 20:24:59,884 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Real Zaragoza vs Huesca (16-11-2025 19:00)
-2025-11-17 20:24:59,884 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Vélez Sarsfield vs River Plate (16-11-2025 19:00)
-2025-11-17 20:24:59,885 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Instituto vs Talleres Cordoba (16-11-2025 19:00)
-2025-11-17 20:24:59,885 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Velez Sarsfield vs River Plate (16-11-2025 19:00)
-2025-11-17 20:24:59,885 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Real Zaragoza vs Huesca (16-11-2025 19:00)
-2025-11-17 20:24:59,885 - INFO - [FETCH-20251117-202458-A63C895E] Removed old match: Orlando Pride vs Gotham FC (16-11-2025 19:00)
-2025-11-17 20:24:59,885 - INFO - [FETCH-20251117-202458-A63C895E] Cleanup complete: Removed 11 old matches, 55 matches remaining
-2025-11-17 20:24:59,885 - INFO - [FETCH-20251117-202458-A63C895E] Merge complete: 0 new, 0 updated, 55 total
-2025-11-17 20:24:59,887 - INFO - [FETCH-20251117-202458-A63C895E] Data saved to live_events.json
-2025-11-17 20:24:59,887 - INFO - [FETCH-20251117-202458-A63C895E] Summary:
-2025-11-17 20:24:59,887 - INFO - [FETCH-20251117-202458-A63C895E] - Sportsonline ('Toes In The Blender') matches: 10
-2025-11-17 20:24:59,888 - INFO - [FETCH-20251117-202458-A63C895E] - Final total matches in file: 55
-2025-11-17 20:24:59,888 - INFO - [FETCH-20251117-202458-A63C895E] Scraper run completed successfully
-2025-11-17 22:19:59,479 - INFO - [FETCH-20251117-221959-489A07F1] Starting sportsonline football match scraper...
-2025-11-17 22:19:59,479 - INFO - ============================================================
-2025-11-17 22:19:59,479 - INFO - [FETCH-20251117-221959-489A07F1] Starting cleanup operations...
-2025-11-17 22:19:59,479 - INFO - [FETCH-20251117-221959-489A07F1] Cleaning up old log entries...
-2025-11-17 22:19:59,503 - INFO - [FETCH-20251117-221959-489A07F1] Log cleanup complete: Removed 16 old log entries
-2025-11-17 22:19:59,504 - INFO - [FETCH-20251117-221959-489A07F1] Fetching matches from sportsonline.gl...
-2025-11-17 22:20:00,469 - INFO - [FETCH-20251117-221959-489A07F1] Fetched 0 valid matches from sportsonline.gl
-2025-11-17 22:20:00,469 - INFO - [FETCH-20251117-221959-489A07F1] Merging with existing data...
-2025-11-17 22:20:00,469 - INFO - [FETCH-20251117-221959-489A07F1] Cleaning up old matches...
-2025-11-17 22:20:00,469 - INFO - [FETCH-20251117-221959-489A07F1] Removed old match: RB Bragantino vs Atlético Mineiro (16-11-2025 21:00)
-2025-11-17 22:20:00,469 - INFO - [FETCH-20251117-221959-489A07F1] Cleanup complete: Removed 1 old matches, 60 matches remaining
-2025-11-17 22:20:00,471 - INFO - [FETCH-20251117-221959-489A07F1] Merge complete: 0 new, 0 updated, 60 total
-2025-11-17 22:20:00,472 - INFO - [FETCH-20251117-221959-489A07F1] Data saved to live_events.json
-2025-11-17 22:20:00,472 - INFO - [FETCH-20251117-221959-489A07F1] Summary:
-2025-11-17 22:20:00,472 - INFO - [FETCH-20251117-221959-489A07F1] - Sportsonline ('Toes In The Blender') matches: 0
-2025-11-17 22:20:00,472 - INFO - [FETCH-20251117-221959-489A07F1] - Final total matches in file: 60
-2025-11-17 22:20:00,472 - INFO - [FETCH-20251117-221959-489A07F1] Scraper run completed successfully
 2025-11-18 01:42:45,823 - INFO - [FETCH-20251118-014245-212EC4AA] Starting sportsonline football match scraper...
 2025-11-18 01:42:45,823 - INFO - ============================================================
 2025-11-18 01:42:45,823 - INFO - [FETCH-20251118-014245-212EC4AA] Starting cleanup operations...
@@ -496,3 +452,19 @@
 2025-11-19 20:21:06,614 - INFO - [FETCH-20251119-202105-F74AA56E] - Sportsonline ('Toes In The Blender') matches: 10
 2025-11-19 20:21:06,614 - INFO - [FETCH-20251119-202105-F74AA56E] - Final total matches in file: 70
 2025-11-19 20:21:06,614 - INFO - [FETCH-20251119-202105-F74AA56E] Scraper run completed successfully
+2025-11-19 22:20:15,408 - INFO - [FETCH-20251119-222015-9464C990] Starting sportsonline football match scraper...
+2025-11-19 22:20:15,408 - INFO - ============================================================
+2025-11-19 22:20:15,408 - INFO - [FETCH-20251119-222015-9464C990] Starting cleanup operations...
+2025-11-19 22:20:15,408 - INFO - [FETCH-20251119-222015-9464C990] Cleaning up old log entries...
+2025-11-19 22:20:15,429 - INFO - [FETCH-20251119-222015-9464C990] Log cleanup complete: Removed 44 old log entries
+2025-11-19 22:20:15,430 - INFO - [FETCH-20251119-222015-9464C990] Fetching matches from sportsonline.gl...
+2025-11-19 22:20:16,966 - INFO - [FETCH-20251119-222015-9464C990] Fetched 7 valid matches from sportsonline.gl
+2025-11-19 22:20:16,968 - INFO - [FETCH-20251119-222015-9464C990] Merging with existing data...
+2025-11-19 22:20:16,968 - INFO - [FETCH-20251119-222015-9464C990] Cleaning up old matches...
+2025-11-19 22:20:16,969 - INFO - [FETCH-20251119-222015-9464C990] No old matches to remove
+2025-11-19 22:20:16,969 - INFO - [FETCH-20251119-222015-9464C990] Merge complete: 0 new, 0 updated, 166 total
+2025-11-19 22:20:16,973 - INFO - [FETCH-20251119-222015-9464C990] Data saved to live_events.json
+2025-11-19 22:20:16,973 - INFO - [FETCH-20251119-222015-9464C990] Summary:
+2025-11-19 22:20:16,973 - INFO - [FETCH-20251119-222015-9464C990] - Sportsonline ('Toes In The Blender') matches: 7
+2025-11-19 22:20:16,973 - INFO - [FETCH-20251119-222015-9464C990] - Final total matches in file: 166
+2025-11-19 22:20:16,973 - INFO - [FETCH-20251119-222015-9464C990] Scraper run completed successfully
