@@ -1,44 +1,3 @@
-2025-11-21 01:42:43,057 - INFO - [FETCH-20251121-014243-8AE0EB24] Starting sportsonline football match scraper...
-2025-11-21 01:42:43,057 - INFO - ============================================================
-2025-11-21 01:42:43,057 - INFO - [FETCH-20251121-014243-8AE0EB24] Starting cleanup operations...
-2025-11-21 01:42:43,058 - INFO - [FETCH-20251121-014243-8AE0EB24] Cleaning up old log entries...
-2025-11-21 01:42:43,068 - INFO - [FETCH-20251121-014243-8AE0EB24] Log cleanup complete: Removed 16 old log entries
-2025-11-21 01:42:43,069 - INFO - [FETCH-20251121-014243-8AE0EB24] Fetching matches from sportsonline.gl...
-2025-11-21 01:42:44,473 - INFO - [FETCH-20251121-014243-8AE0EB24] Fetched 19 valid matches from sportsonline.gl
-2025-11-21 01:42:44,475 - INFO - [FETCH-20251121-014243-8AE0EB24] Merging with existing data...
-2025-11-21 01:42:44,475 - INFO - [FETCH-20251121-014243-8AE0EB24] Cleaning up old matches...
-2025-11-21 01:42:44,475 - INFO - [FETCH-20251121-014243-8AE0EB24] Removed old match: Palmeiras vs Vitória (19-11-2025 21:30)
-2025-11-21 01:42:44,475 - INFO - [FETCH-20251121-014243-8AE0EB24] Removed old match: Santiago Wanderers vs Cobreloa (19-11-2025 22:00)
-2025-11-21 01:42:44,475 - INFO - [FETCH-20251121-014243-8AE0EB24] Removed old match: Atlético Bucaramanga vs Santa Fe (19-11-2025 22:30)
-2025-11-21 01:42:44,475 - INFO - [FETCH-20251121-014243-8AE0EB24] Removed old match: Fluminense vs Flamengo (19-11-2025 23:30)
-2025-11-21 01:42:44,476 - INFO - [FETCH-20251121-014243-8AE0EB24] Removed old match: Santos vs Mirassol (19-11-2025 23:30)
-2025-11-21 01:42:44,476 - INFO - [FETCH-20251121-014243-8AE0EB24] Removed old match: Grêmio vs Vasco da Gama (19-11-2025 23:30)
-2025-11-21 01:42:44,476 - INFO - [FETCH-20251121-014243-8AE0EB24] Cleanup complete: Removed 6 old matches, 147 matches remaining
-2025-11-21 01:42:44,476 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Adelaide United vs Melbourne City
-2025-11-21 01:42:44,476 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Al Hilal Omdurman vs MC Alger
-2025-11-21 01:42:44,476 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Al Ittihad vs Al Riyadh
-2025-11-21 01:42:44,476 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Nieciecza vs Arka Gdynia
-2025-11-21 01:42:44,476 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Al Ahli Saudi vs Al-qadisiyah
-2025-11-21 01:42:44,476 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Bochum vs Dynamo Dresden
-2025-11-21 01:42:44,476 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Hertha BSC vs Eintracht Braunschweig
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Mainz 05 vs Hoffenheim
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Catanzaro vs Pescara
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Las Palmas vs Albacete
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Audace Cerignola vs Crotone
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Nice vs Olympique Marseille
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Standard Liège vs Zulte-Waregem
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Queen's Park vs Ross County
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Valencia vs Levante
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Preston North End vs Blackburn Rovers
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Atlético CP vs Benfica
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Flamengo W vs Fluminense W
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] New match: Deportivo Cuenca vs El Nacional
-2025-11-21 01:42:44,477 - INFO - [FETCH-20251121-014243-8AE0EB24] Merge complete: 19 new, 0 updated, 165 total
-2025-11-21 01:42:44,481 - INFO - [FETCH-20251121-014243-8AE0EB24] Data saved to live_events.json
-2025-11-21 01:42:44,481 - INFO - [FETCH-20251121-014243-8AE0EB24] Summary:
-2025-11-21 01:42:44,481 - INFO - [FETCH-20251121-014243-8AE0EB24] - Sportsonline ('Toes In The Blender') matches: 19
-2025-11-21 01:42:44,481 - INFO - [FETCH-20251121-014243-8AE0EB24] - Final total matches in file: 165
-2025-11-21 01:42:44,481 - INFO - [FETCH-20251121-014243-8AE0EB24] Scraper run completed successfully
 2025-11-21 03:11:37,878 - INFO - [FETCH-20251121-031137-E8135732] Starting sportsonline football match scraper...
 2025-11-21 03:11:37,879 - INFO - ============================================================
 2025-11-21 03:11:37,879 - INFO - [FETCH-20251121-031137-E8135732] Starting cleanup operations...
@@ -514,3 +473,68 @@
 2025-11-22 22:19:24,799 - INFO - [FETCH-20251122-221919-C59C8A33] - Sportsonline ('Toes In The Blender') matches: 15
 2025-11-22 22:19:24,799 - INFO - [FETCH-20251122-221919-C59C8A33] - Final total matches in file: 238
 2025-11-22 22:19:24,799 - INFO - [FETCH-20251122-221919-C59C8A33] Scraper run completed successfully
+2025-11-23 01:55:57,220 - INFO - [FETCH-20251123-015557-C1E126EA] Starting sportsonline football match scraper...
+2025-11-23 01:55:57,220 - INFO - ============================================================
+2025-11-23 01:55:57,220 - INFO - [FETCH-20251123-015557-C1E126EA] Starting cleanup operations...
+2025-11-23 01:55:57,220 - INFO - [FETCH-20251123-015557-C1E126EA] Cleaning up old log entries...
+2025-11-23 01:55:57,278 - INFO - [FETCH-20251123-015557-C1E126EA] Log cleanup complete: Removed 41 old log entries
+2025-11-23 01:55:57,279 - INFO - [FETCH-20251123-015557-C1E126EA] Fetching matches from sportsonline.gl...
+2025-11-23 01:55:58,352 - INFO - [FETCH-20251123-015557-C1E126EA] Fetched 47 valid matches from sportsonline.gl
+2025-11-23 01:55:58,353 - INFO - [FETCH-20251123-015557-C1E126EA] Merging with existing data...
+2025-11-23 01:55:58,353 - INFO - [FETCH-20251123-015557-C1E126EA] Cleaning up old matches...
+2025-11-23 01:55:58,353 - INFO - [FETCH-20251123-015557-C1E126EA] Removed old match: Flamengo W vs Fluminense W (21-11-2025 22:30)
+2025-11-23 01:55:58,353 - INFO - [FETCH-20251123-015557-C1E126EA] Removed old match: Deportivo Cuenca vs El Nacional (21-11-2025 23:00)
+2025-11-23 01:55:58,354 - INFO - [FETCH-20251123-015557-C1E126EA] Cleanup complete: Removed 2 old matches, 235 matches remaining
+2025-11-23 01:55:58,354 - INFO - [FETCH-20251123-015557-C1E126EA] New match: América de Cali vs Junior
+2025-11-23 01:55:58,354 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Newcastle Jets vs Perth Glory
+2025-11-23 01:55:58,354 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Chaves vs Sporting CP B
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Heerenveen vs AZ
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Hellas Verona vs Parma
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Sheffield Wednesday vs Sheffield United
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Karlsruher SC vs Elversberg
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Real Oviedo vs Rayo Vallecano
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Stellenbosch vs Otôho d'Oyo
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Feyenoord vs NEC
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Leeds United vs Aston Villa
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Cremonese vs Roma
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Auxerre vs Olympique Lyonnais
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Beşiktaş vs Samsunspor
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: RB Leipzig vs Werder Bremen
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Aberdeen vs Hearts
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Panserraikos vs Panathinaikos
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Real Betis vs Girona
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Al Masry vs Kaizer Chiefs
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Brest vs Metz
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Nantes vs Lorient
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Arsenal vs Tottenham Hotspur
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: St. Pauli vs Union Berlin
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Lazio vs Lecce
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Rizespor vs Fenerbahçe
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: PAOK vs Kifisia
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Getafe vs Atlético Madrid
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Al Nassr vs Al Khaleej
+2025-11-23 01:55:58,355 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Sporting Braga vs Nacional
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Athletico-PR vs América-MG
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: São Paulo vs Juventude
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Bahia vs Vasco da Gama
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: AEK Athens vs Aris
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Zamalek vs ZESCO United
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Internazionale vs Milan
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Lille vs Paris
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Elche vs Real Madrid
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Chapecoense vs Atlético-GO
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Rosario Central vs Estudiantes
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: O'Higgins vs Universidad Chile
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Sport Recife vs Vitória
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Cincinnati vs Inter Miami
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Medellín vs Atlético Nacional
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Boca Juniors vs Talleres
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Cruzeiro vs Corinthians
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Colo-Colo vs Unión La Calera
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] New match: Philadelphia Union vs New York City
+2025-11-23 01:55:58,356 - INFO - [FETCH-20251123-015557-C1E126EA] Merge complete: 47 new, 0 updated, 282 total
+2025-11-23 01:55:58,363 - INFO - [FETCH-20251123-015557-C1E126EA] Data saved to live_events.json
+2025-11-23 01:55:58,363 - INFO - [FETCH-20251123-015557-C1E126EA] Summary:
+2025-11-23 01:55:58,363 - INFO - [FETCH-20251123-015557-C1E126EA] - Sportsonline ('Toes In The Blender') matches: 47
+2025-11-23 01:55:58,363 - INFO - [FETCH-20251123-015557-C1E126EA] - Final total matches in file: 282
+2025-11-23 01:55:58,363 - INFO - [FETCH-20251123-015557-C1E126EA] Scraper run completed successfully
