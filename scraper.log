@@ -1,40 +1,3 @@
-2025-11-23 20:23:11,121 - INFO - [FETCH-20251123-202311-98BEE8FA] Starting sportsonline football match scraper...
-2025-11-23 20:23:11,122 - INFO - ============================================================
-2025-11-23 20:23:11,122 - INFO - [FETCH-20251123-202311-98BEE8FA] Starting cleanup operations...
-2025-11-23 20:23:11,122 - INFO - [FETCH-20251123-202311-98BEE8FA] Cleaning up old log entries...
-2025-11-23 20:23:11,140 - INFO - [FETCH-20251123-202311-98BEE8FA] Fetching matches from sportsonline.gl...
-2025-11-23 20:23:12,916 - INFO - [FETCH-20251123-202311-98BEE8FA] Fetched 18 valid matches from sportsonline.gl
-2025-11-23 20:23:12,918 - INFO - [FETCH-20251123-202311-98BEE8FA] Merging with existing data...
-2025-11-23 20:23:12,918 - INFO - [FETCH-20251123-202311-98BEE8FA] Cleaning up old matches...
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Bari 1908 vs Frosinone (22-11-2025 17:30)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Pyramids FC vs Rivers United (22-11-2025 18:00)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: CR Belouizdad vs Singida Black Stars (22-11-2025 18:00)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Legia Warszawa vs Lechia Gdansk (22-11-2025 18:15)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Darmstadt 98 vs Greuther Furth (22-11-2025 18:30)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Thun vs Lugano (22-11-2025 18:30)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Napoli vs Atalanta (22-11-2025 18:45)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Napoli vs Atalanta (22-11-2025 18:45)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Club Brugge vs Sporting Charleroi (22-11-2025 18:45)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Villarreal vs Mallorca (22-11-2025 19:00)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: St. Mirren vs Celtic (22-11-2025 19:00)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Villarreal vs Mallorca (22-11-2025 19:00)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: St. Mirren vs Celtic (22-11-2025 19:00)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Granada vs Cordoba (22-11-2025 19:00)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Granada FC vs Cordoba FC (22-11-2025 19:00)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Sparta Rotterdam vs Fortuna Sittard (22-11-2025 19:00)
-2025-11-23 20:23:12,919 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Heracles vs Go Ahead Eagles (22-11-2025 19:00)
-2025-11-23 20:23:12,920 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: PSG vs Le Havre (22-11-2025 19:05)
-2025-11-23 20:23:12,920 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Cracovia Krakow vs Motor Lublin (22-11-2025 19:05)
-2025-11-23 20:23:12,920 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: PSG vs Le Havre (22-11-2025 19:05)
-2025-11-23 20:23:12,920 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Porto vs Sintrense (22-11-2025 19:15)
-2025-11-23 20:23:12,920 - INFO - [FETCH-20251123-202311-98BEE8FA] Removed old match: Porto vs Sintrense (22-11-2025 19:15)
-2025-11-23 20:23:12,920 - INFO - [FETCH-20251123-202311-98BEE8FA] Cleanup complete: Removed 22 old matches, 174 matches remaining
-2025-11-23 20:23:12,921 - INFO - [FETCH-20251123-202311-98BEE8FA] Merge complete: 0 new, 0 updated, 174 total
-2025-11-23 20:23:12,927 - INFO - [FETCH-20251123-202311-98BEE8FA] Data saved to live_events.json
-2025-11-23 20:23:12,927 - INFO - [FETCH-20251123-202311-98BEE8FA] Summary:
-2025-11-23 20:23:12,928 - INFO - [FETCH-20251123-202311-98BEE8FA] - Sportsonline ('Toes In The Blender') matches: 18
-2025-11-23 20:23:12,928 - INFO - [FETCH-20251123-202311-98BEE8FA] - Final total matches in file: 174
-2025-11-23 20:23:12,928 - INFO - [FETCH-20251123-202311-98BEE8FA] Scraper run completed successfully
 2025-11-23 22:19:24,833 - INFO - [FETCH-20251123-221924-F0BEE10A] Starting sportsonline football match scraper...
 2025-11-23 22:19:24,833 - INFO - ============================================================
 2025-11-23 22:19:24,833 - INFO - [FETCH-20251123-221924-F0BEE10A] Starting cleanup operations...
@@ -521,3 +484,31 @@
 2025-11-25 18:33:20,221 - INFO - [FETCH-20251125-183318-D85CD0CD] - Sportsonline ('Toes In The Blender') matches: 10
 2025-11-25 18:33:20,221 - INFO - [FETCH-20251125-183318-D85CD0CD] - Final total matches in file: 77
 2025-11-25 18:33:20,221 - INFO - [FETCH-20251125-183318-D85CD0CD] Scraper run completed successfully
+2025-11-25 20:25:01,964 - INFO - [FETCH-20251125-202501-E05F20D9] Starting sportsonline football match scraper...
+2025-11-25 20:25:01,964 - INFO - ============================================================
+2025-11-25 20:25:01,964 - INFO - [FETCH-20251125-202501-E05F20D9] Starting cleanup operations...
+2025-11-25 20:25:01,964 - INFO - [FETCH-20251125-202501-E05F20D9] Cleaning up old log entries...
+2025-11-25 20:25:02,024 - INFO - [FETCH-20251125-202501-E05F20D9] Log cleanup complete: Removed 37 old log entries
+2025-11-25 20:25:02,024 - INFO - [FETCH-20251125-202501-E05F20D9] Fetching matches from sportsonline.gl...
+2025-11-25 20:25:03,309 - INFO - [FETCH-20251125-202501-E05F20D9] Fetched 9 valid matches from sportsonline.gl
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Merging with existing data...
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Cleaning up old matches...
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Real Sociedad B vs Real Valladolid (24-11-2025 18:30)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Sampdoria vs Juve Stabia (24-11-2025 18:30)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Real Sociedad II vs Real Valladolid (24-11-2025 18:30)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Sassuolo vs Pisa (24-11-2025 18:45)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Reims vs Montpellier (24-11-2025 18:45)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Sassuolo vs Pisa (24-11-2025 18:45)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Reims vs Montpellier (24-11-2025 18:45)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Manchester United vs Everton (24-11-2025 19:00)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Espanyol vs Sevilla (24-11-2025 19:00)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Espanyol vs Sevilla (24-11-2025 19:00)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Manchester United vs Everton (24-11-2025 19:00)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Removed old match: Deportivo Riestra vs Barracas Central (24-11-2025 19:00)
+2025-11-25 20:25:03,311 - INFO - [FETCH-20251125-202501-E05F20D9] Cleanup complete: Removed 12 old matches, 65 matches remaining
+2025-11-25 20:25:03,312 - INFO - [FETCH-20251125-202501-E05F20D9] Merge complete: 0 new, 0 updated, 65 total
+2025-11-25 20:25:03,313 - INFO - [FETCH-20251125-202501-E05F20D9] Data saved to live_events.json
+2025-11-25 20:25:03,313 - INFO - [FETCH-20251125-202501-E05F20D9] Summary:
+2025-11-25 20:25:03,313 - INFO - [FETCH-20251125-202501-E05F20D9] - Sportsonline ('Toes In The Blender') matches: 9
+2025-11-25 20:25:03,314 - INFO - [FETCH-20251125-202501-E05F20D9] - Final total matches in file: 65
+2025-11-25 20:25:03,314 - INFO - [FETCH-20251125-202501-E05F20D9] Scraper run completed successfully
