@@ -31,7 +31,7 @@ OLD_MATCH_THRESHOLD_HOURS = 24
 #  0 for UTC
 #  3 for UTC+3 (e.g., East Africa Time)
 # -5 for UTC-5 (e.g., Eastern Standard Time)
-SOURCE_TIMEZONE_OFFSET_HOURS = 3 # <<-- EDIT THIS VALUE FOR THE SOURCE TIMEZONE
+SOURCE_TIMEZONE_OFFSET_HOURS = 2 # <<-- EDIT THIS VALUE FOR THE SOURCE TIMEZONE
 
 # Set up logging for this specific scraper
 logging.basicConfig(level=logging.INFO,
