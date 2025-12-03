@@ -1,41 +1,3 @@
-2025-12-01 02:02:16,147 - INFO - [FETCH-20251201-020216-27A05436] Starting sportsonline football match scraper...
-2025-12-01 02:02:16,148 - INFO - ============================================================
-2025-12-01 02:02:16,148 - INFO - [FETCH-20251201-020216-27A05436] Starting cleanup operations...
-2025-12-01 02:02:16,148 - INFO - [FETCH-20251201-020216-27A05436] Cleaning up old log entries...
-2025-12-01 02:02:16,171 - INFO - [FETCH-20251201-020216-27A05436] Log cleanup complete: Removed 59 old log entries
-2025-12-01 02:02:16,171 - INFO - [FETCH-20251201-020216-27A05436] Fetching matches from sportsonline.gl...
-2025-12-01 02:02:17,451 - INFO - [FETCH-20251201-020216-27A05436] Fetched 16 valid matches from sportsonline.gl
-2025-12-01 02:02:17,453 - INFO - [FETCH-20251201-020216-27A05436] Merging with existing data...
-2025-12-01 02:02:17,453 - INFO - [FETCH-20251201-020216-27A05436] Cleaning up old matches...
-2025-12-01 02:02:17,453 - INFO - [FETCH-20251201-020216-27A05436] Removed old match: Inter Miami vs New York City (29-11-2025 22:00)
-2025-12-01 02:02:17,454 - INFO - [FETCH-20251201-020216-27A05436] Removed old match: Ceará vs Cruzeiro (29-11-2025 23:00)
-2025-12-01 02:02:17,454 - INFO - [FETCH-20251201-020216-27A05436] Removed old match: Central Córdoba SdE vs Estudiantes (29-11-2025 23:30)
-2025-12-01 02:02:17,454 - INFO - [FETCH-20251201-020216-27A05436] Removed old match: Cruz Azul vs Guadalajara (30-11-2025 00:00)
-2025-12-01 02:02:17,454 - INFO - [FETCH-20251201-020216-27A05436] Removed old match: Auckland vs Newcastle Jets (30-11-2025 01:00)
-2025-12-01 02:02:17,454 - INFO - [FETCH-20251201-020216-27A05436] Removed old match: San Diego vs Vancouver Whitecaps (30-11-2025 01:00)
-2025-12-01 02:02:17,454 - INFO - [FETCH-20251201-020216-27A05436] Cleanup complete: Removed 6 old matches, 138 matches remaining
-2025-12-01 02:02:17,454 - INFO - [FETCH-20251201-020216-27A05436] New match: Sepsi vs CSMS Iaşi
-2025-12-01 02:02:17,454 - INFO - [FETCH-20251201-020216-27A05436] New match: Petrolul 52 vs Metaloglobus
-2025-12-01 02:02:17,454 - INFO - [FETCH-20251201-020216-27A05436] New match: Paços de Ferreira vs Felgueiras 1932
-2025-12-01 02:02:17,454 - INFO - [FETCH-20251201-020216-27A05436] New match: Fenerbahçe vs Galatasaray
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Universitatea Cluj vs CSU Craiova
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Motor Lublin vs Legia Warszawa
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Brøndby vs Fredericia
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Cittadella vs Union Brescia
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Benevento vs Salernitana
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Vis Pesaro vs Ascoli
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Bologna vs Cremonese
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Rayo Vallecano vs Valencia
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Birmingham City vs Watford
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Barracas Central vs Gimnasia La Plata
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Arouca vs Sporting Braga
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] New match: Racing Club vs Tigre
-2025-12-01 02:02:17,455 - INFO - [FETCH-20251201-020216-27A05436] Merge complete: 16 new, 0 updated, 154 total
-2025-12-01 02:02:17,459 - INFO - [FETCH-20251201-020216-27A05436] Data saved to live_events.json
-2025-12-01 02:02:17,459 - INFO - [FETCH-20251201-020216-27A05436] Summary:
-2025-12-01 02:02:17,459 - INFO - [FETCH-20251201-020216-27A05436] - Sportsonline ('Toes In The Blender') matches: 16
-2025-12-01 02:02:17,459 - INFO - [FETCH-20251201-020216-27A05436] - Final total matches in file: 154
-2025-12-01 02:02:17,459 - INFO - [FETCH-20251201-020216-27A05436] Scraper run completed successfully
 2025-12-01 04:51:07,784 - INFO - [FETCH-20251201-045107-98CECD9E] Starting sportsonline football match scraper...
 2025-12-01 04:51:07,784 - INFO - ============================================================
 2025-12-01 04:51:07,784 - INFO - [FETCH-20251201-045107-98CECD9E] Starting cleanup operations...
@@ -543,3 +505,19 @@
 2025-12-03 01:46:05,060 - INFO - [FETCH-20251203-014603-4B50A7B9] - Sportsonline ('Toes In The Blender') matches: 33
 2025-12-03 01:46:05,060 - INFO - [FETCH-20251203-014603-4B50A7B9] - Final total matches in file: 132
 2025-12-03 01:46:05,060 - INFO - [FETCH-20251203-014603-4B50A7B9] Scraper run completed successfully
+2025-12-03 03:18:33,653 - INFO - [FETCH-20251203-031833-0293C599] Starting sportsonline football match scraper...
+2025-12-03 03:18:33,654 - INFO - ============================================================
+2025-12-03 03:18:33,654 - INFO - [FETCH-20251203-031833-0293C599] Starting cleanup operations...
+2025-12-03 03:18:33,654 - INFO - [FETCH-20251203-031833-0293C599] Cleaning up old log entries...
+2025-12-03 03:18:33,673 - INFO - [FETCH-20251203-031833-0293C599] Log cleanup complete: Removed 38 old log entries
+2025-12-03 03:18:33,673 - INFO - [FETCH-20251203-031833-0293C599] Fetching matches from sportsonline.gl...
+2025-12-03 03:18:34,803 - INFO - [FETCH-20251203-031833-0293C599] Fetched 33 valid matches from sportsonline.gl
+2025-12-03 03:18:34,804 - INFO - [FETCH-20251203-031833-0293C599] Merging with existing data...
+2025-12-03 03:18:34,804 - INFO - [FETCH-20251203-031833-0293C599] Cleaning up old matches...
+2025-12-03 03:18:34,805 - INFO - [FETCH-20251203-031833-0293C599] No old matches to remove
+2025-12-03 03:18:34,805 - INFO - [FETCH-20251203-031833-0293C599] Merge complete: 0 new, 0 updated, 132 total
+2025-12-03 03:18:34,808 - INFO - [FETCH-20251203-031833-0293C599] Data saved to live_events.json
+2025-12-03 03:18:34,808 - INFO - [FETCH-20251203-031833-0293C599] Summary:
+2025-12-03 03:18:34,808 - INFO - [FETCH-20251203-031833-0293C599] - Sportsonline ('Toes In The Blender') matches: 33
+2025-12-03 03:18:34,808 - INFO - [FETCH-20251203-031833-0293C599] - Final total matches in file: 132
+2025-12-03 03:18:34,808 - INFO - [FETCH-20251203-031833-0293C599] Scraper run completed successfully
