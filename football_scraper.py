@@ -222,7 +222,7 @@ def subtract_hour_from_time(time_str: str) -> str:
     try:
         hour, minute = map(int, time_str.split(':'))
         dt = datetime.now().replace(hour=hour, minute=minute, second=0, microsecond=0)
-        dt_adjusted = dt - timedelta(hours=1)
+        dt_adjusted = dt - timedelta(hours=0)
         return dt_adjusted.strftime("%H:%M")
     except (ValueError, AttributeError) as e:
         logger.error(f"Error processing time {time_str}: {e}")
