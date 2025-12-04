@@ -1,41 +1,3 @@
-2025-12-02 01:46:37,651 - INFO - [FETCH-20251202-014637-FDE8F897] Starting sportsonline football match scraper...
-2025-12-02 01:46:37,651 - INFO - ============================================================
-2025-12-02 01:46:37,651 - INFO - [FETCH-20251202-014637-FDE8F897] Starting cleanup operations...
-2025-12-02 01:46:37,651 - INFO - [FETCH-20251202-014637-FDE8F897] Cleaning up old log entries...
-2025-12-02 01:46:37,670 - INFO - [FETCH-20251202-014637-FDE8F897] Fetching matches from sportsonline.gl...
-2025-12-02 01:46:39,227 - INFO - [FETCH-20251202-014637-FDE8F897] Fetched 21 valid matches from sportsonline.gl
-2025-12-02 01:46:39,229 - INFO - [FETCH-20251202-014637-FDE8F897] Merging with existing data...
-2025-12-02 01:46:39,229 - INFO - [FETCH-20251202-014637-FDE8F897] Cleaning up old matches...
-2025-12-02 01:46:39,229 - INFO - [FETCH-20251202-014637-FDE8F897] Removed old match: Delfin vs Emelec (30-11-2025 22:00)
-2025-12-02 01:46:39,229 - INFO - [FETCH-20251202-014637-FDE8F897] Removed old match: Junior vs Atlético Nacional (30-11-2025 22:30)
-2025-12-02 01:46:39,229 - INFO - [FETCH-20251202-014637-FDE8F897] Cleanup complete: Removed 2 old matches, 77 matches remaining
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: 1984 Muşspor vs Konyaspor
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Morocco vs Comoros
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Keçiörengücü vs Kayserispor
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Egypt vs Kuwait
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Rizespor vs Pendikspor
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Borussia M'gladbach vs St. Pauli
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Hertha BSC vs Kaiserslautern
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Saudi Arabia vs Oman
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Sakaryaspor vs Gençlerbirliği
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Spain W vs Germany W
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Portugal W vs Brazil W
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Fulham vs Manchester City
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: AFC Bournemouth vs Everton
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Wigan Athletic vs Burton Albion
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Barcelona vs Atlético Madrid
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Borussia Dortmund vs Bayer Leverkusen
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: RB Leipzig vs Magdeburg
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Juventus vs Udinese
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Newcastle United vs Tottenham Hotspur
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Vasco vs Mirassol
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] New match: Grêmio vs Fluminense
-2025-12-02 01:46:39,230 - INFO - [FETCH-20251202-014637-FDE8F897] Merge complete: 21 new, 0 updated, 98 total
-2025-12-02 01:46:39,233 - INFO - [FETCH-20251202-014637-FDE8F897] Data saved to live_events.json
-2025-12-02 01:46:39,233 - INFO - [FETCH-20251202-014637-FDE8F897] Summary:
-2025-12-02 01:46:39,233 - INFO - [FETCH-20251202-014637-FDE8F897] - Sportsonline ('Toes In The Blender') matches: 21
-2025-12-02 01:46:39,233 - INFO - [FETCH-20251202-014637-FDE8F897] - Final total matches in file: 98
-2025-12-02 01:46:39,233 - INFO - [FETCH-20251202-014637-FDE8F897] Scraper run completed successfully
 2025-12-02 03:19:45,670 - INFO - [FETCH-20251202-031945-F8D2F0DF] Starting sportsonline football match scraper...
 2025-12-02 03:19:45,670 - INFO - ============================================================
 2025-12-02 03:19:45,670 - INFO - [FETCH-20251202-031945-F8D2F0DF] Starting cleanup operations...
@@ -549,3 +511,36 @@
 2025-12-03 22:21:54,614 - INFO - [FETCH-20251203-222151-F42F4303] - Sportsonline ('Toes In The Blender') matches: 9
 2025-12-03 22:21:54,614 - INFO - [FETCH-20251203-222151-F42F4303] - Final total matches in file: 162
 2025-12-03 22:21:54,614 - INFO - [FETCH-20251203-222151-F42F4303] Scraper run completed successfully
+2025-12-04 01:47:07,292 - INFO - [FETCH-20251204-014707-58D6A813] Starting sportsonline football match scraper...
+2025-12-04 01:47:07,292 - INFO - ============================================================
+2025-12-04 01:47:07,292 - INFO - [FETCH-20251204-014707-58D6A813] Starting cleanup operations...
+2025-12-04 01:47:07,292 - INFO - [FETCH-20251204-014707-58D6A813] Cleaning up old log entries...
+2025-12-04 01:47:07,434 - INFO - [FETCH-20251204-014707-58D6A813] Log cleanup complete: Removed 38 old log entries
+2025-12-04 01:47:07,434 - INFO - [FETCH-20251204-014707-58D6A813] Fetching matches from sportsonline.gl...
+2025-12-04 01:47:08,301 - INFO - [FETCH-20251204-014707-58D6A813] Fetched 15 valid matches from sportsonline.gl
+2025-12-04 01:47:08,303 - INFO - [FETCH-20251204-014707-58D6A813] Merging with existing data...
+2025-12-04 01:47:08,303 - INFO - [FETCH-20251204-014707-58D6A813] Cleaning up old matches...
+2025-12-04 01:47:08,303 - INFO - [FETCH-20251204-014707-58D6A813] Removed old match: Atlético Mineiro vs Palmeiras (03-12-2025 00:30)
+2025-12-04 01:47:08,303 - INFO - [FETCH-20251204-014707-58D6A813] Removed old match: Flamengo vs Ceará (03-12-2025 00:30)
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] Cleanup complete: Removed 2 old matches, 160 matches remaining
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Yeşil Yalova vs Gaziantep FK
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Iğdır FK vs Orduspor 1967
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Silifke Belediyespor vs Antalyaspor
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Bologna vs Parma
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Çorum Belediyespor vs Alanyaspor
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Atlético Baleares vs Espanyol
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Real Ávila vs Rayo Vallecano
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Manchester United vs West Ham United
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Lazio vs Milan
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Extremadura 1924 vs Sevilla
+2025-12-04 01:47:08,304 - INFO - [FETCH-20251204-014707-58D6A813] New match: Cartagena vs Valencia
+2025-12-04 01:47:08,305 - INFO - [FETCH-20251204-014707-58D6A813] New match: Sant Andreu vs Celta de Vigo
+2025-12-04 01:47:08,305 - INFO - [FETCH-20251204-014707-58D6A813] New match: Porto vs Vitória Guimarães
+2025-12-04 01:47:08,305 - INFO - [FETCH-20251204-014707-58D6A813] New match: Tenerife vs Granada
+2025-12-04 01:47:08,305 - INFO - [FETCH-20251204-014707-58D6A813] New match: Cruzeiro vs Botafogo
+2025-12-04 01:47:08,305 - INFO - [FETCH-20251204-014707-58D6A813] Merge complete: 15 new, 0 updated, 175 total
+2025-12-04 01:47:08,309 - INFO - [FETCH-20251204-014707-58D6A813] Data saved to live_events.json
+2025-12-04 01:47:08,309 - INFO - [FETCH-20251204-014707-58D6A813] Summary:
+2025-12-04 01:47:08,309 - INFO - [FETCH-20251204-014707-58D6A813] - Sportsonline ('Toes In The Blender') matches: 15
+2025-12-04 01:47:08,309 - INFO - [FETCH-20251204-014707-58D6A813] - Final total matches in file: 175
+2025-12-04 01:47:08,309 - INFO - [FETCH-20251204-014707-58D6A813] Scraper run completed successfully
