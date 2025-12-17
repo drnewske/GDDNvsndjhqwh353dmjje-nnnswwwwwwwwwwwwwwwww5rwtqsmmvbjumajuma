@@ -1,51 +1,3 @@
-2025-12-15 18:35:22,053 - INFO - [FETCH-20251215-183522-C74674AD] Starting sportsonline football match scraper...
-2025-12-15 18:35:22,053 - INFO - ============================================================
-2025-12-15 18:35:22,053 - INFO - [FETCH-20251215-183522-C74674AD] Starting cleanup operations...
-2025-12-15 18:35:22,053 - INFO - [FETCH-20251215-183522-C74674AD] Cleaning up old log entries...
-2025-12-15 18:35:22,138 - INFO - [FETCH-20251215-183522-C74674AD] Log cleanup complete: Removed 17 old log entries
-2025-12-15 18:35:22,139 - INFO - [FETCH-20251215-183522-C74674AD] Fetching matches from sportsonline.gl...
-2025-12-15 18:35:23,429 - INFO - [FETCH-20251215-183522-C74674AD] Fetched 12 valid matches from sportsonline.gl
-2025-12-15 18:35:23,431 - INFO - [FETCH-20251215-183522-C74674AD] Merging with existing data...
-2025-12-15 18:35:23,431 - INFO - [FETCH-20251215-183522-C74674AD] Cleaning up old matches...
-2025-12-15 18:35:23,431 - INFO - [FETCH-20251215-183522-C74674AD] Removed old match: NAC Breda vs Utrecht (14-12-2025 15:45)
-2025-12-15 18:35:23,431 - INFO - [FETCH-20251215-183522-C74674AD] Removed old match: Auxerre vs Lille (14-12-2025 16:15)
-2025-12-15 18:35:23,431 - INFO - [FETCH-20251215-183522-C74674AD] Removed old match: Brentford vs Leeds United (14-12-2025 16:30)
-2025-12-15 18:35:23,431 - INFO - [FETCH-20251215-183522-C74674AD] Removed old match: Bayern München vs Mainz 05 (14-12-2025 16:30)
-2025-12-15 18:35:23,431 - INFO - [FETCH-20251215-183522-C74674AD] Removed old match: Genoa vs Internazionale (14-12-2025 17:00)
-2025-12-15 18:35:23,431 - INFO - [FETCH-20251215-183522-C74674AD] Removed old match: Trabzonspor vs Beşiktaş (14-12-2025 17:00)
-2025-12-15 18:35:23,431 - INFO - [FETCH-20251215-183522-C74674AD] Removed old match: Levante vs Villarreal (14-12-2025 17:30)
-2025-12-15 18:35:23,432 - INFO - [FETCH-20251215-183522-C74674AD] Cleanup complete: Removed 7 old matches, 61 matches remaining
-2025-12-15 18:35:23,432 - INFO - [FETCH-20251215-183522-C74674AD] Merge complete: 0 new, 0 updated, 61 total
-2025-12-15 18:35:23,434 - INFO - [FETCH-20251215-183522-C74674AD] Data saved to live_events.json
-2025-12-15 18:35:23,434 - INFO - [FETCH-20251215-183522-C74674AD] Summary:
-2025-12-15 18:35:23,434 - INFO - [FETCH-20251215-183522-C74674AD] - Sportsonline ('Toes In The Blender') matches: 12
-2025-12-15 18:35:23,434 - INFO - [FETCH-20251215-183522-C74674AD] - Final total matches in file: 61
-2025-12-15 18:35:23,434 - INFO - [FETCH-20251215-183522-C74674AD] Scraper run completed successfully
-2025-12-15 20:26:36,789 - INFO - [FETCH-20251215-202636-F389E38A] Starting sportsonline football match scraper...
-2025-12-15 20:26:36,789 - INFO - ============================================================
-2025-12-15 20:26:36,789 - INFO - [FETCH-20251215-202636-F389E38A] Starting cleanup operations...
-2025-12-15 20:26:36,790 - INFO - [FETCH-20251215-202636-F389E38A] Cleaning up old log entries...
-2025-12-15 20:26:36,836 - INFO - [FETCH-20251215-202636-F389E38A] Log cleanup complete: Removed 25 old log entries
-2025-12-15 20:26:36,837 - INFO - [FETCH-20251215-202636-F389E38A] Fetching matches from sportsonline.gl...
-2025-12-15 20:26:37,797 - INFO - [FETCH-20251215-202636-F389E38A] Fetched 12 valid matches from sportsonline.gl
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Merging with existing data...
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Cleaning up old matches...
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Removed old match: Paços de Ferreira vs Lusitania FC Lourosa (14-12-2025 18:00)
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Removed old match: Moreirense vs Benfica (14-12-2025 18:00)
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Removed old match: Aris vs Olympiakos Piraeus (14-12-2025 18:00)
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Removed old match: Werder Bremen vs Stuttgart (14-12-2025 18:30)
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Removed old match: Werder Bremen vs Stuttgart (14-12-2025 18:30)
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Removed old match: Schweinfurt vs Havelse (14-12-2025 18:30)
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Removed old match: Panathinaikos vs Volos NFC (14-12-2025 19:00)
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Removed old match: Panathinaikos vs Volos NFC (14-12-2025 19:00)
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Removed old match: Legia Warszawa vs Piast Gliwice (14-12-2025 19:15)
-2025-12-15 20:26:37,799 - INFO - [FETCH-20251215-202636-F389E38A] Cleanup complete: Removed 9 old matches, 52 matches remaining
-2025-12-15 20:26:37,800 - INFO - [FETCH-20251215-202636-F389E38A] Merge complete: 0 new, 0 updated, 52 total
-2025-12-15 20:26:37,802 - INFO - [FETCH-20251215-202636-F389E38A] Data saved to live_events.json
-2025-12-15 20:26:37,802 - INFO - [FETCH-20251215-202636-F389E38A] Summary:
-2025-12-15 20:26:37,802 - INFO - [FETCH-20251215-202636-F389E38A] - Sportsonline ('Toes In The Blender') matches: 12
-2025-12-15 20:26:37,802 - INFO - [FETCH-20251215-202636-F389E38A] - Final total matches in file: 52
-2025-12-15 20:26:37,802 - INFO - [FETCH-20251215-202636-F389E38A] Scraper run completed successfully
 2025-12-15 22:22:19,582 - INFO - [FETCH-20251215-222219-DAB625CE] Starting sportsonline football match scraper...
 2025-12-15 22:22:19,582 - INFO - ============================================================
 2025-12-15 22:22:19,582 - INFO - [FETCH-20251215-222219-DAB625CE] Starting cleanup operations...
@@ -467,3 +419,24 @@
 2025-12-17 18:35:13,114 - INFO - [FETCH-20251217-183511-DE330AFD] - Sportsonline ('Toes In The Blender') matches: 20
 2025-12-17 18:35:13,114 - INFO - [FETCH-20251217-183511-DE330AFD] - Final total matches in file: 120
 2025-12-17 18:35:13,114 - INFO - [FETCH-20251217-183511-DE330AFD] Scraper run completed successfully
+2025-12-17 20:27:02,106 - INFO - [FETCH-20251217-202702-435D8A6C] Starting sportsonline football match scraper...
+2025-12-17 20:27:02,106 - INFO - ============================================================
+2025-12-17 20:27:02,106 - INFO - [FETCH-20251217-202702-435D8A6C] Starting cleanup operations...
+2025-12-17 20:27:02,106 - INFO - [FETCH-20251217-202702-435D8A6C] Cleaning up old log entries...
+2025-12-17 20:27:02,125 - INFO - [FETCH-20251217-202702-435D8A6C] Log cleanup complete: Removed 48 old log entries
+2025-12-17 20:27:02,126 - INFO - [FETCH-20251217-202702-435D8A6C] Fetching matches from sportsonline.gl...
+2025-12-17 20:27:03,715 - INFO - [FETCH-20251217-202702-435D8A6C] Fetched 20 valid matches from sportsonline.gl
+2025-12-17 20:27:03,717 - INFO - [FETCH-20251217-202702-435D8A6C] Merging with existing data...
+2025-12-17 20:27:03,717 - INFO - [FETCH-20251217-202702-435D8A6C] Cleaning up old matches...
+2025-12-17 20:27:03,717 - INFO - [FETCH-20251217-202702-435D8A6C] Removed old match: Heracles vs Hoogeveen (16-12-2025 17:45)
+2025-12-17 20:27:03,717 - INFO - [FETCH-20251217-202702-435D8A6C] Removed old match: Deportivo La Coruña vs Mallorca (16-12-2025 18:00)
+2025-12-17 20:27:03,717 - INFO - [FETCH-20251217-202702-435D8A6C] Removed old match: Eibar vs Elche (16-12-2025 18:00)
+2025-12-17 20:27:03,718 - INFO - [FETCH-20251217-202702-435D8A6C] Removed old match: AFC vs NEC (16-12-2025 19:00)
+2025-12-17 20:27:03,718 - INFO - [FETCH-20251217-202702-435D8A6C] Removed old match: AFC vs NEC (16-12-2025 19:00)
+2025-12-17 20:27:03,718 - INFO - [FETCH-20251217-202702-435D8A6C] Cleanup complete: Removed 5 old matches, 115 matches remaining
+2025-12-17 20:27:03,718 - INFO - [FETCH-20251217-202702-435D8A6C] Merge complete: 0 new, 0 updated, 115 total
+2025-12-17 20:27:03,721 - INFO - [FETCH-20251217-202702-435D8A6C] Data saved to live_events.json
+2025-12-17 20:27:03,721 - INFO - [FETCH-20251217-202702-435D8A6C] Summary:
+2025-12-17 20:27:03,721 - INFO - [FETCH-20251217-202702-435D8A6C] - Sportsonline ('Toes In The Blender') matches: 20
+2025-12-17 20:27:03,721 - INFO - [FETCH-20251217-202702-435D8A6C] - Final total matches in file: 115
+2025-12-17 20:27:03,721 - INFO - [FETCH-20251217-202702-435D8A6C] Scraper run completed successfully
