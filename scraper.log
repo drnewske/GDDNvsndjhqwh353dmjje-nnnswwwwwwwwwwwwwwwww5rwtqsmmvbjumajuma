@@ -1,45 +1,3 @@
-2025-12-16 20:26:50,362 - INFO - [FETCH-20251216-202650-04E17967] Starting sportsonline football match scraper...
-2025-12-16 20:26:50,362 - INFO - ============================================================
-2025-12-16 20:26:50,362 - INFO - [FETCH-20251216-202650-04E17967] Starting cleanup operations...
-2025-12-16 20:26:50,362 - INFO - [FETCH-20251216-202650-04E17967] Cleaning up old log entries...
-2025-12-16 20:26:50,449 - INFO - [FETCH-20251216-202650-04E17967] Log cleanup complete: Removed 22 old log entries
-2025-12-16 20:26:50,450 - INFO - [FETCH-20251216-202650-04E17967] Fetching matches from sportsonline.gl...
-2025-12-16 20:26:51,055 - ERROR - Error fetching data from sportsonline.gl: 404 Client Error: Not Found for url: https://sportsonline.gl/
-2025-12-16 20:26:51,057 - INFO - [FETCH-20251216-202650-04E17967] Merging with existing data...
-2025-12-16 20:26:51,057 - INFO - [FETCH-20251216-202650-04E17967] Cleaning up old matches...
-2025-12-16 20:26:51,057 - INFO - [FETCH-20251216-202650-04E17967] Removed old match: Bačka Topola vs Crvena Zvezda (15-12-2025 18:30)
-2025-12-16 20:26:51,057 - INFO - [FETCH-20251216-202650-04E17967] Removed old match: Sporting Braga vs Santa Clara (15-12-2025 18:45)
-2025-12-16 20:26:51,057 - INFO - [FETCH-20251216-202650-04E17967] Removed old match: Sporting Braga vs Santa Clara (15-12-2025 18:45)
-2025-12-16 20:26:51,057 - INFO - [FETCH-20251216-202650-04E17967] Cleanup complete: Removed 3 old matches, 63 matches remaining
-2025-12-16 20:26:51,057 - INFO - [FETCH-20251216-202650-04E17967] Merge complete: 0 new, 0 updated, 63 total
-2025-12-16 20:26:51,059 - INFO - [FETCH-20251216-202650-04E17967] Data saved to live_events.json
-2025-12-16 20:26:51,059 - INFO - [FETCH-20251216-202650-04E17967] Summary:
-2025-12-16 20:26:51,059 - INFO - [FETCH-20251216-202650-04E17967] - Sportsonline ('Toes In The Blender') matches: 0
-2025-12-16 20:26:51,059 - INFO - [FETCH-20251216-202650-04E17967] - Final total matches in file: 63
-2025-12-16 20:26:51,059 - INFO - [FETCH-20251216-202650-04E17967] Scraper run completed successfully
-2025-12-16 22:20:21,576 - INFO - [FETCH-20251216-222021-75C8022F] Starting sportsonline football match scraper...
-2025-12-16 22:20:21,576 - INFO - ============================================================
-2025-12-16 22:20:21,576 - INFO - [FETCH-20251216-222021-75C8022F] Starting cleanup operations...
-2025-12-16 22:20:21,576 - INFO - [FETCH-20251216-222021-75C8022F] Cleaning up old log entries...
-2025-12-16 22:20:21,593 - INFO - [FETCH-20251216-222021-75C8022F] Log cleanup complete: Removed 25 old log entries
-2025-12-16 22:20:21,594 - INFO - [FETCH-20251216-222021-75C8022F] Fetching matches from sportsonline.gl...
-2025-12-16 22:20:22,689 - INFO - [FETCH-20251216-222021-75C8022F] Fetched 10 valid matches from sportsonline.gl
-2025-12-16 22:20:22,691 - INFO - [FETCH-20251216-222021-75C8022F] Merging with existing data...
-2025-12-16 22:20:22,691 - INFO - [FETCH-20251216-222021-75C8022F] Cleaning up old matches...
-2025-12-16 22:20:22,692 - INFO - [FETCH-20251216-222021-75C8022F] Removed old match: CD Castellon vs Mirandés (15-12-2025 19:30)
-2025-12-16 22:20:22,692 - INFO - [FETCH-20251216-222021-75C8022F] Removed old match: Roma vs Como (15-12-2025 19:45)
-2025-12-16 22:20:22,692 - INFO - [FETCH-20251216-222021-75C8022F] Removed old match: Boulogne vs Troyes (15-12-2025 19:45)
-2025-12-16 22:20:22,692 - INFO - [FETCH-20251216-222021-75C8022F] Removed old match: Manchester United vs AFC Bournemouth (15-12-2025 20:00)
-2025-12-16 22:20:22,692 - INFO - [FETCH-20251216-222021-75C8022F] Removed old match: Rayo Vallecano vs Real Betis (15-12-2025 20:00)
-2025-12-16 22:20:22,692 - INFO - [FETCH-20251216-222021-75C8022F] Removed old match: Sheffield Wednesday vs Derby County (15-12-2025 20:00)
-2025-12-16 22:20:22,692 - INFO - [FETCH-20251216-222021-75C8022F] Removed old match: Porto vs Estrela (15-12-2025 20:45)
-2025-12-16 22:20:22,692 - INFO - [FETCH-20251216-222021-75C8022F] Cleanup complete: Removed 7 old matches, 78 matches remaining
-2025-12-16 22:20:22,692 - INFO - [FETCH-20251216-222021-75C8022F] Merge complete: 0 new, 0 updated, 78 total
-2025-12-16 22:20:22,694 - INFO - [FETCH-20251216-222021-75C8022F] Data saved to live_events.json
-2025-12-16 22:20:22,694 - INFO - [FETCH-20251216-222021-75C8022F] Summary:
-2025-12-16 22:20:22,694 - INFO - [FETCH-20251216-222021-75C8022F] - Sportsonline ('Toes In The Blender') matches: 10
-2025-12-16 22:20:22,694 - INFO - [FETCH-20251216-222021-75C8022F] - Final total matches in file: 78
-2025-12-16 22:20:22,694 - INFO - [FETCH-20251216-222021-75C8022F] Scraper run completed successfully
 2025-12-17 01:45:56,427 - INFO - [FETCH-20251217-014556-7BDF1B52] Starting sportsonline football match scraper...
 2025-12-17 01:45:56,428 - INFO - ============================================================
 2025-12-17 01:45:56,428 - INFO - [FETCH-20251217-014556-7BDF1B52] Starting cleanup operations...
@@ -453,3 +411,27 @@
 2025-12-18 20:22:48,164 - INFO - [FETCH-20251218-202246-98446DCB] - Sportsonline ('Toes In The Blender') matches: 18
 2025-12-18 20:22:48,164 - INFO - [FETCH-20251218-202246-98446DCB] - Final total matches in file: 94
 2025-12-18 20:22:48,164 - INFO - [FETCH-20251218-202246-98446DCB] Scraper run completed successfully
+2025-12-18 22:21:22,516 - INFO - [FETCH-20251218-222122-8CE93784] Starting sportsonline football match scraper...
+2025-12-18 22:21:22,516 - INFO - ============================================================
+2025-12-18 22:21:22,516 - INFO - [FETCH-20251218-222122-8CE93784] Starting cleanup operations...
+2025-12-18 22:21:22,516 - INFO - [FETCH-20251218-222122-8CE93784] Cleaning up old log entries...
+2025-12-18 22:21:22,532 - INFO - [FETCH-20251218-222122-8CE93784] Log cleanup complete: Removed 42 old log entries
+2025-12-18 22:21:22,532 - INFO - [FETCH-20251218-222122-8CE93784] Fetching matches from sportsonline.gl...
+2025-12-18 22:21:23,928 - INFO - [FETCH-20251218-222122-8CE93784] Fetched 18 valid matches from sportsonline.gl
+2025-12-18 22:21:23,930 - INFO - [FETCH-20251218-222122-8CE93784] Merging with existing data...
+2025-12-18 22:21:23,930 - INFO - [FETCH-20251218-222122-8CE93784] Cleaning up old matches...
+2025-12-18 22:21:23,930 - INFO - [FETCH-20251218-222122-8CE93784] Removed old match: Manchester City vs Brentford (17-12-2025 19:30)
+2025-12-18 22:21:23,930 - INFO - [FETCH-20251218-222122-8CE93784] Removed old match: Deportivo Alavés vs Sevilla (17-12-2025 20:00)
+2025-12-18 22:21:23,930 - INFO - [FETCH-20251218-222122-8CE93784] Removed old match: Talavera CF vs Real Madrid (17-12-2025 20:00)
+2025-12-18 22:21:23,930 - INFO - [FETCH-20251218-222122-8CE93784] Removed old match: Dundee United vs Celtic (17-12-2025 20:00)
+2025-12-18 22:21:23,930 - INFO - [FETCH-20251218-222122-8CE93784] Removed old match: Feyenoord vs Heerenveen (17-12-2025 20:00)
+2025-12-18 22:21:23,930 - INFO - [FETCH-20251218-222122-8CE93784] Removed old match: Wolfsburg W vs Chelsea FC W (17-12-2025 20:00)
+2025-12-18 22:21:23,930 - INFO - [FETCH-20251218-222122-8CE93784] Removed old match: Newcastle United vs Fulham (17-12-2025 20:15)
+2025-12-18 22:21:23,930 - INFO - [FETCH-20251218-222122-8CE93784] Removed old match: Farense vs Benfica (17-12-2025 20:45)
+2025-12-18 22:21:23,931 - INFO - [FETCH-20251218-222122-8CE93784] Cleanup complete: Removed 8 old matches, 151 matches remaining
+2025-12-18 22:21:23,931 - INFO - [FETCH-20251218-222122-8CE93784] Merge complete: 0 new, 0 updated, 151 total
+2025-12-18 22:21:23,935 - INFO - [FETCH-20251218-222122-8CE93784] Data saved to live_events.json
+2025-12-18 22:21:23,935 - INFO - [FETCH-20251218-222122-8CE93784] Summary:
+2025-12-18 22:21:23,935 - INFO - [FETCH-20251218-222122-8CE93784] - Sportsonline ('Toes In The Blender') matches: 18
+2025-12-18 22:21:23,935 - INFO - [FETCH-20251218-222122-8CE93784] - Final total matches in file: 151
+2025-12-18 22:21:23,935 - INFO - [FETCH-20251218-222122-8CE93784] Scraper run completed successfully
