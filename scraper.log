@@ -1,52 +1,3 @@
-2025-12-22 22:22:14,422 - INFO - [FETCH-20251222-222214-9CD851F7] Starting sportsonline football match scraper...
-2025-12-22 22:22:14,422 - INFO - ============================================================
-2025-12-22 22:22:14,422 - INFO - [FETCH-20251222-222214-9CD851F7] Starting cleanup operations...
-2025-12-22 22:22:14,422 - INFO - [FETCH-20251222-222214-9CD851F7] Cleaning up old log entries...
-2025-12-22 22:22:14,439 - INFO - [FETCH-20251222-222214-9CD851F7] Log cleanup complete: Removed 23 old log entries
-2025-12-22 22:22:14,439 - INFO - [FETCH-20251222-222214-9CD851F7] Fetching matches from sportsonline.gl...
-2025-12-22 22:22:15,915 - INFO - [FETCH-20251222-222214-9CD851F7] Fetched 16 valid matches from sportsonline.gl
-2025-12-22 22:22:15,917 - INFO - [FETCH-20251222-222214-9CD851F7] Merging with existing data...
-2025-12-22 22:22:15,917 - INFO - [FETCH-20251222-222214-9CD851F7] Cleaning up old matches...
-2025-12-22 22:22:15,917 - INFO - [FETCH-20251222-222214-9CD851F7] Removed old match: Genoa vs Atalanta (21-12-2025 19:45)
-2025-12-22 22:22:15,917 - INFO - [FETCH-20251222-222214-9CD851F7] Removed old match: Real Betis vs Getafe (21-12-2025 20:00)
-2025-12-22 22:22:15,917 - INFO - [FETCH-20251222-222214-9CD851F7] Removed old match: Olympique Lyonnais vs Saint-cyr Collonges (21-12-2025 20:00)
-2025-12-22 22:22:15,917 - INFO - [FETCH-20251222-222214-9CD851F7] Removed old match: Santa Clara vs Arouca (21-12-2025 20:30)
-2025-12-22 22:22:15,917 - INFO - [FETCH-20251222-222214-9CD851F7] Removed old match: Vasco da Gama vs Corinthians (21-12-2025 21:00)
-2025-12-22 22:22:15,918 - INFO - [FETCH-20251222-222214-9CD851F7] Cleanup complete: Removed 5 old matches, 50 matches remaining
-2025-12-22 22:22:15,918 - INFO - [FETCH-20251222-222214-9CD851F7] Merge complete: 0 new, 0 updated, 50 total
-2025-12-22 22:22:15,920 - INFO - [FETCH-20251222-222214-9CD851F7] Data saved to live_events.json
-2025-12-22 22:22:15,920 - INFO - [FETCH-20251222-222214-9CD851F7] Summary:
-2025-12-22 22:22:15,920 - INFO - [FETCH-20251222-222214-9CD851F7] - Sportsonline ('Toes In The Blender') matches: 16
-2025-12-22 22:22:15,920 - INFO - [FETCH-20251222-222214-9CD851F7] - Final total matches in file: 50
-2025-12-22 22:22:15,920 - INFO - [FETCH-20251222-222214-9CD851F7] Scraper run completed successfully
-2025-12-23 01:50:23,553 - INFO - [FETCH-20251223-015023-6B8B7AC1] Starting sportsonline football match scraper...
-2025-12-23 01:50:23,553 - INFO - ============================================================
-2025-12-23 01:50:23,553 - INFO - [FETCH-20251223-015023-6B8B7AC1] Starting cleanup operations...
-2025-12-23 01:50:23,553 - INFO - [FETCH-20251223-015023-6B8B7AC1] Cleaning up old log entries...
-2025-12-23 01:50:23,639 - INFO - [FETCH-20251223-015023-6B8B7AC1] Fetching matches from sportsonline.gl...
-2025-12-23 01:50:24,515 - INFO - [FETCH-20251223-015023-6B8B7AC1] Fetched 13 valid matches from sportsonline.gl
-2025-12-23 01:50:24,517 - INFO - [FETCH-20251223-015023-6B8B7AC1] Merging with existing data...
-2025-12-23 01:50:24,517 - INFO - [FETCH-20251223-015023-6B8B7AC1] Cleaning up old matches...
-2025-12-23 01:50:24,517 - INFO - [FETCH-20251223-015023-6B8B7AC1] No old matches to remove
-2025-12-23 01:50:24,517 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Melbourne City vs Macarthur
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Kocaelispor vs BB Erzurumspor
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Congo DR vs Benin
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Konyaspor vs Antalyaspor
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Senegal vs Botswana
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Al Sadd vs Shabab Al Ahli
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Nigeria vs Tanzania
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Fenerbahçe vs Beşiktaş
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Al Ittihad vs Nasaf
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Caldas vs Sporting Braga
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Tunisia vs Uganda
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Arsenal vs Crystal Palace
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] New match: Vitória Guimarães vs Sporting CP
-2025-12-23 01:50:24,518 - INFO - [FETCH-20251223-015023-6B8B7AC1] Merge complete: 13 new, 0 updated, 63 total
-2025-12-23 01:50:24,520 - INFO - [FETCH-20251223-015023-6B8B7AC1] Data saved to live_events.json
-2025-12-23 01:50:24,520 - INFO - [FETCH-20251223-015023-6B8B7AC1] Summary:
-2025-12-23 01:50:24,520 - INFO - [FETCH-20251223-015023-6B8B7AC1] - Sportsonline ('Toes In The Blender') matches: 13
-2025-12-23 01:50:24,520 - INFO - [FETCH-20251223-015023-6B8B7AC1] - Final total matches in file: 63
-2025-12-23 01:50:24,520 - INFO - [FETCH-20251223-015023-6B8B7AC1] Scraper run completed successfully
 2025-12-23 03:28:16,260 - INFO - [FETCH-20251223-032816-64492AA6] Starting sportsonline football match scraper...
 2025-12-23 03:28:16,260 - INFO - ============================================================
 2025-12-23 03:28:16,260 - INFO - [FETCH-20251223-032816-64492AA6] Starting cleanup operations...
@@ -462,3 +413,19 @@
 2025-12-24 22:21:36,490 - INFO - [FETCH-20251224-222135-BE71E7D1] - Sportsonline ('Toes In The Blender') matches: 14
 2025-12-24 22:21:36,490 - INFO - [FETCH-20251224-222135-BE71E7D1] - Final total matches in file: 68
 2025-12-24 22:21:36,490 - INFO - [FETCH-20251224-222135-BE71E7D1] Scraper run completed successfully
+2025-12-25 01:50:44,231 - INFO - [FETCH-20251225-015044-E23AB429] Starting sportsonline football match scraper...
+2025-12-25 01:50:44,232 - INFO - ============================================================
+2025-12-25 01:50:44,232 - INFO - [FETCH-20251225-015044-E23AB429] Starting cleanup operations...
+2025-12-25 01:50:44,232 - INFO - [FETCH-20251225-015044-E23AB429] Cleaning up old log entries...
+2025-12-25 01:50:44,284 - INFO - [FETCH-20251225-015044-E23AB429] Log cleanup complete: Removed 49 old log entries
+2025-12-25 01:50:44,285 - INFO - [FETCH-20251225-015044-E23AB429] Fetching matches from sportsonline.gl...
+2025-12-25 01:50:45,971 - INFO - [FETCH-20251225-015044-E23AB429] Fetched 0 valid matches from sportsonline.gl
+2025-12-25 01:50:45,972 - INFO - [FETCH-20251225-015044-E23AB429] Merging with existing data...
+2025-12-25 01:50:45,973 - INFO - [FETCH-20251225-015044-E23AB429] Cleaning up old matches...
+2025-12-25 01:50:45,973 - INFO - [FETCH-20251225-015044-E23AB429] No old matches to remove
+2025-12-25 01:50:45,973 - INFO - [FETCH-20251225-015044-E23AB429] Merge complete: 0 new, 0 updated, 68 total
+2025-12-25 01:50:45,976 - INFO - [FETCH-20251225-015044-E23AB429] Data saved to live_events.json
+2025-12-25 01:50:45,976 - INFO - [FETCH-20251225-015044-E23AB429] Summary:
+2025-12-25 01:50:45,976 - INFO - [FETCH-20251225-015044-E23AB429] - Sportsonline ('Toes In The Blender') matches: 0
+2025-12-25 01:50:45,977 - INFO - [FETCH-20251225-015044-E23AB429] - Final total matches in file: 68
+2025-12-25 01:50:45,977 - INFO - [FETCH-20251225-015044-E23AB429] Scraper run completed successfully
