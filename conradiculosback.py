@@ -15,7 +15,7 @@ from collections import defaultdict
 STREAMED_API_BASE_URL = "https://streamed.su"
 STREAMED_MATCHES_ENDPOINT = "/api/matches/all-today"
 SPORTSONLINE_URL = "https://sportsonline.gl/"
-DEFAULT_LOGO_URL = "https://cdn.jsdelivr.net/gh/drnewske/tyhdsjax-nfhbqsm/logos/default.png"
+DEFAULT_LOGO_URL = "https://cdn.jsdelivr.net/gh/drnewske/tyhdsjax-nfhbqsm/logos/myicon.png"
 REQUEST_TIMEOUT = 10
 LOG_FILE = "scraper.log"
 OUTPUT_FILE = "live_events.json"
