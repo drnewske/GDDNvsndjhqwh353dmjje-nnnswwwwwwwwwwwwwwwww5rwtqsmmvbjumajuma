@@ -1,30 +1,3 @@
-2026-01-25 16:28:16,348 - INFO - [FETCH-20260125-162816-2F86BDF7] Starting sportsonline football match scraper...
-2026-01-25 16:28:16,348 - INFO - ============================================================
-2026-01-25 16:28:16,348 - INFO - [FETCH-20260125-162816-2F86BDF7] Starting cleanup operations...
-2026-01-25 16:28:16,348 - INFO - [FETCH-20260125-162816-2F86BDF7] Cleaning up old log entries...
-2026-01-25 16:28:16,359 - INFO - [FETCH-20260125-162816-2F86BDF7] Log cleanup complete: Removed 16 old log entries
-2026-01-25 16:28:16,359 - INFO - [FETCH-20260125-162816-2F86BDF7] Fetching matches from sportsonline.gl...
-2026-01-25 16:28:17,523 - INFO - [FETCH-20260125-162816-2F86BDF7] Fetched 33 valid matches from sportsonline.gl
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Merging with existing data...
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Cleaning up old matches...
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Como vs Torino (24-01-2026 14:00)
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Bayern München vs Augsburg (24-01-2026 14:30)
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Bayer Leverkusen vs Werder Bremen (24-01-2026 14:30)
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Heidenheim vs RB Leipzig (24-01-2026 14:30)
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Manchester City vs Wolverhampton Wanderers (24-01-2026 15:00)
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Burnley vs Tottenham Hotspur (24-01-2026 15:00)
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Fulham vs Brighton & Hove Albion (24-01-2026 15:00)
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Olympiakos Piraeus vs Volos NFC (24-01-2026 15:00)
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Valencia vs Espanyol (24-01-2026 15:15)
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Valencia vs Espanyol (24-01-2026 15:15)
-2026-01-25 16:28:17,525 - INFO - [FETCH-20260125-162816-2F86BDF7] Removed old match: Leganes vs Real Sociedad II (24-01-2026 15:15)
-2026-01-25 16:28:17,526 - INFO - [FETCH-20260125-162816-2F86BDF7] Cleanup complete: Removed 11 old matches, 206 matches remaining
-2026-01-25 16:28:17,526 - INFO - [FETCH-20260125-162816-2F86BDF7] Merge complete: 0 new, 0 updated, 206 total
-2026-01-25 16:28:17,531 - INFO - [FETCH-20260125-162816-2F86BDF7] Data saved to live_events.json
-2026-01-25 16:28:17,531 - INFO - [FETCH-20260125-162816-2F86BDF7] Summary:
-2026-01-25 16:28:17,531 - INFO - [FETCH-20260125-162816-2F86BDF7] - Sportsonline ('Toes In The Blender') matches: 33
-2026-01-25 16:28:17,531 - INFO - [FETCH-20260125-162816-2F86BDF7] - Final total matches in file: 206
-2026-01-25 16:28:17,531 - INFO - [FETCH-20260125-162816-2F86BDF7] Scraper run completed successfully
 2026-01-25 18:32:49,168 - INFO - [FETCH-20260125-183249-0BB1AD28] Starting sportsonline football match scraper...
 2026-01-25 18:32:49,169 - INFO - ============================================================
 2026-01-25 18:32:49,169 - INFO - [FETCH-20260125-183249-0BB1AD28] Starting cleanup operations...
@@ -476,3 +449,19 @@
 2026-01-27 14:32:39,995 - INFO - [FETCH-20260127-143237-DE12C9FE] - Sportsonline ('Toes In The Blender') matches: 14
 2026-01-27 14:32:39,996 - INFO - [FETCH-20260127-143237-DE12C9FE] - Final total matches in file: 111
 2026-01-27 14:32:39,996 - INFO - [FETCH-20260127-143237-DE12C9FE] Scraper run completed successfully
+2026-01-27 16:33:04,324 - INFO - [FETCH-20260127-163304-6CD4CB5C] Starting sportsonline football match scraper...
+2026-01-27 16:33:04,325 - INFO - ============================================================
+2026-01-27 16:33:04,325 - INFO - [FETCH-20260127-163304-6CD4CB5C] Starting cleanup operations...
+2026-01-27 16:33:04,325 - INFO - [FETCH-20260127-163304-6CD4CB5C] Cleaning up old log entries...
+2026-01-27 16:33:04,334 - INFO - [FETCH-20260127-163304-6CD4CB5C] Log cleanup complete: Removed 27 old log entries
+2026-01-27 16:33:04,335 - INFO - [FETCH-20260127-163304-6CD4CB5C] Fetching matches from sportsonline.gl...
+2026-01-27 16:33:48,608 - ERROR - Error fetching data from sportsonline.gl: HTTPSConnectionPool(host='sportsonline.st', port=443): Read timed out. (read timeout=30)
+2026-01-27 16:33:48,612 - INFO - [FETCH-20260127-163304-6CD4CB5C] Merging with existing data...
+2026-01-27 16:33:48,612 - INFO - [FETCH-20260127-163304-6CD4CB5C] Cleaning up old matches...
+2026-01-27 16:33:48,612 - INFO - [FETCH-20260127-163304-6CD4CB5C] No old matches to remove
+2026-01-27 16:33:48,612 - INFO - [FETCH-20260127-163304-6CD4CB5C] Merge complete: 0 new, 0 updated, 110 total
+2026-01-27 16:33:48,615 - INFO - [FETCH-20260127-163304-6CD4CB5C] Data saved to live_events.json
+2026-01-27 16:33:48,615 - INFO - [FETCH-20260127-163304-6CD4CB5C] Summary:
+2026-01-27 16:33:48,615 - INFO - [FETCH-20260127-163304-6CD4CB5C] - Sportsonline ('Toes In The Blender') matches: 0
+2026-01-27 16:33:48,615 - INFO - [FETCH-20260127-163304-6CD4CB5C] - Final total matches in file: 110
+2026-01-27 16:33:48,615 - INFO - [FETCH-20260127-163304-6CD4CB5C] Scraper run completed successfully
