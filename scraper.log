@@ -1,48 +1,3 @@
-2026-01-25 20:26:38,704 - INFO - [FETCH-20260125-202638-6E1042FE] Starting sportsonline football match scraper...
-2026-01-25 20:26:38,704 - INFO - ============================================================
-2026-01-25 20:26:38,704 - INFO - [FETCH-20260125-202638-6E1042FE] Starting cleanup operations...
-2026-01-25 20:26:38,704 - INFO - [FETCH-20260125-202638-6E1042FE] Cleaning up old log entries...
-2026-01-25 20:26:38,715 - INFO - [FETCH-20260125-202638-6E1042FE] Log cleanup complete: Removed 17 old log entries
-2026-01-25 20:26:38,715 - INFO - [FETCH-20260125-202638-6E1042FE] Fetching matches from sportsonline.gl...
-2026-01-25 20:26:40,401 - INFO - [FETCH-20260125-202638-6E1042FE] Fetched 26 valid matches from sportsonline.gl
-2026-01-25 20:26:40,403 - INFO - [FETCH-20260125-202638-6E1042FE] Merging with existing data...
-2026-01-25 20:26:40,403 - INFO - [FETCH-20260125-202638-6E1042FE] Cleaning up old matches...
-2026-01-25 20:26:40,403 - INFO - [FETCH-20260125-202638-6E1042FE] Removed old match: Le Havre vs Monaco (24-01-2026 18:00)
-2026-01-25 20:26:40,403 - INFO - [FETCH-20260125-202638-6E1042FE] Removed old match: Arouca vs Sporting CP (24-01-2026 18:00)
-2026-01-25 20:26:40,403 - INFO - [FETCH-20260125-202638-6E1042FE] Removed old match: RSB Berkane vs Pyramids FC (24-01-2026 19:00)
-2026-01-25 20:26:40,403 - INFO - [FETCH-20260125-202638-6E1042FE] Removed old match: PSV vs NAC Breda (24-01-2026 19:00)
-2026-01-25 20:26:40,403 - INFO - [FETCH-20260125-202638-6E1042FE] Removed old match: Deportivo Pereira vs Fortaleza CEIF (24-01-2026 19:00)
-2026-01-25 20:26:40,403 - INFO - [FETCH-20260125-202638-6E1042FE] Removed old match: PSV vs NAC Breda (24-01-2026 19:00)
-2026-01-25 20:26:40,404 - INFO - [FETCH-20260125-202638-6E1042FE] Cleanup complete: Removed 6 old matches, 174 matches remaining
-2026-01-25 20:26:40,404 - INFO - [FETCH-20260125-202638-6E1042FE] Merge complete: 0 new, 0 updated, 174 total
-2026-01-25 20:26:40,408 - INFO - [FETCH-20260125-202638-6E1042FE] Data saved to live_events.json
-2026-01-25 20:26:40,408 - INFO - [FETCH-20260125-202638-6E1042FE] Summary:
-2026-01-25 20:26:40,408 - INFO - [FETCH-20260125-202638-6E1042FE] - Sportsonline ('Toes In The Blender') matches: 26
-2026-01-25 20:26:40,408 - INFO - [FETCH-20260125-202638-6E1042FE] - Final total matches in file: 174
-2026-01-25 20:26:40,408 - INFO - [FETCH-20260125-202638-6E1042FE] Scraper run completed successfully
-2026-01-25 22:22:26,347 - INFO - [FETCH-20260125-222226-4B419DA8] Starting sportsonline football match scraper...
-2026-01-25 22:22:26,347 - INFO - ============================================================
-2026-01-25 22:22:26,348 - INFO - [FETCH-20260125-222226-4B419DA8] Starting cleanup operations...
-2026-01-25 22:22:26,348 - INFO - [FETCH-20260125-222226-4B419DA8] Cleaning up old log entries...
-2026-01-25 22:22:26,358 - INFO - [FETCH-20260125-222226-4B419DA8] Log cleanup complete: Removed 46 old log entries
-2026-01-25 22:22:26,359 - INFO - [FETCH-20260125-222226-4B419DA8] Fetching matches from sportsonline.gl...
-2026-01-25 22:22:29,057 - INFO - [FETCH-20260125-222226-4B419DA8] Fetched 26 valid matches from sportsonline.gl
-2026-01-25 22:22:29,059 - INFO - [FETCH-20260125-222226-4B419DA8] Merging with existing data...
-2026-01-25 22:22:29,059 - INFO - [FETCH-20260125-222226-4B419DA8] Cleaning up old matches...
-2026-01-25 22:22:29,059 - INFO - [FETCH-20260125-222226-4B419DA8] Removed old match: Magdeburg vs Dynamo Dresden (24-01-2026 19:30)
-2026-01-25 22:22:29,059 - INFO - [FETCH-20260125-222226-4B419DA8] Removed old match: Lecce vs Lazio (24-01-2026 19:45)
-2026-01-25 22:22:29,059 - INFO - [FETCH-20260125-222226-4B419DA8] Removed old match: Villarreal vs Real Madrid (24-01-2026 20:00)
-2026-01-25 22:22:29,059 - INFO - [FETCH-20260125-222226-4B419DA8] Removed old match: Barracas Central vs River Plate (24-01-2026 20:00)
-2026-01-25 22:22:29,059 - INFO - [FETCH-20260125-222226-4B419DA8] Removed old match: Olympique Marseille vs Lens (24-01-2026 20:05)
-2026-01-25 22:22:29,059 - INFO - [FETCH-20260125-222226-4B419DA8] Removed old match: Estoril vs Vitória Guimarães (24-01-2026 20:30)
-2026-01-25 22:22:29,059 - INFO - [FETCH-20260125-222226-4B419DA8] Removed old match: Llaneros vs Atlético Bucaramanga (24-01-2026 21:10)
-2026-01-25 22:22:29,060 - INFO - [FETCH-20260125-222226-4B419DA8] Cleanup complete: Removed 7 old matches, 182 matches remaining
-2026-01-25 22:22:29,060 - INFO - [FETCH-20260125-222226-4B419DA8] Merge complete: 0 new, 0 updated, 182 total
-2026-01-25 22:22:29,064 - INFO - [FETCH-20260125-222226-4B419DA8] Data saved to live_events.json
-2026-01-25 22:22:29,064 - INFO - [FETCH-20260125-222226-4B419DA8] Summary:
-2026-01-25 22:22:29,064 - INFO - [FETCH-20260125-222226-4B419DA8] - Sportsonline ('Toes In The Blender') matches: 26
-2026-01-25 22:22:29,065 - INFO - [FETCH-20260125-222226-4B419DA8] - Final total matches in file: 182
-2026-01-25 22:22:29,065 - INFO - [FETCH-20260125-222226-4B419DA8] Scraper run completed successfully
 2026-01-26 02:04:16,256 - INFO - [FETCH-20260126-020416-7DED1657] Starting sportsonline football match scraper...
 2026-01-26 02:04:16,256 - INFO - ============================================================
 2026-01-26 02:04:16,256 - INFO - [FETCH-20260126-020416-7DED1657] Starting cleanup operations...
@@ -482,3 +437,27 @@
 2026-01-27 20:26:03,040 - INFO - [FETCH-20260127-202557-59B962E1] - Sportsonline ('Toes In The Blender') matches: 14
 2026-01-27 20:26:03,040 - INFO - [FETCH-20260127-202557-59B962E1] - Final total matches in file: 99
 2026-01-27 20:26:03,040 - INFO - [FETCH-20260127-202557-59B962E1] Scraper run completed successfully
+2026-01-27 22:24:43,101 - INFO - [FETCH-20260127-222443-3C6E6B7D] Starting sportsonline football match scraper...
+2026-01-27 22:24:43,101 - INFO - ============================================================
+2026-01-27 22:24:43,101 - INFO - [FETCH-20260127-222443-3C6E6B7D] Starting cleanup operations...
+2026-01-27 22:24:43,101 - INFO - [FETCH-20260127-222443-3C6E6B7D] Cleaning up old log entries...
+2026-01-27 22:24:43,110 - INFO - [FETCH-20260127-222443-3C6E6B7D] Log cleanup complete: Removed 45 old log entries
+2026-01-27 22:24:43,111 - INFO - [FETCH-20260127-222443-3C6E6B7D] Fetching matches from sportsonline.gl...
+2026-01-27 22:24:44,105 - INFO - [FETCH-20260127-222443-3C6E6B7D] Fetched 14 valid matches from sportsonline.gl
+2026-01-27 22:24:44,107 - INFO - [FETCH-20260127-222443-3C6E6B7D] Merging with existing data...
+2026-01-27 22:24:44,107 - INFO - [FETCH-20260127-222443-3C6E6B7D] Cleaning up old matches...
+2026-01-27 22:24:44,107 - INFO - [FETCH-20260127-222443-3C6E6B7D] Removed old match: Verona vs Udinese (26-01-2026 19:45)
+2026-01-27 22:24:44,107 - INFO - [FETCH-20260127-222443-3C6E6B7D] Removed old match: Le Mans vs Dunkerque (26-01-2026 19:45)
+2026-01-27 22:24:44,107 - INFO - [FETCH-20260127-222443-3C6E6B7D] Removed old match: Everton vs Leeds United (26-01-2026 20:00)
+2026-01-27 22:24:44,107 - INFO - [FETCH-20260127-222443-3C6E6B7D] Removed old match: Girona vs Getafe (26-01-2026 20:00)
+2026-01-27 22:24:44,107 - INFO - [FETCH-20260127-222443-3C6E6B7D] Removed old match: Norwich City vs Coventry City (26-01-2026 20:00)
+2026-01-27 22:24:44,107 - INFO - [FETCH-20260127-222443-3C6E6B7D] Removed old match: Platense vs Instituto (26-01-2026 20:00)
+2026-01-27 22:24:44,107 - INFO - [FETCH-20260127-222443-3C6E6B7D] Removed old match: Madureira vs Portuguesa-RJ (26-01-2026 20:00)
+2026-01-27 22:24:44,107 - INFO - [FETCH-20260127-222443-3C6E6B7D] Removed old match: Porto vs Gil Vicente (26-01-2026 20:15)
+2026-01-27 22:24:44,108 - INFO - [FETCH-20260127-222443-3C6E6B7D] Cleanup complete: Removed 8 old matches, 121 matches remaining
+2026-01-27 22:24:44,108 - INFO - [FETCH-20260127-222443-3C6E6B7D] Merge complete: 0 new, 0 updated, 121 total
+2026-01-27 22:24:44,111 - INFO - [FETCH-20260127-222443-3C6E6B7D] Data saved to live_events.json
+2026-01-27 22:24:44,111 - INFO - [FETCH-20260127-222443-3C6E6B7D] Summary:
+2026-01-27 22:24:44,111 - INFO - [FETCH-20260127-222443-3C6E6B7D] - Sportsonline ('Toes In The Blender') matches: 14
+2026-01-27 22:24:44,111 - INFO - [FETCH-20260127-222443-3C6E6B7D] - Final total matches in file: 121
+2026-01-27 22:24:44,111 - INFO - [FETCH-20260127-222443-3C6E6B7D] Scraper run completed successfully
