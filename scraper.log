@@ -1,45 +1,3 @@
-2026-01-29 02:10:58,149 - INFO - [FETCH-20260129-021058-5CE02B4B] Starting sportsonline football match scraper...
-2026-01-29 02:10:58,149 - INFO - ============================================================
-2026-01-29 02:10:58,149 - INFO - [FETCH-20260129-021058-5CE02B4B] Starting cleanup operations...
-2026-01-29 02:10:58,149 - INFO - [FETCH-20260129-021058-5CE02B4B] Cleaning up old log entries...
-2026-01-29 02:10:58,158 - INFO - [FETCH-20260129-021058-5CE02B4B] Log cleanup complete: Removed 35 old log entries
-2026-01-29 02:10:58,159 - INFO - [FETCH-20260129-021058-5CE02B4B] Fetching matches from sportsonline.gl...
-2026-01-29 02:10:59,542 - INFO - [FETCH-20260129-021058-5CE02B4B] Fetched 22 valid matches from sportsonline.gl
-2026-01-29 02:10:59,544 - INFO - [FETCH-20260129-021058-5CE02B4B] Merging with existing data...
-2026-01-29 02:10:59,544 - INFO - [FETCH-20260129-021058-5CE02B4B] Cleaning up old matches...
-2026-01-29 02:10:59,544 - INFO - [FETCH-20260129-021058-5CE02B4B] Removed old match: Huracán vs Independiente Rivadavia (27-01-2026 23:00)
-2026-01-29 02:10:59,544 - INFO - [FETCH-20260129-021058-5CE02B4B] Removed old match: Gimnasia Mendoza vs San Lorenzo (27-01-2026 23:00)
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] Removed old match: Fortaleza CEIF vs Llaneros (27-01-2026 23:20)
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] Removed old match: São Paulo vs Flamengo (28-01-2026 00:30)
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] Cleanup complete: Removed 4 old matches, 110 matches remaining
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Sarmiento vs Banfield
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Estudiantes Río Cuarto vs Argentinos Juniors
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Botafogo vs Cruzeiro
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: América de Cali vs Once Caldas
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Fiorentina W vs Milan W
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Al Quadisiya vs Al Hilal
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Porto vs Rangers
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Aston Villa vs Salzburg
-2026-01-29 02:10:59,545 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Nottingham Forest vs Ferencváros
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Celtic vs Utrecht
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Panathinaikos vs Roma
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Maccabi Tel Aviv vs Bologna
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Olympique Lyonnais vs PAOK
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Crvena Zvezda vs Celta de Vigo
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Real Betis vs Feyenoord
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Lille vs Freiburg
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Stuttgart vs Young Boys
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Go Ahead Eagles vs Sporting Braga
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Lanús vs Unión Santa Fe
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Belgrano vs Tigre
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Mirassol vs Vasco da Gama
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] New match: Jaguares de Córdoba vs Inter Bogotá
-2026-01-29 02:10:59,546 - INFO - [FETCH-20260129-021058-5CE02B4B] Merge complete: 22 new, 0 updated, 132 total
-2026-01-29 02:10:59,549 - INFO - [FETCH-20260129-021058-5CE02B4B] Data saved to live_events.json
-2026-01-29 02:10:59,549 - INFO - [FETCH-20260129-021058-5CE02B4B] Summary:
-2026-01-29 02:10:59,549 - INFO - [FETCH-20260129-021058-5CE02B4B] - Sportsonline ('Toes In The Blender') matches: 22
-2026-01-29 02:10:59,549 - INFO - [FETCH-20260129-021058-5CE02B4B] - Final total matches in file: 132
-2026-01-29 02:10:59,550 - INFO - [FETCH-20260129-021058-5CE02B4B] Scraper run completed successfully
 2026-01-29 05:06:02,666 - INFO - [FETCH-20260129-050602-9EC476E6] Starting sportsonline football match scraper...
 2026-01-29 05:06:02,666 - INFO - ============================================================
 2026-01-29 05:06:02,666 - INFO - [FETCH-20260129-050602-9EC476E6] Starting cleanup operations...
@@ -500,3 +458,66 @@
 2026-01-31 02:07:10,831 - INFO - [FETCH-20260131-020709-37078D33] - Sportsonline ('Toes In The Blender') matches: 45
 2026-01-31 02:07:10,832 - INFO - [FETCH-20260131-020709-37078D33] - Final total matches in file: 260
 2026-01-31 02:07:10,832 - INFO - [FETCH-20260131-020709-37078D33] Scraper run completed successfully
+2026-01-31 05:01:59,907 - INFO - [FETCH-20260131-050159-317041D5] Starting sportsonline football match scraper...
+2026-01-31 05:01:59,907 - INFO - ============================================================
+2026-01-31 05:01:59,907 - INFO - [FETCH-20260131-050159-317041D5] Starting cleanup operations...
+2026-01-31 05:01:59,907 - INFO - [FETCH-20260131-050159-317041D5] Cleaning up old log entries...
+2026-01-31 05:01:59,917 - INFO - [FETCH-20260131-050159-317041D5] Log cleanup complete: Removed 42 old log entries
+2026-01-31 05:01:59,917 - INFO - [FETCH-20260131-050159-317041D5] Fetching matches from sportsonline.gl...
+2026-01-31 05:02:00,890 - INFO - [FETCH-20260131-050159-317041D5] Fetched 45 valid matches from sportsonline.gl
+2026-01-31 05:02:00,892 - INFO - [FETCH-20260131-050159-317041D5] Merging with existing data...
+2026-01-31 05:02:00,892 - INFO - [FETCH-20260131-050159-317041D5] Cleaning up old matches...
+2026-01-31 05:02:00,892 - INFO - [FETCH-20260131-050159-317041D5] Removed old match: Pumas UNAM vs Santos Laguna (30-01-2026 03:00)
+2026-01-31 05:02:00,892 - INFO - [FETCH-20260131-050159-317041D5] Removed old match: Juárez vs Cruz Azul (30-01-2026 03:06)
+2026-01-31 05:02:00,893 - INFO - [FETCH-20260131-050159-317041D5] Cleanup complete: Removed 2 old matches, 259 matches remaining
+2026-01-31 05:02:00,893 - INFO - [FETCH-20260131-050159-317041D5] Updated: Atlético Tucumán vs Huracán
+2026-01-31 05:02:00,893 - INFO - [FETCH-20260131-050159-317041D5] Updated: Talleres Córdoba vs Platense
+2026-01-31 05:02:00,893 - INFO - [FETCH-20260131-050159-317041D5] Updated: Monterrey vs Tijuana
+2026-01-31 05:02:00,893 - INFO - [FETCH-20260131-050159-317041D5] Updated: Millonarios vs Medellín
+2026-01-31 05:02:00,893 - INFO - [FETCH-20260131-050159-317041D5] Updated: Felgueiras 1932 vs Chaves
+2026-01-31 05:02:00,893 - INFO - [FETCH-20260131-050159-317041D5] Updated: Eintracht Braunschweig vs Karlsruher SC
+2026-01-31 05:02:00,893 - INFO - [FETCH-20260131-050159-317041D5] Updated: Bochum vs Schalke 04
+2026-01-31 05:02:00,893 - INFO - [FETCH-20260131-050159-317041D5] Updated: Stoke City vs Southampton
+2026-01-31 05:02:00,893 - INFO - [FETCH-20260131-050159-317041D5] Updated: Real Oviedo vs Girona
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Troyes vs Le Mans
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Young Africans vs Al Ahly
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Pisa vs Sassuolo
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Eintracht Frankfurt vs Bayer Leverkusen
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: RB Leipzig vs Mainz 05
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Augsburg vs St. Pauli
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Leeds United vs Arsenal
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Brighton & Hove Albion vs Everton
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Wolverhampton Wanderers vs AFC Bournemouth
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Osasuna vs Villarreal
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Santa Clara vs Estoril
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Atlético Petroleos vs Stade Malien
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Paris vs Olympique Marseille
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Napoli vs Fiorentina
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Chelsea vs West Ham United
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Levante vs Atlético Madrid
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Hamburger SV vs Bayern München
+2026-01-31 05:02:00,894 - INFO - [FETCH-20260131-050159-317041D5] Updated: Lorient vs Nantes
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Rio Ave vs Arouca
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: FAR Rabat vs JS Kabylie
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Kaiserslautern vs Elversberg
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Caxias vs Internacional
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Pouso Alegre vs Atlético Mineiro
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Grêmio vs Juventude
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Cagliari vs Verona
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Liverpool vs Newcastle United
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Elche vs Barcelona
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Dundee United vs Hearts
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Monaco vs Rennes
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Alverca vs Estrela
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Vizela vs Portimonense
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: San Lorenzo vs Central Córdoba SdE
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: América Mineiro vs URT
+2026-01-31 05:02:00,895 - INFO - [FETCH-20260131-050159-317041D5] Updated: Independiente vs Vélez Sarsfield
+2026-01-31 05:02:00,896 - INFO - [FETCH-20260131-050159-317041D5] Updated: Boyacá Chicó vs Santa Fe
+2026-01-31 05:02:00,896 - INFO - [FETCH-20260131-050159-317041D5] Updated: São Paulo vs Santos
+2026-01-31 05:02:00,896 - INFO - [FETCH-20260131-050159-317041D5] Merge complete: 0 new, 45 updated, 258 total
+2026-01-31 05:02:00,903 - INFO - [FETCH-20260131-050159-317041D5] Data saved to live_events.json
+2026-01-31 05:02:00,903 - INFO - [FETCH-20260131-050159-317041D5] Summary:
+2026-01-31 05:02:00,903 - INFO - [FETCH-20260131-050159-317041D5] - Sportsonline ('Toes In The Blender') matches: 45
+2026-01-31 05:02:00,903 - INFO - [FETCH-20260131-050159-317041D5] - Final total matches in file: 258
+2026-01-31 05:02:00,903 - INFO - [FETCH-20260131-050159-317041D5] Scraper run completed successfully
