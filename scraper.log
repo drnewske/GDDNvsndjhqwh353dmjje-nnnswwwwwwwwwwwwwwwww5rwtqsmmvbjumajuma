@@ -1,74 +1,3 @@
-2026-02-03 02:25:09,938 - INFO - [FETCH-20260203-022509-0050977F] Starting sportsonline football match scraper...
-2026-02-03 02:25:09,939 - INFO - ============================================================
-2026-02-03 02:25:09,939 - INFO - [FETCH-20260203-022509-0050977F] Starting cleanup operations...
-2026-02-03 02:25:09,939 - INFO - [FETCH-20260203-022509-0050977F] Cleaning up old log entries...
-2026-02-03 02:25:09,948 - INFO - [FETCH-20260203-022509-0050977F] Log cleanup complete: Removed 57 old log entries
-2026-02-03 02:25:09,948 - INFO - [FETCH-20260203-022509-0050977F] Fetching matches from sportsonline.gl...
-2026-02-03 02:25:11,307 - INFO - [FETCH-20260203-022509-0050977F] Fetched 21 valid matches from sportsonline.gl
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Merging with existing data...
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Cleaning up old matches...
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Arsenal W vs Corinthians W (01-02-2026 18:00)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Sporting CP vs Nacional (01-02-2026 18:00)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: AEK Athens vs Olympiakos Piraeus (01-02-2026 19:00)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Al Masry vs Zamalek (01-02-2026 19:00)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Flamengo vs Corinthians (01-02-2026 19:00)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Strasbourg vs PSG (01-02-2026 19:45)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Parma vs Juventus (01-02-2026 19:45)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Athletic Club vs Real Sociedad (01-02-2026 20:00)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Tondela vs Benfica (01-02-2026 20:30)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Deportivo Cali vs Deportivo Pasto (01-02-2026 21:10)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Boca Juniors vs Newell's Old Boys (01-02-2026 22:15)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Querétaro vs Pachuca (01-02-2026 23:00)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Betim vs Cruzeiro (01-02-2026 23:00)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Once Caldas vs Jaguares de Córdoba (01-02-2026 23:20)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Botafogo SP vs Palmeiras (01-02-2026 23:30)
-2026-02-03 02:25:11,309 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Botafogo vs Fluminense (01-02-2026 23:30)
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] Removed old match: Argentinos Juniors vs Belgrano (02-02-2026 01:00)
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] Cleanup complete: Removed 17 old matches, 98 matches remaining
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Forge vs Tigres UANL
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Independiente Rivadavia vs Sarmiento
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: The Strongest vs Deportivo Táchira
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Olimpia vs América
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: San Diego vs Pumas UNAM
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Iğdır FK vs Antalyaspor
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Samsunspor vs Bodrumspor
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Rizespor vs Beyoğlu Yeni Çarşı
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Real Madrid U19 vs Marseille U19
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Zilina U19 vs Liverpool U19
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Levski Sofia vs Ludogorets
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Chelsea U19 vs PSV U19
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Trabzonspor vs Fethiyespor
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: AZ vs Twente
-2026-02-03 02:25:11,310 - INFO - [FETCH-20260203-022509-0050977F] New match: Reims vs Le Mans
-2026-02-03 02:25:11,311 - INFO - [FETCH-20260203-022509-0050977F] New match: Bayer Leverkusen vs St. Pauli
-2026-02-03 02:25:11,311 - INFO - [FETCH-20260203-022509-0050977F] New match: Bologna vs Milan
-2026-02-03 02:25:11,311 - INFO - [FETCH-20260203-022509-0050977F] New match: Arsenal vs Chelsea
-2026-02-03 02:25:11,311 - INFO - [FETCH-20260203-022509-0050977F] New match: Albacete vs Barcelona
-2026-02-03 02:25:11,311 - INFO - [FETCH-20260203-022509-0050977F] New match: St. Mirren vs Hearts
-2026-02-03 02:25:11,311 - INFO - [FETCH-20260203-022509-0050977F] New match: Olympique Marseille vs Rennes
-2026-02-03 02:25:11,311 - INFO - [FETCH-20260203-022509-0050977F] Merge complete: 21 new, 0 updated, 119 total
-2026-02-03 02:25:11,313 - INFO - [FETCH-20260203-022509-0050977F] Data saved to live_events.json
-2026-02-03 02:25:11,313 - INFO - [FETCH-20260203-022509-0050977F] Summary:
-2026-02-03 02:25:11,314 - INFO - [FETCH-20260203-022509-0050977F] - Sportsonline ('Toes In The Blender') matches: 21
-2026-02-03 02:25:11,314 - INFO - [FETCH-20260203-022509-0050977F] - Final total matches in file: 119
-2026-02-03 02:25:11,314 - INFO - [FETCH-20260203-022509-0050977F] Scraper run completed successfully
-2026-02-03 05:15:14,273 - INFO - [FETCH-20260203-051514-C4946A28] Starting sportsonline football match scraper...
-2026-02-03 05:15:14,273 - INFO - ============================================================
-2026-02-03 05:15:14,273 - INFO - [FETCH-20260203-051514-C4946A28] Starting cleanup operations...
-2026-02-03 05:15:14,273 - INFO - [FETCH-20260203-051514-C4946A28] Cleaning up old log entries...
-2026-02-03 05:15:14,283 - INFO - [FETCH-20260203-051514-C4946A28] Log cleanup complete: Removed 62 old log entries
-2026-02-03 05:15:14,284 - INFO - [FETCH-20260203-051514-C4946A28] Fetching matches from sportsonline.gl...
-2026-02-03 05:15:15,254 - INFO - [FETCH-20260203-051514-C4946A28] Fetched 21 valid matches from sportsonline.gl
-2026-02-03 05:15:15,256 - INFO - [FETCH-20260203-051514-C4946A28] Merging with existing data...
-2026-02-03 05:15:15,256 - INFO - [FETCH-20260203-051514-C4946A28] Cleaning up old matches...
-2026-02-03 05:15:15,257 - INFO - [FETCH-20260203-051514-C4946A28] Removed old match: Deportivo Pereira vs Junior (02-02-2026 01:30)
-2026-02-03 05:15:15,257 - INFO - [FETCH-20260203-051514-C4946A28] Cleanup complete: Removed 1 old matches, 118 matches remaining
-2026-02-03 05:15:15,257 - INFO - [FETCH-20260203-051514-C4946A28] Merge complete: 0 new, 0 updated, 118 total
-2026-02-03 05:15:15,260 - INFO - [FETCH-20260203-051514-C4946A28] Data saved to live_events.json
-2026-02-03 05:15:15,260 - INFO - [FETCH-20260203-051514-C4946A28] Summary:
-2026-02-03 05:15:15,260 - INFO - [FETCH-20260203-051514-C4946A28] - Sportsonline ('Toes In The Blender') matches: 21
-2026-02-03 05:15:15,260 - INFO - [FETCH-20260203-051514-C4946A28] - Final total matches in file: 118
-2026-02-03 05:15:15,260 - INFO - [FETCH-20260203-051514-C4946A28] Scraper run completed successfully
 2026-02-03 06:54:56,884 - INFO - [FETCH-20260203-065456-3958E797] Starting sportsonline football match scraper...
 2026-02-03 06:54:56,884 - INFO - ============================================================
 2026-02-03 06:54:56,885 - INFO - [FETCH-20260203-065456-3958E797] Starting cleanup operations...
@@ -504,3 +433,20 @@
 2026-02-05 02:21:09,892 - INFO - [FETCH-20260205-022108-596CB71F] - Sportsonline ('Toes In The Blender') matches: 20
 2026-02-05 02:21:09,893 - INFO - [FETCH-20260205-022108-596CB71F] - Final total matches in file: 135
 2026-02-05 02:21:09,893 - INFO - [FETCH-20260205-022108-596CB71F] Scraper run completed successfully
+2026-02-05 05:17:26,183 - INFO - [FETCH-20260205-051726-40FD0F2E] Starting sportsonline football match scraper...
+2026-02-05 05:17:26,183 - INFO - ============================================================
+2026-02-05 05:17:26,183 - INFO - [FETCH-20260205-051726-40FD0F2E] Starting cleanup operations...
+2026-02-05 05:17:26,184 - INFO - [FETCH-20260205-051726-40FD0F2E] Cleaning up old log entries...
+2026-02-05 05:17:26,194 - INFO - [FETCH-20260205-051726-40FD0F2E] Log cleanup complete: Removed 71 old log entries
+2026-02-05 05:17:26,194 - INFO - [FETCH-20260205-051726-40FD0F2E] Fetching matches from sportsonline.gl...
+2026-02-05 05:17:27,775 - INFO - [FETCH-20260205-051726-40FD0F2E] Fetched 20 valid matches from sportsonline.gl
+2026-02-05 05:17:27,777 - INFO - [FETCH-20260205-051726-40FD0F2E] Merging with existing data...
+2026-02-05 05:17:27,777 - INFO - [FETCH-20260205-051726-40FD0F2E] Cleaning up old matches...
+2026-02-05 05:17:27,777 - INFO - [FETCH-20260205-051726-40FD0F2E] Removed old match: Vancouver FC vs Cruz Azul (04-02-2026 03:00)
+2026-02-05 05:17:27,778 - INFO - [FETCH-20260205-051726-40FD0F2E] Cleanup complete: Removed 1 old matches, 132 matches remaining
+2026-02-05 05:17:27,778 - INFO - [FETCH-20260205-051726-40FD0F2E] Merge complete: 0 new, 0 updated, 132 total
+2026-02-05 05:17:27,781 - INFO - [FETCH-20260205-051726-40FD0F2E] Data saved to live_events.json
+2026-02-05 05:17:27,781 - INFO - [FETCH-20260205-051726-40FD0F2E] Summary:
+2026-02-05 05:17:27,781 - INFO - [FETCH-20260205-051726-40FD0F2E] - Sportsonline ('Toes In The Blender') matches: 20
+2026-02-05 05:17:27,781 - INFO - [FETCH-20260205-051726-40FD0F2E] - Final total matches in file: 132
+2026-02-05 05:17:27,781 - INFO - [FETCH-20260205-051726-40FD0F2E] Scraper run completed successfully
