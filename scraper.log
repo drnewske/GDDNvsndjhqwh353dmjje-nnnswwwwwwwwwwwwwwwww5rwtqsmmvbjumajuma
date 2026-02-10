@@ -1,37 +1,3 @@
-2026-02-08 16:33:50,129 - INFO - [FETCH-20260208-163350-9D763830] Starting sportsonline football match scraper...
-2026-02-08 16:33:50,129 - INFO - ============================================================
-2026-02-08 16:33:50,129 - INFO - [FETCH-20260208-163350-9D763830] Starting cleanup operations...
-2026-02-08 16:33:50,129 - INFO - [FETCH-20260208-163350-9D763830] Cleaning up old log entries...
-2026-02-08 16:33:50,140 - INFO - [FETCH-20260208-163350-9D763830] Log cleanup complete: Removed 18 old log entries
-2026-02-08 16:33:50,141 - INFO - [FETCH-20260208-163350-9D763830] Fetching matches from sportsonline.gl...
-2026-02-08 16:33:51,659 - INFO - [FETCH-20260208-163350-9D763830] Fetched 28 valid matches from sportsonline.gl
-2026-02-08 16:33:51,661 - INFO - [FETCH-20260208-163350-9D763830] Merging with existing data...
-2026-02-08 16:33:51,661 - INFO - [FETCH-20260208-163350-9D763830] Cleaning up old matches...
-2026-02-08 16:33:51,661 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Wolfsburg vs Borussia Dortmund (07-02-2026 14:30)
-2026-02-08 16:33:51,661 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Freiburg vs Werder Bremen (07-02-2026 14:30)
-2026-02-08 16:33:51,661 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: St. Pauli vs Stuttgart (07-02-2026 14:30)
-2026-02-08 16:33:51,661 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Arsenal vs Sunderland (07-02-2026 15:00)
-2026-02-08 16:33:51,661 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Wolverhampton Wanderers vs Chelsea (07-02-2026 15:00)
-2026-02-08 16:33:51,661 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Fulham vs Everton (07-02-2026 15:00)
-2026-02-08 16:33:51,661 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: AFC Bournemouth vs Aston Villa (07-02-2026 15:00)
-2026-02-08 16:33:51,661 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Burnley vs West Ham United (07-02-2026 15:00)
-2026-02-08 16:33:51,662 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Barcelona vs Mallorca (07-02-2026 15:15)
-2026-02-08 16:33:51,662 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Barcelona vs Mallorca (07-02-2026 15:15)
-2026-02-08 16:33:51,662 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Las Palmas vs Burgos (07-02-2026 15:15)
-2026-02-08 16:33:51,662 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Estrela vs Santa Clara (07-02-2026 15:30)
-2026-02-08 16:33:51,662 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: UD Oliveirense vs Vizela (07-02-2026 15:30)
-2026-02-08 16:33:51,662 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Estrela vs Santa Clara (07-02-2026 15:30)
-2026-02-08 16:33:51,662 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Moreirense vs Gil Vicente (07-02-2026 15:30)
-2026-02-08 16:33:51,662 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Levski Sofia vs Botev Vratsa (07-02-2026 15:30)
-2026-02-08 16:33:51,662 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: NEC vs Heracles (07-02-2026 15:30)
-2026-02-08 16:33:51,662 - INFO - [FETCH-20260208-163350-9D763830] Removed old match: Stuttgart II vs 1860 Munchen (07-02-2026 15:30)
-2026-02-08 16:33:51,663 - INFO - [FETCH-20260208-163350-9D763830] Cleanup complete: Removed 18 old matches, 316 matches remaining
-2026-02-08 16:33:51,663 - INFO - [FETCH-20260208-163350-9D763830] Merge complete: 0 new, 0 updated, 316 total
-2026-02-08 16:33:51,670 - INFO - [FETCH-20260208-163350-9D763830] Data saved to live_events.json
-2026-02-08 16:33:51,670 - INFO - [FETCH-20260208-163350-9D763830] Summary:
-2026-02-08 16:33:51,670 - INFO - [FETCH-20260208-163350-9D763830] - Sportsonline ('Toes In The Blender') matches: 28
-2026-02-08 16:33:51,670 - INFO - [FETCH-20260208-163350-9D763830] - Final total matches in file: 316
-2026-02-08 16:33:51,670 - INFO - [FETCH-20260208-163350-9D763830] Scraper run completed successfully
 2026-02-08 18:39:41,833 - INFO - [FETCH-20260208-183941-E5899505] Starting sportsonline football match scraper...
 2026-02-08 18:39:41,833 - INFO - ============================================================
 2026-02-08 18:39:41,833 - INFO - [FETCH-20260208-183941-E5899505] Starting cleanup operations...
@@ -492,3 +458,23 @@
 2026-02-10 15:00:12,774 - INFO - [FETCH-20260210-150011-9D4DCD97] - Sportsonline ('Toes In The Blender') matches: 21
 2026-02-10 15:00:12,774 - INFO - [FETCH-20260210-150011-9D4DCD97] - Final total matches in file: 180
 2026-02-10 15:00:12,774 - INFO - [FETCH-20260210-150011-9D4DCD97] Scraper run completed successfully
+2026-02-10 17:03:31,059 - INFO - [FETCH-20260210-170331-1837807C] Starting sportsonline football match scraper...
+2026-02-10 17:03:31,060 - INFO - ============================================================
+2026-02-10 17:03:31,060 - INFO - [FETCH-20260210-170331-1837807C] Starting cleanup operations...
+2026-02-10 17:03:31,060 - INFO - [FETCH-20260210-170331-1837807C] Cleaning up old log entries...
+2026-02-10 17:03:31,070 - INFO - [FETCH-20260210-170331-1837807C] Log cleanup complete: Removed 34 old log entries
+2026-02-10 17:03:31,070 - INFO - [FETCH-20260210-170331-1837807C] Fetching matches from sportsonline.gl...
+2026-02-10 17:03:32,388 - INFO - [FETCH-20260210-170331-1837807C] Fetched 21 valid matches from sportsonline.gl
+2026-02-10 17:03:32,390 - INFO - [FETCH-20260210-170331-1837807C] Merging with existing data...
+2026-02-10 17:03:32,390 - INFO - [FETCH-20260210-170331-1837807C] Cleaning up old matches...
+2026-02-10 17:03:32,391 - INFO - [FETCH-20260210-170331-1837807C] Removed old match: Shabab Al Ahli vs Al Hilal (09-02-2026 16:00)
+2026-02-10 17:03:32,391 - INFO - [FETCH-20260210-170331-1837807C] Removed old match: Al Duhail vs Al Sharjah (09-02-2026 16:00)
+2026-02-10 17:03:32,391 - INFO - [FETCH-20260210-170331-1837807C] Removed old match: Shabab Al Ahli vs Al Hilal (09-02-2026 16:00)
+2026-02-10 17:03:32,391 - INFO - [FETCH-20260210-170331-1837807C] Removed old match: Al Duhail vs Al Sharjah (09-02-2026 16:00)
+2026-02-10 17:03:32,391 - INFO - [FETCH-20260210-170331-1837807C] Cleanup complete: Removed 4 old matches, 175 matches remaining
+2026-02-10 17:03:32,392 - INFO - [FETCH-20260210-170331-1837807C] Merge complete: 0 new, 0 updated, 175 total
+2026-02-10 17:03:32,396 - INFO - [FETCH-20260210-170331-1837807C] Data saved to live_events.json
+2026-02-10 17:03:32,396 - INFO - [FETCH-20260210-170331-1837807C] Summary:
+2026-02-10 17:03:32,396 - INFO - [FETCH-20260210-170331-1837807C] - Sportsonline ('Toes In The Blender') matches: 21
+2026-02-10 17:03:32,396 - INFO - [FETCH-20260210-170331-1837807C] - Final total matches in file: 175
+2026-02-10 17:03:32,396 - INFO - [FETCH-20260210-170331-1837807C] Scraper run completed successfully
