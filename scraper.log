@@ -1,19 +1,3 @@
-2026-02-18 20:41:32,359 - INFO - [FETCH-20260218-204132-0F95AF21] Starting sportsonline football match scraper...
-2026-02-18 20:41:32,359 - INFO - ============================================================
-2026-02-18 20:41:32,359 - INFO - [FETCH-20260218-204132-0F95AF21] Starting cleanup operations...
-2026-02-18 20:41:32,359 - INFO - [FETCH-20260218-204132-0F95AF21] Cleaning up old log entries...
-2026-02-18 20:41:32,368 - INFO - [FETCH-20260218-204132-0F95AF21] Log cleanup complete: Removed 23 old log entries
-2026-02-18 20:41:32,368 - INFO - [FETCH-20260218-204132-0F95AF21] Fetching matches from sportsonline.gl...
-2026-02-18 20:41:35,666 - INFO - [FETCH-20260218-204132-0F95AF21] Fetched 17 valid matches from sportsonline.gl
-2026-02-18 20:41:35,668 - INFO - [FETCH-20260218-204132-0F95AF21] Merging with existing data...
-2026-02-18 20:41:35,668 - INFO - [FETCH-20260218-204132-0F95AF21] Cleaning up old matches...
-2026-02-18 20:41:35,668 - INFO - [FETCH-20260218-204132-0F95AF21] No old matches to remove
-2026-02-18 20:41:35,668 - INFO - [FETCH-20260218-204132-0F95AF21] Merge complete: 0 new, 0 updated, 162 total
-2026-02-18 20:41:35,672 - INFO - [FETCH-20260218-204132-0F95AF21] Data saved to live_events.json
-2026-02-18 20:41:35,672 - INFO - [FETCH-20260218-204132-0F95AF21] Summary:
-2026-02-18 20:41:35,672 - INFO - [FETCH-20260218-204132-0F95AF21] - Sportsonline ('Toes In The Blender') matches: 17
-2026-02-18 20:41:35,672 - INFO - [FETCH-20260218-204132-0F95AF21] - Final total matches in file: 162
-2026-02-18 20:41:35,672 - INFO - [FETCH-20260218-204132-0F95AF21] Scraper run completed successfully
 2026-02-18 22:35:24,877 - INFO - [FETCH-20260218-223524-42A57CD3] Starting sportsonline football match scraper...
 2026-02-18 22:35:24,877 - INFO - ============================================================
 2026-02-18 22:35:24,877 - INFO - [FETCH-20260218-223524-42A57CD3] Starting cleanup operations...
@@ -454,3 +438,26 @@
 2026-02-20 20:34:50,075 - INFO - [FETCH-20260220-203448-ADBC1B11] - Sportsonline ('Toes In The Blender') matches: 23
 2026-02-20 20:34:50,075 - INFO - [FETCH-20260220-203448-ADBC1B11] - Final total matches in file: 312
 2026-02-20 20:34:50,075 - INFO - [FETCH-20260220-203448-ADBC1B11] Scraper run completed successfully
+2026-02-20 22:28:33,101 - INFO - [FETCH-20260220-222833-4D96C5F9] Starting sportsonline football match scraper...
+2026-02-20 22:28:33,101 - INFO - ============================================================
+2026-02-20 22:28:33,101 - INFO - [FETCH-20260220-222833-4D96C5F9] Starting cleanup operations...
+2026-02-20 22:28:33,101 - INFO - [FETCH-20260220-222833-4D96C5F9] Cleaning up old log entries...
+2026-02-20 22:28:33,111 - INFO - [FETCH-20260220-222833-4D96C5F9] Log cleanup complete: Removed 16 old log entries
+2026-02-20 22:28:33,111 - INFO - [FETCH-20260220-222833-4D96C5F9] Fetching matches from sportsonline.gl...
+2026-02-20 22:28:34,411 - INFO - [FETCH-20260220-222833-4D96C5F9] Fetched 23 valid matches from sportsonline.gl
+2026-02-20 22:28:34,414 - INFO - [FETCH-20260220-222833-4D96C5F9] Merging with existing data...
+2026-02-20 22:28:34,414 - INFO - [FETCH-20260220-222833-4D96C5F9] Cleaning up old matches...
+2026-02-20 22:28:34,414 - INFO - [FETCH-20260220-222833-4D96C5F9] Removed old match: Manchester United W vs Atlético de Madrid W (19-02-2026 19:45)
+2026-02-20 22:28:34,415 - INFO - [FETCH-20260220-222833-4D96C5F9] Removed old match: Celtic vs Stuttgart (19-02-2026 20:00)
+2026-02-20 22:28:34,415 - INFO - [FETCH-20260220-222833-4D96C5F9] Removed old match: Lille vs Crvena Zvezda (19-02-2026 20:00)
+2026-02-20 22:28:34,415 - INFO - [FETCH-20260220-222833-4D96C5F9] Removed old match: Ludogorets vs Ferencváros (19-02-2026 20:00)
+2026-02-20 22:28:34,415 - INFO - [FETCH-20260220-222833-4D96C5F9] Removed old match: Panathinaikos vs Viktoria Plzeň (19-02-2026 20:00)
+2026-02-20 22:28:34,415 - INFO - [FETCH-20260220-222833-4D96C5F9] Removed old match: Škendija 79 vs Samsunspor (19-02-2026 20:00)
+2026-02-20 22:28:34,415 - INFO - [FETCH-20260220-222833-4D96C5F9] Removed old match: Jagiellonia Białystok vs Fiorentina (19-02-2026 20:00)
+2026-02-20 22:28:34,416 - INFO - [FETCH-20260220-222833-4D96C5F9] Cleanup complete: Removed 7 old matches, 295 matches remaining
+2026-02-20 22:28:34,416 - INFO - [FETCH-20260220-222833-4D96C5F9] Merge complete: 0 new, 0 updated, 295 total
+2026-02-20 22:28:34,423 - INFO - [FETCH-20260220-222833-4D96C5F9] Data saved to live_events.json
+2026-02-20 22:28:34,423 - INFO - [FETCH-20260220-222833-4D96C5F9] Summary:
+2026-02-20 22:28:34,423 - INFO - [FETCH-20260220-222833-4D96C5F9] - Sportsonline ('Toes In The Blender') matches: 23
+2026-02-20 22:28:34,423 - INFO - [FETCH-20260220-222833-4D96C5F9] - Final total matches in file: 295
+2026-02-20 22:28:34,423 - INFO - [FETCH-20260220-222833-4D96C5F9] Scraper run completed successfully
