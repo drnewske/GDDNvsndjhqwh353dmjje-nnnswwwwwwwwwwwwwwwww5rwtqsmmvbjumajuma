@@ -1,40 +1,3 @@
-2026-03-01 14:26:13,954 - INFO - [FETCH-20260301-142613-55304B7F] Starting sportsonline football match scraper...
-2026-03-01 14:26:13,954 - INFO - ============================================================
-2026-03-01 14:26:13,954 - INFO - [FETCH-20260301-142613-55304B7F] Starting cleanup operations...
-2026-03-01 14:26:13,954 - INFO - [FETCH-20260301-142613-55304B7F] Cleaning up old log entries...
-2026-03-01 14:26:13,965 - INFO - [FETCH-20260301-142613-55304B7F] Log cleanup complete: Removed 16 old log entries
-2026-03-01 14:26:13,965 - INFO - [FETCH-20260301-142613-55304B7F] Fetching matches from sportsonline.gl...
-2026-03-01 14:26:15,530 - INFO - [FETCH-20260301-142613-55304B7F] Fetched 46 valid matches from sportsonline.gl
-2026-03-01 14:26:15,532 - INFO - [FETCH-20260301-142613-55304B7F] Merging with existing data...
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Cleaning up old matches...
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Holstein Kiel vs Elversberg (28-02-2026 12:00)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Kaiserslautern vs Paderborn (28-02-2026 12:00)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: AFC Bournemouth vs Sunderland (28-02-2026 12:30)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Leicester City vs Norwich City (28-02-2026 12:30)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: AFC Bournemouth vs Sunderland (28-02-2026 12:30)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Leicester City vs Norwich City (28-02-2026 12:30)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Portsmouth vs Hull City (28-02-2026 12:30)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Derby County vs Blackburn Rovers (28-02-2026 12:30)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Rayo Vallecano vs Athletic Club (28-02-2026 13:00)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Red Star vs Le Mans (28-02-2026 13:00)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Kocaelispor vs Beşiktaş (28-02-2026 13:00)
-2026-03-01 14:26:15,533 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Rayo Vallecano vs Athletic Club (28-02-2026 13:00)
-2026-03-01 14:26:15,534 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Dobrudzha 1919 vs Cherno More (28-02-2026 13:00)
-2026-03-01 14:26:15,534 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Red Star vs Le Mans (28-02-2026 13:00)
-2026-03-01 14:26:15,534 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Guingamp vs Rodez (28-02-2026 13:00)
-2026-03-01 14:26:15,534 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Kocaelispor vs Besiktas (28-02-2026 13:00)
-2026-03-01 14:26:15,534 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Erzgebirge Aue vs Osnabruck (28-02-2026 13:00)
-2026-03-01 14:26:15,534 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Jahn Regensburg vs Ulm (28-02-2026 13:00)
-2026-03-01 14:26:15,534 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Viktoria Koln vs Stuttgart II (28-02-2026 13:00)
-2026-03-01 14:26:15,534 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Hansa Rostock vs Rot-Weiss Essen (28-02-2026 13:00)
-2026-03-01 14:26:15,534 - INFO - [FETCH-20260301-142613-55304B7F] Removed old match: Wehen Wiesbaden vs Ingolstadt (28-02-2026 13:00)
-2026-03-01 14:26:15,535 - INFO - [FETCH-20260301-142613-55304B7F] Cleanup complete: Removed 21 old matches, 350 matches remaining
-2026-03-01 14:26:15,535 - INFO - [FETCH-20260301-142613-55304B7F] Merge complete: 0 new, 0 updated, 350 total
-2026-03-01 14:26:15,543 - INFO - [FETCH-20260301-142613-55304B7F] Data saved to live_events.json
-2026-03-01 14:26:15,543 - INFO - [FETCH-20260301-142613-55304B7F] Summary:
-2026-03-01 14:26:15,543 - INFO - [FETCH-20260301-142613-55304B7F] - Sportsonline ('Toes In The Blender') matches: 46
-2026-03-01 14:26:15,543 - INFO - [FETCH-20260301-142613-55304B7F] - Final total matches in file: 350
-2026-03-01 14:26:15,543 - INFO - [FETCH-20260301-142613-55304B7F] Scraper run completed successfully
 2026-03-01 16:30:47,305 - INFO - [FETCH-20260301-163047-C7AD89D2] Starting sportsonline football match scraper...
 2026-03-01 16:30:47,306 - INFO - ============================================================
 2026-03-01 16:30:47,306 - INFO - [FETCH-20260301-163047-C7AD89D2] Starting cleanup operations...
@@ -531,3 +494,19 @@
 2026-03-03 13:02:21,034 - INFO - [FETCH-20260303-130219-1A251365] - Sportsonline ('Toes In The Blender') matches: 24
 2026-03-03 13:02:21,034 - INFO - [FETCH-20260303-130219-1A251365] - Final total matches in file: 168
 2026-03-03 13:02:21,035 - INFO - [FETCH-20260303-130219-1A251365] Scraper run completed successfully
+2026-03-03 14:44:12,007 - INFO - [FETCH-20260303-144412-AC168185] Starting sportsonline football match scraper...
+2026-03-03 14:44:12,007 - INFO - ============================================================
+2026-03-03 14:44:12,007 - INFO - [FETCH-20260303-144412-AC168185] Starting cleanup operations...
+2026-03-03 14:44:12,007 - INFO - [FETCH-20260303-144412-AC168185] Cleaning up old log entries...
+2026-03-03 14:44:12,018 - INFO - [FETCH-20260303-144412-AC168185] Log cleanup complete: Removed 37 old log entries
+2026-03-03 14:44:12,019 - INFO - [FETCH-20260303-144412-AC168185] Fetching matches from sportsonline.gl...
+2026-03-03 14:44:13,576 - INFO - [FETCH-20260303-144412-AC168185] Fetched 24 valid matches from sportsonline.gl
+2026-03-03 14:44:13,578 - INFO - [FETCH-20260303-144412-AC168185] Merging with existing data...
+2026-03-03 14:44:13,578 - INFO - [FETCH-20260303-144412-AC168185] Cleaning up old matches...
+2026-03-03 14:44:13,578 - INFO - [FETCH-20260303-144412-AC168185] No old matches to remove
+2026-03-03 14:44:13,579 - INFO - [FETCH-20260303-144412-AC168185] Merge complete: 0 new, 0 updated, 168 total
+2026-03-03 14:44:13,583 - INFO - [FETCH-20260303-144412-AC168185] Data saved to live_events.json
+2026-03-03 14:44:13,583 - INFO - [FETCH-20260303-144412-AC168185] Summary:
+2026-03-03 14:44:13,583 - INFO - [FETCH-20260303-144412-AC168185] - Sportsonline ('Toes In The Blender') matches: 24
+2026-03-03 14:44:13,583 - INFO - [FETCH-20260303-144412-AC168185] - Final total matches in file: 168
+2026-03-03 14:44:13,583 - INFO - [FETCH-20260303-144412-AC168185] Scraper run completed successfully
