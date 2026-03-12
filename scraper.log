@@ -424,3 +424,23 @@
 2026-03-12 20:38:01,391 - INFO - [FETCH-20260312-203800-16805E33] - Sportsonline ('Toes In The Blender') matches: 25
 2026-03-12 20:38:01,391 - INFO - [FETCH-20260312-203800-16805E33] - Final total matches in file: 242
 2026-03-12 20:38:01,391 - INFO - [FETCH-20260312-203800-16805E33] Scraper run completed successfully
+2026-03-12 22:28:06,849 - INFO - [FETCH-20260312-222806-655BF3BA] Starting sportsonline football match scraper...
+2026-03-12 22:28:06,849 - INFO - ============================================================
+2026-03-12 22:28:06,849 - INFO - [FETCH-20260312-222806-655BF3BA] Starting cleanup operations...
+2026-03-12 22:28:06,849 - INFO - [FETCH-20260312-222806-655BF3BA] Cleaning up old log entries...
+2026-03-12 22:28:06,858 - INFO - [FETCH-20260312-222806-655BF3BA] Fetching matches from sportsonline.gl...
+2026-03-12 22:28:08,151 - INFO - [FETCH-20260312-222806-655BF3BA] Fetched 25 valid matches from sportsonline.gl
+2026-03-12 22:28:08,154 - INFO - [FETCH-20260312-222806-655BF3BA] Merging with existing data...
+2026-03-12 22:28:08,154 - INFO - [FETCH-20260312-222806-655BF3BA] Cleaning up old matches...
+2026-03-12 22:28:08,154 - INFO - [FETCH-20260312-222806-655BF3BA] Removed old match: Real Madrid vs Manchester City (11-03-2026 20:00)
+2026-03-12 22:28:08,154 - INFO - [FETCH-20260312-222806-655BF3BA] Removed old match: PSG vs Chelsea (11-03-2026 20:00)
+2026-03-12 22:28:08,154 - INFO - [FETCH-20260312-222806-655BF3BA] Removed old match: Bodø / Glimt vs Sporting CP (11-03-2026 20:00)
+2026-03-12 22:28:08,154 - INFO - [FETCH-20260312-222806-655BF3BA] Removed old match: Coventry City vs Preston North End (11-03-2026 20:00)
+2026-03-12 22:28:08,155 - INFO - [FETCH-20260312-222806-655BF3BA] Removed old match: Argentinos Juniors vs Rosario Central (11-03-2026 20:30)
+2026-03-12 22:28:08,155 - INFO - [FETCH-20260312-222806-655BF3BA] Cleanup complete: Removed 5 old matches, 226 matches remaining
+2026-03-12 22:28:08,155 - INFO - [FETCH-20260312-222806-655BF3BA] Merge complete: 0 new, 0 updated, 226 total
+2026-03-12 22:28:08,160 - INFO - [FETCH-20260312-222806-655BF3BA] Data saved to live_events.json
+2026-03-12 22:28:08,160 - INFO - [FETCH-20260312-222806-655BF3BA] Summary:
+2026-03-12 22:28:08,161 - INFO - [FETCH-20260312-222806-655BF3BA] - Sportsonline ('Toes In The Blender') matches: 25
+2026-03-12 22:28:08,161 - INFO - [FETCH-20260312-222806-655BF3BA] - Final total matches in file: 226
+2026-03-12 22:28:08,161 - INFO - [FETCH-20260312-222806-655BF3BA] Scraper run completed successfully
